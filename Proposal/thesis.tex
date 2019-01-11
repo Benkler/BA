@@ -1,4 +1,8 @@
+\PassOptionsToPackage{table}{xcolor}
 \documentclass[twoside, english, draft]{sdqthesis}
+
+
+
 
 %% ---------------------------------
 %% | Information about the thesis  |
@@ -54,6 +58,15 @@ A not yet defined Approach}
 %% Use biber instead of BibTeX, see README
 \usepackage[citestyle=numeric,style=numeric,backend=biber]{biblatex}
 \addbibresource{thesis.bib}
+
+
+\usepackage[T1]{fontenc}
+\usepackage[table]{xcolor}    % loads also »colortbl«
+\usepackage{makecell}
+\usepackage{adjustbox}
+\usepackage{tabularx} % in the preamble
+
+
 
 %% ====================================
 %% ====================================
