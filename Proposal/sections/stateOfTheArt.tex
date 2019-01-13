@@ -100,6 +100,37 @@ BUT: Not applicable to CoCoME as VCS history, software evolution, several contri
 
 
 
+\subsection{Partitioning Microservices:A Domain ENgineering Approach}
 
+* One BusinessCapability determines one MS, based on domain engineering
+* Business Capability: Something hat a business does;combined as functionality that have something in common (instead of usin collections of data entities and CRUD operations in them)
+* Paper states: Developers struggle to define granulaity of business capability (too small => Communication overhead, to large: heavyweight SOA)
+* Appropriate MS size determined by component boundaries
+* DDD: Choosing appropriate boundary. MAIN GOAL: systematically group requirements in domain model and implement code  of that
+* Design Domain model with sub-domains (each sub-domain has one to more bounded contexts)
+(* Sub-Domain is problem space, bounded.context is solution space and maps software artifacts to sub-domains ==> Info aus Internet)
+* DDD Patterns: Context Map/Counded Contexts (makes explicit boundaries between domains,), Aggregates (logical boundaries for cluster of domain objects that change during one transaction, ensure consistency among parallel operations that are considered to be one unit in reagrd to change), Ubiquitous Language (ensures that impementation uses the same terms as business), Separation of Entities and Value types (Entities are Objects of DDD, Not all Objects need to be entitites, for value objects identity is not necessary))
+* MS should be autonomous (changes not affecting others): One bounded context is one MS (ore more if fine grained needed, BUT never on C in different MS)
+* Approach: Defined domain and ubiquitous language ar prerequisites, split into sb domains if domain is too wide, find boundary of each responsibility, make it as business capability (focus on relationship among different services), each capability is a MS, find out relationships between services with domain model and reconfigure if necessary (too many dependencies)
+
+
+--------------------------------------------\\
+
+
++uses DDD. Many papers and experience reports state that this is the way to gto
+
+
+---------------------------------------------\\
+
+- draw the boundaries is the ky task and requires domain experts
+- requires well defined domain, pre-existing ubiquitous language
+- "Find the boundary of each responsibility and make it as a business capability" ==> But how? Requires DOmain experts
+- Procedure is not concise at all and only explains approach on a top level (half a page)
+- Does not define how procedure analyses "loose coupling possible"
+- how break down in subdomains?
+- uses brainstorming and interaction wit domain experts to identify and define parts of the microservice
+
+
+---------------------------------------------\\
 
 
