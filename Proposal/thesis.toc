@@ -27,20 +27,24 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.1}Extraction of Microservices from Monolithic Software Architectures}{7}{subsection.3.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Solution Overview}{9}{chapter.4}% 
+\contentsline {subsection}{\numberline {3.2.2}Partitioning Microservices:A Domain ENgineering Approach}{8}{subsection.3.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Evaluation Planning}{11}{chapter.5}% 
+\contentsline {subsection}{\numberline {3.2.3}From Monolith to Microservices: A Dataflow-Driven Approah}{9}{subsection.3.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Applicability to CoCoME}{11}{section.5.1}% 
+\contentsline {chapter}{\numberline {4}Solution Overview}{11}{chapter.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Comparison to Functional Decomposition Approach}{11}{section.5.2}% 
+\contentsline {chapter}{\numberline {5}Evaluation Planning}{13}{chapter.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Timetable}{13}{chapter.6}% 
+\contentsline {section}{\numberline {5.1}Applicability to CoCoME}{13}{section.5.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Milestones}{13}{section.6.1}% 
+\contentsline {section}{\numberline {5.2}Comparison to Functional Decomposition Approach}{13}{section.5.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{15}{chapter*.6}% 
+\contentsline {chapter}{\numberline {6}Timetable}{15}{chapter.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Appendix}{17}{appendix.A}% 
+\contentsline {section}{\numberline {6.1}Milestones}{15}{section.6.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}First Appendix Section}{17}{section.A.1}% 
+\contentsline {chapter}{\nonumberline Bibliography}{17}{chapter*.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Appendix}{19}{appendix.A}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}First Appendix Section}{19}{section.A.1}% 

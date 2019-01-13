@@ -133,4 +133,51 @@ BUT: Not applicable to CoCoME as VCS history, software evolution, several contri
 
 ---------------------------------------------\\
 
+* Summary: \\
+*Hot topic according to other papers (interviews, reports) but this paper lacks on accuracy.  \\
+* Simply said: Get some domain-experts and let them cut your domain in different bounded contexts \\
+* This is what was already done when migrating CoCoME (probably not following the patterns but having domain experts )
+
+\subsection{From Monolith to Microservices: A Dataflow-Driven Approah}
+
+*top-down dataflow driven decomposition algorithm
+* 3 step approach \\
+* purified DFD (focus on data's semanteme and operations only, excludes side information), more data focused than traditional \\
+* purified DFD (PFD) is a directed Graph with nodes (processing operations nodes and data nodes) and
+Approach: \\
+* construct traditional DFD (according to business logic extracted from users' natural-language descriptions) \\
+* Manual construction of purified dataflow by two rules (more like guidelines)\\
+*algorithmic construction (condensing of PDS) of the decomposable Dataflow by applying a set of rules
+* combines same operations with same output data
+* each operation at the end is a MS
+
+
+------------------------------------------------------\\
+
++systematic Algorithm
++ purified DFD represents real information flow of corresponding business logic
++ reduce human mistakes when drawing a composable DFD
++ the 5 rules are easy to understand 
+
+------------------------------------------------------\\
+- Semi Automated \\
+- traditional DFD constructed on users descriptions and code (detailed data flow) ==> exact? Expertise necessary \\
+- or: DFD needs to be existant \\
+- transforming traditional to purified is a non trivial task \\
+- identifying same data operation requires expertise: Combination of sam operations  based on operation names (what if names are different through the project)
+- no implementation \\
+- not applied to larger projects
+- based on user's natural language: semantic verbs correspond activities (later a MS) \\
+-really really fine-grained MS, based on single operation (most fine graines as possible) \\
+- no domain information included\\
+- what about get/create....   hier weiß ich nicht, wie ich beschreiben soll dass es nicht geht! \\
+- zweites beispiel zigt das deutlicher mit der operation QUERY \\
+
+
+------------------------------------------------------\\
+
+Conclusion \\
+
+
+
 
