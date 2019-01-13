@@ -6,7 +6,7 @@
 \section{Literature Review}
 \label{sec:StateOfTheArt:LiteratureReview}
 
-\begin{table}
+\begin{table}[!h]
 \centering
      
 	
@@ -42,8 +42,64 @@
 	
 \end{table}
 
+\pagebreak
 
 
 
 \section{Comparison and applicability of the approaches}
 \label{sec:StateOfTheArt:ComparisonAndApplicability}
+* bedeuted INFO \\
++ beudeted PRO \\
+- bedeuted CONTRA \\
+
+\subsection{Extraction of Microservices from Monolithic Software Architectures}
+* informal migration patterns exists. Lack of Formal Models \\
+* small and recent body of work on how to migrate monolith to MS\\
+* clas based extraction model, construct graph, process by clustering algorithm\\
+* references Service Cutter (Pros and Cons)\\
+* 2 phases: Construction (monolith to graph), clustering (decompose graph to cluster)\\
+* starts with code base/repo from VCS\\
+* each class is a node, edges have weights according to coupling strategy (classes that are not coupled are discarded)\\
+* Logical Coupling Strategy(LC): Single Responsibility principle (Software has only one reason to change), enforce strong module boundaries (concept of MS) --> developers only make changes to the module (found in Change History, Class Files changed together belong togehter) ==> Weight is : for each pair of class look how often they changed together\\
+* Semantic Coupling Strategy(SC): each MS correspond to one bounded context (DDD) from domain, examine contents/semantics of source code, term-frequency invese-documents-frequency method (tf-idf), compute relation of two classes regarding domain concepts\\
+* tf-idf: Compute scalar vector for each class and compute cosine similarity between pairwise distinct classes\\
+* tf-idf: Tokenize class, set of words, filter stop words, compare two classes regarding their common words with tf-idf formula\\
+* Main Concern: Well organized teams, cross-functional but also reduce communication overhead to external teams while maximize internal\\
+* Contributor Coupling (CC): team/orga info used to recover relationship among sw artifacts ==> Ownership architecture read from VSC history by identifying how many developers worked on the same pair of classes (weight!)\\
+
+
+* CLustering Algo: Invert weights to favor edges  with heigh weight, Kruskal for MST (calculate remaining edges), sort edges, reverse list, delete first element (originally lowest weight; now first in the list), in each iteration step: DFS(Depth-First) on edgesMST returns number of partitions, iterate and delete while n<nGiven
+*Reduce Cluster: after n cluster were formed, method reduceClusters splits up unusually large clusters (due to language and framework, special classes may have extraordinary high coupling) --> Delete those classes until size of node (numbe rof classes seems to be appropriate)
+------------------------------------\\
+
+
++ algorithmic recommendation of ms candidates implemented in web-based prototype\\
++ unites traditional decomposition techniques and microservice extraction approaches/design principles\\
++ algorithm uses 3 different coupling strategies: Can be combined for better results\\
++ performance of algortihm was satisfying according to author
++ shows significant team size reduction (less than half), given that alls contributirs for given cluster work on a MS
++ no work in advance!!!!
+
+---------------------------------------\\
+
+
+- rely on (meta-)data extracted from codebase\\
+- needs VCS (proper change history)\\
+- needs ORM model that models data entities as ordinary classes
+- 2 (independent) changes in one commit destroy SRP\\
+- SW must have gone through evolution process for LC\\
+- Naming of class, methods, attributes needs to reflect domain language to make tf-idf possible\\
+- Contributor Coupling: requires more developers\\
+- Reduce Clusters: Useful to delete those classes? wat if this is core of application that belongs together
+- nPart is given by user: What is the right granularity?\\
+
+--------------------------------------\\
+*Conclusion: Beta implementation existing, paper is precise in usage, master-thesis exists (LINK!!!)with detailed information, easy algorithms, good performance, \\
+* No Information about right n, not domain oriented, ORM necessary,
+BUT: Not applicable to CoCoME as VCS history, software evolution, several contributor necessary
+
+
+
+
+
+
