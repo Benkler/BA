@@ -178,6 +178,58 @@ Approach: \\
 
 Conclusion \\
 
+TODO: Why not applicable to CoCoME
+
+\subsection(Function-Splitting Heuristics for Discovery of Microservices in Enterprise Systems)
+
+* function splitting based on i) Object subtypes (lowest granularity of sw based on behavioural properties) and ii) common execution fragments across software (lowest ... based on structural properties) \\
+* authors say: MS not adopted for enterprise systems (ERP/CRM Sw which is large and has complex business process) \\
+* lot of BO's (business objects) with many-to-many relationship, functional dependencies
+* key strumbling block: "limited insight from syntactic structures of code for profiling software dependencies and identifying the semantics available through the BO relationships.
+* Process:\\
+* ES system with modules that have function which execute basic CRUD ops on BOs (centralized DB) vs. own DB in MS (structural difference)
+* Behavioural property: Based on invocation of properties in well-defined processing sequences (different execution sequences reflect a set of SESE regions   single-entry single-exit) \\
+*Enterprise System as finite automaton with operations as labels: Vertices defined by states and relation defined by transistion functions \\
+* SESE-Fragments: Induces a function (SubGraph of ES), Function is set of operations \\
+* behaviour (of both MS and ES) based on invocation of operations --> Analyse those processng sequences \\
+*Heuristics: \\
+* given: several similar Execution paths with changed BOs, only Attributes they use are different (structural splitting of objects at BO level)
+* i) Subtype Relation in SESE(S): Subtype between callgraphs exists if ops, input/output of child are present in parent AND 80percent of parent states appear in child \\
+* given: execution pattern occurs in several patterns (depend on functional relationship): A always before B ==> "as a relationship" property \\
+* ii) Commonality: two call graphs have common sub-graph ==> Small Subgraphs (small MS), large Subgrapgh (large MS)\\
+*Process:\\
+* two components: Business Object Analyser (BOA), System Dynamic Analyser(SDA) \\
+* BOA: Two models, one for evaluating the SQL queries to identify relationships between DB tables and one for identifying BOs based on the relationships and data similarities ==> Input for SDA \\
+*SDA: BOs and callgraphs as Input, identifies Frequent Execution Patterns(FEP) in provided SESEs(S)  by using clustering algorithms\\
+*FEP is evaluated against heuristics and classified in categories \\
+* categorized patterns evaluated by BO Relationship Analysis and SESE derivation model  \\
+* Microservice Recommendation Interface (MRI) provides MS recommendations \\
+* SDA+MRI: two algos i) set of subgraphs in given set of callgraphs ii) analyse subgraphs for SESE code fragments (functions) that are related to same BO
+
+
+
+------------------------------------------------------\\
++ prototype implementation exists
++ already conducted two experiments 
+
+
+------------------------------------------------------\\
+- incremental process: most prominent components extracted and reimplemented as MS
+- really complex
+- BOA not given in paper
+- uses a lot of algo that are not explained
+- First experiment: log data analysed with DISCO to generate call graphs
+
+------------------------------------------------------\\
+Coclusion: \\
+* Approach not fully implemented, implementation not available
+* Complex algorithms  that use other algorithms from other papers
+* log data to get call graphs
+* We do not want to incrementally extract MS
+* Experiments focused on speed/ressources/time per requests ==> Did not focus on finding the "right" MS according to MS principles
+* Nopt applicable to CoCoME
+
+
 
 
 
