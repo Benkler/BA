@@ -180,7 +180,7 @@ Conclusion \\
 
 TODO: Why not applicable to CoCoME
 
-\subsection(Function-Splitting Heuristics for Discovery of Microservices in Enterprise Systems)
+\subsection{Function-Splitting Heuristics for Discovery of Microservices in Enterprise Systems}
 
 * function splitting based on i) Object subtypes (lowest granularity of sw based on behavioural properties) and ii) common execution fragments across software (lowest ... based on structural properties) \\
 * authors say: MS not adopted for enterprise systems (ERP/CRM Sw which is large and has complex business process) \\
@@ -204,30 +204,76 @@ TODO: Why not applicable to CoCoME
 *FEP is evaluated against heuristics and classified in categories \\
 * categorized patterns evaluated by BO Relationship Analysis and SESE derivation model  \\
 * Microservice Recommendation Interface (MRI) provides MS recommendations \\
-* SDA+MRI: two algos i) set of subgraphs in given set of callgraphs ii) analyse subgraphs for SESE code fragments (functions) that are related to same BO
+* SDA+MRI: two algos i) set of subgraphs in given set of callgraphs ii) analyse subgraphs for SESE code fragments (functions) that are related to same BO \\
 
 
 
 ------------------------------------------------------\\
-+ prototype implementation exists
-+ already conducted two experiments 
++ prototype implementation exists\\
++ already conducted two experiments \\
 
 
 ------------------------------------------------------\\
-- incremental process: most prominent components extracted and reimplemented as MS
-- really complex
-- BOA not given in paper
-- uses a lot of algo that are not explained
-- First experiment: log data analysed with DISCO to generate call graphs
+- incremental process: most prominent components extracted and reimplemented as MS\\
+- really complex\\
+- BOA not given in paper\\
+- uses a lot of algo that are not explained\\
+- First experiment: log data analysed with DISCO to generate call graphs\\
 
 ------------------------------------------------------\\
 Coclusion: \\
-* Approach not fully implemented, implementation not available
-* Complex algorithms  that use other algorithms from other papers
-* log data to get call graphs
-* We do not want to incrementally extract MS
-* Experiments focused on speed/ressources/time per requests ==> Did not focus on finding the "right" MS according to MS principles
-* Nopt applicable to CoCoME
+* Approach not fully implemented, implementation not available\\
+* Complex algorithms  that use other algorithms from other papers\\
+* log data to get call graphs\\
+* We do not want to incrementally extract MS\\
+* Experiments focused on speed/ressources/time per requests ==> Did not focus on finding the "right" MS according to MS principles\\
+* Not applicable to CoCoME\\
+
+\subsection{Identifying Microservices using functional decomposition}
+
+* based on UC specifications of sw requirements and functional decomposition of those requirements \\
+create model of the system: finite set of system operations (public methods as response to external triggers) and system state space (system variables written/read by operations )\\
+*system decomposition: each MS has own state space and operations (Goal are disjoint sets, read/write of others state space only via API)) -->syntactical partition of the state space \\
+*system requirements: give by natural language/formal models/existing implementation \\
+*functional requirements: use cases describe how users interact with system \\
+* system operations/ system state variable extracted of Use cases --> operation/relation table\\
+* operation/relation table: relationship between each op and state variable this op reads/writes\\
+* extracting was done using text analysis tools\\
+* Source COde Clustering is possible but only to help to understand structure of the system (if design is bad, the resulting clusters might not be appropriate MSs)\\
+
+*Approach: \\
+* first approximation:  verbs in UC are operations, nouns are state variables (list might be updated, see page 5)\\
+* generate operation/relation table\\
+* Visualize op/rel table as graph, create cluster (good ms candidate low coupling (small amount of information sharing with others) and strong cohesion criteria(internal relationships are dense)!)\\
+* Graph: vertices are state variable AND operations, edge between them if read/update, weights (1 for read, 2 for write)\\
+* Use Graph Analyse Tools to determine clusters and read the MS (cluster = MS)\\
+* Create API (all public ops in the cluster) and own DB for each MS\\
+*Add Getter to API if other cluster needs information of this cluster
+* 
+
+
+------------------------------------------------------\\
++ approach is universally applicable once ops and state variable are identified (do not need to be extracted from use cases) \\
++ 3 ways to use the visualization: separation in low coupled partitions, partitioning in MS by non-functional constraints, visualize changes (re-engineering sw architecture)\\
++ identify MS based on business capability is main goal, not reducing MS size\\
++ 3 evaluation by three independent sw implementations: really similar to this approach\\
++ manual approach was matter of days, this approach only matter of hours\\
+
+
+
+------------------------------------------------------\\
+- synonymous/irrelevant nouns need to be identified via brainstorming --> User might be biased\\
+- no security concerns\\
+- no differences between different reads/writes (always 1/2)\\
+- difference between read or write if other service? same value as REST time dominates \\
+
+
+
+------------------------------------------------------\\
+Conclusion:\\
+* already done to CoCoME with good results.
+* Hard to find substantial improvements?!
+
 
 
 
