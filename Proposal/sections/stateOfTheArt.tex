@@ -317,6 +317,55 @@ Conclusion:\\
 *Concerns about  well defined API
 * No idea how to adapt it
 
+\subsection{Service Cutter}
+
+* service decomposition based on 16 coupling criteria (coming from industry and literature)
+* service requires resources: Data (should only managed by one service), operations(service encapsulates business rules), artifacts(snapshot of data or operation results transformed into specific format) --> Geneeralize under term nanoentity
+*Approach: Identifying set of services and assign all nanoentities (each) to one service
+*Coupling criteria: architecturally significant requirements and arguments why two nanoentities should or should not be owned/exposed by same service
+*Software System Artifacts(SSAs): design/analysis atifacts that contain information about coupling criteria
+* service cut: output of single execution of service decomposition process
+* coupling criteria catalogue:  <some examples>..., 4 categories: cohesiveness, compatibility, constraints, communication
+* structures using coupling criterion cards in specific format: ubiquitous language to structure, identify decisions
+
+*Process:
+* Input in form of SSAs (Use Cases, DDD entities/aggregation, Entity relationship models) . Service Cutter extracts coupling criteria information of them
+* various additional SSAs
+* Service Cutter creates nanoentities(coupling criteria based on SSAs)
+* User priorizes these criteria (start calulation)
+* SC creates unidirected weighted graph with nodes that represent nanoentities and weighted edges that represent cohesiveness/coupling of two nanoentities
+* Clustering Algorithm (Can be changed!)
+* Weights: Sum of all scores (5 different types of scores) multiplied by priority
+
+------------------------------------------------------\\
+
++ cited by many papers 
++ catalogue consists of DDD pat7terns but also software quality attributes for architecture
++ Clustering Algorithm can be changed by user if necessary
++ user can prioritize coupling criteria (needs user experience, otherwise might result in wrong clustering) according to whats important for users use case (security yes or no...)
++ implementation available that was used by other papers to compare their approach
++ universally applicable to all software systems
++ wiki exists
++ can be used in forward  and backward engineering
+
+------------------------------------------------------\\
+
+- not fully automated --> Only support
+- user-prioritized coupling criteria (well can also be positive)
+- lots of user input, needs to be in specific format (work intense!)
+- results and other papers show that SC does not "cut" the best solution
+
+------------------------------------------------------\\
+Conclusion:\\
+* First attempt to automatize service extraction
+* To much effort for input (for bigger systems)
+* Already implementation and good approach (Further improvement possible?)
+* Good to compare with own approach
+* Nice tool
+
+
+
+
 
 
 
