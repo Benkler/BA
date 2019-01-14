@@ -339,6 +339,8 @@ Conclusion:\\
 
 ------------------------------------------------------\\
 
+
+
 + cited by many papers 
 + catalogue consists of DDD pat7terns but also software quality attributes for architecture
 + Clustering Algorithm can be changed by user if necessary
@@ -362,6 +364,57 @@ Conclusion:\\
 * Already implementation and good approach (Further improvement possible?)
 * Good to compare with own approach
 * Nice tool
+
+
+\subsection{Object-aware Identification of Microservices}
+
+*again based on clustering, structural and data object dependecy
+* three principles: 
+* i)Bounded contexts(focused on business capabilities, related functionality implemented in one capability and implemented in one service)
+* ii)  Size(if servize too large, split up, maintaining focus on providing one business capability only in one service)
+* ii) Independence( loose coupling and high cohesion)
+* paper focuses on identifying from business process point of view
+* business process: set of activities to achieve business goal (activity in process = operation in MS)
+* goal: decompose business process in fine-grained... MS
+* partition by: structural relation (direct edge), data relation (read/write on same data objects)
+* Technically: BPMN with data objects read/writes (see paper for notation)
+
+*Process:\\
+* 2 matrices  (combination of each activity pair)
+* First(structural): 1 if direct edge (or only gateways in between), o else
+* Second(object read write): Sum of shared object read/writes (values are 0, 0.25. 0,5, 1 for different combinations of read/writes)
+* uses genetic algortihm with Turbo-Mq Fitness Function for clustering (picks random clusters and try to iteratively improve fitness of identified cluster till convergence)
+* If more processes: Just recalculate matrix 
+
+------------------------------------------------------\\
++ combination of structural and data object dependency seems to be successful  
++ easy to understand
++ clustering algorithm can be changed
++ several process can be easily combined
++ values can be changed (adapt parameters)
++ experimental evaluation seemed to be successful (validated against identification by domain experts)
++ Method can be easily replenished by other aspects (requirements, security...)
+
+
+
+------------------------------------------------------\\
+- no parallelism (gateway) 
+- needs business process models
+- Clustering algo not defined (information in other paper)
+- short paper (no detailed informtation)
+- no info about evaluation process, data set...
+
+
+
+
+------------------------------------------------------\\
+Conclusion: \\
+* Seems to be applicable to CoCoME
+* BPMN already done by Kiana (at least some parts)
+* Further improvements?!
+
+
+
 
 
 
