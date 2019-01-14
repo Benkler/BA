@@ -271,9 +271,51 @@ create model of the system: finite set of system operations (public methods as r
 
 ------------------------------------------------------\\
 Conclusion:\\
-* already done to CoCoME with good results.
-* Hard to find substantial improvements?!
+* already done to CoCoME with good results. \\
+* Hard to find substantial improvements?! \\
 
+\subsection{Microservice Identification Through Interface Analysis}
+
+* based on semantic similarity of available functionality described through OpenApi Specification and reference vocabulary --> collocation and similar words (DISCO)\\
+*Idea: Same reference concepts are highly cohesive (Level in Hierachy of Vocabulary determines Granularity)\\
+* match terms used in OpenAPI specification (as input) against reference vocabulary\\
+* this is done iteratively on concepts by means of fitness function based on semantic similarity (DISCO)\\
+* co-occurence matrix that contains all mappings of possible pairs of terms and concepts \\
+
+* Process: \\
+* for each api specification: Map each operation to concept that describes the operation most accurately\\
+* Disco-based semantic assessment: Each operation along with resources (parameters, return values, complex types) is analysed and mapped to reference vocabulary concept using a score (Best Mapping for of term list and all concept available)\\
+* Uses term separator (robust according to author), filters stop words, split word in input terms\\
+* score based on fitness function: all collocation scores (between different words in term list and concept) stored in Matrix\\
+* Mapping is non-trivial, use Hungarian algorithm to determine most adequate mapping\\
+* Concept with highest mapping score is elected as reference concept\\
+
+
+------------------------------------------------------\\
++ automated apart from defining OpenApi\\
++ according to authors: shared vocabulary helps to identify certain concepts with different meanings across system\\
++ APIMatic Tool can generate OpenApi sepcifications from existing interface\\
++Level parameter to define granularity of groupings (= MS)\\
++ implementation available\\
+
+
+------------------------------------------------------\\
+- Needs OpenApi Specification, re-engineering of available interfaces or new interface definition based on available artifacts\\
+- based on reference vocabulary: They use Schema.org (too wide) --> Any other shared vocabulary ir own ontology needs to be constructed/used)\\
+- Mapping to operation highly depends on used vocabulary\\
+- Api needs well defined (provide proper naming) --> Might happen that two different operations (from two different sub-domains accoding to DDD have same naming). \\
+- Reference vocabulary need to be tree\\
+- Schema.org seems to be way to coarse-grained for CoCoME\\
+- define own ontology probably ends in more work than manually defining bounded contexts\\
+- lots of Intangibles (Unbestimmbar in Schema.org)\\
+- Vocabulary might be misleading. From DDD point of view, similar words according to Disco belong not automatically to same business capability\\
+
+------------------------------------------------------\\
+
+Conclusion:\\
+*Not applicable to CoCoME mainly because of Schema.org (for example: Sell Action and OrderAction in same concept) \\
+*Concerns about  well defined API
+* No idea how to adapt it
 
 
 
