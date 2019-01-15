@@ -37,46 +37,54 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.4.10}Function Splitting Heurisitcs}{6}{subsection.1.4.10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}CoCoME}{7}{chapter.2}% 
+\contentsline {subsection}{\numberline {1.4.11}Migrating web Applications to Clouds with Microservice Architectures}{7}{subsection.1.4.11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Introduction to CoCoME}{7}{section.2.1}% 
+\contentsline {subsection}{\numberline {1.4.12}Entice approach}{7}{subsection.1.4.12}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}State of the Art}{9}{chapter.3}% 
+\contentsline {subsection}{\numberline {1.4.13}A systematic Mapping Study in Microservice Architecture}{8}{subsection.1.4.13}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Literature Review}{9}{section.3.1}% 
+\contentsline {subsection}{\numberline {1.4.14}Migrating towards Microservice Architectures: Survey}{9}{subsection.1.4.14}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Comparison and applicability of the approaches}{10}{section.3.2}% 
+\contentsline {chapter}{\numberline {2}CoCoME}{11}{chapter.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Extraction of Microservices from Monolithic Software Architectures}{11}{subsection.3.2.1}% 
+\contentsline {section}{\numberline {2.1}Introduction to CoCoME}{11}{section.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Partitioning Microservices:A Domain ENgineering Approach}{12}{subsection.3.2.2}% 
+\contentsline {chapter}{\numberline {3}State of the Art}{13}{chapter.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3}From Monolith to Microservices: A Dataflow-Driven Approah}{13}{subsection.3.2.3}% 
+\contentsline {section}{\numberline {3.1}Literature Review}{13}{section.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.4}Function-Splitting Heuristics for Discovery of Microservices in Enterprise Systems}{14}{subsection.3.2.4}% 
+\contentsline {section}{\numberline {3.2}Comparison and applicability of the approaches}{14}{section.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.5}Identifying Microservices using functional decomposition}{16}{subsection.3.2.5}% 
+\contentsline {subsection}{\numberline {3.2.1}Extraction of Microservices from Monolithic Software Architectures}{15}{subsection.3.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.6}Microservice Identification Through Interface Analysis}{17}{subsection.3.2.6}% 
+\contentsline {subsection}{\numberline {3.2.2}Partitioning Microservices:A Domain ENgineering Approach}{16}{subsection.3.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.7}Service Cutter}{18}{subsection.3.2.7}% 
+\contentsline {subsection}{\numberline {3.2.3}From Monolith to Microservices: A Dataflow-Driven Approah}{17}{subsection.3.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.8}Object-aware Identification of Microservices}{20}{subsection.3.2.8}% 
+\contentsline {subsection}{\numberline {3.2.4}Function-Splitting Heuristics for Discovery of Microservices in Enterprise Systems}{18}{subsection.3.2.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Solution Overview}{23}{chapter.4}% 
+\contentsline {subsection}{\numberline {3.2.5}Identifying Microservices using functional decomposition}{20}{subsection.3.2.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Evaluation Planning}{25}{chapter.5}% 
+\contentsline {subsection}{\numberline {3.2.6}Microservice Identification Through Interface Analysis}{21}{subsection.3.2.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Applicability to CoCoME}{25}{section.5.1}% 
+\contentsline {subsection}{\numberline {3.2.7}Service Cutter}{22}{subsection.3.2.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Comparison to Functional Decomposition Approach}{25}{section.5.2}% 
+\contentsline {subsection}{\numberline {3.2.8}Object-aware Identification of Microservices}{24}{subsection.3.2.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Timetable}{27}{chapter.6}% 
+\contentsline {chapter}{\numberline {4}Solution Overview}{27}{chapter.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Milestones}{27}{section.6.1}% 
+\contentsline {chapter}{\numberline {5}Evaluation Planning}{29}{chapter.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{29}{chapter*.6}% 
+\contentsline {section}{\numberline {5.1}Applicability to CoCoME}{29}{section.5.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Appendix}{31}{appendix.A}% 
+\contentsline {section}{\numberline {5.2}Comparison to Functional Decomposition Approach}{29}{section.5.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}First Appendix Section}{31}{section.A.1}% 
+\contentsline {chapter}{\numberline {6}Timetable}{31}{chapter.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}Milestones}{31}{section.6.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Bibliography}{33}{chapter*.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Appendix}{35}{appendix.A}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}First Appendix Section}{35}{section.A.1}% 

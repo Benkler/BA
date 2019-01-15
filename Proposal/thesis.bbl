@@ -19,6 +19,41 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{SystematicMappingStudyMicroservice}{article}{}
+      \name{author}{3}{}{%
+        {{hash=4dc5d057f2998633aebef8ce0d255a64}{%
+           family={Alshuqayran},
+           familyi={A\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=d35b083b71e1033ae013d7cafd99e54b}{%
+           family={Ali},
+           familyi={A\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=61d03071a9aa21b21a849b81a3a4dc00}{%
+           family={Evans},
+           familyi={E\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{218838e857466490dcdf128a02e8ec68}
+      \strng{fullhash}{218838e857466490dcdf128a02e8ec68}
+      \strng{bibnamehash}{218838e857466490dcdf128a02e8ec68}
+      \strng{authorbibnamehash}{218838e857466490dcdf128a02e8ec68}
+      \strng{authornamehash}{218838e857466490dcdf128a02e8ec68}
+      \strng{authorfullhash}{218838e857466490dcdf128a02e8ec68}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 IEEE 9th International Conference on Service-Oriented Computing and Applications (SOCA)}
+      \field{month}{11}
+      \field{title}{A Systematic Mapping Study in Microservice Architecture}
+      \field{year}{2016}
+      \field{pages}{44\bibrangedash 51}
+      \range{pages}{8}
+    \endentry
     \entry{ObjectAwareAmiri}{article}{}
       \name{author}{1}{}{%
         {{hash=9082de4d29b4c97cb6936ef02fa776c4}{%
@@ -219,6 +254,41 @@
       \field{pages}{37\bibrangedash 53}
       \range{pages}{17}
     \endentry
+    \entry{MigratingTowardsSurvey}{article}{}
+      \name{author}{3}{}{%
+        {{hash=e87b39b142fe41eeebc0bf228932d409}{%
+           family={Francesco},
+           familyi={F\bibinitperiod},
+           given={P.\bibnamedelimi Di},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=700cf452aab36b807178c260d5dcbde7}{%
+           family={Lago},
+           familyi={L\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=6335a87cd291872cc3bb4a00041c5d8d}{%
+           family={Malavolta},
+           familyi={M\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{37f1115e6726e9824e5296aa3f05a6de}
+      \strng{fullhash}{37f1115e6726e9824e5296aa3f05a6de}
+      \strng{bibnamehash}{37f1115e6726e9824e5296aa3f05a6de}
+      \strng{authorbibnamehash}{37f1115e6726e9824e5296aa3f05a6de}
+      \strng{authornamehash}{37f1115e6726e9824e5296aa3f05a6de}
+      \strng{authorfullhash}{37f1115e6726e9824e5296aa3f05a6de}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2018 IEEE International Conference on Software Architecture (ICSA)}
+      \field{month}{4}
+      \field{title}{Migrating Towards Microservice Architectures: An Industrial Survey}
+      \field{year}{2018}
+      \field{pages}{29\bibrangedash 2909}
+      \range{pages}{2881}
+    \endentry
     \entry{ServiceCutter}{article}{}
       \name{author}{4}{}{%
         {{hash=1d5e8f6650362544a17a9a428c359193}{%
@@ -289,6 +359,76 @@
       \field{year}{2016}
       \field{pages}{185\bibrangedash 200}
       \range{pages}{16}
+    \endentry
+    \entry{EnticeApproach}{article}{}
+      \name{author}{3}{}{%
+        {{hash=d24a4c760bfd8a5d9cfbac9c41a229fb}{%
+           family={Kecskemeti},
+           familyi={K\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=711d035e9034c5cc2b79de8732e1aace}{%
+           family={Marosi},
+           familyi={M\bibinitperiod},
+           given={A.\bibnamedelimi C.},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=aa9475ed1eb14b3c5f64e6bf2f20588c}{%
+           family={Kertesz},
+           familyi={K\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{2f33f5631e0d7791ca114ccb0bb5df3d}
+      \strng{fullhash}{2f33f5631e0d7791ca114ccb0bb5df3d}
+      \strng{bibnamehash}{2f33f5631e0d7791ca114ccb0bb5df3d}
+      \strng{authorbibnamehash}{2f33f5631e0d7791ca114ccb0bb5df3d}
+      \strng{authornamehash}{2f33f5631e0d7791ca114ccb0bb5df3d}
+      \strng{authorfullhash}{2f33f5631e0d7791ca114ccb0bb5df3d}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 International Conference on High Performance Computing Simulation (HPCS)}
+      \field{month}{7}
+      \field{title}{The ENTICE approach to decompose monolithic services into microservices}
+      \field{year}{2016}
+      \field{pages}{591\bibrangedash 596}
+      \range{pages}{6}
+    \endentry
+    \entry{MigratingCloud}{article}{}
+      \name{author}{3}{}{%
+        {{hash=11ccc60d0ab0725822a1eae13191a8ca}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c1f3f03490bc24a75422d44157511f62}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={L.\bibnamedelimi C.},
+           giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=6d4d76d3dacb90eb76d32a306c6c87fd}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{a6d4387aab8ef8640a0f9604ae884819}
+      \strng{fullhash}{a6d4387aab8ef8640a0f9604ae884819}
+      \strng{bibnamehash}{a6d4387aab8ef8640a0f9604ae884819}
+      \strng{authorbibnamehash}{a6d4387aab8ef8640a0f9604ae884819}
+      \strng{authornamehash}{a6d4387aab8ef8640a0f9604ae884819}
+      \strng{authorfullhash}{a6d4387aab8ef8640a0f9604ae884819}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 International Conference on Applied System Innovation (ICASI)}
+      \field{month}{5}
+      \field{title}{Migrating web applications to clouds with microservice architectures}
+      \field{year}{2016}
+      \field{pages}{1\bibrangedash 4}
+      \range{pages}{4}
     \endentry
     \entry{ExtractionMazlami}{article}{}
       \name{author}{3}{}{%

@@ -26,6 +26,8 @@
 \cite{DomainEngineeringMunezero}: Domain Engineering, methodology that uses DDD patterns to partition ms by respecting ms architecture design and characteristics \\
 \cite{ExtractionMazlami}: Extractio of Microservices: Graph-based clustering approach with three different coupling strategies that rely on (meta-) information from monolithic code bases (VCS)
 
+\cite{HeuristicsAlwis}: Heuristics, find consumer-oriented parts of enterprise systems that could be re-engineered as ms
+
 
 
 \subsection{General Annotations}
@@ -209,7 +211,93 @@ Challenges:\\
 \subsection{Function Splitting Heurisitcs}
 \cite{HeuristicsAlwis} \\
 
+General: \\
+*SOA: services include all logical related operations
+*MS: fine-grained components with individual operations
 
 
+Microservices:\\
+* availability, processing efficiency,\\
+* distributed system allows scalability and availability as deployed in different containers (dynamic de-allocation of ressources on demand) --> Load balancing\\
+* circuit breaker: redirection to another ms instance if no answer after certain time\\
+* 
+
+Challenges:\\
+*restructuring enterprise systems (large compley, contain complex business processes encoded in application logic) is technically cumbersome \\
+* requires tedious search, identification of suitable parts to restructure, program code rewrites --> Costly and error prone (because of millions of LOC)\\
+* studies reveal that success rate of re-modularisation techniques especially for large system remain low\\
+
+*-----------------------Approaches finished here----------------------------\\
+
+\subsection{Migrating web Applications to Clouds with Microservice Architectures}
+\cite{MigratingCloud}
+
+General: \\
+*Cloud Computing advanced, rich set of features in cloud applications, low cost, low threshold\\
+* Before: CLient server pattern for old web applications\\
+
+Microservices:\\
+* organized around business capability with borad-stack modules for achieving the business (UI, Business Logic, persistent storage)\\
+*encapsulated with firm modle boundary --> Independan\\t
+* decentralizes transaction and datastorage (own  managing)\\
+* collaborating with other services to accomplish  desired business capability\\
+
+
+Challenges:\\
+*need extensive support for infrastructure automation techniques --> Suitable on well infrastructure supported cloud environment\\
+
+\subsection{Entice approach}
+\cite{EnticeApproach} \\
+
+General:\\
+*Cloud Computing enabled elastic and on-deman service --> achieve more efficient resource utilisation/quicker response to varying application loads\\
+* Large scale service oriented applications (monolith) mostly inelastic\\
+*user only need some of the offered functionality: Still ned to host complete monolithic service --> Rest not needed and therefore large amount of VM ressources left unused\\
+
+
+Microservices:\\
+*Decomposing large services open towards elasticity\\
+* single,well defined functionality  offered by a particular VM --> Image can be optimised to host this functionality\\
+
+\subsection{A systematic Mapping Study in Microservice Architecture}
+\cite{SystematicMappingStudyMicroservice} \\
+
+General:\\
+*(2016) "microservices architectural style research is still in its infancy" !!!!!!\\
+
+Microservices:\\
+*"the minimal independent process that acts via messaging"\\
+* increase in agility, developer productivity, resiliencem scalability....\\
+
+
+Challenges:\\
+*Communication/Integration: finding right communication strategy is vital (protocol, response time expectations, timeouts)\\
+* Service Discovery: Services need to discover each other, needs standard/consistens process to announce themselves, specify how API gateways are configured\\
+*Performance: ms adds more communication between different services, one single business functional requirement could need several service calls --> End User experience endagerd --> Data sharing/synchrnisation necessary\\
+* Fault tolerance: Partial failure recovery, cloud environment might crash (IaaS failure)\\
+*Security: Communication created trust relationships --> user needs to be identified in all chains of a service communication (OAuth as solution)\\
+*Tracing/Loggin: Distributed tracing necessary to track chain of service calls, logging vital for debugging purposes --> Needs careful design of central logging/Aggregation system\\
+*Application Performance Monitoring: measuring individual ms\\
+*Deployment operations: deployment/scaling fundamental infrastructure concerns --> selecting right platform/orchestration tools is fundamental\\
+
+
+\subsection{Migrating towards Microservice Architectures: Survey}
+\cite{MigratingTowardsSurvey} \\
+
+General:\\
+* legacy sw: highly coupled, hard to maintain
+*industrial survey: roughly 28 months for migration --> Costly
+* shows that most industrial develloper get inforamtion about the old system of source code and textual/architectural documents to better understand the pre-existing system and to be able to architect a new one
+* it is significant to have a "crystal clear understanding of the domain of the system in order to identify bounded contexts properly"
+*Main driver to mirgate: New functionality, long time to release new features, hard to maintain, side effects, low productivity of developers, hard to test, developers interfering with each other
+
+
+Microservices:\\
+*flexible/evolvable architecture
+
+
+Challenges:\\
+*Many technical challenges: Infrastructure automation distribute debuggin
+*Organizational challenges: creation of cross functional teams
 
 
