@@ -1995,16 +1995,28 @@
     <bcf:datasource type="file" datatype="bibtex">thesis.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">mittelbach2014</bcf:citekey>
-    <bcf:citekey order="20">ExtractionMazlami</bcf:citekey>
-    <bcf:citekey order="21">ObjectAwareAmiri</bcf:citekey>
-    <bcf:citekey order="22">interfaceAnalysisBaresi</bcf:citekey>
-    <bcf:citekey order="23">FunctionalDecompositionHeinrich</bcf:citekey>
-    <bcf:citekey order="24">DomainEngineeringMunezero</bcf:citekey>
-    <bcf:citekey order="25">DataflowDrivenChen</bcf:citekey>
-    <bcf:citekey order="26">HeuristicsAlwis</bcf:citekey>
-    <bcf:citekey order="27">ServiceCutter</bcf:citekey>
-    <bcf:citekey order="28">interfaceAnalysisBaresi</bcf:citekey>
+    <bcf:citekey order="1">ObjectAwareAmiri</bcf:citekey>
+    <bcf:citekey order="2">ServiceCutter</bcf:citekey>
+    <bcf:citekey order="3">interfaceAnalysisBaresi</bcf:citekey>
+    <bcf:citekey order="4">FunctionalDecompositionHeinrich</bcf:citekey>
+    <bcf:citekey order="5">DataflowDrivenChen</bcf:citekey>
+    <bcf:citekey order="6">interfaceAnalysisBaresi</bcf:citekey>
+    <bcf:citekey order="7">FunctionalDecompositionHeinrich</bcf:citekey>
+    <bcf:citekey order="8">ObjectAwareAmiri</bcf:citekey>
+    <bcf:citekey order="9">ServiceCutter</bcf:citekey>
+    <bcf:citekey order="10">interfaceAnalysisBaresi</bcf:citekey>
+    <bcf:citekey order="11">FunctionalDecompositionHeinrich</bcf:citekey>
+    <bcf:citekey order="12">DataflowDrivenChen</bcf:citekey>
+    <bcf:citekey order="13">mittelbach2014</bcf:citekey>
+    <bcf:citekey order="32">ExtractionMazlami</bcf:citekey>
+    <bcf:citekey order="33">ObjectAwareAmiri</bcf:citekey>
+    <bcf:citekey order="34">interfaceAnalysisBaresi</bcf:citekey>
+    <bcf:citekey order="35">FunctionalDecompositionHeinrich</bcf:citekey>
+    <bcf:citekey order="36">DomainEngineeringMunezero</bcf:citekey>
+    <bcf:citekey order="37">DataflowDrivenChen</bcf:citekey>
+    <bcf:citekey order="38">HeuristicsAlwis</bcf:citekey>
+    <bcf:citekey order="39">ServiceCutter</bcf:citekey>
+    <bcf:citekey order="40">interfaceAnalysisBaresi</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

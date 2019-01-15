@@ -12,3 +12,175 @@
 
 \section{Challenges}
 \label{sec:Introduction:Challenges}
+
+
+
+\section{Stichpunkte}
+
+\subsection{Approaches}
+* \cite{ObjectAwareAmiri}: Object aware,identification from business processes using structural dependency and data object dependency\\
+* \cite{ServiceCutter}: Service Cutter, service decomposition based on 16 coupling criteria extracted from literature and industry experience
+\cite{interfaceAnalysisBaresi}: interface Analysis,  "automated process for identifying candidate ms my means of lightweight, domain.aghnostic semantic analysis of the concepts in input sepecification with regard ti a reference vocabulary" \\
+\cite{FunctionalDecompositionHeinrich} : Functional decomp, systematic approach to identify ms in design phase by identifying relationships between required sytem operations and state variable that ops read/write, visualized in Graph and the clustering\\
+\cite{DataflowDrivenChen}: Dataflow-driven, Top down dataflow-driven decomposition algorithm, purified dataflow-driven mechanism
+
+
+\subsection{General Annotations}
+* Several companies recentyl migrated to MS like Netflix, Amaozn, Uber
+* not many approaches and identified approaches are not mature\\
+* many use clustering \\
+* based on code inspection, models... various approaches
+* use chapter "Supporting Definitions"\\
+* Fowler (widely adopted definition): an approach for developing a single application as a suite of small services, each running in its own process and communicationg with lightweight mechanisms, often a RESTful API. \\
+* \cite{interfaceAnalysisBaresi}: nmot fully migrate application to ms, preserve monolithic structure and only replicate certain components... \\
+Decomposition Approaches by (according to \cite{FunctionalDecompositionHeinrich}): \\
+*Usecases(service that is responsible for particular action) 
+*verbs (service that is responsible for particular action)
+*nouns/resources (service responsible for all operations on entities/resources of a given type)
+* business capability: Something that a business does in order to generate valu
+* domain-driven design sub-domain (business splitted in different sub-domains) --> Seems to be most common approach
+
+
+\subsection{Object-aware Identification}
+\cite{ObjectAwareAmiri} \\
+*Microservices:\\
+*MS architectural style inspired by service-oriented computing \\
+*cohesive and loosely coupled components, implement business capabilities (each service one capability)\\
+* gain popularity in academia and inudtrsy\\
+*overcomeshortcomings of centralized, monolithic architectures\\
+* single app as suite off small services\\
+* communication via leigthweight  mechanisms\\
+* 3 principles: \\
+* i)Bounded contexts(focused on business capabilities, related functionality implemented in one capability and implemented in one service)\\
+* ii)  Size(if servize too large, split up, maintaining focus on providing one business capability only in one service)\\
+* iii) Independence( loose coupling and high cohesion)\\
+* --> encourages lossely... as each ms operates mostly independent of others \\ 
+* independet collection of highly inter-related activities \\
+
+Challenges:\\
+* decompose system in cohesive lossely couped, fine-grained MS \\
+* done intuitively by experience of system archjitects/Domain experts\\
+* functionalities highly interconnected\\
+* Problem well known \\
+
+\subsection{Service Cutter}
+\cite{ServiceCutter}
+
+Microservice:\\
+*important to split distributed systems in lc/hc units\\
+*autonomous, network-accessible services.\\
+* functional decomposition not new (1972 D.L. Parnas " Ont the Criteria to be used in Decomposing Systems into Modules)\\
+* Allow developers to chose most appropriate technology for each particular business problem\\
+* MS is "contemporary incarnation of SOA" combined with modern sw engineering practices like continous/idependetnt deployment\\
+* decomposition og monolith in services not fully understood ("very much of an art")\\
+
+Motivation: \\
+* SW became more complex, sw engineers  started to distribute modules/functionality over network (Web Services)\\
+* SOA tackled design challenge of distributed systems\\
+* requirements-driven, repeatable and scalable service decomposition method (supported and partially automated by tools) does not exist\\
+* use DDD: services derived from bounded contexts are aligned to domain model boundaries and team organization structures \\
+* service accessesd remotely through invocation interface\\
+
+Challenges:\\
+* loosley coupled and highly cohesive services crucial for maintainability/scalability of software \\
+* Not only DDD but also stakeholder requirements: Architecturally significant requirements (sw quality attributes) \\
+* Non-functional requirements of sw is key aspect of analysis and design\\
+
+
+\subsection{Microservice Identification Interface Analysis}
+\cite{interfaceAnalysisBaresi}
+
+General: \\
+* MS evolution of SOA but differences: service reuse less; instead of reusing existing ms for new tasks they should be small enough to rapidly implement new one that can coexists, evolve, replace the previous one\\
+
+Microservice:\\
+* ms style: suite of small, autonomous, conversational services \\
+* contrary to monoliths: independent deployability(scalability, using different technology stacks) \\
+* boundaries between software module in tradiditonal services (SOA) often too flexible --> "big balls of mud" --> MS make boundaries physical\\
+* partition ease system maintenance  and defines hgow system is able to evolve and scale \\
+
+
+
+Motivation:\\
+*overcome shortcomings of centralized monolithic architecture (deployed as a big chunk)\\
+* definition of granularity level and trade-off between soze and number of MS is still blurred\\
+
+Challenges: \\
+* finding right granularity/cohesiveness (when starting or transforming project)\\
+* identification extraordinary affects how system will be able to evolve --> define proper services is key challenge\\
+
+\subsection{Functional Decompositions}
+\cite{FunctionalDecompositionHeinrich}\\
+
+General:\\
+
+
+Microservices: \\
+* rising fast, many companies use it to structure their systems\\
+* usually defined intuitively based on experience of designers\\
+*advantages: scalability (thus resillience), enhanced performance\\
+* inteact via messages using standard data formats and protocols, publish interfaces using well defined lightweight mechanisms such as REST\\
+* each microservice has own domain model (data, logic, behaviour), related functionality combined in one business capability (= bounded context), one MS implements capability (more if too big)\\
+*tackles complexity of large application by decomposition in small pieces (each in own bounded context)\\
+* architecture enable traceability between requirements and system structure --> Only 1 ms needs to be\\ changed/redeployed (overcome shortcomings of monoliths: Deployment easy but everything deployed to a server making changes impact whole application --> redeploy whole app)\\
+* two main advantages: functional decomposition, decentralised governance\\
+ 
+
+
+
+Challenges: \\
+* find approppriate partition of system --> architecture can significatnly affects performance of system (intra-service calls?) \\
+* lack of systematic approaches \\
+* hardly any guidelines on what is "a good size" of ms --> Differs from system to system according to research\\
+* two concepts for DB\\
+* i) Share nothing: Each ms has own db --> Higher speed, horizontal scalability, but price of data consistency (only evenutal consistency)\\
+*ii)"microservice is not an island" --> share DB but price of less Independence\\
+
+
+\subsection{Dataflow-Driven Approach}
+\cite{DataflowDrivenChen} \\
+
+General: \\
+* Monolith Strength: simple to develop, test, deply, scale. But: Grow in size --> monstrous monolithic architecture, complex/incomprehensible code structure, hold back bug fixes, slow down development, obtsacle for CD\\
+* particular approach for SOA but no consensus on relationship of ms and SOA \\
+* Advantages  accepted in academia and industry\\
+* Advantages: Netflix can deal with billion calls every day by streaming API in ms structure\\
+* decomposition process represented by Y-Axix of scaling cube\\
+* decomposition by business capability and by domain-.driven design sub domain (abstract patterns, require human involvement); by verb/use cases or nouns/resources (easier to realize automation as lonmg as criteria have been predefined)\\
+* Service cutter lack objectivity: Scoring the edge of the graph\\
+*SOA: Services coarse-grained (vs. fine grained), decomposition aims at selecting the optimal composed service from all possible service combinations regarding quality requirements --> Bottom Up (vs. MS decomposition is top-down partition, then bottom-up integration)\\
+
+Microservices: \\
+* multiple small-scale and independently deployable ms\\
+* design time features: Coupling between ms \\
+*runtime feature: scalability against changing workload\\
+* three design time principles:\\
+* i) Fine grain and focus: small, autonomous as main characteristics, each ms does "one thing well"\\
+* ii) High cohesion/loosae coupling: ms implement relatively independent piece of business logic (hc), microservice should barely depend on other (lc) \\
+*iii) Neutral devel. technology, services should be deployable as individual applications with own delivery pipeline \\
+
+
+Challenges:\\
+* ms not panacea, main issue is effectively decompose a monolithic application
+* commonly manual decomposition process prevent practice for achieving those benefits
+
+
+
+\subsection{Domain Engineering approach}
+\cite{DomainEngineeringMunezero} \\
+
+General:\\
+
+
+Microservice:\\
+
+
+
+
+Challenges: \\
+
+
+
+
+
+

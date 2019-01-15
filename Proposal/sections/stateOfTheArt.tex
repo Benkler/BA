@@ -68,17 +68,17 @@
 * Contributor Coupling (CC): team/orga info used to recover relationship among sw artifacts ==> Ownership architecture read from VSC history by identifying how many developers worked on the same pair of classes (weight!)\\
 
 
-* CLustering Algo: Invert weights to favor edges  with heigh weight, Kruskal for MST (calculate remaining edges), sort edges, reverse list, delete first element (originally lowest weight; now first in the list), in each iteration step: DFS(Depth-First) on edgesMST returns number of partitions, iterate and delete while n<nGiven
-*Reduce Cluster: after n cluster were formed, method reduceClusters splits up unusually large clusters (due to language and framework, special classes may have extraordinary high coupling) --> Delete those classes until size of node (numbe rof classes seems to be appropriate)
+* CLustering Algo: Invert weights to favor edges  with heigh weight, Kruskal for MST (calculate remaining edges), sort edges, reverse list, delete first element (originally lowest weight; now first in the list), in each iteration step: DFS(Depth-First) on edgesMST returns number of partitions, iterate and delete while n<nGiven\\
+*Reduce Cluster: after n cluster were formed, method reduceClusters splits up unusually large clusters (due to language and framework, special classes may have extraordinary high coupling) --> Delete those classes until size of node (numbe rof classes seems to be appropriate)\\
 ------------------------------------\\
 
 
 + algorithmic recommendation of ms candidates implemented in web-based prototype\\
 + unites traditional decomposition techniques and microservice extraction approaches/design principles\\
 + algorithm uses 3 different coupling strategies: Can be combined for better results\\
-+ performance of algortihm was satisfying according to author
-+ shows significant team size reduction (less than half), given that alls contributirs for given cluster work on a MS
-+ no work in advance!!!!
++ performance of algortihm was satisfying according to author\\
++ shows significant team size reduction (less than half), given that alls contributirs for given cluster work on a MS\\
++ no work in advance!!!!\\
 
 ---------------------------------------\\
 
@@ -90,45 +90,45 @@
 - SW must have gone through evolution process for LC\\
 - Naming of class, methods, attributes needs to reflect domain language to make tf-idf possible\\
 - Contributor Coupling: requires more developers\\
-- Reduce Clusters: Useful to delete those classes? wat if this is core of application that belongs together
+- Reduce Clusters: Useful to delete those classes? wat if this is core of application that belongs together\\
 - nPart is given by user: What is the right granularity?\\
 
 --------------------------------------\\
 *Conclusion: Beta implementation existing, paper is precise in usage, master-thesis exists (LINK!!!)with detailed information, easy algorithms, good performance, \\
 * No Information about right n, not domain oriented, ORM necessary,
-BUT: Not applicable to CoCoME as VCS history, software evolution, several contributor necessary
+BUT: Not applicable to CoCoME as VCS history, software evolution, several contributor necessary\\
 
 
 
 \subsection{Partitioning Microservices:A Domain ENgineering Approach}
 
-* One BusinessCapability determines one MS, based on domain engineering
-* Business Capability: Something hat a business does;combined as functionality that have something in common (instead of usin collections of data entities and CRUD operations in them)
-* Paper states: Developers struggle to define granulaity of business capability (too small => Communication overhead, to large: heavyweight SOA)
-* Appropriate MS size determined by component boundaries
-* DDD: Choosing appropriate boundary. MAIN GOAL: systematically group requirements in domain model and implement code  of that
-* Design Domain model with sub-domains (each sub-domain has one to more bounded contexts)
-(* Sub-Domain is problem space, bounded.context is solution space and maps software artifacts to sub-domains ==> Info aus Internet)
-* DDD Patterns: Context Map/Counded Contexts (makes explicit boundaries between domains,), Aggregates (logical boundaries for cluster of domain objects that change during one transaction, ensure consistency among parallel operations that are considered to be one unit in reagrd to change), Ubiquitous Language (ensures that impementation uses the same terms as business), Separation of Entities and Value types (Entities are Objects of DDD, Not all Objects need to be entitites, for value objects identity is not necessary))
-* MS should be autonomous (changes not affecting others): One bounded context is one MS (ore more if fine grained needed, BUT never on C in different MS)
-* Approach: Defined domain and ubiquitous language ar prerequisites, split into sb domains if domain is too wide, find boundary of each responsibility, make it as business capability (focus on relationship among different services), each capability is a MS, find out relationships between services with domain model and reconfigure if necessary (too many dependencies)
+* One BusinessCapability determines one MS, based on domain engineering\\
+* Business Capability: Something hat a business does;combined as functionality that have something in common (instead of usin collections of data entities and CRUD operations in them)\\
+* Paper states: Developers struggle to define granulaity of business capability (too small => Communication overhead, to large: heavyweight SOA)\\
+* Appropriate MS size determined by component boundaries\\
+* DDD: Choosing appropriate boundary. MAIN GOAL: systematically group requirements in domain model and implement code  of that\\
+* Design Domain model with sub-domains (each sub-domain has one to more bounded contexts)\\
+(* Sub-Domain is problem space, bounded.context is solution space and maps software artifacts to sub-domains ==> Info aus Internet)\\
+* DDD Patterns: Context Map/Counded Contexts (makes explicit boundaries between domains,), Aggregates (logical boundaries for cluster of domain objects that change during one transaction, ensure consistency among parallel operations that are considered to be one unit in reagrd to change), Ubiquitous Language (ensures that impementation uses the same terms as business), Separation of Entities and Value types (Entities are Objects of DDD, Not all Objects need to be entitites, for value objects identity is not necessary))\\
+* MS should be autonomous (changes not affecting others): One bounded context is one MS (ore more if fine grained needed, BUT never on C in different MS)\\
+* Approach: Defined domain and ubiquitous language ar prerequisites, split into sb domains if domain is too wide, find boundary of each responsibility, make it as business capability (focus on relationship among different services), each capability is a MS, find out relationships between services with domain model and reconfigure if necessary (too many dependencies)\\
 
 
 --------------------------------------------\\
 
 
-+uses DDD. Many papers and experience reports state that this is the way to gto
++uses DDD. Many papers and experience reports state that this is the way to gto\\
 
 
 ---------------------------------------------\\
 
-- draw the boundaries is the ky task and requires domain experts
-- requires well defined domain, pre-existing ubiquitous language
-- "Find the boundary of each responsibility and make it as a business capability" ==> But how? Requires DOmain experts
-- Procedure is not concise at all and only explains approach on a top level (half a page)
-- Does not define how procedure analyses "loose coupling possible"
-- how break down in subdomains?
-- uses brainstorming and interaction wit domain experts to identify and define parts of the microservice
+- draw the boundaries is the ky task and requires domain experts\\
+- requires well defined domain, pre-existing ubiquitous language\\
+- "Find the boundary of each responsibility and make it as a business capability" ==> But how? Requires DOmain experts\\
+- Procedure is not concise at all and only explains approach on a top level (half a page)\\
+- Does not define how procedure analyses "loose coupling possible"\\
+- how break down in subdomains?\\
+- uses brainstorming and interaction wit domain experts to identify and define parts of the microservice\\
 
 
 ---------------------------------------------\\
@@ -136,35 +136,35 @@ BUT: Not applicable to CoCoME as VCS history, software evolution, several contri
 * Summary: \\
 *Hot topic according to other papers (interviews, reports) but this paper lacks on accuracy.  \\
 * Simply said: Get some domain-experts and let them cut your domain in different bounded contexts \\
-* This is what was already done when migrating CoCoME (probably not following the patterns but having domain experts )
+* This is what was already done when migrating CoCoME (probably not following the patterns but having domain experts )\\
 
 \subsection{From Monolith to Microservices: A Dataflow-Driven Approah}
 
-*top-down dataflow driven decomposition algorithm
+*top-down dataflow driven decomposition algorithm\\
 * 3 step approach \\
 * purified DFD (focus on data's semanteme and operations only, excludes side information), more data focused than traditional \\
 * purified DFD (PFD) is a directed Graph with nodes (processing operations nodes and data nodes) and
 Approach: \\
 * construct traditional DFD (according to business logic extracted from users' natural-language descriptions) \\
 * Manual construction of purified dataflow by two rules (more like guidelines)\\
-*algorithmic construction (condensing of PDS) of the decomposable Dataflow by applying a set of rules
-* combines same operations with same output data
-* each operation at the end is a MS
+*algorithmic construction (condensing of PDS) of the decomposable Dataflow by applying a set of rules\\
+* combines same operations with same output data\\
+* each operation at the end is a MS\\
 
 
 ------------------------------------------------------\\
 
-+systematic Algorithm
-+ purified DFD represents real information flow of corresponding business logic
-+ reduce human mistakes when drawing a composable DFD
-+ the 5 rules are easy to understand 
++systematic Algorithm\\
++ purified DFD represents real information flow of corresponding business logic\\
++ reduce human mistakes when drawing a composable DFD\\
++ the 5 rules are easy to understand \\
 
 ------------------------------------------------------\\
 - Semi Automated \\
 - traditional DFD constructed on users descriptions and code (detailed data flow) ==> exact? Expertise necessary \\
 - or: DFD needs to be existant \\
 - transforming traditional to purified is a non trivial task \\
-- identifying same data operation requires expertise: Combination of sam operations  based on operation names (what if names are different through the project)
+- identifying same data operation requires expertise: Combination of sam operations  based on operation names (what if names are different through the project)\\
 - no implementation \\
 - not applied to larger projects
 - based on user's natural language: semantic verbs correspond activities (later a MS) \\
@@ -248,7 +248,7 @@ create model of the system: finite set of system operations (public methods as r
 * Graph: vertices are state variable AND operations, edge between them if read/update, weights (1 for read, 2 for write)\\
 * Use Graph Analyse Tools to determine clusters and read the MS (cluster = MS)\\
 * Create API (all public ops in the cluster) and own DB for each MS\\
-*Add Getter to API if other cluster needs information of this cluster
+*Add Getter to API if other cluster needs information of this cluster\\
 * 
 
 
@@ -314,104 +314,104 @@ Conclusion:\\
 
 Conclusion:\\
 *Not applicable to CoCoME mainly because of Schema.org (for example: Sell Action and OrderAction in same concept) \\
-*Concerns about  well defined API
-* No idea how to adapt it
+*Concerns about  well defined API\\
+* No idea how to adapt it\\
 
 \subsection{Service Cutter}
 
-* service decomposition based on 16 coupling criteria (coming from industry and literature)
-* service requires resources: Data (should only managed by one service), operations(service encapsulates business rules), artifacts(snapshot of data or operation results transformed into specific format) --> Geneeralize under term nanoentity
-*Approach: Identifying set of services and assign all nanoentities (each) to one service
-*Coupling criteria: architecturally significant requirements and arguments why two nanoentities should or should not be owned/exposed by same service
-*Software System Artifacts(SSAs): design/analysis atifacts that contain information about coupling criteria
-* service cut: output of single execution of service decomposition process
-* coupling criteria catalogue:  <some examples>..., 4 categories: cohesiveness, compatibility, constraints, communication
-* structures using coupling criterion cards in specific format: ubiquitous language to structure, identify decisions
+* service decomposition based on 16 coupling criteria (coming from industry and literature)\\
+* service requires resources: Data (should only managed by one service), operations(service encapsulates business rules), artifacts(snapshot of data or operation results transformed into specific format) --> Geneeralize under term nanoentity\\
+*Approach: Identifying set of services and assign all nanoentities (each) to one service\\
+*Coupling criteria: architecturally significant requirements and arguments why two nanoentities should or should not be owned/exposed by same service\\
+*Software System Artifacts(SSAs): design/analysis atifacts that contain information about coupling criteria\\
+* service cut: output of single execution of service decomposition process\\
+* coupling criteria catalogue:  <some examples>..., 4 categories: cohesiveness, compatibility, constraints, communication\\
+* structures using coupling criterion cards in specific format: ubiquitous language to structure, identify decisions\\
 
-*Process:
-* Input in form of SSAs (Use Cases, DDD entities/aggregation, Entity relationship models) . Service Cutter extracts coupling criteria information of them
-* various additional SSAs
-* Service Cutter creates nanoentities(coupling criteria based on SSAs)
-* User priorizes these criteria (start calulation)
-* SC creates unidirected weighted graph with nodes that represent nanoentities and weighted edges that represent cohesiveness/coupling of two nanoentities
-* Clustering Algorithm (Can be changed!)
-* Weights: Sum of all scores (5 different types of scores) multiplied by priority
-
-------------------------------------------------------\\
-
-
-
-+ cited by many papers 
-+ catalogue consists of DDD pat7terns but also software quality attributes for architecture
-+ Clustering Algorithm can be changed by user if necessary
-+ user can prioritize coupling criteria (needs user experience, otherwise might result in wrong clustering) according to whats important for users use case (security yes or no...)
-+ implementation available that was used by other papers to compare their approach
-+ universally applicable to all software systems
-+ wiki exists
-+ can be used in forward  and backward engineering
+*Process:\\
+* Input in form of SSAs (Use Cases, DDD entities/aggregation, Entity relationship models) . Service Cutter extracts coupling criteria information of them\\
+* various additional SSAs\\
+* Service Cutter creates nanoentities(coupling criteria based on SSAs)\\
+* User priorizes these criteria (start calulation)\\
+* SC creates unidirected weighted graph with nodes that represent nanoentities and weighted edges that represent cohesiveness/coupling of two nanoentities\\
+* Clustering Algorithm (Can be changed!)\\
+* Weights: Sum of all scores (5 different types of scores) multiplied by priority\\
 
 ------------------------------------------------------\\
 
-- not fully automated --> Only support
-- user-prioritized coupling criteria (well can also be positive)
-- lots of user input, needs to be in specific format (work intense!)
-- results and other papers show that SC does not "cut" the best solution
+
+
++ cited by many papers \\
++ catalogue consists of DDD pat7terns but also software quality attributes for architecture\\
++ Clustering Algorithm can be changed by user if necessary\\
++ user can prioritize coupling criteria (needs user experience, otherwise might result in wrong clustering)\\ according to whats important for users use case (security yes or no...)\\
++ implementation available that was used by other papers to compare their approach\\
++ universally applicable to all software systems\\
++ wiki exists\\
++ can be used in forward  and backward engineering\\
+
+------------------------------------------------------\\
+
+- not fully automated --> Only support\\
+- user-prioritized coupling criteria (well can also be positive)\\
+- lots of user input, needs to be in specific format (work intense!)\\
+- results and other papers show that SC does not "cut" the best solution\\
 
 ------------------------------------------------------\\
 Conclusion:\\
-* First attempt to automatize service extraction
-* To much effort for input (for bigger systems)
-* Already implementation and good approach (Further improvement possible?)
-* Good to compare with own approach
-* Nice tool
+* First attempt to automatize service extraction\\
+* To much effort for input (for bigger systems)\\
+* Already implementation and good approach (Further improvement possible?)\\
+* Good to compare with own approach\\
+* Nice tool\\
 
 
 \subsection{Object-aware Identification of Microservices}
 
-*again based on clustering, structural and data object dependecy
-* three principles: 
-* i)Bounded contexts(focused on business capabilities, related functionality implemented in one capability and implemented in one service)
-* ii)  Size(if servize too large, split up, maintaining focus on providing one business capability only in one service)
-* ii) Independence( loose coupling and high cohesion)
-* paper focuses on identifying from business process point of view
-* business process: set of activities to achieve business goal (activity in process = operation in MS)
-* goal: decompose business process in fine-grained... MS
-* partition by: structural relation (direct edge), data relation (read/write on same data objects)
-* Technically: BPMN with data objects read/writes (see paper for notation)
+*again based on clustering, structural and data object dependecy\\
+* three principles: \\
+* i)Bounded contexts(focused on business capabilities, related functionality implemented in one capability and implemented in one service)\\
+* ii)  Size(if servize too large, split up, maintaining focus on providing one business capability only in one service)\\
+* iii) Independence( loose coupling and high cohesion)\\
+* paper focuses on identifying from business process point of view\\
+* business process: set of activities to achieve business goal (activity in process = operation in MS)\\
+* goal: decompose business process in fine-grained... MS\\
+* partition by: structural relation (direct edge), data relation (read/write on same data objects)\\
+* Technically: BPMN with data objects read/writes (see paper for notation)\\
 
 *Process:\\
-* 2 matrices  (combination of each activity pair)
-* First(structural): 1 if direct edge (or only gateways in between), o else
-* Second(object read write): Sum of shared object read/writes (values are 0, 0.25. 0,5, 1 for different combinations of read/writes)
-* uses genetic algortihm with Turbo-Mq Fitness Function for clustering (picks random clusters and try to iteratively improve fitness of identified cluster till convergence)
-* If more processes: Just recalculate matrix 
+* 2 matrices  (combination of each activity pair)\\
+* First(structural): 1 if direct edge (or only gateways in between), o else\\
+* Second(object read write): Sum of shared object read/writes (values are 0, 0.25. 0,5, 1 for different combinations of read/writes)\\
+* uses genetic algortihm with Turbo-Mq Fitness Function for clustering (picks random clusters and try to iteratively improve fitness of identified cluster till convergence)\\
+* If more processes: Just recalculate matrix \\
 
 ------------------------------------------------------\\
-+ combination of structural and data object dependency seems to be successful  
-+ easy to understand
-+ clustering algorithm can be changed
-+ several process can be easily combined
-+ values can be changed (adapt parameters)
-+ experimental evaluation seemed to be successful (validated against identification by domain experts)
-+ Method can be easily replenished by other aspects (requirements, security...)
++ combination of structural and data object dependency seems to be successful  \\
++ easy to understand\\
++ clustering algorithm can be changed\\
++ several process can be easily combined\\
++ values can be changed (adapt parameters)\\
++ experimental evaluation seemed to be successful (validated against identification by domain experts)\\
++ Method can be easily replenished by other aspects (requirements, security...)\\
 
 
 
 ------------------------------------------------------\\
-- no parallelism (gateway) 
-- needs business process models
-- Clustering algo not defined (information in other paper)
-- short paper (no detailed informtation)
-- no info about evaluation process, data set...
+- no parallelism (gateway) \\
+- needs business process models\\
+- Clustering algo not defined (information in other paper)\\
+- short paper (no detailed information)\\
+- no info about evaluation process, data set...\\
 
 
 
 
 ------------------------------------------------------\\
 Conclusion: \\
-* Seems to be applicable to CoCoME
-* BPMN already done by Kiana (at least some parts)
-* Further improvements?!
+* Seems to be applicable to CoCoME\\
+* BPMN already done by Kiana (at least some parts)\\
+* Further improvements?!\\
 
 
 
