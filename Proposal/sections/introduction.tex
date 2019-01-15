@@ -22,7 +22,10 @@
 * \cite{ServiceCutter}: Service Cutter, service decomposition based on 16 coupling criteria extracted from literature and industry experience
 \cite{interfaceAnalysisBaresi}: interface Analysis,  "automated process for identifying candidate ms my means of lightweight, domain.aghnostic semantic analysis of the concepts in input sepecification with regard ti a reference vocabulary" \\
 \cite{FunctionalDecompositionHeinrich} : Functional decomp, systematic approach to identify ms in design phase by identifying relationships between required sytem operations and state variable that ops read/write, visualized in Graph and the clustering\\
-\cite{DataflowDrivenChen}: Dataflow-driven, Top down dataflow-driven decomposition algorithm, purified dataflow-driven mechanism
+\cite{DataflowDrivenChen}: Dataflow-driven, Top down dataflow-driven decomposition algorithm, purified dataflow-driven mechanism \\
+\cite{DomainEngineeringMunezero}: Domain Engineering, methodology that uses DDD patterns to partition ms by respecting ms architecture design and characteristics \\
+\cite{ExtractionMazlami}: Extractio of Microservices: Graph-based clustering approach with three different coupling strategies that rely on (meta-) information from monolithic code bases (VCS)
+
 
 
 \subsection{General Annotations}
@@ -156,13 +159,13 @@ Microservices: \\
 *runtime feature: scalability against changing workload\\
 * three design time principles:\\
 * i) Fine grain and focus: small, autonomous as main characteristics, each ms does "one thing well"\\
-* ii) High cohesion/loosae coupling: ms implement relatively independent piece of business logic (hc), microservice should barely depend on other (lc) \\
+* ii) High cohesion/loose coupling: ms implement relatively independent piece of business logic (hc), microservice should barely depend on other (lc) \\
 *iii) Neutral devel. technology, services should be deployable as individual applications with own delivery pipeline \\
 
 
 Challenges:\\
-* ms not panacea, main issue is effectively decompose a monolithic application
-* commonly manual decomposition process prevent practice for achieving those benefits
+* ms not panacea, main issue is effectively decompose a monolithic application \\
+* commonly manual decomposition process prevent practice for achieving those benefits \\
 
 
 
@@ -170,15 +173,41 @@ Challenges:\\
 \cite{DomainEngineeringMunezero} \\
 
 General:\\
-
+* No guidelines for designing right microservice regaqrdin scope/size \\
 
 Microservice:\\
-
-
+* ability to make rapid functional changes (compared to monolith)\\
+* Issues: integration between communications of applications, complexities arising from creating distributed system (testing, deployment, increased memory consumption)\\
+* no common size for all services --> different sizes possible\\
 
 
 Challenges: \\
+*determining th right size of business capability \\
+* too fine-grained services can cause inefficiency (high amount of interactions to fulfil one request)\\
 
+\subsection{Extraction from Monolithic software architecture}
+\cite{ExtractionMazlami} \\
+
+
+General:\\
+* mobile computing, cloud computing infrastructure, DevOps, elastic computer --> MS driven by there developments\\
+* Service Cutter: no means of mining/constructing necessary structure information of monolith --> relies on user to provide sw-artifacts in specific model\\
+*Single Responsibility Principle: sw should only have one reason to change --> ms has to follow this principle\\
+
+Microservice:\\
+* half the team size\\
+* more flexible horizontal scaling in IaaS environment\\
+* dedicated to relatively narrow and concise task\\
+
+
+Challenges:\\
+*key challenge: Extracting ms from existing codebases (migration of monolith)\\
+* tedious manual effort for analysis of many dimensions of software\\
+* tool support and automation is not satisfactory\\
+* good part of efforts in ms research is only conceptual \\
+
+\subsection{Function Splitting Heurisitcs}
+\cite{HeuristicsAlwis} \\
 
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.11)  15 JAN 2019 15:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.11)  15 JAN 2019 18:40
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1679,7 +1679,7 @@ LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/b/n' will be
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/sb/n' will be
 (Font)              scaled to size 13.24796pt on input line 20.
 
-Overfull \hbox (16.39287pt too wide) in paragraph at lines 21--26
+Overfull \hbox (16.39287pt too wide) in paragraph at lines 21--28
 \T1/LinuxLibertineT-TLF/m/n/12 [3]: Dataflow-driven, Top down dataflow-driven d
 e-com-po-si-tion al-go-rithm, pu-ri-fied dataflow-
  []
@@ -1688,81 +1688,147 @@ e-com-po-si-tion al-go-rithm, pu-ri-fied dataflow-
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 45--59
+Underfull \hbox (badness 10000) in paragraph at lines 48--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--65
+Underfull \hbox (badness 10000) in paragraph at lines 63--68
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--76
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 77--83
+Underfull \hbox (badness 10000) in paragraph at lines 72--79
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 84--88
+Underfull \hbox (badness 10000) in paragraph at lines 80--86
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--95
+Underfull \hbox (badness 10000) in paragraph at lines 87--91
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--101
+Underfull \hbox (badness 10000) in paragraph at lines 96--98
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--107
+Underfull \hbox (badness 10000) in paragraph at lines 99--104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--111
+Underfull \hbox (badness 10000) in paragraph at lines 107--110
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--114
+Underfull \hbox (badness 10000) in paragraph at lines 111--114
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 115--116
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--127
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--138
+Underfull \hbox (badness 10000) in paragraph at lines 121--130
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
+Underfull \hbox (badness 10000) in paragraph at lines 134--141
 
  []
 
-[4]) (sections/CoCoME.tex [5] [6
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
+
+ []
 
 
-]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4]
+Underfull \hbox (badness 10000) in paragraph at lines 146--155
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--164
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--169
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--174
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--177
+
+ []
+
+
+Underfull \vbox (badness 2165) has occurred while \output is active []
+
+ [5]
+Underfull \hbox (badness 10000) in paragraph at lines 178--182
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--196
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--201
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
+
+ []
+
+) (sections/CoCoME.tex [6]
 chapter 2.
-) (sections/stateOfTheArt.tex [7] [8
+) (sections/stateOfTheArt.tex [7
+
+
+] [8
 
 
 ]
@@ -2246,10 +2312,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25411 strings out of 492946
- 478405 string characters out of 3135518
+ 25417 strings out of 492946
+ 478472 string characters out of 3135518
  1092661 words of memory out of 3000000
- 28829 multiletter control sequences out of 15000+200000
+ 28832 multiletter control sequences out of 15000+200000
  151553 words of font info for 117 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  63i,20n,84p,9088b,2282s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2319,6 +2385,15 @@ pdfTeX warning (dest): name{section.2.1} has been referenced but does not exist
 pdfTeX warning (dest): name{chapter.2} has been referenced but does not exist, 
 replaced by a fixed one
 
+pdfTeX warning (dest): name{subsection.1.4.10} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.4.9} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.4.8} has been referenced but does not 
+exist, replaced by a fixed one
+
 pdfTeX warning (dest): name{subsection.1.4.7} has been referenced but does not 
 exist, replaced by a fixed one
 
@@ -2375,9 +2450,9 @@ ikolaus/AppData/Roaming/MiKTeX/2.9/fonts/type1/adobe/sourcesanspro/SourceSansPr
 o-Bold.pfb><C:/Users/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/type1/adobe/sour
 cesanspro/SourceSansPro-Semibold.pfb><C:/Users/Nikolaus/AppData/Roaming/MiKTeX/
 2.9/fonts/type1/bera/fvmr8a.pfb>
-Output written on thesis.pdf (47 pages, 451996 bytes).
+Output written on thesis.pdf (47 pages, 456121 bytes).
 PDF statistics:
- 393 PDF objects out of 1000 (max. 8388607)
- 36 named destinations out of 1000 (max. 500000)
- 304 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 408 PDF objects out of 1000 (max. 8388607)
+ 39 named destinations out of 1000 (max. 500000)
+ 328 words of extra memory for PDF output out of 10000 (max. 10000000)
 

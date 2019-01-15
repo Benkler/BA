@@ -29,7 +29,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.4.6}Functional Decompositions}{4}{subsection.1.4.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.7}Dataflo-Driven Approach}{4}{subsection.1.4.7}% 
+\contentsline {subsection}{\numberline {1.4.7}Dataflow-Driven Approach}{5}{subsection.1.4.7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4.8}Domain Engineering approach}{5}{subsection.1.4.8}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4.9}Extraction from Monolithic software architecture}{6}{subsection.1.4.9}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4.10}Function Splitting Heurisitcs}{6}{subsection.1.4.10}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}CoCoME}{7}{chapter.2}% 
 \defcounter {refsection}{0}\relax 
