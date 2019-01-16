@@ -2017,16 +2017,21 @@
     <bcf:citekey order="20">EnticeApproach</bcf:citekey>
     <bcf:citekey order="21">SystematicMappingStudyMicroservice</bcf:citekey>
     <bcf:citekey order="22">MigratingTowardsSurvey</bcf:citekey>
-    <bcf:citekey order="23">mittelbach2014</bcf:citekey>
-    <bcf:citekey order="42">ExtractionMazlami</bcf:citekey>
-    <bcf:citekey order="43">ObjectAwareAmiri</bcf:citekey>
-    <bcf:citekey order="44">interfaceAnalysisBaresi</bcf:citekey>
-    <bcf:citekey order="45">FunctionalDecompositionHeinrich</bcf:citekey>
-    <bcf:citekey order="46">DomainEngineeringMunezero</bcf:citekey>
-    <bcf:citekey order="47">DataflowDrivenChen</bcf:citekey>
-    <bcf:citekey order="48">HeuristicsAlwis</bcf:citekey>
-    <bcf:citekey order="49">ServiceCutter</bcf:citekey>
-    <bcf:citekey order="50">interfaceAnalysisBaresi</bcf:citekey>
+    <bcf:citekey order="23">infoq</bcf:citekey>
+    <bcf:citekey order="24">ClassificationOfRefactoring</bcf:citekey>
+    <bcf:citekey order="25">TowardsUnderstandingEvolution</bcf:citekey>
+    <bcf:citekey order="26">WorkloadbasedClustering</bcf:citekey>
+    <bcf:citekey order="27">ArchitecturalMetaModelling</bcf:citekey>
+    <bcf:citekey order="28">mittelbach2014</bcf:citekey>
+    <bcf:citekey order="47">ExtractionMazlami</bcf:citekey>
+    <bcf:citekey order="48">ObjectAwareAmiri</bcf:citekey>
+    <bcf:citekey order="49">interfaceAnalysisBaresi</bcf:citekey>
+    <bcf:citekey order="50">FunctionalDecompositionHeinrich</bcf:citekey>
+    <bcf:citekey order="51">DomainEngineeringMunezero</bcf:citekey>
+    <bcf:citekey order="52">DataflowDrivenChen</bcf:citekey>
+    <bcf:citekey order="53">HeuristicsAlwis</bcf:citekey>
+    <bcf:citekey order="54">ServiceCutter</bcf:citekey>
+    <bcf:citekey order="55">interfaceAnalysisBaresi</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

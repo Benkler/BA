@@ -254,6 +254,61 @@
       \field{pages}{37\bibrangedash 53}
       \range{pages}{17}
     \endentry
+    \entry{TowardsUnderstandingEvolution}{article}{}
+      \name{author}{7}{}{%
+        {{hash=287107404e0dbbd2c6df28f904c0b551}{%
+           family={Escobar},
+           familyi={E\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c90b9c4ef9f170e09a38140e596167e7}{%
+           family={Cárdenas},
+           familyi={C\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=ff52df216fb55f94eafef28d4e55dac6}{%
+           family={Amarillo},
+           familyi={A\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=698e85174735cbc69b104630dd908555}{%
+           family={Castro},
+           familyi={C\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=1c10bd951089783002fa3d4ddab1a3d2}{%
+           family={Garcés},
+           familyi={G\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=6510d42741ad6b0ed665265eb99f3f73}{%
+           family={Parra},
+           familyi={P\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=af9a974fab0cde0d00aa5a8228058b4d}{%
+           family={Casallas},
+           familyi={C\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{38c663998b75ab19134c292a0f6b6ebc}
+      \strng{fullhash}{ccfca5ffd1baeab01216907a96698035}
+      \strng{bibnamehash}{38c663998b75ab19134c292a0f6b6ebc}
+      \strng{authorbibnamehash}{38c663998b75ab19134c292a0f6b6ebc}
+      \strng{authornamehash}{38c663998b75ab19134c292a0f6b6ebc}
+      \strng{authorfullhash}{ccfca5ffd1baeab01216907a96698035}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 XLII Latin American Computing Conference (CLEI)}
+      \field{month}{10}
+      \field{title}{Towards the understanding and evolution of monolithic applications as microservices}
+      \field{year}{2016}
+      \field{pages}{1\bibrangedash 11}
+      \range{pages}{11}
+    \endentry
     \entry{MigratingTowardsSurvey}{article}{}
       \name{author}{3}{}{%
         {{hash=e87b39b142fe41eeebc0bf228932d409}{%
@@ -288,6 +343,54 @@
       \field{year}{2018}
       \field{pages}{29\bibrangedash 2909}
       \range{pages}{2881}
+    \endentry
+    \entry{ClassificationOfRefactoring}{article}{}
+      \name{author}{4}{}{%
+        {{hash=6c8e6ec58e5ed4eecf4ca036bc420147}{%
+           family={Fritzsch},
+           familyi={F\bibinitperiod},
+           given={Jonas},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6f9a37903012edd7915c3973ef8478b7}{%
+           family={Bogner},
+           familyi={B\bibinitperiod},
+           given={Justus},
+           giveni={J\bibinitperiod}}}%
+        {{hash=882079b25cd52f036c384c5cc94c9920}{%
+           family={Zimmermann},
+           familyi={Z\bibinitperiod},
+           given={Alfred},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b3b555094827b235ef74e410e9c1d817}{%
+           family={Wagner},
+           familyi={W\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{ed595bed0741ce56cabea5c4036b30a4}
+      \strng{fullhash}{d1067df84e623319e9ab3d383f68bd44}
+      \strng{bibnamehash}{ed595bed0741ce56cabea5c4036b30a4}
+      \strng{authorbibnamehash}{ed595bed0741ce56cabea5c4036b30a4}
+      \strng{authornamehash}{ed595bed0741ce56cabea5c4036b30a4}
+      \strng{authorfullhash}{d1067df84e623319e9ab3d383f68bd44}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{CoRR}
+      \field{title}{From Monolith to Microservices: {A} Classification of Refactoring Approaches}
+      \field{volume}{abs/1807.10059}
+      \field{year}{2018}
+      \verb{eprint}
+      \verb 1807.10059
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1807.10059
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1807.10059
+      \endverb
     \endentry
     \entry{ServiceCutter}{article}{}
       \name{author}{4}{}{%
@@ -360,6 +463,41 @@
       \field{pages}{185\bibrangedash 200}
       \range{pages}{16}
     \endentry
+    \entry{ArchitecturalMetaModelling}{article}{}
+      \name{author}{3}{}{%
+        {{hash=c7edcb2b563b3b2625c26072252ed866}{%
+           family={Hassan},
+           familyi={H\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d35b083b71e1033ae013d7cafd99e54b}{%
+           family={Ali},
+           familyi={A\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=07522d5838140c53894c816c3103c65a}{%
+           family={Bahsoon},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{22b1bcd6c6a51c399c04d0aba25afbb9}
+      \strng{fullhash}{22b1bcd6c6a51c399c04d0aba25afbb9}
+      \strng{bibnamehash}{22b1bcd6c6a51c399c04d0aba25afbb9}
+      \strng{authorbibnamehash}{22b1bcd6c6a51c399c04d0aba25afbb9}
+      \strng{authornamehash}{22b1bcd6c6a51c399c04d0aba25afbb9}
+      \strng{authorfullhash}{22b1bcd6c6a51c399c04d0aba25afbb9}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 IEEE International Conference on Software Architecture (ICSA)}
+      \field{month}{4}
+      \field{title}{Microservice Ambients: An Architectural Meta-Modelling Approach for Microservice Granularity}
+      \field{year}{2017}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+    \endentry
     \entry{EnticeApproach}{article}{}
       \name{author}{3}{}{%
         {{hash=d24a4c760bfd8a5d9cfbac9c41a229fb}{%
@@ -394,6 +532,50 @@
       \field{year}{2016}
       \field{pages}{591\bibrangedash 596}
       \range{pages}{6}
+    \endentry
+    \entry{WorkloadbasedClustering}{article}{}
+      \name{author}{4}{}{%
+        {{hash=89bcb621aa279c7848b69b51055c7d7f}{%
+           family={Klock},
+           familyi={K\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=801a794fd381687159ce76275dcc8738}{%
+           family={Werf},
+           familyi={W\bibinitperiod},
+           given={J.\bibnamedelimi M.\bibnamedelimi E.\bibnamedelimi M.\bibnamedelimi V.\bibnamedelimi D.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=f42f2e8630f3297366598e6f08211e3c}{%
+           family={Guelen},
+           familyi={G\bibinitperiod},
+           given={J.\bibnamedelimi P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=e0e7f3ed1faa96add873a07da182f1a7}{%
+           family={Jansen},
+           familyi={J\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{569539d6aabb9c45872d17d3ec6ded27}
+      \strng{fullhash}{8d6eb4cc492070b114d8142472e17479}
+      \strng{bibnamehash}{569539d6aabb9c45872d17d3ec6ded27}
+      \strng{authorbibnamehash}{569539d6aabb9c45872d17d3ec6ded27}
+      \strng{authornamehash}{569539d6aabb9c45872d17d3ec6ded27}
+      \strng{authorfullhash}{8d6eb4cc492070b114d8142472e17479}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 IEEE International Conference on Software Architecture (ICSA)}
+      \field{month}{4}
+      \field{title}{Workload-Based Clustering of Coherent Feature Sets in Microservice Architectures}
+      \field{year}{2017}
+      \field{pages}{11\bibrangedash 20}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/ICSA.2017.38
+      \endverb
+      \keyw{enterprise resource planning;genetic algorithms;pattern clustering;public domain software;coherent feature sets;microservice architectures;workload-based feature clustering;genetic algorithm;MicADO;open-source tool;ERP system;Computer architecture;Software;Scalability;Monitoring;Integrated circuits;Software measurement;Microservices;Model Driven Engineering;Refactoring;workload;Performance;Scalability}
     \endentry
     \entry{MigratingCloud}{article}{}
       \name{author}{3}{}{%
@@ -536,6 +718,39 @@
       \field{pages}{43\bibrangedash 49}
       \range{pages}{7}
       \keyw{Business;Aggregates;Software;Meteorology;Object oriented modeling;Computer architecture;Complexity theory;Sizing microservice;DDD pattern;weather domain}
+    \endentry
+    \entry{infoq}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=d0740bcf48754b8fa2cd3549a1d73461}{%
+           family={Richardson},
+           familyi={R\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {InfoQ}%
+      }
+      \strng{namehash}{d0740bcf48754b8fa2cd3549a1d73461}
+      \strng{fullhash}{d0740bcf48754b8fa2cd3549a1d73461}
+      \strng{bibnamehash}{d0740bcf48754b8fa2cd3549a1d73461}
+      \strng{authorbibnamehash}{d0740bcf48754b8fa2cd3549a1d73461}
+      \strng{authornamehash}{d0740bcf48754b8fa2cd3549a1d73461}
+      \strng{authorfullhash}{d0740bcf48754b8fa2cd3549a1d73461}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{InfoQ}
+      \field{month}{5}
+      \field{note}{Accessed on 08.01.2019}
+      \field{title}{Microservices: Decomposing Applications for Deployability and Scalability}
+      \field{year}{2014}
+      \verb{urlraw}
+      \verb https://www.infoq.com/articles/microservices-intro
+      \endverb
+      \verb{url}
+      \verb https://www.infoq.com/articles/microservices-intro
+      \endverb
     \endentry
     \entry{FunctionalDecompositionHeinrich}{article}{}
       \name{author}{4}{}{%

@@ -285,19 +285,143 @@ Challenges:\\
 \cite{MigratingTowardsSurvey} \\
 
 General:\\
-* legacy sw: highly coupled, hard to maintain
-*industrial survey: roughly 28 months for migration --> Costly
-* shows that most industrial develloper get inforamtion about the old system of source code and textual/architectural documents to better understand the pre-existing system and to be able to architect a new one
-* it is significant to have a "crystal clear understanding of the domain of the system in order to identify bounded contexts properly"
-*Main driver to mirgate: New functionality, long time to release new features, hard to maintain, side effects, low productivity of developers, hard to test, developers interfering with each other
+* legacy sw: highly coupled, hard to maintain\\
+*industrial survey: roughly 28 months for migration --> Costly\\
+* shows that most industrial develloper get inforamtion about the old system of source code and textual/architectural documents to better understand the pre-existing system and to be able to architect a new one\\
+* it is significant to have a "crystal clear understanding of the domain of the system in order to identify bounded contexts properly"\\
+*Main driver to mirgate: New functionality, long time to release new features, hard to maintain, side effects, low productivity of developers, hard to test, developers interfering with each other\\
 
 
 Microservices:\\
-*flexible/evolvable architecture
+*flexible/evolvable architecture\\
 
 
 Challenges:\\
-*Many technical challenges: Infrastructure automation distribute debuggin
-*Organizational challenges: creation of cross functional teams
+*Many technical challenges: Infrastructure automation distribute debuggin\\
+*Organizational challenges: creation of cross functional teams\\
+
+
+\subsection{Infoq: Decomposing applications}
+\cite{infoq} \\
+
+
+General: \\
+* Small services is not the main goal! Decompose system  into services to solve problems of monolithic architecture is main goal --> Services can vary in size\\
+* Call MS lightweight or fine-grained SOA\\
+* solves problems that many organizations suffer from\\
+* Application, several components with good mopdular design (domain model) but deployed as a monolith! --> simple to develop (IDEs are oriented arounf developing single applications), easy to test\\
+* BUT: Becomes  unwieldly for complex applications, difficult to adopt new technology without rewriting entire application --> Does not scale to support large long-lived applications\\
+* SCALE CUBE: \\
+* X-axis: mutltiple identical copies of app behind load balancer --> improve capacity/availability\\
+* Z-Axis: Each server runs identical copy (similar to X), but each serve ronly responsible for subset of data --> Component in systems responsible for routing request to servers\\
+* --> Z and X improve applications's capacity/availability but do not solve problems of increasing development and application complexitiy --> Y\\
+* Y-Axis: functional decomposition, Z-Axis splits similar things, Y-Axis scaling splits different things\\
+* API Gateway: No talking directly to service, API Gateway in between that provides coarse grained API for CLients\\
+* Inter-Service Communication:\\
+* i) synchronous HTTP-bases: simple, familiar, firewall friendly, does not support other patterns like publish/subscribe, servers must be simultaneous available, HTTP client need to know host/prt of server\\
+*ii)asynchronous AMQP-based message broker: decouples message producers and consumers, broker handles conversation, broker another moving part\\
+
+
+Monolith: \\
+* Commonly used pattern for enterprise application, works good for small applications: testing developing deploying relatively simple\\
+* For large/complex apps, monolithic architecture becomes  obstacle --> Migrate to MS\\
+
+Database: \\
+* individual best-fitting database for each service, service needs ACID-transactions --> relational, social media --> graph base\\
+* new Problem: Handle requests that access data owned by mutliple services (approaches are RPC--> increases response ime, reduces availability as other service must be available too; other approach is store copy -->consistency problems)\\
+
+Microservices:\\
+* small code base does not slow down IDE, makes developers more productive\\
+* services typically start a lot faster than monolith\\
+* independent deployment: change for local change do not need coordination with other developers	\\
+* each service scaled independently: X-axis clonin and z-axix partitioning\\
+* service deployed on best suitable hardware\\
+* easier to scale development: organize development around mutliple small two pizza teams\\
+*improves fault isolation\\
+* eliminates any long-term commitment to a techn ology stack\\
+
+
+Challenges: \\
+* additional complexitiy of creating a distributed system\\
+* inter-process communication required\\
+* IDE/other devel. tools currently still focused on building monoliths\\
+* operational complexity, many more moving parts (inst6ances of services)\\
+* features spanning mutliple services require careful coordination\\
+* WHEN to use this architecture: first version  of application does not have problems ob monolith --> MS slows down development --> Start upds need to deliver fast results\\
+* Granularity on APIs too fin-grained --> results in many required service calls --> Latency for clients (solution API Gateway)\\
+
+\subsection{From Monolith To Microservices Classification}
+\cite{ClassificationOfRefactoring} \\
+
+General:\\
+*high costs/effor for refactoring\\
+* high effort to adapt newer and beter technologies, changing initial desgin choices later nearly impossible \\
+* need to duplicate monolith in order to scale --> inefficient\\
+* refactoring: extend lifetime of existing software product; code level vs architectural refactoring\\
+*service Cutter as "general purpose" approach --> most mature tool support, most strucured and generally applicable way to decompose tool support\\
+
+
+Microservices:\\
+* more agile flow of development and operaions (referred as DevOps)\\
+
+
+Challenges:\\
+*finding right service granularity to fully leverage advantages\\
+* ms from scratch OR refactorin is vey expensive and time consuming\\
+
+
+\subsection{Toward understanding and evolution}
+\cite{TowardsUnderstandingEvolution} \\
+
+General:\\
+*monolith  does many things and has many responsibilities \\
+* ms is fine-graines SOA\\
+* SRP: each module, subsystem, class, method should not have more than one reason to change\\
+*parts can be migrated directly to ms, other parts need to be refactored to make code more modular\\
+
+Microservices:\\
+
+
+
+
+Challenges:\\
+* Distribute legacy artifacts into ms not trivial: lack of sesign and documentation, \\
+* absent reasoning on oroginal design and architecture decisions\\ 
+
+\subsection{Workload-bases Clustering}
+\cite{WorkloadbasedClustering} \\
+
+General: \\
+
+Microservices: \\
+*size of MS directly defined by its feautures\\
+* several metrics: LOC, able to rewrite it in 6 weeks,  two pizza team per service --> no quality attributes!\\
+*Moving features to other services directly inacts performance/scalability:  Smllaer services -> more scalability of system; \\
+* performanace decreases when splitting up --> significant communication overhead \\
+* merging results in loss of scalabiity\\
+* --> Optimize performance vs. scalability by modigying placement of features (= chunk of functionality that delivers busines value)\\
+
+
+Challenges:\\
+
+
+\subsection{Architectural Meta-Modelling}
+\cite{ArchitecturalMetaModelling}
+
+
+General:\\
+*First class object: Object passed to function or as return value  or  allocated to variable\\
+*general lack of systematic approaches that model ms design decisions, including deciding the optimal microservice boundaries\\
+
+Microservices:\\
+*isolated fine-grained business functionalities that act through standardized interfaces\\
+*rapidly increasing: Netflix, Amazon, Uber\\
+* Isolating business functionalities aisma at enhancing the autonomy, replaceability of individual microservice\\
+* enhances decentralised governance\\
+
+
+
+Challenges:\\
+
 
 
