@@ -1,17 +1,40 @@
 
 \chapter{Introduction}
 \label{ch:Introduction}
-
+The monolithic software architecture is the traditional pattern to design software, where functionality is bundled in one single, large application \cite{DataflowDrivenChen}. Although monoliths have their strength, like fast development and simple deployment, they become an obstacle when they grow in size and become more complex \cite{infoq}. Incomprehensible code structure makes it difficult to add functionality, fix bugs and enable new software engineering approaches like Continuous Delivery and Continuous Deployment. 
+Besides, the rise of cloud computing demands a new architecture that can fully exploit the rich set of features given by the cloud infrastructure \cite{MigratingCloud}. \\
+Microservice Architecture is about to become a promising alternative to overcome the shortcomings of centralized, monolithic architectures. Inspired by service-oriented computing, microservices gain popularity in both, academia and industry \cite{ObjectAwareAmiri}. Benefits like the increase of agility, resilience or scalability \cite{FunctionalDecompositionHeinrich}, the ability to use different technology stacks and independent deployment \cite{interfaceAnalysisBaresi}, and the efficient resource utilization in cloud environments \cite{MigratingCloud} explain, why big companies like Google, Netflix, Amazon, eBay \cite{DataflowDrivenChen} and Uber \cite{FunctionalDecompositionHeinrich} migrated their monolithic architectures to microservice-based applications. \\
+This thesis describes the current state of the art regarding microservices extraction and provides a systematic approach to decompose a (legacy) application into microservices.
 
 
 \section{Motivation}
 \label{sec:Introduction:Motivation}
+Monolithic software applications develop over time and become more and more complex. The software structure is highly coupled and hard to maintain \cite{MigratingTowardsSurvey}. To tackle this issues, software engineers started to decompose their system into modules and provide the functionality over the network as Web Services \cite{ServiceCutter}. The so-called \textit{Service-oriented Architecture} (SOA) provides logical boundaries between the different software modules to address the design challenge of distributed systems. Nevertheless, Baresi et. al state that the boundaries between modules in SOA are too flexible and the application results in "a big ball of mud" \cite{interfaceAnalysisBaresi}. Microservices make these boundaries physical as each service runs in its own process and only communicates with other services through well-defined lightweight mechanisms like REST \cite{FunctionalDecompositionHeinrich}. Chen et al. consider the microservice architecture as a particular approach for SOA \cite{DataflowDrivenChen}. Others look at it as an evolution of SOA with differences in service reuse \cite{interfaceAnalysisBaresi} or consider it to be the "contemporary incarnation of SOA" combined with modern software engineering practices like continuous deployment \cite{ServiceCutter}. There is no consensus about the relationship between microservices and SOA, but clearly, SOA paved the way for the rise of the microservice pattern.\\
+The microservice architectural style has many advantages over the monolithic style. Sec.\ref{sec:background:microservices} elaborates the main aspects of microservices, including several benefits. Netflix, for instance, is able to cope with one billion calls a day to its video streaming API, by migrating their monolithic system to a high flexible, maintainable and scalable microservice architecture \cite{DataflowDrivenChen}. Consequently, moving existing applications to a microservice landscape is a hot topic in academia and industry \cite{ObjectAwareAmiri}. \\
+Nevertheless, decomposing a system in loosely coupled, fine-grained and independent microservices is a time consuming task that requires tedious manual effort \cite{ServiceCutter} and is technically cumbersome \cite{HeuristicsAlwis}. So far, it is done mainly intuitively and relies on the experience of software architects and system designers. Hence, a formal approach to identify microservices is required. This thesis intends to describe an approach to systematically decompose a monolithic system into loosely coupled, but high cohesive fine-grained microservices. 
+
 
 \section{Problem Statement}
 \label{sec:Introduction:ProblemStatement}
+The decomposition process requires time and human resources. 
+
+tradeoff between size an number of ms \cite{interfaceAnalysisBaresi}
 
 \section{Challenges}
 \label{sec:Introduction:Challenges}
+
+\section{Thesis Outline}
+\label{sec_Introduction:ThesisOutline}
+
+
+
+
+
+
+
+
+
+
 
 
 

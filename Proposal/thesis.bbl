@@ -572,10 +572,6 @@
       \field{year}{2017}
       \field{pages}{11\bibrangedash 20}
       \range{pages}{10}
-      \verb{doi}
-      \verb 10.1109/ICSA.2017.38
-      \endverb
-      \keyw{enterprise resource planning;genetic algorithms;pattern clustering;public domain software;coherent feature sets;microservice architectures;workload-based feature clustering;genetic algorithm;MicADO;open-source tool;ERP system;Computer architecture;Software;Scalability;Monitoring;Integrated circuits;Software measurement;Microservices;Model Driven Engineering;Refactoring;workload;Performance;Scalability}
     \endentry
     \entry{MigratingCloud}{article}{}
       \name{author}{3}{}{%

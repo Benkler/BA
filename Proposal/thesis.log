@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.11)  16 JAN 2019 13:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.11)  17 JAN 2019 21:46
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1612,6 +1612,14 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 
 
 ]) (sections/abstract_en.tex
+LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 4.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/b/n' will be
+(Font)              scaled to size 11.03998pt on input line 4.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
+(Font)              scaled to size 12.0pt on input line 4.
+)
+(sections/abstract_de.tex
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/sl' in size <12> not a
 vailable
 (Font)              Font shape `T1/LinuxLibertineT-TLF/m/it' tried instead on i
@@ -1624,385 +1632,355 @@ LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 8.8pt on input line 14.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 6.6pt on input line 14.
- [1]
-[2
+ [1
 
 
-]
-LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 14.
-LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/b/n' will be
-(Font)              scaled to size 11.03998pt on input line 14.
-) (sections/abstract_de.tex [3] [4
+] [2
 
 
-]) [5] [6
+]) [3] [4
 
 
 ]
 Package tocbasic Info: character protrusion at toc deactivated on input line 11
-1.
- (thesis.toc [7])
+0.
+ (thesis.toc [5])
 \tf@toc=\write4
 \openout4 = `thesis.toc'.
 
- [8]
+ [6]
 Package tocbasic Info: character protrusion at lof deactivated on input line 11
-3.
-
-(thesis.lof)
+2.
+ (thesis.lof)
 \tf@lof=\write5
 \openout5 = `thesis.lof'.
 
- [9
+
+[7
 
 
-] [10
+] [8
 
 
 ]
 Package tocbasic Info: character protrusion at lot deactivated on input line 11
-4.
+3.
  (thesis.lot)
 \tf@lot=\write6
 \openout6 = `thesis.lot'.
 
- [11] [12
+ [9] [10
 
 
 ] (sections/introduction.tex
 chapter 1.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/b/n' will be
-(Font)              scaled to size 15.89755pt on input line 7.
-LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/b/n' will be
-(Font)              scaled to size 13.24796pt on input line 20.
-LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/sb/n' will be
-(Font)              scaled to size 13.24796pt on input line 20.
+(Font)              scaled to size 15.89755pt on input line 10.
 
-Overfull \hbox (3.0059pt too wide) in paragraph at lines 21--28
-\T1/LinuxLibertineT-TLF/m/n/12 ing re-la-tion-ships be-tween re-quired sytem op
--er-a-tions and state vari-able that ops read/write,
- []
-
-
-Overfull \hbox (16.39287pt too wide) in paragraph at lines 21--28
-\T1/LinuxLibertineT-TLF/m/n/12 [4]: Dataflow-driven, Top down dataflow-driven d
-e-com-po-si-tion al-go-rithm, pu-ri-fied dataflow-
+Overfull \hbox (5.9488pt too wide) in paragraph at lines 12--15
+\T1/LinuxLibertineT-TLF/m/n/12 The mi-croser-vice ar-chi-tec-tural style has ma
+ny ad-van-tages over the mono-lithic style. Sec.2.2
  []
 
 [1
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 50--64
+LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/b/n' will be
+(Font)              scaled to size 13.24796pt on input line 43.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/sb/n' will be
+(Font)              scaled to size 13.24796pt on input line 43.
 
+Overfull \hbox (3.0059pt too wide) in paragraph at lines 44--51
+\T1/LinuxLibertineT-TLF/m/n/12 ing re-la-tion-ships be-tween re-quired sytem op
+-er-a-tions and state vari-able that ops read/write,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--70
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--81
-
+Overfull \hbox (16.39287pt too wide) in paragraph at lines 44--51
+\T1/LinuxLibertineT-TLF/m/n/12 [4]: Dataflow-driven, Top down dataflow-driven d
+e-com-po-si-tion al-go-rithm, pu-ri-fied dataflow-
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 82--88
+Underfull \hbox (badness 10000) in paragraph at lines 73--87
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--93
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 98--100
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--106
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--116
+Underfull \hbox (badness 10000) in paragraph at lines 88--93
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
+Underfull \hbox (badness 10000) in paragraph at lines 97--104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
+Underfull \hbox (badness 10000) in paragraph at lines 105--111
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--132
+Underfull \hbox (badness 10000) in paragraph at lines 112--116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--143
+Underfull \hbox (badness 10000) in paragraph at lines 121--123
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--147
+Underfull \hbox (badness 10000) in paragraph at lines 124--129
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 132--135
 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4]
-Underfull \hbox (badness 10000) in paragraph at lines 148--157
+Underfull \hbox (badness 10000) in paragraph at lines 136--139
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--166
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--171
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--176
+Underfull \hbox (badness 10000) in paragraph at lines 146--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 177--179
+Underfull \hbox (badness 10000) in paragraph at lines 159--166
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 169--170
 
  []
 
 
-Underfull \vbox (badness 2165) has occurred while \output is active []
-
- [5]
-Underfull \hbox (badness 10000) in paragraph at lines 180--184
+Underfull \hbox (badness 10000) in paragraph at lines 171--180
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--189
+Underfull \hbox (badness 10000) in paragraph at lines 181--189
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--192
+Underfull \hbox (badness 10000) in paragraph at lines 191--194
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--198
+Underfull \hbox (badness 10000) in paragraph at lines 198--199
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--203
+Underfull \vbox (badness 1939) has occurred while \output is active []
+
+ [6]
+Underfull \hbox (badness 10000) in paragraph at lines 200--202
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--210
+Underfull \hbox (badness 10000) in paragraph at lines 203--207
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--213
-
- []
-
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 225--229
+Underfull \hbox (badness 10000) in paragraph at lines 209--212
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--231
+Underfull \hbox (badness 10000) in paragraph at lines 214--215
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--238
+Underfull \hbox (badness 10000) in paragraph at lines 217--221
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--244
+Underfull \hbox (badness 10000) in paragraph at lines 222--226
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--248
+Underfull \hbox (badness 10000) in paragraph at lines 228--233
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--251
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--256
+Underfull \vbox (badness 3168) has occurred while \output is active []
+
+ [7]
+Underfull \hbox (badness 10000) in paragraph at lines 248--252
 
  []
 
-[7]
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 258--261
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--264
+Underfull \hbox (badness 10000) in paragraph at lines 262--267
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--267
+Underfull \hbox (badness 10000) in paragraph at lines 269--271
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--271
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
+
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 275--279
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 273--282
+Underfull \hbox (badness 10000) in paragraph at lines 281--284
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--286
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
 
  []
 
 
-Underfull \vbox (badness 4886) has occurred while \output is active []
-
- [8]
-Underfull \hbox (badness 10000) in paragraph at lines 287--293
+Underfull \hbox (badness 10000) in paragraph at lines 288--290
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--297
+Underfull \hbox (badness 10000) in paragraph at lines 291--294
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--302
+Underfull \hbox (badness 10000) in paragraph at lines 296--305
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 308--309
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 305--306
+Underfull \hbox (badness 10000) in paragraph at lines 310--316
 
  []
 
 
-Overfull \hbox (24.46272pt too wide) in paragraph at lines 308--323
+Underfull \hbox (badness 10000) in paragraph at lines 318--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--325
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 328--329
+
+ []
+
+
+Overfull \hbox (24.46272pt too wide) in paragraph at lines 331--346
 \T1/LinuxLibertineT-TLF/m/n/12 * X-axis: mutlti-ple iden-ti-cal copies of app b
 e-hind load bal-ancer --> im-prove ca-pac-ity/availability 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 308--323
+Underfull \hbox (badness 10000) in paragraph at lines 331--346
 
  []
 
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 325--328
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 329--332
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 348--351
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 333--342
+Underfull \hbox (badness 10000) in paragraph at lines 352--355
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 344--352
+Underfull \hbox (badness 10000) in paragraph at lines 356--365
 
  []
 
 
-Underfull \vbox (badness 4752) has occurred while \output is active []
-
- [10]
-Underfull \hbox (badness 10000) in paragraph at lines 354--355
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 356--362
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 364--366
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 368--371
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 374--375
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 376--381
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 382--383
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 387--390
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 392--393
+Underfull \hbox (badness 10000) in paragraph at lines 367--375
 
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 394--395
+Underfull \hbox (badness 10000) in paragraph at lines 377--378
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 396--403
+Underfull \hbox (badness 10000) in paragraph at lines 379--385
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 387--389
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 391--394
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 397--398
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 399--404
 
  []
 
@@ -2012,30 +1990,60 @@ Underfull \hbox (badness 10000) in paragraph at lines 405--406
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 412--415
+Underfull \hbox (badness 10000) in paragraph at lines 410--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 416--421
+Underfull \hbox (badness 10000) in paragraph at lines 415--416
+
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 417--418
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 424--425
+Underfull \hbox (badness 10000) in paragraph at lines 419--426
 
  []
 
-) (sections/CoCoME.tex [12]
+
+Underfull \hbox (badness 10000) in paragraph at lines 428--429
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 435--438
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 439--444
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 447--448
+
+ []
+
+) (sections/background.tex [13] [14
+
+
+]
 chapter 2.
-) (sections/stateOfTheArt.tex [13
-
-
-] [14
+) (sections/CoCoME.tex [15] [16
 
 
 ]
 chapter 3.
+) (sections/stateOfTheArt.tex [17] [18
+
+
+]
+chapter 4.
 
 Underfull \hbox (badness 10000) in paragraph at lines 41--41
 []|\T1/LinuxLibertineT-TLF/m/n/12 Extraction of
@@ -2192,7 +2200,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [15]
+ [19]
 Underfull \hbox (badness 10000) in paragraph at lines 51--54
 
  []
@@ -2211,7 +2219,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--69
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [16]
+ [20]
 Underfull \hbox (badness 10000) in paragraph at lines 71--74
 
  []
@@ -2230,7 +2238,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--82
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17]
+ [21]
 Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
@@ -2250,7 +2258,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 105--115
 
  []
 
-[18]
+[22]
 Underfull \hbox (badness 10000) in paragraph at lines 117--118
 
  []
@@ -2291,7 +2299,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 143--153
 
  []
 
-[19]
+[23]
 Underfull \hbox (badness 10000) in paragraph at lines 155--156
 
  []
@@ -2321,7 +2329,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 185--208
 
  []
 
-[20]
+[24]
 Underfull \hbox (badness 10000) in paragraph at lines 211--214
 
  []
@@ -2336,7 +2344,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 223--231
 
  []
 
-[21]
+[25]
 Overfull \hbox (18.40253pt too wide) in paragraph at lines 234--243
 \T1/LinuxLibertineT-TLF/m/n/12 * op-er-a-tion/relation ta-ble: re-la-tion-ship 
 be-tween each op and state vari-able this op reads/writes 
@@ -2352,7 +2360,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 255--261
 
  []
 
-[22]
+[26]
 Underfull \hbox (badness 10000) in paragraph at lines 264--269
 
  []
@@ -2377,7 +2385,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 294--300
 
  []
 
-[23]
+[27]
 Underfull \hbox (badness 10000) in paragraph at lines 302--312
 
  []
@@ -2403,7 +2411,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 322--330
 
  []
 
-[24]
+[28]
 Overfull \hbox (14.01733pt too wide) in paragraph at lines 331--339
 \T1/LinuxLibertineT-TLF/m/n/12 * SC cre-ates uni-di-rected weighted graph with 
 nodes that rep-re-sent na-noen-ti-ties and weighted
@@ -2447,7 +2455,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 371--381
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25]
+ [29]
 Underfull \hbox (badness 10000) in paragraph at lines 382--388
 
  []
@@ -2467,22 +2475,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 410--415
 
  []
 
-[26]) (sections/solutionOverview.tex [27] [28
-
-
-]
-chapter 4.
-) (sections/evaluationPlanning.tex [29] [30
+[30]) (sections/solutionOverview.tex [31] [32
 
 
 ]
 chapter 5.
-) (sections/timetable.tex [31] [32
+) (sections/evaluationPlanning.tex [33] [34
 
 
 ]
 chapter 6.
-) [33] [34
+) (sections/timetable.tex [35] [36
+
+
+]
+chapter 7.
+) [37] [38
 
 
 ]
@@ -2497,12 +2505,12 @@ LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 (Font)              scaled to size 9.35999pt on input line 134.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 8.8pt on input line 134.
- [35]
-(sections/appendix.tex [36]
+ [39]
+(sections/appendix.tex [40]
 chapter A.
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 142.
- [37
+ [41
 
 
 ]
@@ -2515,10 +2523,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25455 strings out of 492946
- 480082 string characters out of 3135518
- 1093494 words of memory out of 3000000
- 28861 multiletter control sequences out of 15000+200000
+ 25470 strings out of 492946
+ 479976 string characters out of 3135518
+ 1094095 words of memory out of 3000000
+ 28869 multiletter control sequences out of 15000+200000
  151553 words of font info for 117 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  63i,20n,84p,9088b,2282s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2531,50 +2539,56 @@ pdfTeX warning (dest): name{appendix.A} has been referenced but does not exist,
 pdfTeX warning (dest): name{chapter*.6} has been referenced but does not exist,
  replaced by a fixed one
 
+pdfTeX warning (dest): name{section.7.1} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.7} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{section.6.2} has been referenced but does not exist
+, replaced by a fixed one
+
 pdfTeX warning (dest): name{section.6.1} has been referenced but does not exist
 , replaced by a fixed one
 
 pdfTeX warning (dest): name{chapter.6} has been referenced but does not exist, 
 replaced by a fixed one
 
-pdfTeX warning (dest): name{section.5.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5.1} has been referenced but does not exist
-, replaced by a fixed one
-
 pdfTeX warning (dest): name{chapter.5} has been referenced but does not exist, 
 replaced by a fixed one
 
+pdfTeX warning (dest): name{subsection.4.2.8} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.2.7} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.2.6} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.2.5} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.2.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.2.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.2.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.2.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.4.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.4.1} has been referenced but does not exist
+, replaced by a fixed one
+
 pdfTeX warning (dest): name{chapter.4} has been referenced but does not exist, 
 replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.2.8} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.2.7} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.2.6} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.2.5} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.2.4} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.2.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.2.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.2.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.2} has been referenced but does not exist
-, replaced by a fixed one
 
 pdfTeX warning (dest): name{section.3.1} has been referenced but does not exist
 , replaced by a fixed one
@@ -2582,68 +2596,74 @@ pdfTeX warning (dest): name{section.3.1} has been referenced but does not exist
 pdfTeX warning (dest): name{chapter.3} has been referenced but does not exist, 
 replaced by a fixed one
 
+pdfTeX warning (dest): name{section.2.2} has been referenced but does not exist
+, replaced by a fixed one
+
 pdfTeX warning (dest): name{section.2.1} has been referenced but does not exist
 , replaced by a fixed one
 
 pdfTeX warning (dest): name{chapter.2} has been referenced but does not exist, 
 replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.1.4.19} has been referenced but does not
+pdfTeX warning (dest): name{subsection.1.5.19} has been referenced but does not
  exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.1.4.18} has been referenced but does not
+pdfTeX warning (dest): name{subsection.1.5.18} has been referenced but does not
  exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.1.4.17} has been referenced but does not
+pdfTeX warning (dest): name{subsection.1.5.17} has been referenced but does not
  exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.1.4.16} has been referenced but does not
+pdfTeX warning (dest): name{subsection.1.5.16} has been referenced but does not
  exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.1.4.15} has been referenced but does not
+pdfTeX warning (dest): name{subsection.1.5.15} has been referenced but does not
  exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.1.4.14} has been referenced but does not
+pdfTeX warning (dest): name{subsection.1.5.14} has been referenced but does not
  exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.1.4.13} has been referenced but does not
+pdfTeX warning (dest): name{subsection.1.5.13} has been referenced but does not
  exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.1.4.12} has been referenced but does not
+pdfTeX warning (dest): name{subsection.1.5.12} has been referenced but does not
  exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.1.4.11} has been referenced but does not
+pdfTeX warning (dest): name{subsection.1.5.11} has been referenced but does not
  exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.1.4.10} has been referenced but does not
+pdfTeX warning (dest): name{subsection.1.5.10} has been referenced but does not
  exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.1.4.9} has been referenced but does not 
+pdfTeX warning (dest): name{subsection.1.5.9} has been referenced but does not 
 exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.1.4.8} has been referenced but does not 
+pdfTeX warning (dest): name{subsection.1.5.8} has been referenced but does not 
 exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.1.4.7} has been referenced but does not 
+pdfTeX warning (dest): name{subsection.1.5.7} has been referenced but does not 
 exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.1.4.6} has been referenced but does not 
+pdfTeX warning (dest): name{subsection.1.5.6} has been referenced but does not 
 exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.1.4.5} has been referenced but does not 
+pdfTeX warning (dest): name{subsection.1.5.5} has been referenced but does not 
 exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.1.4.4} has been referenced but does not 
+pdfTeX warning (dest): name{subsection.1.5.4} has been referenced but does not 
 exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.1.4.3} has been referenced but does not 
+pdfTeX warning (dest): name{subsection.1.5.3} has been referenced but does not 
 exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.1.4.2} has been referenced but does not 
+pdfTeX warning (dest): name{subsection.1.5.2} has been referenced but does not 
 exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.1.4.1} has been referenced but does not 
+pdfTeX warning (dest): name{subsection.1.5.1} has been referenced but does not 
 exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.1.5} has been referenced but does not exist
+, replaced by a fixed one
 
 pdfTeX warning (dest): name{section.1.4} has been referenced but does not exist
 , replaced by a fixed one
@@ -2680,9 +2700,9 @@ ikolaus/AppData/Roaming/MiKTeX/2.9/fonts/type1/adobe/sourcesanspro/SourceSansPr
 o-Bold.pfb><C:/Users/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/type1/adobe/sour
 cesanspro/SourceSansPro-Semibold.pfb><C:/Users/Nikolaus/AppData/Roaming/MiKTeX/
 2.9/fonts/type1/bera/fvmr8a.pfb>
-Output written on thesis.pdf (53 pages, 475840 bytes).
+Output written on thesis.pdf (55 pages, 482877 bytes).
 PDF statistics:
- 464 PDF objects out of 1000 (max. 8388607)
- 48 named destinations out of 1000 (max. 500000)
- 400 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 488 PDF objects out of 1000 (max. 8388607)
+ 52 named destinations out of 1000 (max. 500000)
+ 432 words of extra memory for PDF output out of 10000 (max. 10000000)
 
