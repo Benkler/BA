@@ -573,6 +573,49 @@
       \field{pages}{11\bibrangedash 20}
       \range{pages}{10}
     \endentry
+    \entry{TowardsTechnique}{article}{}
+      \name{author}{3}{}{%
+        {{hash=7a797524591294074b5f53214661b416}{%
+           family={Levcovitz},
+           familyi={L\bibinitperiod},
+           given={Alessandra},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ff1de5869662a07aee9ce8d35a66a1e6}{%
+           family={Terra},
+           familyi={T\bibinitperiod},
+           given={Ricardo},
+           giveni={R\bibinitperiod}}}%
+        {{hash=f324ce400373656751c8c5ec06005410}{%
+           family={Valente},
+           familyi={V\bibinitperiod},
+           given={Marco\bibnamedelima Tulio},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{82f7d5fb63d1d6a0b5a4da4ecfaf66b2}
+      \strng{fullhash}{82f7d5fb63d1d6a0b5a4da4ecfaf66b2}
+      \strng{bibnamehash}{82f7d5fb63d1d6a0b5a4da4ecfaf66b2}
+      \strng{authorbibnamehash}{82f7d5fb63d1d6a0b5a4da4ecfaf66b2}
+      \strng{authornamehash}{82f7d5fb63d1d6a0b5a4da4ecfaf66b2}
+      \strng{authorfullhash}{82f7d5fb63d1d6a0b5a4da4ecfaf66b2}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{CoRR}
+      \field{title}{Towards a Technique for Extracting Microservices from Monolithic Enterprise Systems}
+      \field{volume}{abs/1605.03175}
+      \field{year}{2016}
+      \verb{eprint}
+      \verb 1605.03175
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1605.03175
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1605.03175
+      \endverb
+    \endentry
     \entry{MigratingCloud}{article}{}
       \name{author}{3}{}{%
         {{hash=11ccc60d0ab0725822a1eae13191a8ca}{%

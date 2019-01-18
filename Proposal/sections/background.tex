@@ -3,31 +3,27 @@
 
 \section{Monolithic Software Architecture}
 \label{sec:background:monolith}
-The monolithic software architecture is a well-known and the most widely used pattern for Enterprise Applications, which usually are built in three main parts: The client-side user interface (Tier 3), the server-side application (Tier 2) and the persistence layer (Tier 1). The server-side application - \textit{the monolith} - is a single unit and deployed on one application server \cite{infoq}. The monolith implements a complex domain model, including all functions, many domain entities and their relationships.
+The monolithic software architecture is a well-known and the most widely used pattern for Enterprise Applications, which usually are built in three main parts (top to bottom): The client-side user interface (Tier 3), the server-side application (Tier 2) and the persistence layer (Tier 1). The server-side application - \textit{the monolith} - is a single unit and deployed on one application server \cite{infoq}. The software structure, if well defined, is composed of self-contained modules (i.e. software components), where each module consists of a set of functions \cite{HeuristicsAlwis}.
+The monolith implements a complex domain model, including all functions, many domain entities and their relationships.
+For small applications, this approach works relatively well. They are simple to develop, test and deploy \cite{FunctionalDecompositionHeinrich}. Fast prototyping is supported by the current frameworks and development environments (IDE), which are still oriented around developing single applications \cite{infoq}.
 \\
-For small applications, this approach works relatively well. They are simple to develop, test and deploy. Fast prototyping is supported by the current frameworks and development environments (IDE), which are still oriented around developing single applications \cite{infoq}. Nevertheless, monoliths become complex and incomprehensible \cite{DataflowDrivenChen} when they grow in size. Alterations to the system, even though they might be small, result in a redeployment of the whole monolith application due to its nature being a single unit. 
+But once they grow in size, they become exceedingly difficult to understand and hard to maintain without reasonable effort \cite{FunctionalDecompositionHeinrich} \cite{ClassificationOfRefactoring}. A complex and large code base prevents a fast addition of new features and makes the application risky and expensive to evolve \cite{TowardsTechnique}.
+Alterations to the system, even though they might be small, result in a redeployment of the whole monolith application due to its nature being a single unit \cite{FunctionalDecompositionHeinrich}. Moreover, it is difficult to adopt newer technologies without rewriting the whole application, as monolith are build on a specific technology stack \cite{infoq} \cite{ExtractionMazlami}.\\
+Scaling is only possible by duplicating the entire application  - namely \textit{horizontal scaling}. Consequently, large portions of the infrastructure remains unused, if only parts of the application need to be upscaled or even used \cite{EnticeApproach} \cite{MigratingTowardsSurvey}. \\
+Chen et al. provide a short résumé:
 
-*Difficult to adopt new technology / infoq
-*One technology stack  / Mazlami
-*Large, complex, contain complex businedd process / heuristics
-*sw strucuture constists of self-contained mopdules (software components) from different subsystems, deployed on specific platform /heuristics
-* modules constis set of functions, sunvctions as number of operations manipulate BO by CRUD (centralized DB) /heur
-*grow in size, become a monstrous monolith after a fe xears --> Disadvantages outweight advantages/dataflow
-* complex, large code base holod back bug fixes/feature addtions, size slow down development and becom obstacle ro CD because of longe start-up time /dataflow
+\vspace*{\fill}
 
- * deployment easy, difficult to undersand and maintain -> once system evolves modularity is eroded /heinrich
- *every change to system requires redeployment of whole sytem /heincrich
+\centering
 
-*Legacy sytems: technical issues (system highly coupled, hard to maintain, side effects), business-related (long time to releaso new features, low productivity for developers) /insustrial survey
-
-* obscure structures make the product unmaintainbale with reasonable effort /classification process
-* developer cannot keep detailed insight into all components --> cumvesome to adapt newer technology
-* incapable to scale on module level, but rather duplciating whole application --> inefficient
+\textit{"Successful applications
+	are always growing in size and will eventually become a
+	monstrous monolith after a few years. Once this happens,
+	disadvantages of the monolithic architecture will outweigh
+	its advantages."} \cite{DataflowDrivenChen}
 
 
-* need to host whole app even if user only needs small oart --> large portions ov VM are unuse /entice
-
-
+\vspace*{\fill}
 
 
 \section{Microservices}
@@ -44,9 +40,12 @@ For small applications, this approach works relatively well. They are simple to 
 
 * Definition: an approach for developpn --> FOWLER  / interface
 
-*felexibility of large sclae distributed apps make them better cope wit operation, maintenance, evolution uncertainities __> improves maintenance costs an QuS /meta model
+*felexibility of large sclae distributed apps make them better cope wit operation, maintenance, evolution uncertainities --> improves maintenance costs an QuS /meta model
 
 *from scratch: Can be very expensinve and time consuming
+
+*size of s defined by its features it provides /workload based
+*effect on performance directly depends on relatioship between its features / workload base
 
 - Definition
 - Benefits
