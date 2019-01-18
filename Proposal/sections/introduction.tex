@@ -16,12 +16,54 @@ Nevertheless, decomposing a system in loosely coupled, fine-grained and independ
 
 \section{Problem Statement}
 \label{sec:Introduction:ProblemStatement}
-The decomposition process requires time and human resources. 
 
-tradeoff between size an number of ms \cite{interfaceAnalysisBaresi}
+*one of todays problem in designin ms is to decompose a system into lc, hc and fine grained microservices \cite{ObjectAwareAmiri}
+* challenging task because if interconnected functionality --> Problem know as microservice identification /amiri
+* microservice-oriented decompositin challenging and complex task, crucial and prerequisite role in devel microservice-based software systems /dataflow
+* address challnge and reduce complexity, we nee appproach /dataflow
+
+*how effecively decompose monolithic application in suite of small ms, process usually ba hand /dataflow
+
+* tradeoff between size an number of ms \cite{interfaceAnalysisBaresi}
+
+* in theory many benefits, but manual and complex decompostiton process prevent it from achieving those benefits --> Consequencetly we need more effective decomposition / dataflow
+
+* key challenge: extraction of microservices from existing monolithic code base /mazlami
+* informal migration patterns, lack of formak models and automated tool support /mazlami
+*identifying components of monolithic applcation that can beturnen in ms is common problem, tedious manual effort, heavily relies ib experience, know hw id erperfts performing the extractrion /mazlami
+
+*tackling complexity of large apps by decomposing them into small pieces, each component resides within its own bounded context /robert
+* performed intuitively but provide inapropriate partition into services and getting service boundaries wrong can be costly
+
+* identification of "proper" ms not only aims to partition the system to ease maintenacne, but also defines how system will be abler to evolve and scale /interface
+
+*ambiguity of optimum size, cenceptual appriach is necessary n/domain engineering
+
+*finding tge optimal microservice boundarues (granularity) key design decision --> Influences QoS of ms app at runtime /meta-modelling
+* lack of systematic approaches that model ms design decision / meta model
+
+*finding right service granularity to fullyx levergae benefits / classification approach
+
+* mainly solution proposals follow by experience reports and opinion papers --> field is not mature yet /classification approach
 
 \section{Challenges}
 \label{sec:Introduction:Challenges}
+
+*highly interconnected, challenging task to decompose system intoa ppropriare ms / objet-aware
+
+* preserve coherent features (minimize cross talk) / heurisstics
+*restructuring technically cumbersome, tedious search, identifixcation of suitable parts, program code rewrites /heuristics
+* costly, error prone, millions LOCm multitude of functional dependecies across modules and software packages /heur
+*achieving high scala, availa, low system latencies through the cloud while atrtaining hc, lc between sw  components /heur
+*abstent of sound evaluation method aggravate challenges /heur
+
+* big challenge: Find appropriate partition of sytem into microservices /robert
+* ms architecture can significantly affect performance
+* microservice granularity/number of ms influence QoS /robert
+
+*Finding adequate granularity/cohesiveness of microservices /interface
+* tradeoff between size and numbe rof ms /interface
+
 
 \section{Thesis Outline}
 \label{sec_Introduction:ThesisOutline}

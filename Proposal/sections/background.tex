@@ -1,0 +1,54 @@
+\chapter{Background}
+\label{ch:background}
+
+\section{Monolithic Software Architecture}
+\label{sec:background:monolith}
+The monolithic software architecture is a well-known and the most widely used pattern for Enterprise Applications, which usually are built in three main parts: The client-side user interface (Tier 3), the server-side application (Tier 2) and the persistence layer (Tier 1). The server-side application - \textit{the monolith} - is a single unit and deployed on one application server \cite{infoq}. The monolith implements a complex domain model, including all functions, many domain entities and their relationships.
+\\
+For small applications, this approach works relatively well. They are simple to develop, test and deploy. Fast prototyping is supported by the current frameworks and development environments (IDE), which are still oriented around developing single applications \cite{infoq}. Nevertheless, monoliths become complex and incomprehensible \cite{DataflowDrivenChen} when they grow in size. Alterations to the system, even though they might be small, result in a redeployment of the whole monolith application due to its nature being a single unit. 
+
+*Difficult to adopt new technology / infoq
+*One technology stack  / Mazlami
+*Large, complex, contain complex businedd process / heuristics
+*sw strucuture constists of self-contained mopdules (software components) from different subsystems, deployed on specific platform /heuristics
+* modules constis set of functions, sunvctions as number of operations manipulate BO by CRUD (centralized DB) /heur
+*grow in size, become a monstrous monolith after a fe xears --> Disadvantages outweight advantages/dataflow
+* complex, large code base holod back bug fixes/feature addtions, size slow down development and becom obstacle ro CD because of longe start-up time /dataflow
+
+ * deployment easy, difficult to undersand and maintain -> once system evolves modularity is eroded /heinrich
+ *every change to system requires redeployment of whole sytem /heincrich
+
+*Legacy sytems: technical issues (system highly coupled, hard to maintain, side effects), business-related (long time to releaso new features, low productivity for developers) /insustrial survey
+
+* obscure structures make the product unmaintainbale with reasonable effort /classification process
+* developer cannot keep detailed insight into all components --> cumvesome to adapt newer technology
+* incapable to scale on module level, but rather duplciating whole application --> inefficient
+
+
+* need to host whole app even if user only needs small oart --> large portions ov VM are unuse /entice
+
+
+
+
+\section{Microservices}
+\label{sec:background:microservices}
+* gain popularity industy and academia to ovecome shortcoming of monolit /amiri
+
+* scale up, replicated through the cloud / heuristisvs
+
+* alternative way, overcome challenges of monolithic / dataflow
+* own its domain model (data, logic, behaviour) /robert
+*  relted functionality combine in singel business capability (bounded contexts)
+* each ms implements one such capability /robert
+*enable traceability between requirements and syste structure --> only one ms has to change and redeployed in case of update /robert
+
+* Definition: an approach for developpn --> FOWLER  / interface
+
+*felexibility of large sclae distributed apps make them better cope wit operation, maintenance, evolution uncertainities __> improves maintenance costs an QuS /meta model
+
+*from scratch: Can be very expensinve and time consuming
+
+- Definition
+- Benefits
+- Disadvantages
+
