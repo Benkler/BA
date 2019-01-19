@@ -686,6 +686,20 @@
       \field{pages}{524\bibrangedash 531}
       \range{pages}{8}
     \endentry
+    \entry{Fowler}{misc}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{News}
+      \field{note}{Accessed on 17.01.2019}
+      \field{title}{Microservices}
+      \verb{urlraw}
+      \verb https://martinfowler.com/articles/microservices.html
+      \endverb
+      \verb{url}
+      \verb https://martinfowler.com/articles/microservices.html
+      \endverb
+    \endentry
     \entry{mittelbach2014}{article}{}
       \name{author}{1}{}{%
         {{hash=9355edd511e3f6fdd880ee98722a53fb}{%

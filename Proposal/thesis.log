@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.11)  18 JAN 2019 15:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.11)  19 JAN 2019 18:41
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1676,181 +1676,196 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 11
 chapter 1.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/b/n' will be
 (Font)              scaled to size 15.89755pt on input line 10.
-
-Overfull \hbox (5.9488pt too wide) in paragraph at lines 12--15
-\T1/LinuxLibertineT-TLF/m/n/12 The mi-croser-vice ar-chi-tec-tural style has ma
-ny ad-van-tages over the mono-lithic style. Sec.2.2
- []
-
 [1
 
 
 ]
-Overfull \hbox (0.99797pt too wide) in paragraph at lines 54--55
+Overfull \hbox (0.99797pt too wide) in paragraph at lines 34--35
 \T1/LinuxLibertineT-TLF/m/n/12 *highly in-ter-con-nected, chal-leng-ing task to
  de-com-pose sys-tem in-toa ppro-pri-are ms / objet-
  []
 
-[2]
-Overfull \hbox (1.26988pt too wide) in paragraph at lines 56--61
+
+Overfull \hbox (1.26988pt too wide) in paragraph at lines 36--41
 \T1/LinuxLibertineT-TLF/m/n/12 /heuris-tics * costly, er-ror prone, mil-lions L
 OCm mul-ti-tude of func-tional de-pen-de-cies across
  []
 
+[2]
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/b/n' will be
-(Font)              scaled to size 13.24796pt on input line 89.
+(Font)              scaled to size 13.24796pt on input line 69.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/sb/n' will be
-(Font)              scaled to size 13.24796pt on input line 89.
+(Font)              scaled to size 13.24796pt on input line 69.
 
-Overfull \hbox (3.0059pt too wide) in paragraph at lines 90--97
+Overfull \hbox (3.0059pt too wide) in paragraph at lines 70--77
 \T1/LinuxLibertineT-TLF/m/n/12 ing re-la-tion-ships be-tween re-quired sytem op
 -er-a-tions and state vari-able that ops read/write,
  []
 
 
-Overfull \hbox (16.39287pt too wide) in paragraph at lines 90--97
+Overfull \hbox (16.39287pt too wide) in paragraph at lines 70--77
 \T1/LinuxLibertineT-TLF/m/n/12 [4]: Dataflow-driven, Top down dataflow-driven d
 e-com-po-si-tion al-go-rithm, pu-ri-fied dataflow-
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 119--133
+Underfull \hbox (badness 10000) in paragraph at lines 99--113
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--139
+Underfull \hbox (badness 10000) in paragraph at lines 114--119
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--130
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 143--150
+Underfull \hbox (badness 10000) in paragraph at lines 131--137
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--157
+Underfull \hbox (badness 10000) in paragraph at lines 138--142
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--162
+Underfull \hbox (badness 10000) in paragraph at lines 147--149
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--169
+Underfull \hbox (badness 10000) in paragraph at lines 150--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--175
+Underfull \hbox (badness 10000) in paragraph at lines 158--161
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 178--181
+Underfull \hbox (badness 10000) in paragraph at lines 162--165
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--185
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--188
+Underfull \hbox (badness 10000) in paragraph at lines 169--170
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--190
+Underfull \hbox (badness 10000) in paragraph at lines 172--181
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--201
+Underfull \hbox (badness 10000) in paragraph at lines 185--192
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--212
-
- []
-
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 215--216
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--226
+Underfull \vbox (badness 1496) has occurred while \output is active []
+
+ [6]
+Underfull \hbox (badness 10000) in paragraph at lines 197--206
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--235
+Underfull \hbox (badness 10000) in paragraph at lines 207--215
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--240
+Underfull \hbox (badness 10000) in paragraph at lines 217--220
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--245
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
 
  []
 
 
-Underfull \vbox (badness 1939) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 226--228
+
+ []
+
+
+Underfull \vbox (badness 2165) has occurred while \output is active []
 
  [7]
-Underfull \hbox (badness 10000) in paragraph at lines 246--248
+Underfull \hbox (badness 10000) in paragraph at lines 229--233
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--253
+Underfull \hbox (badness 10000) in paragraph at lines 235--238
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--258
+Underfull \hbox (badness 10000) in paragraph at lines 240--241
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--261
+Underfull \hbox (badness 10000) in paragraph at lines 243--247
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--267
+Underfull \hbox (badness 10000) in paragraph at lines 248--252
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--272
+Underfull \hbox (badness 10000) in paragraph at lines 254--259
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--279
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
+
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 274--278
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--282
+Underfull \hbox (badness 10000) in paragraph at lines 279--280
 
  []
 
 
-Underfull \vbox (badness 3168) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 284--287
 
- [8]
-Underfull \hbox (badness 10000) in paragraph at lines 294--298
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--293
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 295--297
 
  []
 
@@ -1860,188 +1875,180 @@ Underfull \hbox (badness 10000) in paragraph at lines 299--300
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 304--307
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 308--313
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 315--317
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 319--320
+Underfull \hbox (badness 10000) in paragraph at lines 301--305
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 321--325
+Underfull \hbox (badness 10000) in paragraph at lines 307--310
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 327--330
+Underfull \hbox (badness 10000) in paragraph at lines 312--313
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--333
+Underfull \hbox (badness 10000) in paragraph at lines 314--316
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 334--336
+Underfull \hbox (badness 10000) in paragraph at lines 317--320
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 337--340
+Underfull \hbox (badness 10000) in paragraph at lines 322--331
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 342--351
+Underfull \hbox (badness 10000) in paragraph at lines 334--335
 
  []
 
-[10]
+
+Underfull \vbox (badness 4886) has occurred while \output is active []
+
+ [10]
+Underfull \hbox (badness 10000) in paragraph at lines 336--342
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 344--346
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--351
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 354--355
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 356--362
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 364--366
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 368--371
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 374--375
-
- []
-
-
-Overfull \hbox (24.46272pt too wide) in paragraph at lines 377--392
+Overfull \hbox (24.46272pt too wide) in paragraph at lines 357--372
 \T1/LinuxLibertineT-TLF/m/n/12 * X-axis: mutlti-ple iden-ti-cal copies of app b
 e-hind load bal-ancer --> im-prove ca-pac-ity/availability 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 377--392
+Underfull \hbox (badness 10000) in paragraph at lines 357--372
 
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 394--397
+Underfull \hbox (badness 10000) in paragraph at lines 374--377
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--401
+Underfull \hbox (badness 10000) in paragraph at lines 378--381
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 402--411
+Underfull \hbox (badness 10000) in paragraph at lines 382--391
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 413--421
+Underfull \hbox (badness 10000) in paragraph at lines 393--401
 
  []
 
-[12]
+
+Underfull \vbox (badness 4752) has occurred while \output is active []
+
+ [12]
+Underfull \hbox (badness 10000) in paragraph at lines 403--404
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 405--411
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 413--415
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--420
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 423--424
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 425--431
+Underfull \hbox (badness 10000) in paragraph at lines 425--430
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 433--435
+Underfull \hbox (badness 10000) in paragraph at lines 431--432
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 437--440
+Underfull \hbox (badness 10000) in paragraph at lines 436--439
 
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 441--442
+
+ []
+
+[13]
 Underfull \hbox (badness 10000) in paragraph at lines 443--444
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 445--450
+Underfull \hbox (badness 10000) in paragraph at lines 445--452
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 451--452
+Underfull \hbox (badness 10000) in paragraph at lines 454--455
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 456--459
+Underfull \hbox (badness 10000) in paragraph at lines 461--464
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 461--462
-
- []
-
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 463--464
+Underfull \hbox (badness 10000) in paragraph at lines 465--470
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 465--472
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 474--475
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 481--484
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 485--490
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 493--494
+Underfull \hbox (badness 10000) in paragraph at lines 473--474
 
  []
 
 ) (sections/background.tex [14]
 chapter 2.
+
+Overfull \hbox (1.24924pt too wide) in paragraph at lines 43--51
+\T1/LinuxLibertineT-TLF/m/n/12 Communication be-tween mi-croser-vices is achiev
+ed by lightweight mes-sage pass-ing mech-
+ []
+
 [15
 
 
@@ -2212,32 +2219,296 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19]
+Underfull \hbox (badness 10000) in paragraph at lines 51--54
+
+ []
+
+
+Overfull \hbox (18.2486pt too wide) in paragraph at lines 56--69
+\T1/LinuxLibertineT-TLF/m/n/12 from do-main, ex-am-ine con-tents/semantics of s
+ource code, term-frequency invese-documents-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--69
+
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [20]
-Underfull \vbox (badness 3713) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 71--74
+
+ []
+
+
+Overfull \hbox (18.11276pt too wide) in paragraph at lines 76--82
+\T1/LinuxLibertineT-TLF/m/n/12 + unites tra-di-tional de-com-po-si-tion tech-ni
+ques and mi-croser-vice ex-trac-tion ap-proaches/design
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--82
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [21]
-[22] [23]
-Underfull \vbox (badness 3417) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
- [24]
-[25] [26] [27] [28] [29]) (sections/solutionOverview.tex [30]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--100
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--115
+
+ []
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--132
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
+
+ []
+
+
+Overfull \hbox (1.60748pt too wide) in paragraph at lines 136--140
+\T1/LinuxLibertineT-TLF/m/n/12 * Sim-ply said: Get some domain-experts and let 
+them cut your do-main in dif-fer-ent bounded
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--140
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--153
+
+ []
+
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--161
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--175
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--208
+
+ []
+
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 211--214
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--222
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--231
+
+ []
+
+[25]
+Overfull \hbox (18.40253pt too wide) in paragraph at lines 234--243
+\T1/LinuxLibertineT-TLF/m/n/12 * op-er-a-tion/relation ta-ble: re-la-tion-ship 
+be-tween each op and state vari-able this op reads/writes 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--243
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--261
+
+ []
+
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 264--269
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 279--284
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 285--292
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--300
+
+ []
+
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 302--312
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--314
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--319
+
+ []
+
+
+Overfull \hbox (4.84204pt too wide) in paragraph at lines 322--330
+\T1/LinuxLibertineT-TLF/m/n/12 * ser-vice re-quires re-sources: Data (should on
+ly man-aged by one ser-vice), op-er-a-tions(service
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--330
+
+ []
+
+[28]
+Overfull \hbox (14.01733pt too wide) in paragraph at lines 331--339
+\T1/LinuxLibertineT-TLF/m/n/12 * SC cre-ates uni-di-rected weighted graph with 
+nodes that rep-re-sent na-noen-ti-ties and weighted
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--339
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 340--341
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 344--352
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 353--354
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 355--359
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 360--367
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 371--381
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29]
+Underfull \hbox (badness 10000) in paragraph at lines 382--388
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 389--397
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--406
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--415
+
+ []
+
+[30]) (sections/solutionOverview.tex [31] [32
+
+
+]
 chapter 5.
-) (sections/evaluationPlanning.tex [31
-
-
-] [32
+) (sections/evaluationPlanning.tex [33] [34
 
 
 ]
 chapter 6.
-) (sections/timetable.tex [33] [34
+) (sections/timetable.tex [35] [36
 
 
 ]
 chapter 7.
-) [35] [36
+) [37] [38
 
 
 ]
@@ -2250,15 +2521,15 @@ File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 (Font)              scaled to size 9.35999pt on input line 134.
- [37]
+ [39]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 8.8pt on input line 134.
 
-(sections/appendix.tex [38]
+(sections/appendix.tex [40]
 chapter A.
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 142.
- [39
+ [41
 
 
 ]
@@ -2271,10 +2542,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25472 strings out of 492946
- 480073 string characters out of 3135518
- 1094400 words of memory out of 3000000
- 28871 multiletter control sequences out of 15000+200000
+ 25476 strings out of 492946
+ 480172 string characters out of 3135518
+ 1094884 words of memory out of 3000000
+ 28874 multiletter control sequences out of 15000+200000
  151553 words of font info for 117 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  63i,20n,84p,9088b,2282s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2343,6 +2614,9 @@ pdfTeX warning (dest): name{section.3.1} has been referenced but does not exist
 
 pdfTeX warning (dest): name{chapter.3} has been referenced but does not exist, 
 replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.2.1} has been referenced but does not 
+exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{section.2.2} has been referenced but does not exist
 , replaced by a fixed one
@@ -2448,9 +2722,9 @@ ikolaus/AppData/Roaming/MiKTeX/2.9/fonts/type1/adobe/sourcesanspro/SourceSansPr
 o-Bold.pfb><C:/Users/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/type1/adobe/sour
 cesanspro/SourceSansPro-Semibold.pfb><C:/Users/Nikolaus/AppData/Roaming/MiKTeX/
 2.9/fonts/type1/bera/fvmr8a.pfb>
-Output written on thesis.pdf (53 pages, 488213 bytes).
+Output written on thesis.pdf (55 pages, 492532 bytes).
 PDF statistics:
- 481 PDF objects out of 1000 (max. 8388607)
- 52 named destinations out of 1000 (max. 500000)
- 432 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 492 PDF objects out of 1000 (max. 8388607)
+ 53 named destinations out of 1000 (max. 500000)
+ 440 words of extra memory for PDF output out of 10000 (max. 10000000)
 

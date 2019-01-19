@@ -14,13 +14,15 @@ Chen et al. provide a short résumé:
 
 \vspace*{\fill}
 
-\centering
-
+\begin{center}
 \textit{"Successful applications
 	are always growing in size and will eventually become a
 	monstrous monolith after a few years. Once this happens,
 	disadvantages of the monolithic architecture will outweigh
 	its advantages."} \cite{DataflowDrivenChen}
+
+\end{center}
+
 
 
 \vspace*{\fill}
@@ -28,26 +30,23 @@ Chen et al. provide a short résumé:
 
 \section{Microservices}
 \label{sec:background:microservices}
-* gain popularity industy and academia to ovecome shortcoming of monolit /amiri
 
-* scale up, replicated through the cloud / heuristisvs
+\vspace*{\fill}
 
-* alternative way, overcome challenges of monolithic / dataflow
-* own its domain model (data, logic, behaviour) /robert
-*  relted functionality combine in singel business capability (bounded contexts)
-* each ms implements one such capability /robert
-*enable traceability between requirements and syste structure --> only one ms has to change and redeployed in case of update /robert
+\begin{center}
+\textit{ "The microservice architectural style is an approach to developing a single application as a suite of small services, each running in its own process and communicating with lightweight mechanisms, often an HTTP resource API." \cite{Fowler} }
+\end{center}
 
-* Definition: an approach for developpn --> FOWLER  / interface
+\vspace*{\fill}
 
-*felexibility of large sclae distributed apps make them better cope wit operation, maintenance, evolution uncertainities --> improves maintenance costs an QuS /meta model
+\subsection{Definition}
+The above quotation is a widely adopted definition of the term \textit{Microservice}, provided by M. Fowler and J. Lewis, the pioneers of the microservice architecture. However, the term is not formally defined. Amiri et al. describes microservices as a collection of cohesive and loosely coupled components, where each service implements a business capability.
+ The author introduces three principles upon which the architecture is build: \textit{Bounded Context, Size, Independence} \cite{ObjectAwareAmiri}. \\
+ The first principle is about related functionality, that is combined in a single business capability - the  \textit{bounded context} \cite{FunctionalDecompositionHeinrich}. Each capability is implemented by one microservice. 
+The \textit{Size} of a microservice is defined by the number of features it provides (namely bundled functional capabilities)  \cite{WorkloadbasedClustering}. There is no consensus about the "proper" size of a microservice \cite{DomainEngineeringMunezero}, but several guidelines exists: Services should focus on one business capability only \cite{ObjectAwareAmiri}. Others state, that the size of a microservice should not exceed a level, where it cannot be rewritten within six weeks \cite{WorkloadbasedClustering}. However, the sizes vary from system to system \cite{FunctionalDecompositionHeinrich} and even different sizes for each microservice in a specific system are possible \cite{DomainEngineeringMunezero}. The bottom line of \textit{Independence} is in Amiri's description of microservices as "a collection of high cohesive and loosely coupled components" \cite{ObjectAwareAmiri}. High cohesive services implement a relatively independent piece of business logic (at the most one business capability). Further, microservices should hardly depend on each other, which is the idea of being loosely coupled \cite{DataflowDrivenChen}.
+\\
+Communication between microservices is achieved by lightweight message passing mechanisms such as \textit{REST}. Each service exposes a well defined interface (\textit{API}) with endpoints that provide information using standard data formats \cite{FunctionalDecompositionHeinrich}. 
+The design of microservices mainly follows the \textit{Single Responsibility Principle (SRP)}: Each service should not have more than one reason to change \cite{TowardsUnderstandingEvolution}. The SRP mainly corresponds to the idea of not implementing more than one business capability.
+The following covers the benefits and challenges of the microservice architecture.
 
-*from scratch: Can be very expensinve and time consuming
-
-*size of s defined by its features it provides /workload based
-*effect on performance directly depends on relatioship between its features / workload base
-
-- Definition
-- Benefits
-- Disadvantages
 
