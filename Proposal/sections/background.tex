@@ -49,4 +49,33 @@ Communication between microservices is achieved by lightweight message passing m
 The design of microservices mainly follows the \textit{Single Responsibility Principle (SRP)}: Each service should not have more than one reason to change \cite{TowardsUnderstandingEvolution}. The SRP mainly corresponds to the idea of not implementing more than one business capability.
 The following covers the benefits and challenges of the microservice architecture.
 
+\subsection{Benefits}
+\textbf{Fast and Independent Deployment} \\
+As a matter of fact, each microservice is deployed independently \cite{interfaceAnalysisBaresi}. Changes to the code do not result in a full redeployment of the entire application \cite{FunctionalDecompositionHeinrich}. Consequently, software developers are able to react much quicker to changes in business requirements. This includes an acceleration in error correction. Per contra, any changes in a monolithic code base requires a time consuming build of a new version and the redeployment of the entire application \cite{Fowler}. \\
 
+\noindent
+\textbf{Availability, Resilience and Fault Isolation} \\
+Microservices are designed to operate independently of each other and to tolerate failure of services \cite{Fowler}. Large parts of the application remain unaffected of partly failures and the availability of the system is, at least partly guaranteed. Monolithic application do not provide this type of fault isolation. If a failure occurs, the whole application remains unavailable as it is usually running in a single process \cite{ExtractionMazlami}. 
+ 
+\noindent
+\textbf{Scalability and Resource Utilisation} \\
+Small and independent microservices allow more fine-granular horizontal scaling \cite{WorkloadbasedClustering}. Single services can be duplicated to cope with changing workload during runtime \cite{DataflowDrivenChen}. Thus, dynamic (de-)allocation of resources on demand prevent infrastructure from being idle \cite{HeuristicsAlwis}. Scaling monoliths can only be attained by duplicating the entire application , leaving resources unused \cite{ClassificationOfRefactoring}. Further, each microservice is deployed on the best suitable infrastructure for its needs, allowing a more efficient system organization \cite{infoq}. \\
+
+\noindent
+\textbf{Improved Productivity} \\
+In traditional software development, teams are divided based on their expertise: Database architects, UI-developers and server-side engineers, resulting in a three-tiered application (cf. Sec.\ref{sec:background:monolith}). Additionally, software engineers are responsible for the development only. Deployment is part of the operations team. This team structure results in high communication overhead and slows down the productivity \cite{Mazlami}. \\
+In contrast, microservices are organized around business capabilities requiring cross-functional and independent teams \cite{ObjectAwareAmiri}. Each team has the full range of skills required for the end-to-end realization of a microservice, including UI-development, database architecture, back-end engineers and project management. 
+This minimizes the communication and interaction between the teams and thus, speeds up the productivity. Ultimately, microservices enable a more agile flow of development and operation \cite{ClassificationOfRefactoring}, also referred as \textit{DevOps}. 
+\\
+
+
+\noindent
+\textbf{Neutral development technology} \\
+Microservices are highly decoupled from each other, as they use standardized and lightweight communication mechanisms such as REST \cite{FunctionalDecompositionHeinrich}. Microservices can be realized using different programming languages, technologies and even deployment environments \cite{DataflowDrivenChen}. Developers are consequently not longer limited to use a single technology for the whole application. They can choose the most appropriate technology for each particular business problem or try out some new technology without rewriting the whole application \cite{ServiceCutter} \cite{TowardsTechnique}. 
+
+
+
+
+\subsection{Challenges}
+
+*resilience complexitiy /fowler
