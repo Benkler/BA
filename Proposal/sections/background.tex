@@ -77,5 +77,33 @@ Microservices are highly decoupled from each other, as they use standardized and
 
 
 \subsection{Challenges}
+The previous section provides a vast amount of benefits that come with microservices. However, it is not the panacea of software engineering and has to face some challenges before being able to fully benefit from them. The challenges are further described in the following. \\
 
-*resilience complexitiy /fowler
+\noindent
+\textbf{Expensive Communication}\\
+Microservice use network protocols such as \textit{HTTP} to communicate with each other. Compared to standard, inter process communication (\textit{IPC}) as used in monoliths, remote procedure calls a more expensive \cite{SystematicMappingStudyMicroservice}. As a consequence, applications experience a decrease in performance as network communication is generally slower than IPC.\\
+
+\noindent
+\textbf{Technical Challenges}\\
+Microservices require a high degree of infrastructure automation \cite{MigratingTowardsSurvey}. The benefits of fast and independent deployment cannot be utilized, if it has to be done manually. Dynamic (de-)allocation of resources when scaling individual microservices need a well defined and structured cloud environment \cite{MigratingCloud}. 
+Besides, the distributed microservice landscape complicates the logging mechanisms and performance monitoring \cite{SystematicMappingStudyMicroservice}. Traditional centralized logging, as it is used in monolithic applications, is not longer applicable. Instead, a careful aggregation system to gather logging and monitoring data from each service is required.\\
+
+\noindent
+\textbf{Organizational Challenges}\\
+The microservice approach needs the establishment of cross-functional teams \cite{Fowler}. Adopting \textit{Continuous Practices}, such as \textit{Continuous Deployment}, are essential for the success of a profitable microservice architecture. Therefore, closer collaboration between development teams, operational staff and management has to be established. In summary, a costly and time consuming restructuring process of the entire organization is required \cite{NikoProseminar}. \\
+
+
+\noindent
+\textbf{Data Consistency}\\
+Distributed systems need to share data. Heinrich et al. propose two concepts for the database architecture \cite{FunctionalDecompositionHeinrich}: The first concept applies the basic idea of the microservice approach, as it splits the database into several parts. Each microservice has its own database which manages the entities that belong to the corresponding bounded context. Higher speed and horizontal scaling are facing data consistency issues. Data needs to be synchronized which leads to inconsistency, if services are unavailable. The second concept is about sharing a single database. This approach overcomes the issue of consistency, as data is stored centrally. But sharing results in a loss of independence. Scaling can only be achieved through replicating the whole database. Research revealed, that the first concept is preferred \cite{FunctionalDecompositionHeinrich}. 
+
+
+
+\noindent
+\textbf{Decomposition}\\
+Decomposing a system into microservice is a very complex task that requires experienced system architects and domain experts \cite{Fowler}. Identifying the right granularity of microservice is one of the key issues. Too fine grained services cause inefficiency due to a high amount of expensive inter-service calls \cite{DomainEngineeringMunezero}. Developing the basic communication infrastructure adds additional complexity and slows down the initial developing process \cite{infoq}. 
+
+
+
+
+

@@ -19,20 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
-    \entry{Mazlami}{misc}{}
-      \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Master Thesis}
-      \field{note}{Accessed on 20.01.2019}
-      \field{title}{Algorithmic Extraction of Microservices from Monolithic Code Bases}
-      \verb{urlraw}
-      \verb https://www.merlin.uzh.ch/contributionDocument/download/10978
-      \endverb
-      \verb{url}
-      \verb https://www.merlin.uzh.ch/contributionDocument/download/10978
-      \endverb
-    \endentry
     \entry{SystematicMappingStudyMicroservice}{article}{}
       \name{author}{3}{}{%
         {{hash=4dc5d057f2998633aebef8ce0d255a64}{%
@@ -157,6 +143,34 @@
       \field{year}{2017}
       \field{pages}{19\bibrangedash 33}
       \range{pages}{15}
+    \endentry
+    \entry{NikoProseminar}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=6f28ee7674aeeca2b141276b86e2bc86}{%
+           family={Benkler},
+           familyi={B\bibinitperiod},
+           given={Niko},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{6f28ee7674aeeca2b141276b86e2bc86}
+      \strng{fullhash}{6f28ee7674aeeca2b141276b86e2bc86}
+      \strng{bibnamehash}{6f28ee7674aeeca2b141276b86e2bc86}
+      \strng{authorbibnamehash}{6f28ee7674aeeca2b141276b86e2bc86}
+      \strng{authornamehash}{6f28ee7674aeeca2b141276b86e2bc86}
+      \strng{authorfullhash}{6f28ee7674aeeca2b141276b86e2bc86}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Seminar Paper}
+      \field{note}{Accessed on 20.01.2019}
+      \field{title}{From Traditional Development to Continuous Deployment: Strategies and Practices in CI/CD Pipelines}
+      \verb{urlraw}
+      \verb https://github.com/Benkler/Proseminar/blob/master/Niko_Benkler_Proseminar.pdf
+      \endverb
+      \verb{url}
+      \verb https://github.com/Benkler/Proseminar/blob/master/Niko_Benkler_Proseminar.pdf
+      \endverb
     \endentry
     \entry{DataflowDrivenChen}{article}{}
       \name{author}{3}{}{%
@@ -322,6 +336,34 @@
       \field{year}{2016}
       \field{pages}{1\bibrangedash 11}
       \range{pages}{11}
+    \endentry
+    \entry{Fowler}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=1abb0498d50c3ee02c7d511a8108458d}{%
+           family={Fowler},
+           familyi={F\bibinitperiod},
+           given={Lewis},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{1abb0498d50c3ee02c7d511a8108458d}
+      \strng{fullhash}{1abb0498d50c3ee02c7d511a8108458d}
+      \strng{bibnamehash}{1abb0498d50c3ee02c7d511a8108458d}
+      \strng{authorbibnamehash}{1abb0498d50c3ee02c7d511a8108458d}
+      \strng{authornamehash}{1abb0498d50c3ee02c7d511a8108458d}
+      \strng{authorfullhash}{1abb0498d50c3ee02c7d511a8108458d}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{News}
+      \field{note}{Accessed on 17.01.2019}
+      \field{title}{Microservices}
+      \verb{urlraw}
+      \verb https://martinfowler.com/articles/microservices.html
+      \endverb
+      \verb{url}
+      \verb https://martinfowler.com/articles/microservices.html
+      \endverb
     \endentry
     \entry{MigratingTowardsSurvey}{article}{}
       \name{author}{3}{}{%
@@ -700,18 +742,32 @@
       \field{pages}{524\bibrangedash 531}
       \range{pages}{8}
     \endentry
-    \entry{Fowler}{misc}{}
+    \entry{Mazlami}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=4173e736060981e0dc4a5836227b120a}{%
+           family={Mazlami},
+           familyi={M\bibinitperiod},
+           given={Genc},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{4173e736060981e0dc4a5836227b120a}
+      \strng{fullhash}{4173e736060981e0dc4a5836227b120a}
+      \strng{bibnamehash}{4173e736060981e0dc4a5836227b120a}
+      \strng{authorbibnamehash}{4173e736060981e0dc4a5836227b120a}
+      \strng{authornamehash}{4173e736060981e0dc4a5836227b120a}
+      \strng{authorfullhash}{4173e736060981e0dc4a5836227b120a}
       \field{sortinit}{M}
       \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{News}
-      \field{note}{Accessed on 17.01.2019}
-      \field{title}{Microservices}
+      \field{journaltitle}{Master Thesis}
+      \field{note}{Accessed on 20.01.2019}
+      \field{title}{Algorithmic Extraction of Microservices from Monolithic Code Bases}
       \verb{urlraw}
-      \verb https://martinfowler.com/articles/microservices.html
+      \verb https://www.merlin.uzh.ch/contributionDocument/download/10978
       \endverb
       \verb{url}
-      \verb https://martinfowler.com/articles/microservices.html
+      \verb https://www.merlin.uzh.ch/contributionDocument/download/10978
       \endverb
     \endentry
     \entry{mittelbach2014}{article}{}

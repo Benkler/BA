@@ -2093,16 +2093,27 @@
     <bcf:citekey order="96">DataflowDrivenChen</bcf:citekey>
     <bcf:citekey order="97">ServiceCutter</bcf:citekey>
     <bcf:citekey order="98">TowardsTechnique</bcf:citekey>
-    <bcf:citekey order="99">mittelbach2014</bcf:citekey>
-    <bcf:citekey order="118">ExtractionMazlami</bcf:citekey>
-    <bcf:citekey order="119">ObjectAwareAmiri</bcf:citekey>
-    <bcf:citekey order="120">interfaceAnalysisBaresi</bcf:citekey>
-    <bcf:citekey order="121">FunctionalDecompositionHeinrich</bcf:citekey>
-    <bcf:citekey order="122">DomainEngineeringMunezero</bcf:citekey>
-    <bcf:citekey order="123">DataflowDrivenChen</bcf:citekey>
-    <bcf:citekey order="124">HeuristicsAlwis</bcf:citekey>
-    <bcf:citekey order="125">ServiceCutter</bcf:citekey>
-    <bcf:citekey order="126">interfaceAnalysisBaresi</bcf:citekey>
+    <bcf:citekey order="99">SystematicMappingStudyMicroservice</bcf:citekey>
+    <bcf:citekey order="100">MigratingTowardsSurvey</bcf:citekey>
+    <bcf:citekey order="101">MigratingCloud</bcf:citekey>
+    <bcf:citekey order="102">SystematicMappingStudyMicroservice</bcf:citekey>
+    <bcf:citekey order="103">Fowler</bcf:citekey>
+    <bcf:citekey order="104">NikoProseminar</bcf:citekey>
+    <bcf:citekey order="105">FunctionalDecompositionHeinrich</bcf:citekey>
+    <bcf:citekey order="106">FunctionalDecompositionHeinrich</bcf:citekey>
+    <bcf:citekey order="107">Fowler</bcf:citekey>
+    <bcf:citekey order="108">DomainEngineeringMunezero</bcf:citekey>
+    <bcf:citekey order="109">infoq</bcf:citekey>
+    <bcf:citekey order="110">mittelbach2014</bcf:citekey>
+    <bcf:citekey order="129">ExtractionMazlami</bcf:citekey>
+    <bcf:citekey order="130">ObjectAwareAmiri</bcf:citekey>
+    <bcf:citekey order="131">interfaceAnalysisBaresi</bcf:citekey>
+    <bcf:citekey order="132">FunctionalDecompositionHeinrich</bcf:citekey>
+    <bcf:citekey order="133">DomainEngineeringMunezero</bcf:citekey>
+    <bcf:citekey order="134">DataflowDrivenChen</bcf:citekey>
+    <bcf:citekey order="135">HeuristicsAlwis</bcf:citekey>
+    <bcf:citekey order="136">ServiceCutter</bcf:citekey>
+    <bcf:citekey order="137">interfaceAnalysisBaresi</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.11)  20 JAN 2019 15:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.11)  21 JAN 2019 14:55
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -2073,12 +2073,32 @@ Overfull \hbox (15.57428pt too wide) in paragraph at lines 72--75
 ther, as they use stan-dard-ized and lightweight
  []
 
-) (sections/CoCoME.tex [17] [18
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+
+ []
 
 
-]
+Underfull \hbox (badness 10000) in paragraph at lines 82--85
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--90
+
+ []
+
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 91--94
+
+ []
+
+) (sections/CoCoME.tex [18]
 chapter 3.
-) (sections/stateOfTheArt.tex [19] [20
+) (sections/stateOfTheArt.tex [19
+
+
+] [20
 
 
 ]
@@ -2543,9 +2563,14 @@ File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 (Font)              scaled to size 9.35999pt on input line 134.
  [41]
+Overfull \hbox (2.68753pt too wide) in paragraph at lines 134--134
+\T1/LinuxLibertineT-TLF/m/n/12 Ac-cessed on 20.01.2019. \T1/LinuxLibertineT-TLF
+/m/sc/12 url\T1/LinuxLibertineT-TLF/m/n/12 : $\T1/fvm/m/n/12 https : / / www . 
+merlin . uzh . ch / contributionDocument /
+ []
+
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 8.8pt on input line 134.
-
 (sections/appendix.tex [42]
 chapter A.
 )
@@ -2563,10 +2588,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25482 strings out of 492946
- 480295 string characters out of 3135518
- 1095218 words of memory out of 3000000
- 28878 multiletter control sequences out of 15000+200000
+ 25484 strings out of 492946
+ 480388 string characters out of 3135518
+ 1095407 words of memory out of 3000000
+ 28880 multiletter control sequences out of 15000+200000
  151553 words of font info for 117 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  63i,20n,84p,9088b,2282s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2749,7 +2774,7 @@ ikolaus/AppData/Roaming/MiKTeX/2.9/fonts/type1/adobe/sourcesanspro/SourceSansPr
 o-Bold.pfb><C:/Users/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/type1/adobe/sour
 cesanspro/SourceSansPro-Semibold.pfb><C:/Users/Nikolaus/AppData/Roaming/MiKTeX/
 2.9/fonts/type1/bera/fvmr8a.pfb>
-Output written on thesis.pdf (57 pages, 504771 bytes).
+Output written on thesis.pdf (57 pages, 509346 bytes).
 PDF statistics:
  507 PDF objects out of 1000 (max. 8388607)
  55 named destinations out of 1000 (max. 500000)
