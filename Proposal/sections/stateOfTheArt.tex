@@ -71,7 +71,7 @@ Table \ref{tab:overviewLiterature} presents the 8 most promising approaches rega
 
 
 \section{Approaches}
-
+The following section provides a short introduction in the approaches mentioned in table \ref{tab:overviewLiterature}. Further evaluation and comparison is done in Sec. ???? TODO!!!! \\
 
 \noindent
 \textbf{Extraction of Microservices from Monolithic Software Architectures   } \\
@@ -80,37 +80,59 @@ Starting with a given code base, the approach uses three different coupling stra
 
 \noindent
 \textbf{Object-Aware Identification of Microservice  } \\
-\cite{ObjectAwareAmiri} identifies microservices from business processes, using the widely known \textit{Business Process and Model Notation (BPMN)}. The activities in a business process represent functionality in the system. They also perform read and write operations on data objects. The goal is to identify microservices by using the structural and data object dependencies of the business processes. Therefore, the author proposes a clustering technique
+\cite{ObjectAwareAmiri} identifies microservices from business processes, using the widely known \textit{Business Process and Model Notation (BPMN)}. The approach uses clustering based on structural dependency and data object dependency. The first aspect is extracted from related activities within the business process model. A relation exists, if an edge directly connects a pair of activities or if only gateways are in between. \\
+The latter aspect is based on the data object read and writes of each activity. Activities that are directly or indirectly connected and perform write or read operations are more likely to partition into the same microservice. \\
 
 
-\cite{ObjectAwareAmiri} uses clustering based on structural dependency and data object dependency. The system is modelled 
-
-
-
-
-
-The approach models a system as a set of business processes using the well known graphical representation 
 \noindent
 \textbf{Microservices Identification Through Interface Analysis   } \\
+In \cite{interfaceAnalysisBaresi}, the author proposes an approach that is based on semantic similarity of functionality specified through OpenApi\footnote{https://www.openapis.org/} specifications (OpenApi defines a language-agnostic, standardized and machine-readable interface for RESTful APIs). The similarity depends on a reference vocabulary: each operation of the specification is analysed along with its resources (parameters, return values, complex types) and mapped to a concept of the chosen reference vocabulary. Each mapping has a score, based on a fitness function that uses the collocation of words (called terms) found in the operation and in the concepts. A co-occurrence matrix contains all mappings of possible pairs of terms and concepts. It is maximized to obtain the best mappings. Finally, this approach identifies potential candidate microservices, as fine-grained groups of operations, that are mapped to the same reference concept. \\
 
 
 \noindent
 \textbf{Identifying Microservices Using Functional Decomposition  } \\
+The approach presented in \cite{FunctionalDecompositionHeinrich} identifies microservices by functional decomposition of the software requirements, provided as use case specifications. In order to achieve the decomposition, the system is  modelled as a finite set of \textit{system operations} and the system's \textit{state space}. Use cases provide the necessary input data: Verbs found in the use cases serve as \textit{system operations} and nouns correspond to the \textit{state variables} that the operations read or write. The state variables constitute the state space. Relationships between the operations and the variables are store in a relation table, that is visualized as a weighted graph. Finally, the approach uses graph analyse tools to determine clusters, where each cluster is a potential candidate of a microservice that fulfils the criteria of low coupling and high cohesion. \\
+
 
 
 \noindent
 \textbf{Partitioning Microservices: A Domain Engineering Approach } \\
-
+Munezaro et al. \cite{DomainEngineeringMunezero} propose an approach to identify appropriate microservices using \textit{Domain-driven Design (DDD)} patterns. As a prerequisite, developers define a domain by using ubiquitous language. The domain indicates what the system does, precisely the system responsibilities, and what functionality it must implement. Domain experts define the boundaries of each responsibility and make it as a \textit{business capability}, where a business capability is something that a system does in order to generate value. Each business capability is a microservice. When defining the boundary, the focus is on the relationships among the responsibilities to minimize cross-cutting transactions. \\
 
 \noindent
 \textbf{From Monolith to Microservices: A Dataflow-Driven Approach } \\
+\cite{DataflowDrivenChen} uses a top-down data flow driven decomposition approach to determine high cohesive and loosely coupled microservices. Before the actual identification process starts, a \textit{Data Flow Diagram (DFD)} needs to be constructed on the users' natural language description of the system to illustrate the detailed data flow. The first step of the approach consist of manually constructing a purified DFD, which focuses on data's semanteme and operations only. Afterwards, the purified DFD is algorithmically transformed into a decomposable DFD which is finally used to extract potential microservice candidates. \\
+
 
 \noindent
 \textbf{Function-Splitting Heuristics for Discovery of Microservices in Enterprise Systems  } \\
-
+\cite{HeuristicsAlwis} is an approach that utilizes heuristics to specify two fundamental areas of microservice discovery: Function splitting based on common object subtypes and functional splitting based on common execution fragments across software. \\
+The discovery process consists of two steps: First, the code, database tables and the SQL queries are evaluated to identify business objects and their relationships. Along with a set of given execution call graphs (different sequences of operations; generated though e.g. analysing log data), the information found is passed to the second part of the process. Algorithms processes the call graphs of the legacy system to derive a set of subgraphs and analyse which fragments are related to the same business objects in order to recommend possible microservices. \\
 
 \noindent
 \textbf{Service Cutter: A Systematic Approach to Service Decomposition  } \\
+Gysel et al. \cite{ServiceCutter} introduce a service decomposition tool based on 16 coupling criteria coming from industry and literature. A coupling criterion is a decision driver to decide whether data, operations or artifacts (generalized under the term \textit{nanoentity}) should or should not be owned and exposed by the same service. Additionally, each criterion has a different score according to its priority.
+The input is in form of various \textit{System Specification Artifacts (SSAs)}, such as domain models and use cases.  The tool \textit{Service Cutter} extracts coupling criteria information out of it, that must be prioritised by a user. To analyse and process the coupling criteria, Service Cutter creates a weighted graph. The nodes represent the nanoentities and the weights on and edge is the sum of all scores per criterion, multiplied by a user defined priority. In the end, an exchangeable clustering algorithm identifies potential microservice candidates where each cluster correspond to a high cohesive and loosely coupled service.
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

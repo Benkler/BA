@@ -2091,6 +2091,13 @@
     <bcf:citekey order="112">ServiceCutter</bcf:citekey>
     <bcf:citekey order="113">interfaceAnalysisBaresi</bcf:citekey>
     <bcf:citekey order="114">ExtractionMazlami</bcf:citekey>
+    <bcf:citekey order="115">ObjectAwareAmiri</bcf:citekey>
+    <bcf:citekey order="116">interfaceAnalysisBaresi</bcf:citekey>
+    <bcf:citekey order="117">FunctionalDecompositionHeinrich</bcf:citekey>
+    <bcf:citekey order="118">DomainEngineeringMunezero</bcf:citekey>
+    <bcf:citekey order="119">DataflowDrivenChen</bcf:citekey>
+    <bcf:citekey order="120">HeuristicsAlwis</bcf:citekey>
+    <bcf:citekey order="121">ServiceCutter</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

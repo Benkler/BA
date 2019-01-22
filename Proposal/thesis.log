@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.11)  21 JAN 2019 17:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.11)  22 JAN 2019 16:49
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1911,6 +1911,11 @@ Underfull \hbox (badness 1622) in paragraph at lines 61--61
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [9] [10]
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+
+ []
+
+
 Overfull \hbox (16.44678pt too wide) in paragraph at lines 76--80
 \T1/LinuxLibertineT-TLF/m/n/12 The ap-proach pre-sented in [17] is a class base
 d ex-trac-tion model, that uses (meta-)information
@@ -1922,58 +1927,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--80
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--83
+Underfull \hbox (badness 10000) in paragraph at lines 81--85
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--86
+Underfull \hbox (badness 10000) in paragraph at lines 87--90
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--90
+Underfull \hbox (badness 10000) in paragraph at lines 92--95
+
+ []
+
+[11
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 98--101
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--94
+Underfull \hbox (badness 10000) in paragraph at lines 102--105
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--98
+Underfull \hbox (badness 10000) in paragraph at lines 107--111
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 99--101
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--105
-
- []
-
-) (sections/solutionOverview.tex [11
-
-] [12
+[12]) (sections/solutionOverview.tex [13] [14
 
 
 ]
 chapter 5.
-) (sections/evaluationPlanning.tex [13] [14
+) (sections/evaluationPlanning.tex [15] [16
 
 
 ]
 chapter 6.
-) (sections/timetable.tex [15] [16
+) (sections/timetable.tex [17] [18
 
 
 ]
 chapter 7.
-) [17] [18
+) [19] [20
 
 
 ]
@@ -1986,18 +1986,18 @@ File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 (Font)              scaled to size 9.35999pt on input line 134.
- [19]
+ [21]
 Overfull \hbox (2.68753pt too wide) in paragraph at lines 134--134
 \T1/LinuxLibertineT-TLF/m/n/12 Ac-cessed on 20.01.2019. \T1/LinuxLibertineT-TLF
 /m/sc/12 url\T1/LinuxLibertineT-TLF/m/n/12 : $\T1/fvm/m/n/12 https : / / www . 
 merlin . uzh . ch / contributionDocument /
  []
 
-(sections/appendix.tex [20]
+(sections/appendix.tex [22]
 chapter A.
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 142.
- [21
+ [23
 
 
 ]
@@ -2012,7 +2012,7 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 Here is how much of TeX's memory you used:
  25487 strings out of 492946
  481099 string characters out of 3135518
- 1097998 words of memory out of 3000000
+ 1098146 words of memory out of 3000000
  28907 multiletter control sequences out of 15000+200000
  174435 words of font info for 145 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
@@ -2112,9 +2112,9 @@ ikolaus/AppData/Roaming/MiKTeX/2.9/fonts/type1/adobe/sourcesanspro/SourceSansPr
 o-Bold.pfb><C:/Users/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/type1/adobe/sour
 cesanspro/SourceSansPro-Semibold.pfb><C:/Users/Nikolaus/AppData/Roaming/MiKTeX/
 2.9/fonts/type1/bera/fvmr8a.pfb>
-Output written on thesis.pdf (35 pages, 447768 bytes).
+Output written on thesis.pdf (37 pages, 454225 bytes).
 PDF statistics:
- 316 PDF objects out of 1000 (max. 8388607)
+ 325 PDF objects out of 1000 (max. 8388607)
  27 named destinations out of 1000 (max. 500000)
  232 words of extra memory for PDF output out of 10000 (max. 10000000)
 
