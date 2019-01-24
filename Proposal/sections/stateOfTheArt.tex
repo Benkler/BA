@@ -71,6 +71,7 @@ Table \ref{tab:overviewLiterature} presents the 8 most promising approaches rega
 
 
 \section{Approaches}
+\label{sec:stateOfTheArt:approaches}
 The following section provides a short introduction in the approaches mentioned in table \ref{tab:overviewLiterature}. Further evaluation and comparison is done in Sec. ???? TODO!!!! \\
 
 \noindent
@@ -114,7 +115,112 @@ The discovery process consists of two steps: First, the code, database tables an
 Gysel et al. \cite{ServiceCutter} introduce a service decomposition tool based on 16 coupling criteria coming from industry and literature. A coupling criterion is a decision driver to decide whether data, operations or artifacts (generalized under the term \textit{nanoentity}) should or should not be owned and exposed by the same service. Additionally, each criterion has a different score according to its priority.
 The input is in form of various \textit{System Specification Artifacts (SSAs)}, such as domain models and use cases.  The tool \textit{Service Cutter} extracts coupling criteria information out of it, that must be prioritised by a user. To analyse and process the coupling criteria, Service Cutter creates a weighted graph. The nodes represent the nanoentities and the weights on and edge is the sum of all scores per criterion, multiplied by a user defined priority. In the end, an exchangeable clustering algorithm identifies potential microservice candidates where each cluster correspond to a high cohesive and loosely coupled service.
  
- 
+\section{Comparison} 
+\label{sec:stateOfTheArt:comparison}
+
+cewcew
+\afterpage{%
+	\clearpage% Flush earlier floats (otherwise order might not be correct)
+	\thispagestyle{empty}% empty page style (?)
+	\begin{landscape}% Landscape page
+		
+		
+	\begin{threeparttable}[h!]
+		
+		\centering
+		
+		
+		\rowcolors{2}{gray!25}{white}
+		\begin{tabularx}{\linewidth}{XXXXX}
+			\rowcolor{gray!50}
+			Approach/Criterion & Mazlami et al. \cite{ExtractionMazlami} & Amiri \cite{ObjectAwareAmiri} &  Baresi et al. \cite{interfaceAnalysisBaresi}   & Tyszberowicz et al. \cite{FunctionalDecompositionHeinrich}   \\
+			
+		
+			Basic Concept	& meta-data aided graph clustering & business process oriented graph clustering & semantic similarity of OpenApi specification & functional decomposition of sw requirements \\
+			
+			 	Prerequisites	& applications with meaningful VCS data & business processes and entities available  & well-defined Api with proper naming & specification of software requirements \\
+			
+			Input & Source Code and VCS meta data & BPMN business processes with
+			data object reads and writes  & reference vocabulary (fitness function), OpenApi specifications & use cases\\
+			
+			Tool support & prototype available (https://github.com/gmazlami/microserviceExtraction-frontend)
+			  & n/a & experimental prototype (https://github.com/mgar riga/decomposer) & use external graph visualize and analyse tools \\
+			
+			Degree of human involvement & choose amount of clusters that will represent the microservices  & no interaction needed & user defines level of hierachy & manual elimination of synonyms, irrelevant nouns and verbs \\
+			
+			Granularity of the  recommended Microservices & depends on choosen amount of clusters & depends on iteration of genetic algorithm for convergence of fitness function & depends on choosen hierachy lebel, varies from one to many & depends on size of business capability \\
+			
+			Validation & experiements using open-source projects with VCS data (200 to 25000 commits, 1000 to 500000 LOC, 5 to 200 authors)  & multiple experiments, results compared with domain experts knowledge  & 452 OpenApi specification, 5 samples compared with results of sw-engineers and \cite{ServiceCutter}& case study, compared to three manual implementations \\
+			
+			Limitation & need meaningful VCS data and ORM model for its data entities & given weight definitions lack formal explanation    & depends on reference vocabulary and well-defined interfaces & manual revision of operations (nouns) and state variable (verbs) \\
+			
+		\end{tabularx}
+		\caption{Comparison of Approaches, Part I}
+	\label{tab:compareApproaches1}
+	 
+	
+	
+	\end{threeparttable}
+	
+
+	
+	\end{landscape}
+	\clearpage% Flush page
+}
+
+\afterpage{%
+	\clearpage% Flush earlier floats (otherwise order might not be correct)
+	\thispagestyle{empty}% empty page style (?)
+	\begin{landscape}% Landscape page
+		
+		
+		\begin{threeparttable}[h!]
+			
+			\centering
+			
+			
+			\rowcolors{2}{gray!25}{white}
+			\begin{tabularx}{\linewidth}{XXXXX}
+				\rowcolor{gray!50}
+				Approach/Criterion & Munezero et al. \cite{DomainEngineeringMunezero} & Chen et al. \cite{DataflowDrivenChen} & Alwis et al. \cite{HeuristicsAlwis} & Gysel et al. \cite{ServiceCutter}   \\
+				
+				
+				Basic Concept	& define business capabilities by using domain-driven design patterns & algorithmic identification of microservices using data flows & graph-based identification process using heuristics to describe call graph similarities & service decomposition based on 16 coupling criteria \\
+				
+				Prerequisites	& domain defined by ubiquitous language& systems's data flows constructen on users' natural langugae description& Log files of legacy system & various System Specification Artifacts (SSAs) in specified format\\
+				
+				Input & well defined domain model& Data Flow Diagrams (DFD)& Call Graphs, Source Code, System Database& instances of SSAs (e.g. ERM models, use cases) \\
+				
+				Tool support & n/a & n/a & External tool for generating call graphs & implementation and wiki available\\
+				
+				Degree of human involvement & domain experts define boundaries for business responsibilities & manual construction of purified DFD& no interaction needed & priorization of coupling criteria \\
+				
+				Granularity of the  recommended Microservices & depends on the size of the defined business capability & most fine-grained ms candidates in terms of data operations & lowest granularity of sw based on structural and behavioural properties  & n/a\\
+				
+				Validation & demonstrated on sample domain& two case studies verified against relevant microservice principles and results of \cite{ServiceCutter} & two experiemtns with complex enterprise systems (legacy vs. ms implementation) & validation via implementation and two case studies\\
+				
+				Limitation & only conceptional approach, requires vast amount of expertise & transforming purified DFD not trivial (identifying same data operations requires expertise)& requires expressive log files to generate call graphs and identify business object relationships&  \\
+				
+			\end{tabularx}
+			\caption{Comparison of Approaches, Part II}
+			\label{tab:compareApproaches2}
+			
+			
+			
+		\end{threeparttable}
+		
+		
+		
+	\end{landscape}
+	\clearpage% Flush page
+}
+
+
+
+
+
+
+
 
 
 

@@ -18,11 +18,28 @@ Nevertheless, decomposing a system in loosely coupled, fine-grained and independ
 \label{sec:Introduction:ProblemStatement}
 The microservice architecture is a fast rising approach to structure a system in high cohesive but loosely coupled and independent services. Many companies like Amazon, migrated their monolithic legacy software to microservice in order to fully leverage the benefits of cloud computing and new software engineering approaches like Continuous Deployment \cite{MigratingCloud}. Large applications are decomposed into small, independent microservices where each service can be independently scaled and deployed. 
 \\
-However, one of the biggest problem in designing a microservice architecture is to decompose a monolithic application into a suite of small services while keeping them loosely coupled and high cohesive. This challenging task is also known as \textit{microservice identification} \cite{ObjectAwareAmiri}.
-
+However, one of the biggest problem in designing a microservice architecture is to decompose a monolithic application into a suite of small services while keeping them loosely coupled and high cohesive. This challenging task is also known as \textit{microservice identification} \cite{ObjectAwareAmiri}. \\
 Baresi et al. state that "proper" microservice identification defines how systems will be able to evolve and scale \cite{interfaceAnalysisBaresi}. Others claim, that finding the optimal microservice boundaries and service granularity is the key design decision to fully leverage the benefits of microservices \cite{ClassificationOfRefactoring} \cite{ArchitecturalMetaModelling}. 
 \\
-So far, the partition is performed mainly intuitively based on the experience and know-how of experts that perform the extraction. Hassan et al. criticises a lack of systematic approaches to reduce the complexity of the extraction process \cite{ArchitecturalMetaModelling}. Extracting microservices from monoliths therefore requires tedious manual effort and can be very costly \cite{FunctionalDecompositionHeinrich} \cite{ExtractionMazlami}. This thesis aims to reduce the complexity by providing an approach to systematically decompose a monolithic application into microservice. In the following, the challenges of microservice identification are presented.
+So far, the partition is performed mainly intuitively based on the experience and know-how of experts that perform the extraction. Hassan et al. criticises a lack of systematic approaches to reduce the complexity of the extraction process \cite{ArchitecturalMetaModelling}. Extracting microservices from monoliths therefore requires tedious manual effort and can be very costly \cite{FunctionalDecompositionHeinrich} \cite{ExtractionMazlami}. This leads to the following Problem Statements (PS):
+
+\par
+\begingroup
+\leftskip=1cm
+\rightskip=1cm
+
+\noindent
+\textbf{PS1: Which strategy can be used to extract microservices from a monolithic  
+	system? }
+
+\noindent
+\textbf{PS2: What formal approach can be constructed to perform the extraction process 
+	without detailed know-how?}
+\par
+\endgroup
+
+\noindent
+This thesis aims to reduce the complexity by providing an approach to systematically decompose a monolithic application into microservice. In the following, the challenges of microservice identification are presented.
 
 
 
