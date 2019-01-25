@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.11)  24 JAN 2019 16:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.11)  25 JAN 2019 09:57
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1935,7 +1935,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
 
 Overfull \hbox (16.44678pt too wide) in paragraph at lines 77--81
-\T1/LinuxLibertineT-TLF/m/n/12 The ap-proach pre-sented in [17] is a class base
+\T1/LinuxLibertineT-TLF/m/n/12 The ap-proach pre-sented in [19] is a class base
 d ex-trac-tion model, that uses (meta-)information
  []
 
@@ -2321,6 +2321,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1
 \T1/LinuxLibertineT-TLF/m/n/12 tify busi-ness ob-ject
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--1
+[]|\T1/LinuxLibertineT-TLF/m/n/12 generating SSAs in
+ []
+
 [17
 
 
@@ -2379,10 +2384,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25611 strings out of 492946
- 483361 string characters out of 3135518
- 1101627 words of memory out of 3000000
- 29016 multiletter control sequences out of 15000+200000
+ 25617 strings out of 492946
+ 483513 string characters out of 3135518
+ 1101724 words of memory out of 3000000
+ 29021 multiletter control sequences out of 15000+200000
  174435 words of font info for 145 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  64i,20n,78p,9088b,2282s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2424,6 +2429,9 @@ pdfTeX warning (dest): name{section.4.1} has been referenced but does not exist
 
 pdfTeX warning (dest): name{chapter.4} has been referenced but does not exist, 
 replaced by a fixed one
+
+pdfTeX warning (dest): name{section.3.2} has been referenced but does not exist
+, replaced by a fixed one
 
 pdfTeX warning (dest): name{section.3.1} has been referenced but does not exist
 , replaced by a fixed one
@@ -2484,9 +2492,9 @@ ikolaus/AppData/Roaming/MiKTeX/2.9/fonts/type1/adobe/sourcesanspro/SourceSansPr
 o-Bold.pfb><C:/Users/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/type1/adobe/sour
 cesanspro/SourceSansPro-Semibold.pfb><C:/Users/Nikolaus/AppData/Roaming/MiKTeX/
 2.9/fonts/type1/bera/fvmr8a.pfb>
-Output written on thesis.pdf (39 pages, 460970 bytes).
+Output written on thesis.pdf (39 pages, 462799 bytes).
 PDF statistics:
- 335 PDF objects out of 1000 (max. 8388607)
- 28 named destinations out of 1000 (max. 500000)
- 240 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 339 PDF objects out of 1000 (max. 8388607)
+ 29 named destinations out of 1000 (max. 500000)
+ 248 words of extra memory for PDF output out of 10000 (max. 10000000)
 

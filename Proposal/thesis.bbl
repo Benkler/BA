@@ -554,6 +554,161 @@
       \field{pages}{1\bibrangedash 10}
       \range{pages}{10}
     \endentry
+    \entry{CoCoMETechnical}{article}{}
+      \name{author}{3}{}{%
+        {{hash=3560bc0cad59a19a23274e4da94b8d57}{%
+           family={Heinrich},
+           familyi={H\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=e9289cc0b84de2757d0201a475e4a9d9}{%
+           family={Rostami},
+           familyi={R\bibinitperiod},
+           given={Kiana},
+           giveni={K\bibinitperiod}}}%
+        {{hash=4e41ac50a44ea2d2e0fbdd12c485c1b2}{%
+           family={Reussner},
+           familyi={R\bibinitperiod},
+           given={Ralf},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{2964bf33062d42cd2c6467af63253fa2}
+      \strng{fullhash}{2964bf33062d42cd2c6467af63253fa2}
+      \strng{bibnamehash}{2964bf33062d42cd2c6467af63253fa2}
+      \strng{authorbibnamehash}{2964bf33062d42cd2c6467af63253fa2}
+      \strng{authornamehash}{2964bf33062d42cd2c6467af63253fa2}
+      \strng{authorfullhash}{2964bf33062d42cd2c6467af63253fa2}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{01}
+      \field{title}{The CoCoME Platform for Collaborative Empirical Research on Information System Evolution}
+      \field{year}{2016}
+      \verb{doi}
+      \verb 10.5445/IR/1000052688
+      \endverb
+    \endentry
+    \entry{CoCoMEOld}{inbook}{}
+      \name{author}{12}{}{%
+        {{hash=6a8d0585febcf34f5cb893cc5cd89278}{%
+           family={Herold},
+           familyi={H\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+        {{hash=79d34dbdafeff440a6d4448f021a829a}{%
+           family={Klus},
+           familyi={K\bibinitperiod},
+           given={Holger},
+           giveni={H\bibinitperiod}}}%
+        {{hash=59a0b500291fdf7c3ceb4c0f3945786e}{%
+           family={Welsch},
+           familyi={W\bibinitperiod},
+           given={Yannick},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=23aaca69c26820ccba82e147b3727b5b}{%
+           family={Deiters},
+           familyi={D\bibinitperiod},
+           given={Constanze},
+           giveni={C\bibinitperiod}}}%
+        {{hash=60c5c4b16191f78e70fffb6492d9e6fd}{%
+           family={Rausch},
+           familyi={R\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4e41ac50a44ea2d2e0fbdd12c485c1b2}{%
+           family={Reussner},
+           familyi={R\bibinitperiod},
+           given={Ralf},
+           giveni={R\bibinitperiod}}}%
+        {{hash=ea463e7d98843baebb721149834e04e4}{%
+           family={Krogmann},
+           familyi={K\bibinitperiod},
+           given={Klaus},
+           giveni={K\bibinitperiod}}}%
+        {{hash=ba7ecc5039717e22ccf225ab7421719b}{%
+           family={Koziolek},
+           familyi={K\bibinitperiod},
+           given={Heiko},
+           giveni={H\bibinitperiod}}}%
+        {{hash=94a3bbc6e98da3ebe25cd9dc968b89d3}{%
+           family={Mirandola},
+           familyi={M\bibinitperiod},
+           given={Raffaela},
+           giveni={R\bibinitperiod}}}%
+        {{hash=525dcda9144713a116251d072da4ed77}{%
+           family={Hummel},
+           familyi={H\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod}}}%
+        {{hash=e996ceb83cfda59a78fdbff3b20dea8c}{%
+           family={Meisinger},
+           familyi={M\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=02ff78640c4cb4aa1bfcd8d3eb54dfb9}{%
+           family={Pfaller},
+           familyi={P\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=60c5c4b16191f78e70fffb6492d9e6fd}{%
+           family={Rausch},
+           familyi={R\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4e41ac50a44ea2d2e0fbdd12c485c1b2}{%
+           family={Reussner},
+           familyi={R\bibinitperiod},
+           given={Ralf},
+           giveni={R\bibinitperiod}}}%
+        {{hash=94a3bbc6e98da3ebe25cd9dc968b89d3}{%
+           family={Mirandola},
+           familyi={M\bibinitperiod},
+           given={Raffaela},
+           giveni={R\bibinitperiod}}}%
+        {{hash=3630984482546860f4b9ec46127b7b4f}{%
+           family={Pl{á}{š}il},
+           familyi={P\bibinitperiod},
+           given={Franti{š}ek},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{9592a10f05ecce151237e729f3cbfccd}
+      \strng{fullhash}{6e73648f5eb904bd903185e571115b4d}
+      \strng{bibnamehash}{9592a10f05ecce151237e729f3cbfccd}
+      \strng{authorbibnamehash}{9592a10f05ecce151237e729f3cbfccd}
+      \strng{authornamehash}{9592a10f05ecce151237e729f3cbfccd}
+      \strng{authorfullhash}{6e73648f5eb904bd903185e571115b4d}
+      \strng{editorbibnamehash}{246ad21e85b91e86f9aeb75da50fc1c0}
+      \strng{editornamehash}{246ad21e85b91e86f9aeb75da50fc1c0}
+      \strng{editorfullhash}{d44e6ee19ca84dabed4e44217d391a62}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The Common Component Modeling Example: Comparing Software Component Models}
+      \field{isbn}{978-3-540-85289-6}
+      \field{title}{CoCoME - The Common Component Modeling Example}
+      \field{year}{2008}
+      \field{pages}{16\bibrangedash 53}
+      \range{pages}{38}
+      \verb{doi}
+      \verb 10.1007/978-3-540-85289-6_3
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-540-85289-6_3
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-540-85289-6_3
+      \endverb
+    \endentry
     \entry{EnticeApproach}{article}{}
       \name{author}{3}{}{%
         {{hash=d24a4c760bfd8a5d9cfbac9c41a229fb}{%
@@ -768,37 +923,6 @@
       \endverb
       \verb{url}
       \verb https://www.merlin.uzh.ch/contributionDocument/download/10978
-      \endverb
-    \endentry
-    \entry{mittelbach2014}{article}{}
-      \name{author}{1}{}{%
-        {{hash=9355edd511e3f6fdd880ee98722a53fb}{%
-           family={Mittelbach},
-           familyi={M\bibinitperiod},
-           given={Frank},
-           giveni={F\bibinitperiod}}}%
-      }
-      \strng{namehash}{9355edd511e3f6fdd880ee98722a53fb}
-      \strng{fullhash}{9355edd511e3f6fdd880ee98722a53fb}
-      \strng{bibnamehash}{9355edd511e3f6fdd880ee98722a53fb}
-      \strng{authorbibnamehash}{9355edd511e3f6fdd880ee98722a53fb}
-      \strng{authornamehash}{9355edd511e3f6fdd880ee98722a53fb}
-      \strng{authorfullhash}{9355edd511e3f6fdd880ee98722a53fb}
-      \field{sortinit}{M}
-      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{TUGboat}
-      \field{title}{How to influence the position of float environments like figure and table in \LaTeX?}
-      \field{volume}{35}
-      \field{year}{2014}
-      \field{pages}{248\bibrangedash 254}
-      \range{pages}{7}
-      \verb{urlraw}
-      \verb https://www.latex-project.org/publications/tb111mitt-float.pdf
-      \endverb
-      \verb{url}
-      \verb https://www.latex-project.org/publications/tb111mitt-float.pdf
       \endverb
     \endentry
     \entry{DomainEngineeringMunezero}{article}{}
