@@ -118,7 +118,15 @@ The input is in form of various \textit{System Specification Artifacts (SSAs)}, 
 \section{Comparison} 
 \label{sec:stateOfTheArt:comparison}
 
-cewcew
+Table \ref{tab:compareApproaches1} and \ref{tab:compareApproaches2} provide a short description of the identified approaches mentioned above regarding some comparison criteria. The following criteria were used: \textbf{Basis Concept} recaptures the underlying approach of the microservice identification for classification purposes. \textbf{Prerequisites} presents the necessary preconditions for the success of the approach. For example, the approach mentioned in \cite{ExtractionMazlami} cannot be used without meaningful VCS\footnote{Version Control System} data. The \textbf{Input} row describes the type and amount of input that is used realize the approach, i.e. Data Flow Diagrams in \cite{DataflowDrivenChen}. The row \textbf{Tool Support} indicates, whether the approach has been implemented or if other supporting tools are available to simplify the identification of high cohesive and loosely coupled microservices. The \textbf{Degree of human involvement} is part of the comparison, as this thesis aims to reduce the complexity of the service identification while keeping the required amount of expertise and manual tasks on a minimum. As evaluated in Sec.\ref{sec:background:microservices}, defining fine-grained microservices is a key challenge. Therefore, the approaches need to be compared in regard to the \textbf{Granularity of the recommended Microservices}. Some approaches allow an adjustable level of the granularity (e.g. \cite{ExtractionMazlami}), whereas others generate a predefined granularity (e.g. always the most fine-grained microservice candidates \cite{HeuristicsAlwis}). \textbf{Validation} compares how the approaches are validated to strengthen the credibility of the individual results. Each approach might have some drawbacks regarding it's applicability to universal systems, required amount and type of input, user interaction and further expertise. \textbf{Limitations} is meant to point out the identified drawbacks. \\
+
+
+In the following, each approach is compared against the criteria mentioned above. 
+
+
+, if necessary, compared against the criteria (only if the information provided in Table \ref{tab:compareApproaches1} and \ref{tab:compareApproaches2} is not sufficient).\\
+
+
 \afterpage{%
 	\clearpage% Flush earlier floats (otherwise order might not be correct)
 	\thispagestyle{empty}% empty page style (?)
