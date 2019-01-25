@@ -13,3 +13,33 @@ More detailed description of the CoCoME system can be found in \cite{CoCoMEOld}\
 
 \section{System specifications}
 \label{sec:CoCoME:systemSpecifications}
+The system specification is informal and given in the form of detailed use cases. Fig.\ref{fig:useCases} provides an overview of the use case of CoCoME. A full detailed description can be found in \cite{CoCoMEOld}.
+
+
+
+
+\begin{figure}[h!]
+	\includegraphics[width=\textwidth, trim={0 11cm 0 0}]{img/useCase.pdf}
+	\caption{Use Case Diagram}
+	\label{fig:useCases}
+\end{figure}
+
+
+\begin{description}
+
+
+ \item[Use case description]~\par
+\begin{itemize}
+	\item \textit{Process Sale:} Handles the products a customer wants to purchase and the payment (either cash or card).
+
+    \item \textit{Manage Express Checkout:} The cash desk switches automatically in the express mode (under certain conditions). The cashier is able to switch back in normal mode.
+    \item \textit{Order Products:} A store manager can order products from suppliers.
+    \item \textit{Receiver Ordered Products:} Ordered products which arrive at the store need to be checked for correctness and inventoried by the stock manager.
+    \item \textit{Show Stock Reports:} A store manager can request a stock-related report for his/her store.
+    \item \textit{Show Delivery Reports:} Calculation of the mean time for a delivery.
+    \item \textit{Change Price:} The sale price of a product is changed.
+    \item \textit{Product Exchange:} Automatic stock exchange if a store is running out of stock and other stores still have the required product
+\end{itemize}
+
+
+\end{description}

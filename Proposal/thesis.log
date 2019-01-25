@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.11)  25 JAN 2019 09:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.11)  25 JAN 2019 13:38
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1350,6 +1350,20 @@ ttable.sty
 Package: threeparttable 2003/06/13  v 3.0
 \@tempboxb=\box42
 )
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/pdfpages\pdfpages.sty
+Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
+\AM@pagewidth=\dimen159
+\AM@pageheight=\dimen160
+
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/pdfpages\pppdftex.def
+File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box43
+\AM@global@opts=\toks32
+\AM@toc@title=\toks33
+\c@AM@survey=\count336
+\AM@templatesizebox=\box44
+)
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -1379,69 +1393,69 @@ File: german.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count336
-\@quotereset=\count337
+\@quotelevel=\count337
+\@quotereset=\count338
 (thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 81.
-LaTeX Font Info:    Try loading font information for OML+nxlmi on input line 81
+LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 82.
+LaTeX Font Info:    Try loading font information for OML+nxlmi on input line 82
 .
 
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/newtx\omlnxlmi.fd
 File: omlnxlmi.fd 2013/11/19 Fontinst v1.933 font definitions for OML/nxlmi.
 )
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 81.
-LaTeX Font Info:    Try loading font information for U+ntxexa on input line 81.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 82.
+LaTeX Font Info:    Try loading font information for U+ntxexa on input line 82.
 
 
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/newtx\untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 81.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 82.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 82.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 81.
-LaTeX Font Info:    Try loading font information for LMS+ntxsy on input line 81
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 82.
+LaTeX Font Info:    Try loading font information for LMS+ntxsy on input line 82
 .
 
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/newtx\lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 82.
 LaTeX Font Info:    Try loading font information for LMX+ntxexx on input line 8
-1.
+2.
 
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/newtx\lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 81.
-LaTeX Font Info:    Try loading font information for LY1+ptm on input line 81.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 82.
+LaTeX Font Info:    Try loading font information for LY1+ptm on input line 82.
 
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/ly1\ly1ptm.fd
 File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 )
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
 LaTeX Font Info:    Try loading font information for T1+LinuxLibertineT-TLF on 
-input line 81.
+input line 82.
 
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/libertine\t1linuxlibert
 inet-tlf.fd
@@ -1449,7 +1463,7 @@ File: T1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for T1/Li
 nuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 81.
+(Font)              scaled to size 12.0pt on input line 82.
 
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/translations/dicts\tran
 slations-basic-dictionary-english.trsl
@@ -1457,30 +1471,30 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 81.
-\c@mv@tabular=\count338
-\c@mv@boldtabular=\count339
-LaTeX Info: Redefining \microtypecontext on input line 81.
+or `english'. on input line 82.
+\c@mv@tabular=\count339
+\c@mv@boldtabular=\count340
+LaTeX Info: Redefining \microtypecontext on input line 82.
 
 
 Package microtype Warning: `draft' option active.
 (microtype)                Disabling all micro-typographic extensions.
 (microtype)                This might lead to different line and page breaks.
 
-\AtBeginShipoutBox=\box43
+\AtBeginShipoutBox=\box45
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/context/base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count340
-\scratchdimen=\dimen159
-\scratchbox=\box44
-\nofMPsegments=\count341
-\nofMParguments=\count342
-\everyMPshowfont=\toks32
-\MPscratchCnt=\count343
-\MPscratchDim=\dimen160
-\MPnumerator=\count344
-\makeMPintoPDFobject=\count345
-\everyMPtoPDFconversion=\toks33
+\scratchcounter=\count341
+\scratchdimen=\dimen161
+\scratchbox=\box46
+\nofMPsegments=\count342
+\nofMParguments=\count343
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count344
+\MPscratchDim=\dimen162
+\MPnumerator=\count345
+\makeMPintoPDFobject=\count346
+\everyMPtoPDFconversion=\toks35
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1497,25 +1511,25 @@ G,.JBIG2,.JB2,.eps]
 
 Package hyperref Warning: Draft mode on.
 
-Package hyperref Info: Link coloring OFF on input line 81.
+Package hyperref Info: Link coloring OFF on input line 82.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 ("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count346
+\c@section@level=\count347
 )
-LaTeX Info: Redefining \ref on input line 81.
-LaTeX Info: Redefining \pageref on input line 81.
-LaTeX Info: Redefining \nameref on input line 81.
+LaTeX Info: Redefining \ref on input line 82.
+LaTeX Info: Redefining \pageref on input line 82.
+LaTeX Info: Redefining \nameref on input line 82.
 Class scrbook Info: loading recommended package `bookmark'.
 (scrbook)           Using `bookmark' together with `hyperref' is recommended,
 (scrbook)           because of handling of possible bookmark level gaps.
 (scrbook)           You can avoid loading `bookmark' with KOMA-Script option
 (scrbook)           `bookmarkpackage=false' before \begin{document} and
 (scrbook)           you can avoid this message with `\usepackage{bookmark}'
-(scrbook)           before \begin{document} on input line 81.
+(scrbook)           before \begin{document} on input line 82.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\bookmark.sty"
 Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
@@ -1525,7 +1539,7 @@ File: bkm-pdftex.def 2016/05/17 v1.26 bookmark driver for pdfTeX (HO)
 Package auxhook Info: \AddLineBeginMainAux comes a little late,
 (auxhook)             because the main .aux file is already opened on input lin
 e 164.
-\BKM@id=\count347
+\BKM@id=\count348
 ))
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
@@ -1535,22 +1549,22 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'thesis.bbl' found.
  (thesis.bbl)
-Package biblatex Info: Reference section=0 on input line 81.
-Package biblatex Info: Reference segment=0 on input line 81.
+Package biblatex Info: Reference section=0 on input line 82.
+Package biblatex Info: Reference segment=0 on input line 82.
 <logos/kitlogo_en_cmyk.pdf, id=1, 198.7425pt x 92.345pt>
 File: logos/kitlogo_en_cmyk.pdf Graphic file (type pdf)
 <use logos/kitlogo_en_cmyk.pdf>
-Package pdftex.def Info: logos/kitlogo_en_cmyk.pdf  used on input line 88.
+Package pdftex.def Info: logos/kitlogo_en_cmyk.pdf  used on input line 89.
 (pdftex.def)             Requested size: 110.22453pt x 51.21504pt.
 <logos/sdqlogo.pdf, id=2, 558.085pt x 280.24701pt>
 File: logos/sdqlogo.pdf Graphic file (type pdf)
 <use logos/sdqlogo.pdf>
-Package pdftex.def Info: logos/sdqlogo.pdf  used on input line 88.
+Package pdftex.def Info: logos/sdqlogo.pdf  used on input line 89.
 (pdftex.def)             Requested size: 101.98378pt x 51.21504pt.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 24.88pt on input line 88.
+(Font)              scaled to size 24.88pt on input line 89.
 LaTeX Font Info:    Try loading font information for T1+SourceSansPro-LF on inp
-ut line 88.
+ut line 89.
 
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/sourcesanspro\t1sources
 anspro-lf.fd
@@ -1558,15 +1572,15 @@ File: T1SourceSansPro-LF.fd 2016/12/03 (autoinst) Font definitions for T1/Sourc
 eSansPro-LF.
 )
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/m/n' will be
-(Font)              scaled to size 22.88956pt on input line 88.
+(Font)              scaled to size 22.88956pt on input line 89.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/b/n' will be
-(Font)              scaled to size 22.88956pt on input line 88.
+(Font)              scaled to size 22.88956pt on input line 89.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 88.
+(Font)              scaled to size 14.4pt on input line 89.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 88.
+(Font)              scaled to size 17.28pt on input line 89.
 LaTeX Font Info:    Try loading font information for OT1+LinuxLibertineT-TLF on
- input line 88.
+ input line 89.
 
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/libertine\ot1linuxliber
 tinet-tlf.fd
@@ -1574,39 +1588,39 @@ File: OT1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for OT1/
 LinuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 88.
+(Font)              scaled to size 17.28pt on input line 89.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 12.5pt on input line 88.
+(Font)              scaled to size 12.5pt on input line 89.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 9.4pt on input line 88.
-LaTeX Font Info:    Try loading font information for U+ntxmia on input line 88.
+(Font)              scaled to size 9.4pt on input line 89.
+LaTeX Font Info:    Try loading font information for U+ntxmia on input line 89.
 
 
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/newtx\untxmia.fd
 File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsym on input line 88.
+LaTeX Font Info:    Try loading font information for U+ntxsym on input line 89.
 
 
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/newtx\untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 88.
+LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 89.
 
 
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/newtx\untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 88.
+(Font)              scaled to size 14.4pt on input line 89.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.5pt on input line 88.
+(Font)              scaled to size 10.5pt on input line 89.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.9pt on input line 88.
+(Font)              scaled to size 7.9pt on input line 89.
 <title-background.pdf, id=3, 597.50786pt x 845.04686pt>
 File: title-background.pdf Graphic file (type pdf)
 <use title-background.pdf>
-Package pdftex.def Info: title-background.pdf  used on input line 88.
+Package pdftex.def Info: title-background.pdf  used on input line 89.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 
 [1
@@ -1654,7 +1668,7 @@ LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 
 ]
 Package tocbasic Info: character protrusion at toc deactivated on input line 11
-3.
+4.
  (thesis.toc)
 \tf@toc=\write4
 \openout4 = `thesis.toc'.
@@ -1664,7 +1678,7 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 11
 
 ]
 Package tocbasic Info: character protrusion at lof deactivated on input line 11
-5.
+6.
  (thesis.lof)
 \tf@lof=\write5
 \openout5 = `thesis.lof'.
@@ -1674,7 +1688,7 @@ Package tocbasic Info: character protrusion at lof deactivated on input line 11
 
 ]
 Package tocbasic Info: character protrusion at lot deactivated on input line 11
-6.
+7.
  (thesis.lot)
 \tf@lot=\write6
 \openout6 = `thesis.lot'.
@@ -1760,13 +1774,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 96--99
 
 ) (sections/CoCoME.tex [8]
 chapter 3.
-) (sections/stateOfTheArt.tex [9
+<img/useCase.pdf, id=124, 845.10378pt x 597.19492pt>
+File: img/useCase.pdf Graphic file (type pdf)
+<use img/useCase.pdf>
+Package pdftex.def Info: img/useCase.pdf  used on input line 22.
+(pdftex.def)             Requested size: 432.48195pt x 145.44626pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+LaTeX Font Info:    Try loading font information for TS1+LinuxLibertineT-TLF on
+ input line 33.
+
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/libertine\ts1linuxliber
+tinet-tlf.fd
+File: TS1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for TS1/
+LinuxLibertineT-TLF.
+)
+LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 33.
+ [9
 
 
-] [10
-
-
-]
+]) (sections/stateOfTheArt.tex [10 <./img/useCase.pdf>]
 chapter 4.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 8.8pt on input line 9.
@@ -1928,7 +1957,10 @@ Underfull \hbox (badness 1622) in paragraph at lines 61--61
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[11] [12]
+[11
+
+
+] [12]
 Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
@@ -2353,15 +2385,15 @@ chapter 7.
 ]
 chapter without number
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 137.
-LaTeX Font Info:    Try loading font information for T1+fvm on input line 137.
+(Font)              scaled to size 12.0pt on input line 141.
+LaTeX Font Info:    Try loading font information for T1+fvm on input line 141.
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/bera\t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 9.35999pt on input line 137.
+(Font)              scaled to size 9.35999pt on input line 141.
  [25]
-Overfull \hbox (2.68753pt too wide) in paragraph at lines 137--137
+Overfull \hbox (2.68753pt too wide) in paragraph at lines 141--141
 \T1/LinuxLibertineT-TLF/m/n/12 Ac-cessed on 20.01.2019. \T1/LinuxLibertineT-TLF
 /m/sc/12 url\T1/LinuxLibertineT-TLF/m/n/12 : $\T1/fvm/m/n/12 https : / / www . 
 merlin . uzh . ch / contributionDocument /
@@ -2370,25 +2402,25 @@ merlin . uzh . ch / contributionDocument /
 (sections/appendix.tex [26]
 chapter A.
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 145.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 149.
  [27
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 145.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 149.
  (thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 145.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 145.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 149.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 149.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25617 strings out of 492946
- 483513 string characters out of 3135518
- 1101724 words of memory out of 3000000
- 29021 multiletter control sequences out of 15000+200000
- 174435 words of font info for 145 fonts, out of 3000000 for 9000
+ 26155 strings out of 492946
+ 492866 string characters out of 3135518
+ 1112245 words of memory out of 3000000
+ 29544 multiletter control sequences out of 15000+200000
+ 175138 words of font info for 147 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  64i,20n,78p,9088b,2282s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{section.A.1} has been referenced but does not exi
@@ -2480,21 +2512,22 @@ pdfTeX warning (dest): name{chapter*.1} has been referenced but does not exist,
 
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Users/Nikolaus/App
 Data/Roaming/MiKTeX/2.9/fonts/enc/dvips/libertine/lbtn_ncsllp.enc}{C:/Users/Nik
-olaus/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/sourcesanspro/a_ggs4wk.enc}{C:
-/Users/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/libertine/lbtn_nh77j
-q.enc}{C:/Users/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/libertine/l
-btn_7grukw.enc}{C:/Users/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/li
-bertine/lbtn_76gpa5.enc}<C:/Users/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/typ
-e1/public/libertine/LinLibertineT.pfb><C:/Users/Nikolaus/AppData/Roaming/MiKTeX
-/2.9/fonts/type1/public/libertine/LinLibertineTB.pfb><C:/Users/Nikolaus/AppData
-/Roaming/MiKTeX/2.9/fonts/type1/public/libertine/LinLibertineTI.pfb><C:/Users/N
-ikolaus/AppData/Roaming/MiKTeX/2.9/fonts/type1/adobe/sourcesanspro/SourceSansPr
-o-Bold.pfb><C:/Users/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/type1/adobe/sour
-cesanspro/SourceSansPro-Semibold.pfb><C:/Users/Nikolaus/AppData/Roaming/MiKTeX/
-2.9/fonts/type1/bera/fvmr8a.pfb>
-Output written on thesis.pdf (39 pages, 462799 bytes).
+olaus/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{C:/
+Users/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/sourcesanspro/a_ggs4w
+k.enc}{C:/Users/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/libertine/l
+btn_nh77jq.enc}{C:/Users/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/li
+bertine/lbtn_7grukw.enc}{C:/Users/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/enc
+/dvips/libertine/lbtn_76gpa5.enc}<C:/Users/Nikolaus/AppData/Roaming/MiKTeX/2.9/
+fonts/type1/public/libertine/LinLibertineT.pfb><C:/Users/Nikolaus/AppData/Roami
+ng/MiKTeX/2.9/fonts/type1/public/libertine/LinLibertineTB.pfb><C:/Users/Nikolau
+s/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/libertine/LinLibertineTI.pfb><C
+:/Users/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/type1/adobe/sourcesanspro/Sou
+rceSansPro-Bold.pfb><C:/Users/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/type1/a
+dobe/sourcesanspro/SourceSansPro-Semibold.pfb><C:/Users/Nikolaus/AppData/Roamin
+g/MiKTeX/2.9/fonts/type1/bera/fvmr8a.pfb>
+Output written on thesis.pdf (39 pages, 478214 bytes).
 PDF statistics:
- 339 PDF objects out of 1000 (max. 8388607)
+ 350 PDF objects out of 1000 (max. 8388607)
  29 named destinations out of 1000 (max. 500000)
- 248 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 253 words of extra memory for PDF output out of 10000 (max. 10000000)
 
