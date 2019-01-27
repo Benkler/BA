@@ -6,20 +6,26 @@ This chapter outlines the current state of the art regarding microservice identi
 
 \section{Literature Review}
 \label{sec:StateOfTheArt:LiteratureReview}
-The approaches mentioned in table \ref{tab:overviewLiterature} are the result of an extensive literature research which was conducted using the digital libraries IEEE \footnote{http://ieeexplore.ieee.org }, ACM \footnote{http://portal.acm.org} and SpringerLink \footnote{http://www.springerlink.com }. The web search enginge Google Scholar \footnote{http://scholar.google.com} provided further approaches and general information. \cite{FunctionalDecompositionHeinrich} was provided by the supervisor of this thesis and \cite{ServiceCutter} was cited by various approaches, including \cite{interfaceAnalysisBaresi}. The following search string was used:
+The approaches mentioned in table \ref{tab:overviewLiterature} are the result of an extensive literature research which was conducted using the digital libraries IEEE \footnote{http://ieeexplore.ieee.org }, ACM \footnote{http://portal.acm.org} and SpringerLink \footnote{http://www.springerlink.com }. The web search enginge Google Scholar \footnote{http://scholar.google.com} provided further approaches and general information. \cite{FunctionalDecompositionHeinrich} was provided by the supervisor of this thesis and \cite{ServiceCutter} was cited by various approaches, including \cite{interfaceAnalysisBaresi}. The following search string was used: 
 
+\vspace{1cm}
 \begin{centering}
 {\itshape
    ["identify" OR "identification" OR "migrating" OR "monolith" OR "decomposition" OR "decompose monolith"
   	OR "decompose"] AND  "microservice"  \\
   	   OR \\  "microservice"  AND ["identification" OR "transformation" OR "refactor"]
-}
+} \\
+
  
    
 \end{centering}
+\vspace{1cm}
 
 \noindent
-Table \ref{tab:overviewLiterature} presents the 8 most promising approaches regarding the criteria mentioned in table //TODO!!!!!!. Now, a short introduction to each approach is given.
+Table \ref{tab:overviewLiterature} presents the 8 most promising approaches in the area of microservice identification. Other papers like \cite{TowardsCloudGuiseppe} only presented a conceptual train of thought, whereas \cite{MigratingCloud}, for instance, focuses on migrating strategies on infrastructural level. This thesis mainly focus on the identification part and disregards the actual implementation and deployment process afterwards. \\
+To compare the available approaches, criteria have to be defined. Sec.\ref{sec:stateOfTheArt:comparison} introduces 8 criteria and explains why they take part in the comparison. The comparison itself is done by applying the criteria to each approach using Table \ref{tab:compareApproaches1} and \ref{tab:compareApproaches2}. Further information is given in textual form in the same section.
+
+
 
 
 
@@ -72,7 +78,7 @@ Table \ref{tab:overviewLiterature} presents the 8 most promising approaches rega
 
 \section{Approaches}
 \label{sec:stateOfTheArt:approaches}
-The following section provides a short introduction in the approaches mentioned in table \ref{tab:overviewLiterature}. Further evaluation and comparison is done in Sec. ???? TODO!!!! \\
+The following section provides a short introduction in the approaches mentioned in table \ref{tab:overviewLiterature}. 
 
 \noindent
 \textbf{Extraction of Microservices from Monolithic Software Architectures   } \\

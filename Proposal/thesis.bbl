@@ -1065,6 +1065,36 @@
       \field{pages}{50\bibrangedash 65}
       \range{pages}{16}
     \endentry
+    \entry{TowardsCloudGuiseppe}{article}{}
+      \name{author}{3}{}{%
+        {{hash=a3c5893ddf5ab4cea49adc6a0393ce90}{%
+           family={UU},
+           familyi={U\bibinitperiod},
+           given={Zhiping\bibnamedelima Luo},
+           giveni={Z\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=8500550113a84d07bc076ebcfb05535d}{%
+           family={Korpershoek},
+           familyi={K\bibinitperiod},
+           given={Michel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ab95d4efc32ddb125ccacf752559d83d}{%
+           family={VU},
+           familyi={V\bibinitperiod},
+           given={AnaMaria\bibnamedelima Oprescu},
+           giveni={A\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \strng{namehash}{8ab53dcef55895c950686b9f47aa63a9}
+      \strng{fullhash}{8ab53dcef55895c950686b9f47aa63a9}
+      \strng{bibnamehash}{8ab53dcef55895c950686b9f47aa63a9}
+      \strng{authorbibnamehash}{8ab53dcef55895c950686b9f47aa63a9}
+      \strng{authornamehash}{8ab53dcef55895c950686b9f47aa63a9}
+      \strng{authorfullhash}{8ab53dcef55895c950686b9f47aa63a9}
+      \field{sortinit}{U}
+      \field{sortinithash}{36a2444f5238e0dcf4bb59704df6624d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Towards a MicroServices Architecture for Clouds}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
