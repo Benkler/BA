@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.11)  25 JAN 2019 15:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.11)  27 JAN 2019 14:03
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -2009,11 +2009,46 @@ Underfull \hbox (badness 10000) in paragraph at lines 108--112
  []
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 121--123
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
 
  []
 
-) (sections/solutionOverview.tex [15]
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
+
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--138
+
+ []
+
+) (sections/solutionOverview.tex [16]
 Underfull \hbox (badness 1917) in paragraph at lines 1--1
 []|\T1/LinuxLibertineT-TLF/m/n/12 meta-data aided graph
  []
@@ -2169,7 +2204,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1
 \T1/LinuxLibertineT-TLF/m/n/12 ence vo-cab-u-lary and
  []
 
-[16
+[17
 
 
 
@@ -2363,18 +2398,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1
 []|\T1/LinuxLibertineT-TLF/m/n/12 generating SSAs in
  []
 
-[17
+[18
 
-
-
-
-] [18
 
 
 
 ]
 chapter 5.
-) (sections/evaluationPlanning.tex [19] [20
+) (sections/evaluationPlanning.tex [19
+
+
+
+] [20
 
 
 ]
@@ -2423,7 +2458,7 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 Here is how much of TeX's memory you used:
  26155 strings out of 492946
  492866 string characters out of 3135518
- 1112316 words of memory out of 3000000
+ 1112577 words of memory out of 3000000
  29544 multiletter control sequences out of 15000+200000
  175138 words of font info for 147 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
@@ -2530,7 +2565,7 @@ s/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/libertine/LinLibertineTI.pfb><C
 rceSansPro-Bold.pfb><C:/Users/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/type1/a
 dobe/sourcesanspro/SourceSansPro-Semibold.pfb><C:/Users/Nikolaus/AppData/Roamin
 g/MiKTeX/2.9/fonts/type1/bera/fvmr8a.pfb>
-Output written on thesis.pdf (39 pages, 481256 bytes).
+Output written on thesis.pdf (39 pages, 484639 bytes).
 PDF statistics:
  350 PDF objects out of 1000 (max. 8388607)
  29 named destinations out of 1000 (max. 500000)
