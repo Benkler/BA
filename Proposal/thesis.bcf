@@ -2133,10 +2133,15 @@
     <bcf:citekey order="174">HeuristicsAlwis</bcf:citekey>
     <bcf:citekey order="175">ServiceCutter</bcf:citekey>
     <bcf:citekey order="176">ServiceCutter</bcf:citekey>
-    <bcf:citekey order="177">ObjectAwareAmiri</bcf:citekey>
-    <bcf:citekey order="178">FunctionalDecompositionHeinrich</bcf:citekey>
-    <bcf:citekey order="183">ObjectAwareAmiri</bcf:citekey>
-    <bcf:citekey order="184">FunctionalDecompositionHeinrich</bcf:citekey>
+    <bcf:citekey order="177">CoCoMEOld</bcf:citekey>
+    <bcf:citekey order="178">CoCoMETechnical</bcf:citekey>
+    <bcf:citekey order="179">FunctionalDecompositionHeinrich</bcf:citekey>
+    <bcf:citekey order="180">FunctionalDecompositionHeinrich</bcf:citekey>
+    <bcf:citekey order="181">FunctionalDecompositionHeinrich</bcf:citekey>
+    <bcf:citekey order="182">ObjectAwareAmiri</bcf:citekey>
+    <bcf:citekey order="183">FunctionalDecompositionHeinrich</bcf:citekey>
+    <bcf:citekey order="188">ObjectAwareAmiri</bcf:citekey>
+    <bcf:citekey order="189">FunctionalDecompositionHeinrich</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
