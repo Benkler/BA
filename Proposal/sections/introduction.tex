@@ -14,41 +14,80 @@ The microservice architecture has many advantages over the monolithic style. Sec
 Nevertheless, decomposing a system in loosely coupled, fine-grained and independent microservices is a time consuming task that requires tedious manual effort \cite{ServiceCutter} and is technically cumbersome \cite{HeuristicsAlwis}. So far, it is done mainly intuitively and relies on the experience of software architects and system designers. Hence, a formal approach to identify microservices is required. This thesis intends to describe an approach to systematically decompose a monolithic system into loosely coupled, but high cohesive fine-grained microservices. 
 
 
-\section{Problem Statement}
-\label{sec:Introduction:ProblemStatement}
+\section{Research Questions and Contributions}
+\label{sec:Introduction:ResearchQuestions}
 The microservice architecture is a fast rising approach to structure a system in high cohesive but loosely coupled and independent services. Many companies like Amazon, migrated their monolithic legacy software to microservice in order to fully leverage the benefits of cloud computing and new software engineering approaches like Continuous Deployment \cite{MigratingCloud}. Large applications are decomposed into small, independent microservices where each service can be independently scaled and deployed. 
 \\
 However, one of the biggest problem in designing a microservice architecture is to decompose a monolithic application into a suite of small services while keeping them loosely coupled and high cohesive. This challenging task is also known as \textit{microservice identification} \cite{ObjectAwareAmiri}. \\
 Baresi et al. state that "proper" microservice identification defines how systems will be able to evolve and scale \cite{interfaceAnalysisBaresi}. Others claim, that finding the optimal microservice boundaries and service granularity is the key design decision to fully leverage the benefits of microservices \cite{ClassificationOfRefactoring} \cite{ArchitecturalMetaModelling}. 
 \\
-So far, the partition is performed mainly intuitively based on the experience and know-how of experts that perform the extraction. Hassan et al. criticises a lack of systematic approaches to reduce the complexity of the extraction process \cite{ArchitecturalMetaModelling}. Extracting microservices from monoliths therefore requires tedious manual effort and can be very costly \cite{FunctionalDecompositionHeinrich} \cite{ExtractionMazlami}. This leads to the following Problem Statements (PS):
+So far, the partition is performed mainly intuitively based on the experience and know-how of experts that perform the extraction. Hassan et al. criticises a lack of systematic approaches to reduce the complexity of the extraction process \cite{ArchitecturalMetaModelling}. Extracting microservices from monoliths therefore requires tedious manual effort and can be very costly \cite{FunctionalDecompositionHeinrich} \cite{ExtractionMazlami}. This leads to the following Research Question (RQ):
 
+\vspace{1cm}
 \par
 \begingroup
 \leftskip=1cm
 \rightskip=1cm
 
+
 \noindent
-\textbf{PS1: Which strategy can be used to extract microservices from a monolithic  
+\textbf{RQ1: Which strategy can be used to extract microservices from a monolithic  
 	system? }
 
+\vspace{0.5cm}
 \noindent
-\textbf{PS2: What formal approach can be constructed to perform the extraction process 
-	without detailed know-how?}
-\par
+To identify possible strategies, an extensive literature research is conducted. Suitable strategies and approaches are compared with each other using adequate criteria.
+\vspace{0.5cm}
+
+\noindent
+\textbf{RQ2: What formal approach can be constructed to perform the extraction process 
+	without detailed know-how and manual effort?}
+
+\vspace{0.5cm}
+\noindent
+To that end, the most adequate strategy identified in RQ1 is used as basis. Thereupon, a formal approach is elaborated that aims to reduce the complexity and manual work that has to be done when extracting microservices from a monolithic system.
+\vspace{0.5cm}
+
+
+\noindent
+\textbf{RQ3: What is the quality of the microservices recommended by the approach?   }
+
+\vspace{0.5cm}
+\noindent
+Research question RQ3 is tackled by applying the approach to the common modelling example \textit{CoCoME}. The proposed decomposition of the CoCoME system into microservices is evaluated by comparing with the microservices that have been identified in \cite{FunctionalDecompositionHeinrich} and another decomposition that has been identified and implemented by the author of this thesis.
+\vspace{0.5cm}
+
+
+
 \endgroup
-
-\noindent
-This thesis aims to reduce the complexity by providing an approach to systematically decompose a monolithic application into microservice. In the following, the challenges of microservice identification are presented.
+\vspace{1cm}
 
 
 
-\section{Contributions}
-\label{sec:Introduction:Contributions}
+
+
 
 
 \section{Thesis Outline}
 \label{sec_Introduction:ThesisOutline}
+The proposal is structured as follows:
+
+{sections/introduction.tex}
+t{sections/background.tex}
+input{sections/CoCoME.tex}
+input{sections/stateOfTheArt.tex}
+input{sections/solutionOverview.tex}
+input{sections/evaluationPlanning.tex}
+input{sections/timetable.tex}
+
+\begin{itemize}
+	\item  Chapter \ref{ch:background} presents the background information on monolithic software architecture and microservice-based architecture. For the latter one, benefits and challenges are elaborated. 
+	\item Chapter \ref{ch:CoCoME} introduces the common case study \textit{CoCoME} that is used to apply and evaluate the approach. Special attention is given to the system specifications.
+	\item Chapter \ref{ch:StateOfTheArt} outlines the current state of the art concerning microservice identification. First, the process of literature review is presented. The most promising strategies and approaches are described and further compared using adequate criteria.
+	\item Chapter \ref{ch:SolutionOverview} sketches a first attempt for a formal approach, that is further elaborated during the ongoing work on this thesis.
+	\item Chapter \ref{ch:EvalutationPlanning} explains how the elaborated approach can be applied and evaluated using the case study \textit{CoCoME}
+	\item The proposal is concluded by chapter \ref{ch:timetable}, where a schedule and accompanying milestones are defined.
+\end{itemize}
 
 
 
