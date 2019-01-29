@@ -1,2 +1,32 @@
 \chapter{Solution Overview}
 \label{ch:SolutionOverview}
+\begin{itemize}
+	\item Matrix-based approach: Starting from activities in business processes -> Each Activity is one node, pairwise connection between activities are edges, represented by weight
+	
+	\item Matrix so far: 
+	\begin{itemize}
+		\item Structural Dependency: Connection (direct or through one ore more gates) of two activities (high cohesion)
+		\item Object Dependency: Read/Write Access to same objects (loosely coupled)
+
+	\end{itemize} 
+
+	\item Matrix to define data flows
+	\item Security can be added if necessary (need data flow to determine security relevant data)
+	\item Lübke et al. present algorithm to visualize use case sets as BPMN Processes
+	\item No paper found to transform use cases in DFDs! How connect DFD and BPMN while keeping Matrix-Approach
+\end{itemize}
+
+\vspace{2cm}
+\textbf{Questions:}
+\begin{itemize}
+	\item Extract business process from UC as part of thesis?
+	\item Identify Objects from UC, or from existing OEM Model or what?
+	\item Clustering algorithm (currently using Turbo MQ of "Bunch"-Software) --> Try other Algorithms?
+	\item Why is adding the matrices useful? --> Empirical testing?
+	\item How determine weights? (1,  0.25 etc...) --> What about different weighting for "more important" reads/writes? (Probably leads to need of user know-how)
+	\item REST more expensive than DB-Call? --> Does not matter if read or write?
+	\item Caching might explain weights --> Read probably cached? Cheaper that write
+	\item Data flow has to be determined between activities (or approach cannot be applied)
+	\item What about all the missing use cases in CoCoME (Create Supplier etc...)
+	
+\end{itemize}
