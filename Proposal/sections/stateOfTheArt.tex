@@ -23,7 +23,8 @@ The approaches mentioned in table \ref{tab:overviewLiterature} are the result of
 
 \noindent
 Table \ref{tab:overviewLiterature} presents the 8 most promising approaches in the area of microservice identification. Other papers like \cite{TowardsCloudGuiseppe} only presented a conceptual train of thought, whereas \cite{MigratingCloud}, for instance, focuses on migrating strategies on infrastructural level. This thesis mainly focus on the identification part and disregards the actual implementation and deployment process afterwards. \\
-To compare the available approaches, criteria have to be defined. Sec.\ref{sec:stateOfTheArt:comparison} introduces 8 criteria and explains why they take part in the comparison. The comparison itself is done by applying the criteria to each approach using Table \ref{tab:compareApproaches1} and \ref{tab:compareApproaches2}. Further information is given in textual form in the same section.
+To compare the available approaches, criteria have to be defined. Sec.\ref{sec:stateOfTheArt:comparison} introduces 8 criteria and explains why they take part in the comparison. The comparison itself is done by applying the criteria to each approach using Table \ref{tab:compareApproaches1} and \ref{tab:compareApproaches2}. Incidentally, the comparison including some criteria are inspired by the work of \cite{ClassificationOfRefactoring}
+Further information is given in textual form in the same section. 
 
 
 
@@ -180,7 +181,7 @@ Additionally, the algorithms to identify potential microservice candidates are s
 			
 			Degree of human involvement & choose amount of clusters that will represent the microservices  & no interaction needed & user defines level of hierachy & manual elimination of synonyms, irrelevant nouns and verbs \\
 			
-			Granularity of the  recommended Microservices & depends on choosen amount of clusters & depends on iteration of genetic algorithm for convergence of fitness function & depends on choosen hierachy lebel, varies from one to many & depends on size of business capability \\
+			Granularity & depends on choosen amount of clusters & depends on iteration of genetic algorithm for convergence of fitness function & depends on choosen hierachy lebel, varies from one to many & depends on size of business capability \\
 			
 			Validation & experiements using open-source projects with VCS data (200 to 25000 commits, 1000 to 500000 LOC, 5 to 200 authors)  & multiple experiments, results compared with domain experts knowledge  & 452 OpenApi specification, 5 samples compared with results of sw-engineers and \cite{ServiceCutter}& case study, compared to three manual implementations \\
 			
@@ -227,7 +228,7 @@ Additionally, the algorithms to identify potential microservice candidates are s
 				
 				Degree of human involvement & domain experts define boundaries for business responsibilities & manual construction of purified DFD& no interaction needed & priorization of coupling criteria \\
 				
-				Granularity of the  recommended Microservices & depends on the size of the defined business capability & most fine-grained ms candidates in terms of data operations & lowest granularity of sw based on structural and behavioural properties  & n/a\\
+				Granularity & depends on the size of the defined business capability & most fine-grained ms candidates in terms of data operations & lowest granularity of sw based on structural and behavioural properties  & n/a\\
 				
 				Validation & demonstrated on sample domain& two case studies verified against relevant microservice principles and results of \cite{ServiceCutter} & two experiemtns with complex enterprise systems (legacy vs. ms implementation) & validation via implementation and two case studies\\
 				

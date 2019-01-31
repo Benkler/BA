@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.11)  29 JAN 2019 18:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.11)  31 JAN 2019 13:24
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1363,6 +1363,374 @@ File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 \AM@toc@title=\toks33
 \c@AM@survey=\count336
 \AM@templatesizebox=\box44
+) (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/pgfgantt\pgfgantt.sty
+Package: pgfgantt 2018/01/10 v5.0 Draw Gantt diagrams with TikZ
+
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/frontendlayer\tikz.
+sty
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/utilities\pgfrcs.st
+y
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfutil
+-common.tex
+\pgfutil@everybye=\toks34
+\pgfutil@tempdima=\dimen161
+\pgfutil@tempdimb=\dimen162
+
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfutil
+-common-lists.tex))
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfutil
+-latex.def
+\pgfutil@abb=\box45
+
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/ms\everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfrcs.
+code.tex
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2019/01/05 v3.1 (3.1)
+))
+Package: pgf 2019/01/05 v3.1 (3.1)
+
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/basiclayer\pgfcore.
+sty
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/systemlayer\pgfsys.
+sty
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pgfsy
+s.code.tex
+Package: pgfsys 2019/01/05 v3.1 (3.1)
+
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfkeys
+.code.tex
+\pgfkeys@pathtoks=\toks35
+\pgfkeys@temptoks=\toks36
+
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfkeys
+filtered.code.tex
+\pgfkeys@tmptoks=\toks37
+))
+\pgf@x=\dimen163
+\pgf@y=\dimen164
+\pgf@xa=\dimen165
+\pgf@ya=\dimen166
+\pgf@xb=\dimen167
+\pgf@yb=\dimen168
+\pgf@xc=\dimen169
+\pgf@yc=\dimen170
+\w@pgf@writea=\write4
+\r@pgf@reada=\read2
+\c@pgf@counta=\count337
+\c@pgf@countb=\count338
+\c@pgf@countc=\count339
+\c@pgf@countd=\count340
+\t@pgf@toka=\toks38
+\t@pgf@tokb=\toks39
+\t@pgf@tokc=\toks40
+\pgf@sys@id@count=\count341
+
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pgf.c
+fg
+File: pgf.cfg 2019/01/05 v3.1 (3.1)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pgfsy
+s-pdftex.def
+File: pgfsys-pdftex.def 2019/01/05 v3.1 (3.1)
+
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pgfsy
+s-common-pdf.def
+File: pgfsys-common-pdf.def 2019/01/05 v3.1 (3.1)
+)))
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pgfsy
+ssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2019/01/05 v3.1 (3.1)
+\pgfsyssoftpath@smallbuffer@items=\count342
+\pgfsyssoftpath@bigbuffer@items=\count343
+)
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pgfsy
+sprotocol.code.tex
+File: pgfsysprotocol.code.tex 2019/01/05 v3.1 (3.1)
+))
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcor
+e.code.tex
+Package: pgfcore 2019/01/05 v3.1 (3.1)
+
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmath.code
+.tex
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathcalc.
+code.tex
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathutil.
+code.tex)
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathparse
+r.code.tex
+\pgfmath@dimen=\dimen171
+\pgfmath@count=\count344
+\pgfmath@box=\box46
+\pgfmath@toks=\toks41
+\pgfmath@stack@operand=\toks42
+\pgfmath@stack@operation=\toks43
+)
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunct
+ions.code.tex
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunct
+ions.basic.code.tex)
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunct
+ions.trigonometric.code.tex)
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunct
+ions.random.code.tex)
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunct
+ions.comparison.code.tex)
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunct
+ions.base.code.tex)
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunct
+ions.round.code.tex)
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunct
+ions.misc.code.tex)
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunct
+ions.integerarithmetics.code.tex)))
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfloat
+.code.tex
+\c@pgfmathroundto@lastzeros=\count345
+))
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcor
+epoints.code.tex
+File: pgfcorepoints.code.tex 2019/01/05 v3.1 (3.1)
+\pgf@picminx=\dimen172
+\pgf@picmaxx=\dimen173
+\pgf@picminy=\dimen174
+\pgf@picmaxy=\dimen175
+\pgf@pathminx=\dimen176
+\pgf@pathmaxx=\dimen177
+\pgf@pathminy=\dimen178
+\pgf@pathmaxy=\dimen179
+\pgf@xx=\dimen180
+\pgf@xy=\dimen181
+\pgf@yx=\dimen182
+\pgf@yy=\dimen183
+\pgf@zx=\dimen184
+\pgf@zy=\dimen185
+)
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcor
+epathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2019/01/05 v3.1 (3.1)
+\pgf@path@lastx=\dimen186
+\pgf@path@lasty=\dimen187
+)
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcor
+epathusage.code.tex
+File: pgfcorepathusage.code.tex 2019/01/05 v3.1 (3.1)
+\pgf@shorten@end@additional=\dimen188
+\pgf@shorten@start@additional=\dimen189
+)
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcor
+escopes.code.tex
+File: pgfcorescopes.code.tex 2019/01/05 v3.1 (3.1)
+\pgfpic=\box47
+\pgf@hbox=\box48
+\pgf@layerbox@main=\box49
+\pgf@picture@serial@count=\count346
+)
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcor
+egraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2019/01/05 v3.1 (3.1)
+\pgflinewidth=\dimen190
+)
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcor
+etransformations.code.tex
+File: pgfcoretransformations.code.tex 2019/01/05 v3.1 (3.1)
+\pgf@pt@x=\dimen191
+\pgf@pt@y=\dimen192
+\pgf@pt@temp=\dimen193
+)
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcor
+equick.code.tex
+File: pgfcorequick.code.tex 2019/01/05 v3.1 (3.1)
+)
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcor
+eobjects.code.tex
+File: pgfcoreobjects.code.tex 2019/01/05 v3.1 (3.1)
+)
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcor
+epathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2019/01/05 v3.1 (3.1)
+)
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcor
+earrows.code.tex
+File: pgfcorearrows.code.tex 2019/01/05 v3.1 (3.1)
+\pgfarrowsep=\dimen194
+)
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcor
+eshade.code.tex
+File: pgfcoreshade.code.tex 2019/01/05 v3.1 (3.1)
+\pgf@max=\dimen195
+\pgf@sys@shading@range@num=\count347
+)
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcor
+eimage.code.tex
+File: pgfcoreimage.code.tex 2019/01/05 v3.1 (3.1)
+
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcor
+eexternal.code.tex
+File: pgfcoreexternal.code.tex 2019/01/05 v3.1 (3.1)
+\pgfexternal@startupbox=\box50
+))
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcor
+elayers.code.tex
+File: pgfcorelayers.code.tex 2019/01/05 v3.1 (3.1)
+)
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcor
+etransparency.code.tex
+File: pgfcoretransparency.code.tex 2019/01/05 v3.1 (3.1)
+)
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcor
+epatterns.code.tex
+File: pgfcorepatterns.code.tex 2019/01/05 v3.1 (3.1)
+)
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcor
+erdf.code.tex
+File: pgfcorerdf.code.tex 2019/01/05 v3.1 (3.1)
+)))
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/modules\pgfmodule
+shapes.code.tex
+File: pgfmoduleshapes.code.tex 2019/01/05 v3.1 (3.1)
+\pgfnodeparttextbox=\box51
+)
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/modules\pgfmodule
+plot.code.tex
+File: pgfmoduleplot.code.tex 2019/01/05 v3.1 (3.1)
+)
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/compatibility\pgfco
+mp-version-0-65.sty
+Package: pgfcomp-version-0-65 2019/01/05 v3.1 (3.1)
+\pgf@nodesepstart=\dimen196
+\pgf@nodesepend=\dimen197
+)
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/compatibility\pgfco
+mp-version-1-18.sty
+Package: pgfcomp-version-1-18 2019/01/05 v3.1 (3.1)
+))
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/utilities\pgffor.st
+y
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/utilities\pgfkeys.s
+ty
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfkeys
+.code.tex))
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmath.code
+.tex))
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgffor.
+code.tex
+Package: pgffor 2019/01/05 v3.1 (3.1)
+
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmath.code
+.tex)
+\pgffor@iter=\dimen198
+\pgffor@skip=\dimen199
+\pgffor@stack=\toks44
+\pgffor@toks=\toks45
+))
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendlayer/tik
+z\tikz.code.tex
+Package: tikz 2019/01/05 v3.1 (3.1)
+
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/libraries\pgflibr
+aryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2019/01/05 v3.1 (3.1)
+\pgf@plot@mark@count=\count348
+\pgfplotmarksize=\dimen256
+)
+\tikz@lastx=\dimen257
+\tikz@lasty=\dimen258
+\tikz@lastxsaved=\dimen259
+\tikz@lastysaved=\dimen260
+\tikzleveldistance=\dimen261
+\tikzsiblingdistance=\dimen262
+\tikz@figbox=\box52
+\tikz@figbox@bg=\box53
+\tikz@tempbox=\box54
+\tikz@tempbox@bg=\box55
+\tikztreelevel=\count349
+\tikznumberofchildren=\count350
+\tikznumberofcurrentchild=\count351
+\tikz@fig@count=\count352
+
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/modules\pgfmodule
+matrix.code.tex
+File: pgfmodulematrix.code.tex 2019/01/05 v3.1 (3.1)
+\pgfmatrixcurrentrow=\count353
+\pgfmatrixcurrentcolumn=\count354
+\pgf@matrix@numberofcolumns=\count355
+)
+\tikz@expandcount=\count356
+
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2019/01/05 v3.1 (3.1)
+)))
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2019/01/05 v3.1 (3.1)
+
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/libraries\pgflibr
+aryarrows.code.tex
+File: pgflibraryarrows.code.tex 2019/01/05 v3.1 (3.1)
+\arrowsize=\dimen263
+))
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarybackgrounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2019/01/05 v3.1 (3.1)
+\pgf@layerbox@background=\box56
+\pgf@layerboxsaved@background=\box57
+)
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2019/01/05 v3.1 (3.1)
+)
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarypatterns.code.tex
+File: tikzlibrarypatterns.code.tex 2019/01/05 v3.1 (3.1)
+
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/libraries\pgflibr
+arypatterns.code.tex
+File: pgflibrarypatterns.code.tex 2019/01/05 v3.1 (3.1)
+))
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2019/01/05 v3.1 (3.1)
+)
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2019/01/05 v3.1 (3.1)
+
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/libraries/shapes\
+pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2019/01/05 v3.1 (3.1)
+))
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/utilities\pgfcalend
+ar.sty
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfcale
+ndar.code.tex
+File: pgfcalendar.code.tex 2019/01/05 v3.1 (3.1)
+\pgfcalendarcurrentjulian=\count357
+))
+\gtt@currentline=\count358
+\gtt@lasttitleline=\count359
+\gtt@currgrid=\count360
+\gtt@chartwidth=\count361
+\gtt@lasttitleslot=\count362
+\gtt@elementid=\count363
+\gtt@today@slot=\count364
+\gtt@startjulian=\count365
+\gtt@endjulian=\count366
+\gtt@chartid=\count367
+\gtt@vrule@slot=\count368
+\gtt@calendar@slots=\count369
+\gtt@calendar@weeknumber=\count370
+\gtt@calendar@startofweek=\count371
+\gtt@left@slot=\count372
+\gtt@right@slot=\count373
 )
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -1393,69 +1761,69 @@ File: german.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count337
-\@quotereset=\count338
+\@quotelevel=\count374
+\@quotereset=\count375
 (thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 83.
-LaTeX Font Info:    Try loading font information for OML+nxlmi on input line 83
+LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 84.
+LaTeX Font Info:    Try loading font information for OML+nxlmi on input line 84
 .
 
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/newtx\omlnxlmi.fd
 File: omlnxlmi.fd 2013/11/19 Fontinst v1.933 font definitions for OML/nxlmi.
 )
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 83.
-LaTeX Font Info:    Try loading font information for U+ntxexa on input line 83.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 84.
+LaTeX Font Info:    Try loading font information for U+ntxexa on input line 84.
 
 
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/newtx\untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 83.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 83.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 84.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 84.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 83.
-LaTeX Font Info:    Try loading font information for LMS+ntxsy on input line 83
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 84.
+LaTeX Font Info:    Try loading font information for LMS+ntxsy on input line 84
 .
 
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/newtx\lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 84.
 LaTeX Font Info:    Try loading font information for LMX+ntxexx on input line 8
-3.
+4.
 
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/newtx\lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 83.
-LaTeX Font Info:    Try loading font information for LY1+ptm on input line 83.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 84.
+LaTeX Font Info:    Try loading font information for LY1+ptm on input line 84.
 
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/ly1\ly1ptm.fd
 File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 )
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
 LaTeX Font Info:    Try loading font information for T1+LinuxLibertineT-TLF on 
-input line 83.
+input line 84.
 
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/libertine\t1linuxlibert
 inet-tlf.fd
@@ -1463,7 +1831,7 @@ File: T1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for T1/Li
 nuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 83.
+(Font)              scaled to size 12.0pt on input line 84.
 
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/translations/dicts\tran
 slations-basic-dictionary-english.trsl
@@ -1471,30 +1839,30 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 83.
-\c@mv@tabular=\count339
-\c@mv@boldtabular=\count340
-LaTeX Info: Redefining \microtypecontext on input line 83.
+or `english'. on input line 84.
+\c@mv@tabular=\count376
+\c@mv@boldtabular=\count377
+LaTeX Info: Redefining \microtypecontext on input line 84.
 
 
 Package microtype Warning: `draft' option active.
 (microtype)                Disabling all micro-typographic extensions.
 (microtype)                This might lead to different line and page breaks.
 
-\AtBeginShipoutBox=\box45
+\AtBeginShipoutBox=\box58
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/context/base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count341
-\scratchdimen=\dimen161
-\scratchbox=\box46
-\nofMPsegments=\count342
-\nofMParguments=\count343
-\everyMPshowfont=\toks34
-\MPscratchCnt=\count344
-\MPscratchDim=\dimen162
-\MPnumerator=\count345
-\makeMPintoPDFobject=\count346
-\everyMPtoPDFconversion=\toks35
+\scratchcounter=\count378
+\scratchdimen=\dimen264
+\scratchbox=\box59
+\nofMPsegments=\count379
+\nofMParguments=\count380
+\everyMPshowfont=\toks46
+\MPscratchCnt=\count381
+\MPscratchDim=\dimen265
+\MPnumerator=\count382
+\makeMPintoPDFobject=\count383
+\everyMPtoPDFconversion=\toks47
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1511,25 +1879,25 @@ G,.JBIG2,.JB2,.eps]
 
 Package hyperref Warning: Draft mode on.
 
-Package hyperref Info: Link coloring OFF on input line 83.
+Package hyperref Info: Link coloring OFF on input line 84.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 ("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count347
+\c@section@level=\count384
 )
-LaTeX Info: Redefining \ref on input line 83.
-LaTeX Info: Redefining \pageref on input line 83.
-LaTeX Info: Redefining \nameref on input line 83.
+LaTeX Info: Redefining \ref on input line 84.
+LaTeX Info: Redefining \pageref on input line 84.
+LaTeX Info: Redefining \nameref on input line 84.
 Class scrbook Info: loading recommended package `bookmark'.
 (scrbook)           Using `bookmark' together with `hyperref' is recommended,
 (scrbook)           because of handling of possible bookmark level gaps.
 (scrbook)           You can avoid loading `bookmark' with KOMA-Script option
 (scrbook)           `bookmarkpackage=false' before \begin{document} and
 (scrbook)           you can avoid this message with `\usepackage{bookmark}'
-(scrbook)           before \begin{document} on input line 83.
+(scrbook)           before \begin{document} on input line 84.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\bookmark.sty"
 Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
@@ -1539,7 +1907,7 @@ File: bkm-pdftex.def 2016/05/17 v1.26 bookmark driver for pdfTeX (HO)
 Package auxhook Info: \AddLineBeginMainAux comes a little late,
 (auxhook)             because the main .aux file is already opened on input lin
 e 164.
-\BKM@id=\count348
+\BKM@id=\count385
 ))
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
@@ -1549,22 +1917,23 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'thesis.bbl' found.
  (thesis.bbl)
-Package biblatex Info: Reference section=0 on input line 83.
-Package biblatex Info: Reference segment=0 on input line 83.
-<logos/kitlogo_en_cmyk.pdf, id=1, 198.7425pt x 92.345pt>
+Package biblatex Info: Reference section=0 on input line 84.
+Package biblatex Info: Reference segment=0 on input line 84.
+ABD: EveryShipout initializing macros
+<logos/kitlogo_en_cmyk.pdf, id=4, 198.7425pt x 92.345pt>
 File: logos/kitlogo_en_cmyk.pdf Graphic file (type pdf)
 <use logos/kitlogo_en_cmyk.pdf>
-Package pdftex.def Info: logos/kitlogo_en_cmyk.pdf  used on input line 90.
+Package pdftex.def Info: logos/kitlogo_en_cmyk.pdf  used on input line 91.
 (pdftex.def)             Requested size: 110.22453pt x 51.21504pt.
-<logos/sdqlogo.pdf, id=2, 558.085pt x 280.24701pt>
+<logos/sdqlogo.pdf, id=5, 558.085pt x 280.24701pt>
 File: logos/sdqlogo.pdf Graphic file (type pdf)
 <use logos/sdqlogo.pdf>
-Package pdftex.def Info: logos/sdqlogo.pdf  used on input line 90.
+Package pdftex.def Info: logos/sdqlogo.pdf  used on input line 91.
 (pdftex.def)             Requested size: 101.98378pt x 51.21504pt.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 24.88pt on input line 90.
+(Font)              scaled to size 24.88pt on input line 91.
 LaTeX Font Info:    Try loading font information for T1+SourceSansPro-LF on inp
-ut line 90.
+ut line 91.
 
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/sourcesanspro\t1sources
 anspro-lf.fd
@@ -1572,15 +1941,15 @@ File: T1SourceSansPro-LF.fd 2016/12/03 (autoinst) Font definitions for T1/Sourc
 eSansPro-LF.
 )
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/m/n' will be
-(Font)              scaled to size 22.88956pt on input line 90.
+(Font)              scaled to size 22.88956pt on input line 91.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/b/n' will be
-(Font)              scaled to size 22.88956pt on input line 90.
+(Font)              scaled to size 22.88956pt on input line 91.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 90.
+(Font)              scaled to size 14.4pt on input line 91.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 90.
+(Font)              scaled to size 17.28pt on input line 91.
 LaTeX Font Info:    Try loading font information for OT1+LinuxLibertineT-TLF on
- input line 90.
+ input line 91.
 
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/libertine\ot1linuxliber
 tinet-tlf.fd
@@ -1588,39 +1957,39 @@ File: OT1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for OT1/
 LinuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 90.
+(Font)              scaled to size 17.28pt on input line 91.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 12.5pt on input line 90.
+(Font)              scaled to size 12.5pt on input line 91.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 9.4pt on input line 90.
-LaTeX Font Info:    Try loading font information for U+ntxmia on input line 90.
+(Font)              scaled to size 9.4pt on input line 91.
+LaTeX Font Info:    Try loading font information for U+ntxmia on input line 91.
 
 
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/newtx\untxmia.fd
 File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsym on input line 90.
+LaTeX Font Info:    Try loading font information for U+ntxsym on input line 91.
 
 
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/newtx\untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 90.
+LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 91.
 
 
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/newtx\untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 90.
+(Font)              scaled to size 14.4pt on input line 91.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.5pt on input line 90.
+(Font)              scaled to size 10.5pt on input line 91.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.9pt on input line 90.
-<title-background.pdf, id=3, 597.50786pt x 845.04686pt>
+(Font)              scaled to size 7.9pt on input line 91.
+<title-background.pdf, id=6, 597.50786pt x 845.04686pt>
 File: title-background.pdf Graphic file (type pdf)
 <use title-background.pdf>
-Package pdftex.def Info: title-background.pdf  used on input line 90.
+Package pdftex.def Info: title-background.pdf  used on input line 91.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 
 [1
@@ -1668,30 +2037,30 @@ LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 
 ]
 Package tocbasic Info: character protrusion at toc deactivated on input line 11
-5.
+6.
  (thesis.toc)
-\tf@toc=\write4
-\openout4 = `thesis.toc'.
+\tf@toc=\write5
+\openout5 = `thesis.toc'.
 
  [5] [6
 
 
 ]
 Package tocbasic Info: character protrusion at lof deactivated on input line 11
-7.
+8.
  (thesis.lof)
-\tf@lof=\write5
-\openout5 = `thesis.lof'.
+\tf@lof=\write6
+\openout6 = `thesis.lof'.
 
  [7] [8
 
 
 ]
 Package tocbasic Info: character protrusion at lot deactivated on input line 11
-8.
+9.
  (thesis.lot)
-\tf@lot=\write6
-\openout6 = `thesis.lot'.
+\tf@lot=\write7
+\openout7 = `thesis.lot'.
 
  [9] [10
 
@@ -1707,13 +2076,7 @@ LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/b/n' will be
 ]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 12.0pt on input line 35.
-
-Overfull \hbox (3.27583pt too wide) in paragraph at lines 33--36
- \T1/LinuxLibertineT-TLF/b/n/12 RQ1: Which strat-egy can be used to ex-tract mi
--croser-vices from a mono- 
- []
-
-[2]
+ [2]
 Overfull \hbox (60.8062pt too wide) in paragraph at lines 75--82
 \T1/LinuxLibertineT-TLF/m/n/12 sec-tions/stateOfTheArt.tex in-put-sec-tions/sol
 utionOverview.tex in-put-sec-tions/evaluationPlanning.tex
@@ -1792,7 +2155,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 96--99
 
 ) (sections/CoCoME.tex [8]
 chapter 3.
-<img/useCase.pdf, id=125, 845.10378pt x 597.19492pt>
+<img/useCase.pdf, id=128, 845.10378pt x 597.19492pt>
 File: img/useCase.pdf Graphic file (type pdf)
 <use img/useCase.pdf>
 Package pdftex.def Info: img/useCase.pdf  used on input line 22.
@@ -1818,147 +2181,147 @@ LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 7.3pt on input line 9.
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 []|\T1/LinuxLibertineT-TLF/m/n/12 Extraction of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 \T1/LinuxLibertineT-TLF/m/n/12 Mi-croser-vices
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 \T1/LinuxLibertineT-TLF/m/n/12 from Mono-lithic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 \T1/LinuxLibertineT-TLF/m/n/12 Soft-ware Ar-chi-
  []
 
 
-Underfull \hbox (badness 5802) in paragraph at lines 67--67
+Underfull \hbox (badness 5802) in paragraph at lines 68--68
 []|\T1/LinuxLibertineT-TLF/m/it/12 microservice iden-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 []|\T1/LinuxLibertineT-TLF/m/n/12 Object-Aware
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 \T1/LinuxLibertineT-TLF/m/n/12 Iden-ti-fi-ca-tion of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 []|\T1/LinuxLibertineT-TLF/m/it/12 identification
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 []|\T1/LinuxLibertineT-TLF/m/n/12 Microservices
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 \T1/LinuxLibertineT-TLF/m/n/12 Iden-ti-fi-ca-tion
  []
 
 
-Underfull \hbox (badness 1931) in paragraph at lines 67--67
+Underfull \hbox (badness 1931) in paragraph at lines 68--68
 []|\T1/LinuxLibertineT-TLF/m/n/12 L. Baresi et. al.
  []
 
 
-Underfull \hbox (badness 5802) in paragraph at lines 67--67
+Underfull \hbox (badness 5802) in paragraph at lines 68--68
 []|\T1/LinuxLibertineT-TLF/m/it/12 microservice iden-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 []|\T1/LinuxLibertineT-TLF/m/n/12 Identifying Mi-
  []
 
 
-Underfull \hbox (badness 6094) in paragraph at lines 67--67
+Underfull \hbox (badness 6094) in paragraph at lines 68--68
 \T1/LinuxLibertineT-TLF/m/n/12 croser-vices Us-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 \T1/LinuxLibertineT-TLF/m/n/12 Func-tional De-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 []|\T1/LinuxLibertineT-TLF/m/n/12 Partitioning Mi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 \T1/LinuxLibertineT-TLF/m/n/12 croser-vices: A
  []
 
 
-Underfull \hbox (badness 2961) in paragraph at lines 67--67
+Underfull \hbox (badness 2961) in paragraph at lines 68--68
 \T1/LinuxLibertineT-TLF/m/n/12 Mi-croser-vices: A
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 \T1/LinuxLibertineT-TLF/m/n/12 Dataflow-Driven
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 []|\T1/LinuxLibertineT-TLF/m/n/12 monolith mi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 []|\T1/LinuxLibertineT-TLF/m/n/12 Function-Splitting
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 \T1/LinuxLibertineT-TLF/m/n/12 Heuris-tics for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 \T1/LinuxLibertineT-TLF/m/n/12 Dis-cov-ery of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 \T1/LinuxLibertineT-TLF/m/n/12 Mi-croser-vices
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 \T1/LinuxLibertineT-TLF/m/n/12 in En-ter-prise
  []
 
 
-Underfull \hbox (badness 1789) in paragraph at lines 67--67
+Underfull \hbox (badness 1789) in paragraph at lines 68--68
 []|\T1/LinuxLibertineT-TLF/m/n/12 identify mi-croser-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 \T1/LinuxLibertineT-TLF/m/n/12 Sys-tem-atic Ap-
  []
 
 
-Underfull \hbox (badness 1168) in paragraph at lines 67--67
+Underfull \hbox (badness 1168) in paragraph at lines 68--68
 \T1/LinuxLibertineT-TLF/m/n/12 proach to Ser-vice
  []
 
 
-Underfull \hbox (badness 1622) in paragraph at lines 67--67
+Underfull \hbox (badness 1622) in paragraph at lines 68--68
 []|\T1/LinuxLibertineT-TLF/m/n/12 M. Gy-sel et. al.
  []
 
@@ -1969,89 +2332,89 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 ] [12]
-Overfull \hbox (16.44678pt too wide) in paragraph at lines 83--87
+Overfull \hbox (16.44678pt too wide) in paragraph at lines 84--88
 \T1/LinuxLibertineT-TLF/m/n/12 The ap-proach pre-sented in [19] is a class base
 d ex-trac-tion model, that uses (meta-)information
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--87
+Underfull \hbox (badness 10000) in paragraph at lines 84--88
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--92
+Underfull \hbox (badness 10000) in paragraph at lines 89--93
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--97
+Underfull \hbox (badness 10000) in paragraph at lines 95--98
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--102
+Underfull \hbox (badness 10000) in paragraph at lines 100--103
 
  []
 
 [13
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 105--108
+Underfull \hbox (badness 10000) in paragraph at lines 106--109
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--112
+Underfull \hbox (badness 10000) in paragraph at lines 110--113
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--118
+Underfull \hbox (badness 10000) in paragraph at lines 115--119
 
  []
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 127--128
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--130
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--132
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
 
  []
 
 
 LaTeX Warning: Reference `sec:Introduction:ProblemStatement' on page 16 undefin
-ed on input line 137.
+ed on input line 138.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--144
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--145
 
  []
 
@@ -2129,16 +2492,6 @@ Underfull \hbox (badness 3312) in paragraph at lines 1--1
 
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
 \T1/LinuxLibertineT-TLF/m/n/12 syn-onyms, ir-rel-e-vant
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1--1
-[]|\T1/LinuxLibertineT-TLF/m/n/12 Granularity of the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1--1
-\T1/LinuxLibertineT-TLF/m/n/12 rec-om-mended Mi-
  []
 
 
@@ -2302,16 +2655,6 @@ Underfull \hbox (badness 3039) in paragraph at lines 1--1
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
-[]|\T1/LinuxLibertineT-TLF/m/n/12 Granularity of the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1--1
-\T1/LinuxLibertineT-TLF/m/n/12 rec-om-mended Mi-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1--1
 []|\T1/LinuxLibertineT-TLF/m/n/12 most fine-grained ms
  []
 
@@ -2426,37 +2769,36 @@ chapter 6.
 
 ]
 chapter 7.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 9--133
-
- []
-
-[23] [24
-
-
-]
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 10.95pt on input line 26.
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+) [23] [24]
 chapter without number
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 142.
-LaTeX Font Info:    Try loading font information for T1+fvm on input line 142.
+(Font)              scaled to size 12.0pt on input line 143.
+LaTeX Font Info:    Try loading font information for T1+fvm on input line 143.
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/bera\t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 9.35999pt on input line 142.
- [25]
-Overfull \hbox (2.68753pt too wide) in paragraph at lines 142--142
+(Font)              scaled to size 9.35999pt on input line 143.
+ [25
+
+
+]
+Overfull \hbox (2.68753pt too wide) in paragraph at lines 143--143
 \T1/LinuxLibertineT-TLF/m/n/12 Ac-cessed on 20.01.2019. \T1/LinuxLibertineT-TLF
 /m/sc/12 url\T1/LinuxLibertineT-TLF/m/n/12 : $\T1/fvm/m/n/12 https : / / www . 
 merlin . uzh . ch / contributionDocument /
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 150.
 [26]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 150.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 151.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 151.
  (thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 150.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 150.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 151.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 151.
 
 
 LaTeX Warning: There were undefined references.
@@ -2466,18 +2808,15 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26145 strings out of 492946
- 492739 string characters out of 3135518
- 1112849 words of memory out of 3000000
- 29539 multiletter control sequences out of 15000+200000
- 175138 words of font info for 147 fonts, out of 3000000 for 9000
+ 38131 strings out of 492946
+ 767435 string characters out of 3135518
+ 1349290 words of memory out of 3000000
+ 41278 multiletter control sequences out of 15000+200000
+ 180401 words of font info for 149 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 64i,20n,78p,9088b,2282s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 73i,20n,81p,9088b,2282s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{chapter*.6} has been referenced but does not exis
 t, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.7.1} has been referenced but does not exist
-, replaced by a fixed one
 
 pdfTeX warning (dest): name{chapter.7} has been referenced but does not exist, 
 replaced by a fixed one
@@ -2566,9 +2905,9 @@ s/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/libertine/LinLibertineTI.pfb><C
 rceSansPro-Bold.pfb><C:/Users/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/type1/a
 dobe/sourcesanspro/SourceSansPro-Semibold.pfb><C:/Users/Nikolaus/AppData/Roamin
 g/MiKTeX/2.9/fonts/type1/bera/fvmr8a.pfb>
-Output written on thesis.pdf (38 pages, 490810 bytes).
+Output written on thesis.pdf (38 pages, 495456 bytes).
 PDF statistics:
- 335 PDF objects out of 1000 (max. 8388607)
- 26 named destinations out of 1000 (max. 500000)
- 229 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 334 PDF objects out of 1000 (max. 8388607)
+ 25 named destinations out of 1000 (max. 500000)
+ 233 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,37 +1,63 @@
 \chapter{Organization}
 \label{ch:timetable}
-The schedule of the thesis is presented in table \ref{tab:timetable}]. The proposal date is set to 11.02.2019. Afterwards, an approach to identify microservices will be elaborated, based on the work of M.J. Amiri \cite{ObjectAwareAmiri}.  It will further be applied to CoCoME and the results are compared to the outcome presented in \cite{FunctionalDecompositionHeinrich}.
-Note, that week no. 15 and 16 are used as buffer to solve problems that may arise when creating the new approach.
+The schedule of the thesis is presented as a (Fig.\textit{Gantt Chart}) \ref{tab:ganttChart}. The proposal date is set to 11.02.2019. Afterwards, an approach to identify microservices will be elaborated, based on the work of M.J. Amiri \cite{ObjectAwareAmiri}.  It will further be applied to CoCoME and the results are compared to the outcome presented in \cite{FunctionalDecompositionHeinrich}.
 
-\section{Schedule and Milestones}
-\label{sec:timetable:milestones}
 
-	\begin{threeparttable}[h!]
-	
-	\centering
-	
-	
-	\rowcolors{2}{gray!25}{white}
-	\begin{tabularx}{\linewidth}{llX}
-		\rowcolor{gray!50}
-	     KW & Date & Milestone \\
-	    7 & 11.02 &  Proposal \\
-	     8& 18.02 &  Elaborate weaknesses of starting point approach \cite{ObjectAwareAmiri}\\
-	     9&  25.02&  Define improvements \\
-	     10&  04.03& Define improvements  \\
-	     11&  11.03& Define Preconditions for Approach \\
-	     12&  18.03& Apply approach to CoCoME \\
-	     13&  25.03& Comparison to \cite{FunctionalDecompositionHeinrich} and  \\
-	     14&  01.04& Evaluation  \\
-	     15&  08.04& Buffer  \\
-	     16&  15.04& Buffer  \\
-	     17&  22.04& Presentation  \\
-	     \multicolumn{3}{l}{\textbf{Total: 11 weeks}} 
+\begin{figure}[tbh]
+	\begin{center}
 		
-	\end{tabularx}
-	\caption{Comparison of Approaches, Part II}
-	\label{tab:timetable}
+	\begin{ganttchart}[y unit title=0.4cm,
+		y unit chart=1.2cm,
+		vgrid,hgrid, 
+		newline shortcut=true,
+		title label anchor/.style={below=-1.6ex},
+		title left shift=.05,
+		title right shift=-.05,
+		title height=1,
+		bar/.style={fill=gray!50},
+		bar label node/.append style={align=left}, 
+		incomplete/.style={fill=white},
+		progress label text={},
+		bar height=0.6,
+		bar top shift = .2,
+		group right shift=0,
+		group top shift=.6,
+		group height=.3]{1}{22}
+		\gantttitle{KW 2019}{22} \\
+		\gantttitlelist{7,...,17}{2} \\
+		
+		\ganttmilestone{Proposal}{1} \ganttnewline
+		
+		\ganttbar{Examine weak points \\of existing approach }{1}{4} \\
+		\ganttbar{Define Data/Activity \\ relationships}{2}{6} \\
 	
-	//Info: Ende Prüfungszeitraum 13.05
+		\ganttbar{Elaborate \\ new approach  }{6}{11} \\
 	
-\end{threeparttable}
+		\ganttbar{Prepare \\ preconditions}{10}{13} \\
+		\ganttbar{Refine approach}{7}{16} \\
+		\ganttmilestone{Final approach}{16} \\
+	
+		\ganttbar{Apply approach }{13}{14} \\
+	    \ganttbar{Compare results }{13}{15} \\
+		\ganttbar{Evaluation }{10}{18} \\
+	
+		
+		
+		
+		\ganttbar{Write Thesis}{1}{21} \\
+		\ganttmilestone{Thesis submission}{21} \\
+	
+		\ganttbar{Prepare Presentation}{19}{21.5} \\
+		\ganttmilestone{Presentation}{22} 
+		\ganttlink{elem5}{elem6}
+		\ganttlink{elem10}{elem11}
+			\ganttlink{elem12}{elem13}
+	\end{ganttchart}
+	\end{center}
+	\caption{Schedule}
+	\label{tab:ganttChart}
+\end{figure}
+
+
+
+
