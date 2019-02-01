@@ -51,12 +51,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.2}Contributions}{20}{section.5.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Evaluation Planning}{21}{chapter.6}% 
+\contentsline {chapter}{\numberline {6}Evaluation Planning}{23}{chapter.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Applicability to Case Study}{21}{section.6.1}% 
+\contentsline {section}{\numberline {6.1}Applicability to Case Study}{23}{section.6.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Comparison to Functional Decomposition Approach}{21}{section.6.2}% 
+\contentsline {section}{\numberline {6.2}Comparison to Functional Decomposition Approach}{23}{section.6.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Organization}{23}{chapter.7}% 
+\contentsline {chapter}{\numberline {7}Organization}{25}{chapter.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{25}{chapter*.6}% 
+\contentsline {chapter}{\nonumberline Bibliography}{27}{chapter*.6}% 

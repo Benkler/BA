@@ -6,7 +6,7 @@ This thesis proposes a formal, graph-based microservice identification approach 
 
 \section{Basic Concept}
 \label{sec:solutionOverview:basicConcept}
-Basically, the identification process is performed from the business process point of view. A business process is a set of activities where each activity represents a functionality within the system in order to achieve a business goal. To organize a system as suite of small and independent microservices, the business processes are decomposed into fine-grained, cohesive and loosely coupled components where the activities are distribute among those components.\\
+Basically, the identification process is performed from the business process point of view. A business process is a set of activities where each activity represents a functionality within the system in order to achieve a business goal. To organize a system as suite of small and independent microservices, the business processes are decomposed into fine-grained, cohesive and loosely coupled components where the activities are distribute among those components and each of them represents a microservice.\\
 
 
 
@@ -24,7 +24,14 @@ When it comes to evaluate the approach presented by Amiri, the method used to we
 
 \section{Contributions}
 \label{sec:solutionOverview:Contributions}
-First of all, the suggested solution adopts the basic idea to perform the identification from the business point of view. Therefore, the informal system specifications of the case study provided as use cases are visualized as \textit{BPMN} processes using a approach provided by Luebke et al. \cite{Lubke}.
+First of all, the suggested solution adopts the basic idea to perform the identification from the business point of view. Therefore, the informal system specifications of the case study provided as use cases are visualized as \textit{BPMN} processes using the approach proposed by Luebke et al. \cite{Lubke}.
+Further, the goal is to achieve a proper representation of data object and structural dependency. Therefore, a main contribution consists of carving out possible relationships between data objects and activities.\\
+Regarding data objects, a possible relationship can be identified using a distance measure based on the principle of locality. Given a pair of data objects and corresponding activities that access the data: It is more likely that both data objects belong to the same service if they are accessed by neighbouring activities. Otherwise, they should be partitioned in different services.\\
+Another strategy is based on the cohesiveness of microservices, and consequently the cohesiveness of its data: Two data objects are more likely part of the same service, if several activities access both of them together. \\
+In order to eliminate the ambiguity of the aggregation, the proposed approach uses independent clustering for the structural and data object dependency. Having both sets of cluster, the next step is to match them together which might lead to merging or splitting some of the clusters. \\
+So far, it remains unclear how to match, merge and split them. This will be elaborated within this thesis. A schedule for the execution of the thesis can be found in Chapter \ref{ch:timetable}.
+
+
 
 
 
