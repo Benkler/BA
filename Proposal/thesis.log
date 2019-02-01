@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.11)  31 JAN 2019 13:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.11)  1 FEB 2019 15:33
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -2076,14 +2076,12 @@ LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/b/n' will be
 ]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 12.0pt on input line 35.
- [2]
-Overfull \hbox (60.8062pt too wide) in paragraph at lines 75--82
-\T1/LinuxLibertineT-TLF/m/n/12 sec-tions/stateOfTheArt.tex in-put-sec-tions/sol
-utionOverview.tex in-put-sec-tions/evaluationPlanning.tex
- []
 
+Underfull \vbox (badness 3396) has occurred while \output is active []
+
+ [2]
 LaTeX Font Info:    Try loading font information for TS1+LinuxLibertineT-TLF on
- input line 84.
+ input line 77.
 
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/libertine\ts1linuxliber
 tinet-tlf.fd
@@ -2091,7 +2089,7 @@ File: TS1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for TS1/
 LinuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 84.
+(Font)              scaled to size 12.0pt on input line 77.
 ) (sections/background.tex [3] [4
 
 
@@ -2333,7 +2331,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ] [12]
 Overfull \hbox (16.44678pt too wide) in paragraph at lines 84--88
-\T1/LinuxLibertineT-TLF/m/n/12 The ap-proach pre-sented in [19] is a class base
+\T1/LinuxLibertineT-TLF/m/n/12 The ap-proach pre-sented in [20] is a class base
 d ex-trac-tion model, that uses (meta-)information
  []
 
@@ -2385,36 +2383,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 130--131
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--133
+Underfull \hbox (badness 10000) in paragraph at lines 132--134
 
  []
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
 
 
 LaTeX Warning: Reference `sec:Introduction:ProblemStatement' on page 16 undefin
-ed on input line 138.
+ed on input line 139.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--139
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--145
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--146
 
  []
 
@@ -2755,16 +2753,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1
 
 ]
 chapter 5.
-) (sections/evaluationPlanning.tex [19
 
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
+ []
 
-] [20
+[19
+
 
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+
+ []
+
+) (sections/evaluationPlanning.tex [20]
 chapter 6.
-) (sections/timetable.tex [21] [22
+) (sections/timetable.tex [21
+
+
+] [22
 
 
 ]
@@ -2808,10 +2816,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38131 strings out of 492946
- 767435 string characters out of 3135518
- 1349290 words of memory out of 3000000
- 41278 multiletter control sequences out of 15000+200000
+ 38146 strings out of 492946
+ 768013 string characters out of 3135518
+ 1349496 words of memory out of 3000000
+ 41289 multiletter control sequences out of 15000+200000
  180401 words of font info for 149 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  73i,20n,81p,9088b,2282s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2829,6 +2837,18 @@ pdfTeX warning (dest): name{section.6.1} has been referenced but does not exist
 
 pdfTeX warning (dest): name{chapter.6} has been referenced but does not exist, 
 replaced by a fixed one
+
+pdfTeX warning (dest): name{section.5.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.5.1.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.5.1.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.5.1} has been referenced but does not exist
+, replaced by a fixed one
 
 pdfTeX warning (dest): name{chapter.5} has been referenced but does not exist, 
 replaced by a fixed one
@@ -2905,9 +2925,9 @@ s/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/libertine/LinLibertineTI.pfb><C
 rceSansPro-Bold.pfb><C:/Users/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/type1/a
 dobe/sourcesanspro/SourceSansPro-Semibold.pfb><C:/Users/Nikolaus/AppData/Roamin
 g/MiKTeX/2.9/fonts/type1/bera/fvmr8a.pfb>
-Output written on thesis.pdf (38 pages, 495456 bytes).
+Output written on thesis.pdf (38 pages, 501725 bytes).
 PDF statistics:
- 334 PDF objects out of 1000 (max. 8388607)
- 25 named destinations out of 1000 (max. 500000)
- 233 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 350 PDF objects out of 1000 (max. 8388607)
+ 29 named destinations out of 1000 (max. 500000)
+ 265 words of extra memory for PDF output out of 10000 (max. 10000000)
 

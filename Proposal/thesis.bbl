@@ -862,6 +862,45 @@
       \field{pages}{1\bibrangedash 4}
       \range{pages}{4}
     \endentry
+    \entry{Lubke}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=31a7ea3468ca841da284ef26dadbd293}{%
+           family={Lubke},
+           familyi={L\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c0c170d27883740fcdb45bdef4366553}{%
+           family={Schneider},
+           familyi={S\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=a5d0caf92a8612203c215afd3af9b925}{%
+           family={Weidlich},
+           familyi={W\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{76418f48b8e62a120c770583b85e7b36}
+      \strng{fullhash}{76418f48b8e62a120c770583b85e7b36}
+      \strng{bibnamehash}{76418f48b8e62a120c770583b85e7b36}
+      \strng{authorbibnamehash}{76418f48b8e62a120c770583b85e7b36}
+      \strng{authornamehash}{76418f48b8e62a120c770583b85e7b36}
+      \strng{authorfullhash}{76418f48b8e62a120c770583b85e7b36}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2008 Requirements Engineering Visualization}
+      \field{month}{9}
+      \field{title}{Visualizing Use Case Sets as BPMN Processes}
+      \field{year}{2008}
+      \field{pages}{21\bibrangedash 25}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/REV.2008.8
+      \endverb
+      \keyw{business data processing;data flow graphs;data visualisation;software project;Use Case sets visualization;business process modeling notation;control-flow concept;Unified modeling language;Software engineering;Automatic control;Assembly;Books;Data visualization;Business communication}
+    \endentry
     \entry{ExtractionMazlami}{article}{}
       \name{author}{3}{}{%
         {{hash=2f55f7d39d4d59bb70ff3b7d8d555bdd}{%

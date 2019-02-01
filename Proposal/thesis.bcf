@@ -2134,13 +2134,15 @@
     <bcf:citekey order="175">HeuristicsAlwis</bcf:citekey>
     <bcf:citekey order="176">ServiceCutter</bcf:citekey>
     <bcf:citekey order="177">ServiceCutter</bcf:citekey>
-    <bcf:citekey order="178">CoCoMEOld</bcf:citekey>
-    <bcf:citekey order="179">CoCoMETechnical</bcf:citekey>
-    <bcf:citekey order="180">FunctionalDecompositionHeinrich</bcf:citekey>
-    <bcf:citekey order="181">FunctionalDecompositionHeinrich</bcf:citekey>
+    <bcf:citekey order="178">ObjectAwareAmiri</bcf:citekey>
+    <bcf:citekey order="179">Lubke</bcf:citekey>
+    <bcf:citekey order="180">CoCoMEOld</bcf:citekey>
+    <bcf:citekey order="181">CoCoMETechnical</bcf:citekey>
     <bcf:citekey order="182">FunctionalDecompositionHeinrich</bcf:citekey>
-    <bcf:citekey order="183">ObjectAwareAmiri</bcf:citekey>
+    <bcf:citekey order="183">FunctionalDecompositionHeinrich</bcf:citekey>
     <bcf:citekey order="184">FunctionalDecompositionHeinrich</bcf:citekey>
+    <bcf:citekey order="185">ObjectAwareAmiri</bcf:citekey>
+    <bcf:citekey order="186">FunctionalDecompositionHeinrich</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

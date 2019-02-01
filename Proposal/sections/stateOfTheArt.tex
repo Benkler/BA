@@ -129,7 +129,8 @@ Table \ref{tab:compareApproaches1} and \ref{tab:compareApproaches2} provide a sh
 
 The approach mentioned in \cite{ExtractionMazlami} is the result of a master thesis \cite{Mazlami}. Therefore, the degree of available information is larger compared to other approaches. The algorithmic recommendation of microservices candidates is implemented in a web-based, open source prototype and permits to choose three different coupling criteria, which can be combined for better results. Nevertheless, the main limitation relies in its type of input data: meaningful VCS data. For instance, developers must not commit changes on two independent functionalities together, but split it up. If this is not the case, the outcome may be wrong. \\
 
-Amiri's approach \cite{ObjectAwareAmiri} does not provide tool support at all. Further, information about the validation process (i.e. tested systems) are not given. The weighting of the relationships lack formal explanation and need further analysis. Nonetheless, the approach is straightforward and does not require any user involvement once the input data is available. \\
+Amiri's approach \cite{ObjectAwareAmiri} uses the open-source clustering software "Bunch"\footnote{https://www.cs.drexel.edu/~spiros/bunch/} . Further, information about the validation process (i.e. tested systems) are not given, but he claims that the process was successful. The weighting of the relationships lack formal explanation and need further analysis. Moreover, the author does no clearly differentiate data- and control flow.
+Nonetheless, the approach is straightforward and does not require any user involvement once the input data is available. \\
 
 Baresi et al. \cite{interfaceAnalysisBaresi} developed an experimental prototype to validate their results. They used a multitude of specifications and compared the outcome  with results of software engineers and the tool \textit{Service Cutter} \cite{ServiceCutter}. Nevertheless, the outcome highly depends on the chosen reference vocabulary and  well-defined APIs in the legacy system. Operations and resources (variables, return values) have to be expressive and represent what they do. Variable names like \textit{temp} or \textit{var1} would result in a useless service decomposition. \\
 
@@ -177,7 +178,7 @@ Additionally, the algorithms to identify potential microservice candidates are s
 			data object reads and writes  & reference vocabulary (fitness function), OpenApi specifications & use cases\\
 			
 			Tool support & prototype available (https://github.com/gmazlami/microserviceExtraction-frontend)
-			  & n/a & experimental prototype (https://github.com/mgar riga/decomposer) & use external graph visualize and analyse tools \\
+			  & Clustering tool "Bunch" & experimental prototype (https://github.com/mgar riga/decomposer) & use external graph visualize and analyse tools \\
 			
 			Degree of human involvement & choose amount of clusters that will represent the microservices  & no interaction needed & user defines level of hierachy & manual elimination of synonyms, irrelevant nouns and verbs \\
 			
