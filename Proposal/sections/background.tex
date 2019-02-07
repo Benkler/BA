@@ -34,13 +34,15 @@ Chen et al. provide a short résumé:
 \vspace*{\fill}
 
 \begin{center}
-\textit{ "The microservice architectural style is an approach to developing a single application as a suite of small services, each running in its own process and communicating with lightweight mechanisms, often an HTTP resource API." \cite{Fowler} }
+\textit{ "The microservice architectural style is an approach to developing a single application as a suite of small services, each running in its own process and communicating with lightweight mechanisms, often an HTTP resource API."   } \\
+\vspace{0.5cm}
+ - Lewis Fowler \cite{Fowler}
 \end{center}
 
 \vspace*{\fill}
 
 \subsection{Definition}
-The above quotation is a widely adopted definition of the term \textit{Microservice}, provided by M. Fowler and J. Lewis, the pioneers of the microservice architecture. However, the term is not formally defined. Amiri et al. describes microservices as a collection of cohesive and loosely coupled components, where each service implements a business capability.
+The above quotation is a widely adopted definition of the term \textit{Microservice}, provided by M. Fowler and J. Lewis \cite{Fowler}, the pioneers of the microservice architecture. However, the term is not formally defined. Amiri et al. describes microservices as a collection of cohesive and loosely coupled components, where each service implements a business capability.
  The author introduces three principles upon which the architecture is build: \textit{Bounded Context, Size, Independence} \cite{ObjectAwareAmiri}. \\
  The first principle is about related functionality, that is combined in a single business capability - the  \textit{bounded context} \cite{FunctionalDecompositionHeinrich}. Each capability is implemented by one microservice. 
 The \textit{Size} of a microservice is defined by the number of features it provides (namely bundled functional capabilities)  \cite{WorkloadbasedClustering}. There is no consensus about the "proper" size of a microservice \cite{DomainEngineeringMunezero}, but several guidelines exists: Services should focus on one business capability only \cite{ObjectAwareAmiri}. Others state, that the size of a microservice should not exceed a level, where it cannot be rewritten within six weeks \cite{WorkloadbasedClustering}. However, the sizes vary from system to system \cite{FunctionalDecompositionHeinrich} and even different sizes for each microservice in a specific system are possible \cite{DomainEngineeringMunezero}. The bottom line of \textit{Independence} is in Amiri's description of microservices as "a collection of high cohesive and loosely coupled components" \cite{ObjectAwareAmiri}. High cohesive services implement a relatively independent piece of business logic (at the most one business capability). Further, microservices should hardly depend on each other, which is the idea of being loosely coupled \cite{DataflowDrivenChen}.

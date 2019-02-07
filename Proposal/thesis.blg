@@ -1,29 +1,29 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [0] Config.pm:307> INFO - Logfile is 'thesis.blg'
-[32] biber-MSWIN64:315> INFO - === 
-[67] Biber.pm:371> INFO - Reading 'thesis.bcf'
-[178] Biber.pm:889> INFO - Found 25 citekeys in bib section 0
-[193] Biber.pm:4093> INFO - Processing section 0
-[214] Biber.pm:4254> INFO - Looking for bibtex format file 'thesis.bib' for section 0
-[218] bibtex.pm:1523> INFO - LaTeX decoding ...
-[270] bibtex.pm:1340> INFO - Found BibTeX data source 'thesis.bib'
-[280] Utils.pm:193> WARN - month field 'Dec' in entry 'DataflowDrivenChen' is not an integer - this will probably not sort properly.
-[283] Utils.pm:193> WARN - month field 'May' in entry 'infoq' is not an integer - this will probably not sort properly.
-[289] Utils.pm:193> WARN - month field 'May' in entry 'MigratingCloud' is not an integer - this will probably not sort properly.
-[292] Utils.pm:193> WARN - month field 'July' in entry 'ObjectAwareAmiri' is not an integer - this will probably not sort properly.
-[342] Utils.pm:193> WARN - month field 'April' in entry 'MigratingTowardsSurvey' is not an integer - this will probably not sort properly.
-[378] Utils.pm:193> WARN - month field 'April' in entry 'ArchitecturalMetaModelling' is not an integer - this will probably not sort properly.
-[383] Utils.pm:193> WARN - month field 'June' in entry 'ExtractionMazlami' is not an integer - this will probably not sort properly.
-[394] Utils.pm:193> WARN - month field 'July' in entry 'EnticeApproach' is not an integer - this will probably not sort properly.
-[403] Utils.pm:193> WARN - month field 'April' in entry 'WorkloadbasedClustering' is not an integer - this will probably not sort properly.
-[409] Utils.pm:193> WARN - month field 'May' in entry 'DomainEngineeringMunezero' is not an integer - this will probably not sort properly.
-[419] Utils.pm:193> WARN - month field 'Oct' in entry 'TowardsUnderstandingEvolution' is not an integer - this will probably not sort properly.
-[427] Utils.pm:193> WARN - month field 'Nov' in entry 'SystematicMappingStudyMicroservice' is not an integer - this will probably not sort properly.
-[466] Utils.pm:193> WARN - month field 'Sep.' in entry 'Lubke' is not an integer - this will probably not sort properly.
-[503] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[503] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[504] Biber.pm:3921> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[504] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[538] bbl.pm:636> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
-[552] bbl.pm:739> INFO - Output to thesis.bbl
-[552] Biber.pm:110> INFO - WARNINGS: 13
+[28] biber-MSWIN64:315> INFO - === 
+[54] Biber.pm:371> INFO - Reading 'thesis.bcf'
+[166] Biber.pm:889> INFO - Found 26 citekeys in bib section 0
+[181] Biber.pm:4093> INFO - Processing section 0
+[196] Biber.pm:4254> INFO - Looking for bibtex format file 'thesis.bib' for section 0
+[200] bibtex.pm:1523> INFO - LaTeX decoding ...
+[247] bibtex.pm:1340> INFO - Found BibTeX data source 'thesis.bib'
+[256] Utils.pm:193> WARN - month field 'Dec' in entry 'DataflowDrivenChen' is not an integer - this will probably not sort properly.
+[259] Utils.pm:193> WARN - month field 'May' in entry 'infoq' is not an integer - this will probably not sort properly.
+[269] Utils.pm:193> WARN - month field 'May' in entry 'MigratingCloud' is not an integer - this will probably not sort properly.
+[272] Utils.pm:193> WARN - month field 'July' in entry 'ObjectAwareAmiri' is not an integer - this will probably not sort properly.
+[318] Utils.pm:193> WARN - month field 'April' in entry 'MigratingTowardsSurvey' is not an integer - this will probably not sort properly.
+[354] Utils.pm:193> WARN - month field 'April' in entry 'ArchitecturalMetaModelling' is not an integer - this will probably not sort properly.
+[360] Utils.pm:193> WARN - month field 'June' in entry 'ExtractionMazlami' is not an integer - this will probably not sort properly.
+[370] Utils.pm:193> WARN - month field 'July' in entry 'EnticeApproach' is not an integer - this will probably not sort properly.
+[379] Utils.pm:193> WARN - month field 'April' in entry 'WorkloadbasedClustering' is not an integer - this will probably not sort properly.
+[385] Utils.pm:193> WARN - month field 'May' in entry 'DomainEngineeringMunezero' is not an integer - this will probably not sort properly.
+[395] Utils.pm:193> WARN - month field 'Oct' in entry 'TowardsUnderstandingEvolution' is not an integer - this will probably not sort properly.
+[403] Utils.pm:193> WARN - month field 'Nov' in entry 'SystematicMappingStudyMicroservice' is not an integer - this will probably not sort properly.
+[442] Utils.pm:193> WARN - month field 'Sep.' in entry 'Lubke' is not an integer - this will probably not sort properly.
+[480] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[480] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[480] Biber.pm:3921> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[481] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[509] bbl.pm:636> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
+[521] bbl.pm:739> INFO - Output to thesis.bbl
+[521] Biber.pm:110> INFO - WARNINGS: 13

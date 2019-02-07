@@ -238,7 +238,7 @@
 
 % PDF specific packages
 \RequirePackage[hyphens]{url}
-\RequirePackage[breaklinks,colorlinks=false]{hyperref}
+%\RequirePackage[breaklinks,colorlinks=false]{hyperref}
 \newcommand\setpdf{\hypersetup{%
     pdftitle={\thethesistype},%
     pdfsubject={\@title},%

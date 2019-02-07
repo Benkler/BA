@@ -1038,6 +1038,44 @@
       \verb https://www.infoq.com/articles/microservices-intro
       \endverb
     \endentry
+    \entry{cd}{article}{}
+      \name{author}{3}{}{%
+        {{hash=2463e3ddc010ccd007e782d30714ec00}{%
+           family={Shahin},
+           familyi={S\bibinitperiod},
+           given={Mojtaba},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ff9793c70e5ecb5e7e6d5edea08868fe}{%
+           family={Babar},
+           familyi={B\bibinitperiod},
+           given={Muhammad\bibnamedelima Ali},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=c10b260d67a13ae922e9d8c5819ce74d}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Liming},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{3665d05080726ac9b06b16118adc9da3}
+      \strng{fullhash}{3665d05080726ac9b06b16118adc9da3}
+      \strng{bibnamehash}{3665d05080726ac9b06b16118adc9da3}
+      \strng{authorbibnamehash}{3665d05080726ac9b06b16118adc9da3}
+      \strng{authornamehash}{3665d05080726ac9b06b16118adc9da3}
+      \strng{authorfullhash}{3665d05080726ac9b06b16118adc9da3}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{Continuous Integration, Delivery and Deployment: A Systematic Review on Approaches, Tools, Challenges and Practices}
+      \field{volume}{5}
+      \field{year}{2017}
+      \field{pages}{3909\bibrangedash 3943}
+      \range{pages}{35}
+    \endentry
     \entry{FunctionalDecompositionHeinrich}{article}{}
       \name{author}{4}{}{%
         {{hash=6335e37557b4394c035af0f424fa68d3}{%
