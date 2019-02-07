@@ -32,14 +32,20 @@ The schedule of the thesis is presented as a \textit{Gantt Chart} (Fig.\ref{tab:
 		\ganttbar{Define Data/Activity \\ relationships}{2}{6} \\
 	
 		\ganttbar{Elaborate \\ new approach  }{6}{11} \\
+		\ganttmilestone{Prototypal approach}{11} \\
 	
 		\ganttbar{Prepare \\ preconditions}{10}{13} \\
 		\ganttbar{Refine approach}{7}{16} \\
 		\ganttmilestone{Final approach}{16} \\
 	
-		\ganttbar{Apply approach }{13}{14} \\
-	    \ganttbar{Compare results }{13}{15} \\
-		\ganttbar{Evaluation }{10}{18} \\
+		\ganttbar{Apply approach }{13}{14} 
+		\ganttbar{}{17}{17} \\
+		\ganttmilestone{First System decomposition}{14} \\
+		\ganttmilestone{Final System decomposition}{17} \\
+		\ganttbar{Design Review }{8}{16} \\
+	    \ganttbar{Compare results }{14}{18} \\
+	    
+		\ganttbar{Evaluation }{10}{19} \\
 	
 		
 		
@@ -49,10 +55,14 @@ The schedule of the thesis is presented as a \textit{Gantt Chart} (Fig.\ref{tab:
 	
 		\ganttbar{Prepare Presentation}{19}{21.5} \\
 		\ganttmilestone{Presentation}{22} 
-		\ganttlink{elem5}{elem6}
-		\ganttlink{elem10}{elem11}
-			\ganttlink{elem12}{elem13}
-	\end{ganttchart}
+		\ganttlink{elem3}{elem4}
+		\ganttlink{elem6}{elem7}
+		\ganttlink{elem8}{elem10}
+		\ganttlink{elem9}{elem11}
+			\ganttlink{elem15}{elem16}
+			\ganttlink{elem17}{elem18}
+	\end{ganttchart}
+
 	\end{center}
 	\caption{Schedule}
 	\label{tab:ganttChart}
