@@ -3,7 +3,7 @@
 
 \section{Monolithic Software Architecture}
 \label{sec:background:monolith}
-The monolithic software architecture is a well-known and the most widely used pattern for Enterprise Applications, which usually are built in three main parts (top to bottom): The client-side user interface (Tier 3), the server-side application (Tier 2) and the persistence layer (Tier 1). The server-side application - \textit{the monolith} - is a single unit and deployed on one application server \cite{infoq}. The software structure, if well defined, is composed of self-contained modules (i.e. software components), where each module consists of a set of functions \cite{HeuristicsAlwis}.
+The monolithic software architecture is a well-known and the most widely used pattern for Enterprise Applications, which usually are built in three main parts (top to bottom): The client-side user interface (Tier 3), the server-side application that contains the entire business logic (Tier 2) and the persistence layer handling the database access (Tier 1). Fig. \ref{fig:architekturMonolithVsMS} illustrates the architectural difference between a standard three tier application and a exemplary microservice-based architecture. The server-side application - \textit{the monolith} - is a single unit and deployed on one application server \cite{infoq}. The software structure, if well defined, is composed of self-contained modules (i.e. software components), where each module consists of a set of functions \cite{HeuristicsAlwis}.
 The monolith implements a complex domain model, including all functions, many domain entities and their relationships.
 For small applications, this approach works relatively well. They are simple to develop, test and deploy \cite{FunctionalDecompositionHeinrich}. Fast prototyping is supported by the current frameworks and development environments (IDE), which are still oriented around developing single applications \cite{infoq}.
 \\
@@ -28,6 +28,7 @@ Chen et al. provide a short résumé:
 \vspace*{\fill}
 
 
+
 \section{Microservices}
 \label{sec:background:microservices}
 
@@ -50,6 +51,14 @@ The \textit{Size} of a microservice is defined by the number of features it prov
 Communication between microservices is achieved by lightweight message passing mechanisms such as \textit{REST}. Each service exposes a well defined interface (\textit{API}) with endpoints that provide information using standard data formats \cite{FunctionalDecompositionHeinrich}. 
 The design of microservices mainly follows the \textit{Single Responsibility Principle (SRP)}: Each service should not have more than one reason to change \cite{TowardsUnderstandingEvolution}. The SRP mainly corresponds to the idea of not implementing more than one business capability.
 The following covers the benefits and challenges of the microservice architecture.
+
+
+\begin{figure}[]
+	\includegraphics[width=\textwidth, trim={5cm 8cm 8cm 3cm}]{img/Architektur.pdf}
+	\caption{Monolithic cs. Microservice Architecture}
+	\label{fig:architekturMonolithVsMS}
+\end{figure}
+
 
 \subsection{Benefits}
 \textbf{Fast and Independent Deployment} \\
