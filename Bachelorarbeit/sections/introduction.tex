@@ -1,0 +1,95 @@
+
+\chapter{Introduction}
+\label{ch:Introduction}
+The monolithic software architecture is the traditional pattern to design software, where functionality is bundled in one single, large application \cite{DataflowDrivenChen}. Although monoliths have their strength, like fast development and simple deployment, they become an obstacle when they grow in size and become more complex \cite{infoq}. Incomprehensible code structure makes it difficult to add functionality, fix bugs and enable new software engineering approaches like Continuous Delivery and Continuous Deployment\cite{cd}. 
+Besides, the rise of cloud computing demands a new architecture that can fully exploit the rich set of features given by the cloud infrastructure \cite{MigratingCloud}. \\
+Inspired by service-oriented computing, the microservice Architecture is about to become a promising alternative to overcome the shortcomings of centralized, monolithic architectures and consequently gains popularity in both, academia and industry \cite{ObjectAwareAmiri}. Benefits like the increase of agility, resilience or scalability \cite{FunctionalDecompositionHeinrich}, the ability to use different technology stacks and independent deployment \cite{interfaceAnalysisBaresi} and the efficient resource utilization in cloud environments \cite{MigratingCloud} explain the usage of microservice-based application by big companies like Google, Netflix, Amazon, eBay \cite{DataflowDrivenChen} and Uber \cite{FunctionalDecompositionHeinrich}. \\
+This thesis describes the current state of the art regarding microservices extraction and provides a systematic approach to decompose a system into microservices.
+
+
+\section{Motivation}
+\label{sec:Introduction:Motivation}
+Monolithic software applications develop over time and become more and more complex. The software structure becomes highly coupled and hard to maintain \cite{MigratingTowardsSurvey}. To tackle this issues, software engineers started to decompose their system into modules and provide the functionality over the network as Web Services \cite{ServiceCutter}. The so-called \textit{Service-oriented Architecture} (SOA) provides logical boundaries between the different software modules to address the design challenge of distributed systems. Nevertheless, Baresi et. al state that the boundaries between modules in SOA are too flexible and the application results in "a big ball of mud" \cite{interfaceAnalysisBaresi}. Microservices make these boundaries physical as each service runs in its own process and only communicates with other services through well-defined lightweight mechanisms like REST \cite{FunctionalDecompositionHeinrich}. Chen et al. consider the microservice architecture as a particular approach for SOA \cite{DataflowDrivenChen}. Others look at it as an evolution of SOA with differences in service reuse \cite{interfaceAnalysisBaresi} or consider it to be the "contemporary incarnation of SOA" combined with modern software engineering practices like Continuous Deployment \cite{ServiceCutter}. There is no consensus about the relationship between microservices and SOA but they both share common characteristics.
+The microservice architecture has many advantages over the monolithic style. Sec.\ref{sec:background:microservices} elaborates the main aspects of microservices, including several benefits. Netflix, for instance, is able to cope with one billion calls a day to its video streaming API, by migrating their monolithic system to a high flexible, maintainable and scalable microservice architecture \cite{DataflowDrivenChen}. Consequently, moving existing applications to a microservice landscape is a upcoming philosophy in academia and industry \cite{ObjectAwareAmiri}. \\
+Nevertheless, decomposing a system in loosely coupled, fine-grained and independent microservices is a time consuming task that requires tedious manual effort \cite{ServiceCutter} and is technically cumbersome \cite{HeuristicsAlwis}. So far, it is done mainly intuitively and relies on the experience of software architects and system designers. Hence, a formal approach to identify microservices is required. 
+
+
+\section{Research Questions and Contributions}
+\label{sec:Introduction:ResearchQuestions}
+The microservice architecture is a fast rising approach to structure a system in high cohesive but loosely coupled and independent services. Many companies like Amazon, migrated their monolithic legacy software to microservice in order to fully leverage the benefits of cloud computing and new software engineering approaches like Continuous Deployment \cite{MigratingCloud}. Large applications are decomposed into small, independent microservices where each service can be independently scaled and deployed. 
+\\
+However, one of the biggest problem in designing a microservice architecture is to decompose a monolithic application into a suite of small services while keeping them loosely coupled and high cohesive. This challenging task is also known as \textit{microservice identification} \cite{ObjectAwareAmiri}. \\
+Baresi et al. state that a "proper" microservice identification defines how a system will be able to evolve and scale \cite{interfaceAnalysisBaresi}. Others claim, that finding the optimal microservice boundaries \cite{ClassificationOfRefactoring} and service granularity  \cite{ArchitecturalMetaModelling} is the key design decision to fully leverage the benefits of microservices. 
+\\
+So far, the partition is performed mainly intuitively based on the experience and know-how of experts that perform the extraction. Hassan et al. criticises a lack of systematic approaches to reduce the complexity of the extraction process \cite{ArchitecturalMetaModelling}. Extracting microservices from monoliths therefore requires tedious manual effort and can be very costly \cite{FunctionalDecompositionHeinrich} \cite{ExtractionMazlami}. This leads to the following Research Question (RQ):
+
+\vspace{1cm}
+\par
+\begingroup
+\leftskip=1cm
+\rightskip=1cm
+
+
+\noindent
+\textbf{RQ1: Which is the most appropriate strategy to extract microservices from a monolithic  
+	system?}
+
+\vspace{0.5cm}
+\noindent
+To identify possible strategies, an extensive literature research is conducted. Suitable strategies and approaches are compared based on criteria identified in the literature research.
+\vspace{0.5cm}
+
+\noindent
+\textbf{RQ2: What formal approach can be constructed to perform the extraction process 
+	without detailed know-how and manual effort?}
+
+\vspace{0.5cm}
+\noindent
+To that end, the most promising strategy identified in RQ1 is used as basis. Thereupon, a formal approach is elaborated that aims to reduce the complexity and manual work that has to be done when extracting microservices from a monolithic system.
+\vspace{0.5cm}
+
+
+\noindent
+\textbf{RQ3: What is the accuracy of the approach?   }
+
+\vspace{0.5cm}
+\noindent
+Research question RQ3 is tackled by applying the approach to the Common Component Modelling Example (\textit{CoCoME}). The subsequent system decomposition is evaluated by comparing the identified microservices with two other approaches: First, Tyszberowicz et al. \cite{FunctionalDecompositionHeinrich} provide a decomposition of CoCoME based on their approach. Second, we identified and implemented a microservice-based version of CoCoME manually. 
+
+\vspace{0.5cm}
+
+
+
+\endgroup
+\vspace{1cm}
+
+
+
+
+
+
+
+\section{Thesis Outline}
+\label{sec_Introduction:ThesisOutline}
+The proposal is structured as follows:
+
+% TODO Ändern!"
+\begin{itemize}
+	\item  Chapter \ref{ch:background} presents the background information on monolithic software architecture and microservice-based architecture. For the latter one, benefits and challenges are elaborated. 
+	\item Chapter \ref{ch:CoCoME} introduces the common case study \textit{CoCoME} that is used to apply and evaluate the approach. Special attention is given to the system specifications.
+	\item Chapter \ref{ch:StateOfTheArt} outlines the current state of the art concerning microservice identification. First, the process of literature review is presented. Secondly, the most promising strategies and approaches are described and further compared using adequate criteria.
+	\item Chapter \ref{ch:SolutionOverview} sketches a first attempt for a formal approach, that is further elaborated during the ongoing work on this thesis.
+	\item Chapter \ref{ch:Evalutation} explains how the elaborated approach can be applied and evaluated using the case study \textit{CoCoME}
+	\item The proposal is concluded by chapter \ref{ch:timetable}, where a schedule and accompanying milestones are defined.
+\end{itemize}
+
+
+
+
+
+
+
+
+
+
+

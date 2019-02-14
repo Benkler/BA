@@ -1,0 +1,78 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Abstract}{i}{chapter*.1}% 
+\babel@toc {ngerman}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Zusammenfassung}{ii}{chapter*.2}% 
+\babel@toc {english}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Motivation}{1}{section.1.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Research Questions and Contributions}{2}{section.1.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Thesis Outline}{3}{section.1.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Background}{4}{chapter.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Monolithic Software Architecture}{4}{section.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Microservices}{5}{section.2.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.1}Definition}{5}{subsection.2.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.2}Benefits}{6}{subsection.2.2.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.3}Challenges}{7}{subsection.2.2.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Case Study}{9}{chapter.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Introduction to CoCoME}{9}{section.3.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}System Specifications}{9}{section.3.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}State of the Art}{11}{chapter.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Literature Review}{11}{section.4.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Approaches for Identifying Microservices}{13}{section.4.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Comparison}{15}{section.4.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Solution Overview}{19}{chapter.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Basic Concept}{19}{section.5.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.1}Available Extraction Strategy}{19}{subsection.5.1.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.2}Weakness}{20}{subsection.5.1.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Contributions}{20}{section.5.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Evaluation}{22}{chapter.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}Goal Quality and Metrics}{22}{section.6.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}Reference Amount}{22}{section.6.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.1}Reference Set 1: Functional Decomposition Approach}{23}{subsection.6.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.2}Reference Set 2: Manual Decomposition}{23}{subsection.6.2.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.3}Metrics}{23}{section.6.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.1}Precision and Recall}{23}{subsection.6.3.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.2}Cyclic Dependencies}{23}{subsection.6.3.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.4}Results}{23}{section.6.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.4.1}Identified Microservices}{23}{subsection.6.4.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Conclusion}{24}{chapter.7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}Organization}{25}{chapter.8}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Bibliography}{28}{chapter*.6}% 

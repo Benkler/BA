@@ -1,0 +1,122 @@
+\chapter{Background}
+\label{ch:background}
+
+\section{Monolithic Software Architecture}
+\label{sec:background:monolith}
+The monolithic software architecture is a well-known and the most widely used pattern for Enterprise Applications, which usually are built in three main parts (top to bottom): The client-side user interface (Tier 3), the server-side application that contains the entire business logic (Tier 2) and the persistence layer handling the database access (Tier 1). Fig. \ref{fig:architekturMonolithVsMS} illustrates the architectural difference between a standard three tier application and a exemplary microservice-based architecture. The server-side application - \textit{the monolith} - is a single unit and deployed on one application server \cite{infoq}. The software structure, if well defined, is composed of self-contained modules (i.e. software components), where each module consists of a set of functions \cite{HeuristicsAlwis}.
+The monolith implements a complex domain model, including all functions, many domain entities and their relationships.
+For small applications, this approach works relatively well. They are simple to develop, test and deploy \cite{FunctionalDecompositionHeinrich}. Fast prototyping is supported by the current frameworks and development environments (IDE), which are still oriented around developing single applications \cite{infoq}.
+\\
+But once they grow in size, they become exceedingly difficult to understand and hard to maintain without reasonable effort \cite{FunctionalDecompositionHeinrich} \cite{ClassificationOfRefactoring}. A complex and large code base prevents a fast addition of new features and makes the application risky and expensive to evolve \cite{TowardsTechnique}.
+Alterations to the system, even though they might be small, result in a redeployment of the whole monolith application due to its nature being a single unit \cite{FunctionalDecompositionHeinrich}. Moreover, it is difficult to adopt newer technologies without rewriting the whole application, as monolith are build on a specific technology stack \cite{infoq} \cite{ExtractionMazlami}.\\
+Scaling is only possible by duplicating the entire application, namely \textit{horizontal scaling}. Consequently, large portions of the infrastructure remains unused, if only parts of the application need to be upscaled or even used \cite{EnticeApproach} \cite{MigratingTowardsSurvey}. \\
+Chen et al. provide a short résumé:
+
+\vspace*{\fill}
+
+\begin{center}
+\textit{"Successful applications
+	are always growing in size and will eventually become a
+	monstrous monolith after a few years. Once this happens,
+	disadvantages of the monolithic architecture will outweigh
+	its advantages."}\\
+\vspace{0.5cm}
+- Rui Chen \cite{DataflowDrivenChen}
+
+\end{center}
+
+
+
+\vspace*{\fill}
+
+
+
+\section{Microservices}
+\label{sec:background:microservices}
+
+\vspace*{\fill}
+
+\begin{center}
+\textit{ "The microservice architectural style is an approach to developing a single application as a suite of small services, each running in its own process and communicating with lightweight mechanisms, often an HTTP resource API."   } \\
+\vspace{0.5cm}
+ - Martin Fowler \cite{Fowler}
+\end{center}
+
+\vspace*{\fill}
+
+\subsection{Definition}
+The above quotation is a widely adopted definition of the term \textit{Microservice}, provided by M. Fowler and J. Lewis \cite{Fowler}, the pioneers of the microservice architecture. However, the term is not formally defined. Amiri et al. describes microservices as a collection of cohesive and loosely coupled components, where each service implements a business capability.
+ The author introduces three principles upon which the architecture is build: \textit{Bounded Context, Size, Independence} \cite{ObjectAwareAmiri}. \\
+ The first principle is about related functionality, that is combined in a single business capability - the  \textit{bounded context} \cite{FunctionalDecompositionHeinrich}. Each capability is implemented by one microservice. 
+The \textit{Size} of a microservice is defined by the number of features it provides (namely bundled functional capabilities)  \cite{WorkloadbasedClustering}. There is no consensus about the "proper" size of a microservice \cite{DomainEngineeringMunezero}, but several guidelines exists: Services should focus on one business capability only \cite{ObjectAwareAmiri}. Others state, that the size of a microservice should not exceed a level, where it cannot be rewritten within six weeks \cite{WorkloadbasedClustering}. However, the sizes vary from system to system \cite{FunctionalDecompositionHeinrich} and even different sizes for each microservice in a specific system are possible \cite{DomainEngineeringMunezero}. The bottom line of \textit{Independence} is in Amiri's description of microservices as "a collection of high cohesive and loosely coupled components" \cite{ObjectAwareAmiri}. High cohesive services implement a relatively independent piece of business logic (at the most one business capability). Further, microservices should hardly depend on each other, which is the idea of being loosely coupled \cite{DataflowDrivenChen}.
+\\
+Communication between microservices is achieved by lightweight message passing mechanisms such as \textit{REST}. Each service exposes a well defined interface (\textit{API}) with endpoints that provide information using standard data formats \cite{FunctionalDecompositionHeinrich}. 
+The design of microservices mainly follows the \textit{Single Responsibility Principle (SRP)}: Each service should not have more than one reason to change \cite{TowardsUnderstandingEvolution}. The SRP mainly corresponds to the idea of not implementing more than one business capability.
+The following covers the benefits and challenges of the microservice architecture.
+
+
+\begin{figure}[]
+	\includegraphics[width=\textwidth, trim={5cm 8cm 8cm 3cm}]{img/Architektur.pdf}
+	\caption{Monolithic vs. Microservice Architecture}
+	\label{fig:architekturMonolithVsMS}
+\end{figure}
+
+
+\subsection{Benefits}
+\textbf{Fast and Independent Deployment} \\
+As a matter of fact, each microservice is deployed independently \cite{interfaceAnalysisBaresi}. Changes to the code do not result in a full redeployment of the entire application \cite{FunctionalDecompositionHeinrich}. Consequently, software developers are able to react much quicker to changes in business requirements. This includes an acceleration in error correction. Per contra, any changes in a monolithic code base requires a time consuming build of a new version and the redeployment of the entire application \cite{Fowler}. \\
+
+\noindent
+\textbf{Availability, Resilience and Fault Isolation} \\
+Microservices are designed to operate independently of each other and to tolerate failure of services \cite{Fowler}. Large parts of the application remain unaffected of partly failures and the availability of the system is, at least partly guaranteed. Monolithic application do not provide this type of fault isolation. If a failure occurs, the whole application remains unavailable as it is usually running in a single process \cite{ExtractionMazlami}. 
+ 
+\noindent
+\textbf{Scalability and Resource Utilisation} \\
+Small and independent microservices allow more fine-granular horizontal scaling \cite{WorkloadbasedClustering}. Single services can be duplicated to cope with changing workload during runtime \cite{DataflowDrivenChen}. Thus, dynamic (de-)allocation of resources on demand prevent infrastructure from being idle \cite{HeuristicsAlwis}. Scaling monoliths can only be attained by duplicating the entire application , leaving resources unused \cite{ClassificationOfRefactoring}. Further, each microservice is deployed on the best suitable infrastructure for its needs, allowing a more efficient system organization \cite{infoq}. \\
+
+\noindent
+\textbf{Improved Productivity} \\
+In traditional software development, teams are divided based on their expertise: Database architects, UI-developers and server-side engineers, resulting in a three-tiered application (cf. Sec.\ref{sec:background:monolith}). Additionally, software engineers are responsible for the development only. Deployment is part of the operations team. This team structure results in high communication overhead and slows down the productivity \cite{Mazlami}. \\
+In contrast, microservices are organized around business capabilities and require cross-functional, independent teams \cite{ObjectAwareAmiri}. Each team has the full range of skills required for the end-to-end realization of a microservice, including UI-development, database architecture, back-end engineers and project management. 
+This minimizes the communication and interaction between the teams and thus, speeds up the productivity. Ultimately, microservices enable a more agile flow of development and operation \cite{ClassificationOfRefactoring}, also referred as \textit{DevOps}. 
+\\
+
+
+\noindent
+\textbf{Neutral development technology} \\
+Microservices are highly decoupled from each other, as they use standardized and lightweight communication mechanisms such as REST \cite{FunctionalDecompositionHeinrich}. Microservices can be realized using different programming languages, technologies and even deployment environments \cite{DataflowDrivenChen}. Developers are consequently not longer limited to use a single technology for the whole application. They can choose the most appropriate technology for each particular business problem or try out some new technology without rewriting the whole application \cite{ServiceCutter} \cite{TowardsTechnique}. 
+
+
+
+
+\subsection{Challenges}
+The previous section provides a vast amount of benefits that come with microservices. However, it is not the panacea of software engineering and has to face some challenges before being able to fully benefit from them. The challenges are further described in the following. \\
+
+\noindent
+\textbf{Expensive Communication}\\
+Microservice use network protocols such as \textit{HTTP} to communicate with each other. Compared to standard, inter process communication (\textit{IPC}) as used in monoliths, remote procedure calls a more expensive \cite{SystematicMappingStudyMicroservice}. As a consequence, applications experience a decrease in performance as network communication is generally slower than IPC.\\
+
+\noindent
+\textbf{Technical Challenges}\\
+Microservices require a high degree of infrastructure automation \cite{MigratingTowardsSurvey}. The benefits of fast and independent deployment cannot be utilized, if it has to be done manually. Dynamic (de-)allocation of resources when scaling individual microservices need a well defined and structured cloud environment \cite{MigratingCloud}. 
+Besides, the distributed microservice landscape complicates the logging mechanisms and performance monitoring \cite{SystematicMappingStudyMicroservice}. Traditional centralized logging, as it is used in monolithic applications, is not longer applicable. Instead, a careful aggregation system to gather logging and monitoring data from each service is required.\\
+
+\noindent
+\textbf{Organizational Challenges}\\
+The microservice approach needs the establishment of cross-functional teams \cite{Fowler}. Adopting \textit{Continuous Practices}, such as \textit{Continuous Deployment}, are essential for the success of a profitable microservice architecture. Therefore, closer collaboration between development teams, operational staff and management has to be established. In summary, a costly and time consuming restructuring process of the entire organization is required \cite{NikoProseminar}. \\
+
+
+\noindent
+\textbf{Data Consistency}\\
+Distributed systems need to share data. Heinrich et al. propose two concepts for the database architecture \cite{FunctionalDecompositionHeinrich}: The first concept applies the basic idea of the microservice approach, as it splits the database into several parts. Each microservice has its own database which manages the entities that belong to the corresponding bounded context. Higher speed and horizontal scaling are facing data consistency issues. Data needs to be synchronized which leads to inconsistency, if services are unavailable. The second concept is about sharing a single database. This approach overcomes the issue of consistency, as data is stored centrally. But sharing results in a loss of independence. Scaling can only be achieved through replicating the whole database. Research revealed, that the first concept is preferred \cite{FunctionalDecompositionHeinrich}. \\
+
+
+
+\noindent
+\textbf{Decomposition}\\
+Decomposing a system into microservice is a very complex task that requires experienced system architects and domain experts \cite{Fowler}. Identifying the right granularity of microservice is one of the key issues. Too fine grained services cause inefficiency due to a high amount of expensive inter-service calls \cite{DomainEngineeringMunezero}. Developing the basic communication infrastructure adds additional complexity and slows down the initial developing process \cite{infoq}. 
+
+
+
+
+

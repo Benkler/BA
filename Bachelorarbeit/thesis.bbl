@@ -1,0 +1,1178 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{SystematicMappingStudyMicroservice}{article}{}
+      \name{author}{3}{}{%
+        {{hash=4dc5d057f2998633aebef8ce0d255a64}{%
+           family={Alshuqayran},
+           familyi={A\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=d35b083b71e1033ae013d7cafd99e54b}{%
+           family={Ali},
+           familyi={A\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=61d03071a9aa21b21a849b81a3a4dc00}{%
+           family={Evans},
+           familyi={E\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{218838e857466490dcdf128a02e8ec68}
+      \strng{fullhash}{218838e857466490dcdf128a02e8ec68}
+      \strng{bibnamehash}{218838e857466490dcdf128a02e8ec68}
+      \strng{authorbibnamehash}{218838e857466490dcdf128a02e8ec68}
+      \strng{authornamehash}{218838e857466490dcdf128a02e8ec68}
+      \strng{authorfullhash}{218838e857466490dcdf128a02e8ec68}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 IEEE 9th International Conference on Service-Oriented Computing and Applications (SOCA)}
+      \field{month}{11}
+      \field{title}{A Systematic Mapping Study in Microservice Architecture}
+      \field{year}{2016}
+      \field{pages}{44\bibrangedash 51}
+      \range{pages}{8}
+    \endentry
+    \entry{ObjectAwareAmiri}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9082de4d29b4c97cb6936ef02fa776c4}{%
+           family={Amiri},
+           familyi={A\bibinitperiod},
+           given={M.\bibnamedelimi J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{9082de4d29b4c97cb6936ef02fa776c4}
+      \strng{fullhash}{9082de4d29b4c97cb6936ef02fa776c4}
+      \strng{bibnamehash}{9082de4d29b4c97cb6936ef02fa776c4}
+      \strng{authorbibnamehash}{9082de4d29b4c97cb6936ef02fa776c4}
+      \strng{authornamehash}{9082de4d29b4c97cb6936ef02fa776c4}
+      \strng{authorfullhash}{9082de4d29b4c97cb6936ef02fa776c4}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2018 IEEE International Conference on Services Computing (SCC)}
+      \field{issn}{2474-2473}
+      \field{month}{7}
+      \field{title}{Object-Aware Identification of Microservices}
+      \field{year}{2018}
+      \field{pages}{253\bibrangedash 256}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/SCC.2018.00042
+      \endverb
+    \endentry
+    \entry{interfaceAnalysisBaresi}{article}{}
+      \name{author}{3}{}{%
+        {{hash=f3b494be90f755f8335a03d6bc05c67c}{%
+           family={Baresi},
+           familyi={B\bibinitperiod},
+           given={Luciano},
+           giveni={L\bibinitperiod}}}%
+        {{hash=641c34eef51bff587ae4697f2476e958}{%
+           family={Garriga},
+           familyi={G\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=10b96b98e9425a53c28961da50bdca54}{%
+           family={De\bibnamedelima Renzis},
+           familyi={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Alan},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=c1ab8d671955c48b668805ea61f1f251}{%
+           family={De\bibnamedelima Paoli},
+           familyi={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Flavio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=fc6deee08b5bd035dcd6e504cf0ba551}{%
+           family={Schulte},
+           familyi={S\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e48ac15e10a68ea7265356e73afa9503}{%
+           family={Broch\bibnamedelima Johnsen},
+           familyi={B\bibinitperiod\bibinitdelim J\bibinitperiod},
+           given={Einar},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{7505d1f28fab42d4884186a229a9dbf7}
+      \strng{fullhash}{7505d1f28fab42d4884186a229a9dbf7}
+      \strng{bibnamehash}{7505d1f28fab42d4884186a229a9dbf7}
+      \strng{authorbibnamehash}{7505d1f28fab42d4884186a229a9dbf7}
+      \strng{authornamehash}{7505d1f28fab42d4884186a229a9dbf7}
+      \strng{authorfullhash}{7505d1f28fab42d4884186a229a9dbf7}
+      \strng{editorbibnamehash}{f54d97fee436213b7ea4e1ac50ebe19e}
+      \strng{editornamehash}{f54d97fee436213b7ea4e1ac50ebe19e}
+      \strng{editorfullhash}{f54d97fee436213b7ea4e1ac50ebe19e}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Service-Oriented and Cloud Computing}
+      \field{isbn}{978-3-319-67262-5}
+      \field{title}{Microservices Identification Through Interface Analysis}
+      \field{year}{2017}
+      \field{pages}{19\bibrangedash 33}
+      \range{pages}{15}
+    \endentry
+    \entry{NikoProseminar}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=6f28ee7674aeeca2b141276b86e2bc86}{%
+           family={Benkler},
+           familyi={B\bibinitperiod},
+           given={Niko},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{6f28ee7674aeeca2b141276b86e2bc86}
+      \strng{fullhash}{6f28ee7674aeeca2b141276b86e2bc86}
+      \strng{bibnamehash}{6f28ee7674aeeca2b141276b86e2bc86}
+      \strng{authorbibnamehash}{6f28ee7674aeeca2b141276b86e2bc86}
+      \strng{authornamehash}{6f28ee7674aeeca2b141276b86e2bc86}
+      \strng{authorfullhash}{6f28ee7674aeeca2b141276b86e2bc86}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Seminar Paper}
+      \field{note}{Accessed on 20.01.2019}
+      \field{title}{From Traditional Development to Continuous Deployment: Strategies and Practices in CI/CD Pipelines}
+      \verb{urlraw}
+      \verb https://github.com/Benkler/Proseminar/blob/master/Niko_Benkler_Proseminar.pdf
+      \endverb
+      \verb{url}
+      \verb https://github.com/Benkler/Proseminar/blob/master/Niko_Benkler_Proseminar.pdf
+      \endverb
+    \endentry
+    \entry{DataflowDrivenChen}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ce2628fb5b7c5a6e9483a40e04abbb59}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=0ee6724aae227dcac2949962d898b300}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ae6f64f7b429f6425fbe070323390f1b}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{7b95e5e3f5d7948bc275501cdb3be660}
+      \strng{fullhash}{7b95e5e3f5d7948bc275501cdb3be660}
+      \strng{bibnamehash}{7b95e5e3f5d7948bc275501cdb3be660}
+      \strng{authorbibnamehash}{7b95e5e3f5d7948bc275501cdb3be660}
+      \strng{authornamehash}{7b95e5e3f5d7948bc275501cdb3be660}
+      \strng{authorfullhash}{7b95e5e3f5d7948bc275501cdb3be660}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 24th Asia-Pacific Software Engineering Conference (APSEC)}
+      \field{month}{12}
+      \field{title}{From Monolith to Microservices: A Dataflow-Driven Approach}
+      \field{year}{2017}
+      \field{pages}{466\bibrangedash 475}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/APSEC.2017.53
+      \endverb
+      \keyw{data flow computing;service-oriented architecture;agile practitioner communities;independently deployable microservices;monolithic application;microservice-based software systems;analysis approach;virtual abstract dataflow;microservice identification mechanism;business requirement analysis;dataflow-driven approach;multiple small-scale microservices;microservice identification tool;microservice candidates;dataflow-driven decomposition algorithm;Business;Computer architecture;Service-oriented architecture;Complexity theory;Data mining;Electronic mail;microservices;monolith;decomposition;data flow;business logic}
+    \endentry
+    \entry{HeuristicsAlwis}{article}{}
+      \name{author}{4}{}{%
+        {{hash=71f43c378c230f2f37ebf192449af307}{%
+           family={De\bibnamedelima Alwis},
+           familyi={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Adambarage\bibnamedelimb Anuruddha\bibnamedelima Chathuranga},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=7055baf0dcb1f4535afe5f20ce653686}{%
+           family={Barros},
+           familyi={B\bibinitperiod},
+           given={Alistair},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ef17b34fa332dad2dcefa85a0e2ed951}{%
+           family={Polyvyanyy},
+           familyi={P\bibinitperiod},
+           given={Artem},
+           giveni={A\bibinitperiod}}}%
+        {{hash=bf36aec3263cd4139dbb9556f74725e5}{%
+           family={Fidge},
+           familyi={F\bibinitperiod},
+           given={Colin},
+           giveni={C\bibinitperiod}}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=1b80c1bcc3a83d4cacce8eb1407af343}{%
+           family={Pahl},
+           familyi={P\bibinitperiod},
+           given={Claus},
+           giveni={C\bibinitperiod}}}%
+        {{hash=2bd4d38ee3244f508e581a91bd206246}{%
+           family={Vukovic},
+           familyi={V\bibinitperiod},
+           given={Maja},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2bb9195c3ea4a364a5f4719cb4522250}{%
+           family={Yin},
+           familyi={Y\bibinitperiod},
+           given={Jianwei},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3838bb443de280297096950cd2759e2b}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Qi},
+           giveni={Q\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{8694e196bfbcdef7288d572920db83b4}
+      \strng{fullhash}{2fa46b7cb89988a423c5af7c024e3243}
+      \strng{bibnamehash}{8694e196bfbcdef7288d572920db83b4}
+      \strng{authorbibnamehash}{8694e196bfbcdef7288d572920db83b4}
+      \strng{authornamehash}{8694e196bfbcdef7288d572920db83b4}
+      \strng{authorfullhash}{2fa46b7cb89988a423c5af7c024e3243}
+      \strng{editorbibnamehash}{30bd554140d17aa36648a5f7b4ce2564}
+      \strng{editornamehash}{30bd554140d17aa36648a5f7b4ce2564}
+      \strng{editorfullhash}{9cdaa292f5f3f5f1ee3b925d1eb697ec}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Service-Oriented Computing}
+      \field{isbn}{978-3-030-03596-9}
+      \field{title}{Function-Splitting Heuristics for Discovery of Microservices in Enterprise Systems}
+      \field{year}{2018}
+      \field{pages}{37\bibrangedash 53}
+      \range{pages}{17}
+    \endentry
+    \entry{TowardsUnderstandingEvolution}{article}{}
+      \name{author}{7}{}{%
+        {{hash=287107404e0dbbd2c6df28f904c0b551}{%
+           family={Escobar},
+           familyi={E\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c90b9c4ef9f170e09a38140e596167e7}{%
+           family={Cárdenas},
+           familyi={C\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=ff52df216fb55f94eafef28d4e55dac6}{%
+           family={Amarillo},
+           familyi={A\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=698e85174735cbc69b104630dd908555}{%
+           family={Castro},
+           familyi={C\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=1c10bd951089783002fa3d4ddab1a3d2}{%
+           family={Garcés},
+           familyi={G\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=6510d42741ad6b0ed665265eb99f3f73}{%
+           family={Parra},
+           familyi={P\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=af9a974fab0cde0d00aa5a8228058b4d}{%
+           family={Casallas},
+           familyi={C\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{38c663998b75ab19134c292a0f6b6ebc}
+      \strng{fullhash}{ccfca5ffd1baeab01216907a96698035}
+      \strng{bibnamehash}{38c663998b75ab19134c292a0f6b6ebc}
+      \strng{authorbibnamehash}{38c663998b75ab19134c292a0f6b6ebc}
+      \strng{authornamehash}{38c663998b75ab19134c292a0f6b6ebc}
+      \strng{authorfullhash}{ccfca5ffd1baeab01216907a96698035}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 XLII Latin American Computing Conference (CLEI)}
+      \field{month}{10}
+      \field{title}{Towards the understanding and evolution of monolithic applications as microservices}
+      \field{year}{2016}
+      \field{pages}{1\bibrangedash 11}
+      \range{pages}{11}
+    \endentry
+    \entry{Fowler}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=1abb0498d50c3ee02c7d511a8108458d}{%
+           family={Fowler},
+           familyi={F\bibinitperiod},
+           given={Lewis},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{1abb0498d50c3ee02c7d511a8108458d}
+      \strng{fullhash}{1abb0498d50c3ee02c7d511a8108458d}
+      \strng{bibnamehash}{1abb0498d50c3ee02c7d511a8108458d}
+      \strng{authorbibnamehash}{1abb0498d50c3ee02c7d511a8108458d}
+      \strng{authornamehash}{1abb0498d50c3ee02c7d511a8108458d}
+      \strng{authorfullhash}{1abb0498d50c3ee02c7d511a8108458d}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{News}
+      \field{note}{Accessed on 17.01.2019}
+      \field{title}{Microservices}
+      \verb{urlraw}
+      \verb https://martinfowler.com/articles/microservices.html
+      \endverb
+      \verb{url}
+      \verb https://martinfowler.com/articles/microservices.html
+      \endverb
+    \endentry
+    \entry{MigratingTowardsSurvey}{article}{}
+      \name{author}{3}{}{%
+        {{hash=e87b39b142fe41eeebc0bf228932d409}{%
+           family={Francesco},
+           familyi={F\bibinitperiod},
+           given={P.\bibnamedelimi Di},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=700cf452aab36b807178c260d5dcbde7}{%
+           family={Lago},
+           familyi={L\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=6335a87cd291872cc3bb4a00041c5d8d}{%
+           family={Malavolta},
+           familyi={M\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{37f1115e6726e9824e5296aa3f05a6de}
+      \strng{fullhash}{37f1115e6726e9824e5296aa3f05a6de}
+      \strng{bibnamehash}{37f1115e6726e9824e5296aa3f05a6de}
+      \strng{authorbibnamehash}{37f1115e6726e9824e5296aa3f05a6de}
+      \strng{authornamehash}{37f1115e6726e9824e5296aa3f05a6de}
+      \strng{authorfullhash}{37f1115e6726e9824e5296aa3f05a6de}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2018 IEEE International Conference on Software Architecture (ICSA)}
+      \field{month}{4}
+      \field{title}{Migrating Towards Microservice Architectures: An Industrial Survey}
+      \field{year}{2018}
+      \field{pages}{29\bibrangedash 2909}
+      \range{pages}{2881}
+    \endentry
+    \entry{ClassificationOfRefactoring}{article}{}
+      \name{author}{4}{}{%
+        {{hash=6c8e6ec58e5ed4eecf4ca036bc420147}{%
+           family={Fritzsch},
+           familyi={F\bibinitperiod},
+           given={Jonas},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6f9a37903012edd7915c3973ef8478b7}{%
+           family={Bogner},
+           familyi={B\bibinitperiod},
+           given={Justus},
+           giveni={J\bibinitperiod}}}%
+        {{hash=882079b25cd52f036c384c5cc94c9920}{%
+           family={Zimmermann},
+           familyi={Z\bibinitperiod},
+           given={Alfred},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b3b555094827b235ef74e410e9c1d817}{%
+           family={Wagner},
+           familyi={W\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{ed595bed0741ce56cabea5c4036b30a4}
+      \strng{fullhash}{d1067df84e623319e9ab3d383f68bd44}
+      \strng{bibnamehash}{ed595bed0741ce56cabea5c4036b30a4}
+      \strng{authorbibnamehash}{ed595bed0741ce56cabea5c4036b30a4}
+      \strng{authornamehash}{ed595bed0741ce56cabea5c4036b30a4}
+      \strng{authorfullhash}{d1067df84e623319e9ab3d383f68bd44}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{CoRR}
+      \field{title}{From Monolith to Microservices: {A} Classification of Refactoring Approaches}
+      \field{volume}{abs/1807.10059}
+      \field{year}{2018}
+      \verb{eprint}
+      \verb 1807.10059
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1807.10059
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1807.10059
+      \endverb
+    \endentry
+    \entry{ServiceCutter}{article}{}
+      \name{author}{4}{}{%
+        {{hash=1d5e8f6650362544a17a9a428c359193}{%
+           family={Gysel},
+           familyi={G\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=33a44165016f3ac8ca692ea3f71f82e2}{%
+           family={K{ö}lbener},
+           familyi={K\bibinitperiod},
+           given={Lukas},
+           giveni={L\bibinitperiod}}}%
+        {{hash=4b49ee78c8ff1b922405aec598228d00}{%
+           family={Giersche},
+           familyi={G\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod}}}%
+        {{hash=bf0c5cc5d9e500fedda1d337af7eb24e}{%
+           family={Zimmermann},
+           familyi={Z\bibinitperiod},
+           given={Olaf},
+           giveni={O\bibinitperiod}}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=61c9418bf8975db8e23b20012c036b6a}{%
+           family={Aiello},
+           familyi={A\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4b693e796d252a64b51ed0772def8ad1}{%
+           family={Johnsen},
+           familyi={J\bibinitperiod},
+           given={Einar\bibnamedelima Broch},
+           giveni={E\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=748d3aa7019baff9dd392f0f9e793368}{%
+           family={Dustdar},
+           familyi={D\bibinitperiod},
+           given={Schahram},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5e23ae8bbf3a3bdc7f098c901b70e229}{%
+           family={Georgievski},
+           familyi={G\bibinitperiod},
+           given={Ilche},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{8d1092e9d916a5a61e25b65a858e3339}
+      \strng{fullhash}{7247ed0f6fc9607f4f43231115389b12}
+      \strng{bibnamehash}{8d1092e9d916a5a61e25b65a858e3339}
+      \strng{authorbibnamehash}{8d1092e9d916a5a61e25b65a858e3339}
+      \strng{authornamehash}{8d1092e9d916a5a61e25b65a858e3339}
+      \strng{authorfullhash}{7247ed0f6fc9607f4f43231115389b12}
+      \strng{editorbibnamehash}{846e920ecbd3f3eef446bfb63ea4889f}
+      \strng{editornamehash}{846e920ecbd3f3eef446bfb63ea4889f}
+      \strng{editorfullhash}{f1f976ff63f6b340280d4eb7289dc756}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Service-Oriented and Cloud Computing}
+      \field{isbn}{978-3-319-44482-6}
+      \field{title}{Service Cutter: A Systematic Approach to Service Decomposition}
+      \field{year}{2016}
+      \field{pages}{185\bibrangedash 200}
+      \range{pages}{16}
+    \endentry
+    \entry{ArchitecturalMetaModelling}{article}{}
+      \name{author}{3}{}{%
+        {{hash=c7edcb2b563b3b2625c26072252ed866}{%
+           family={Hassan},
+           familyi={H\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d35b083b71e1033ae013d7cafd99e54b}{%
+           family={Ali},
+           familyi={A\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=07522d5838140c53894c816c3103c65a}{%
+           family={Bahsoon},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{22b1bcd6c6a51c399c04d0aba25afbb9}
+      \strng{fullhash}{22b1bcd6c6a51c399c04d0aba25afbb9}
+      \strng{bibnamehash}{22b1bcd6c6a51c399c04d0aba25afbb9}
+      \strng{authorbibnamehash}{22b1bcd6c6a51c399c04d0aba25afbb9}
+      \strng{authornamehash}{22b1bcd6c6a51c399c04d0aba25afbb9}
+      \strng{authorfullhash}{22b1bcd6c6a51c399c04d0aba25afbb9}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 IEEE International Conference on Software Architecture (ICSA)}
+      \field{month}{4}
+      \field{title}{Microservice Ambients: An Architectural Meta-Modelling Approach for Microservice Granularity}
+      \field{year}{2017}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+    \endentry
+    \entry{CoCoMETechnical}{article}{}
+      \name{author}{3}{}{%
+        {{hash=3560bc0cad59a19a23274e4da94b8d57}{%
+           family={Heinrich},
+           familyi={H\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=e9289cc0b84de2757d0201a475e4a9d9}{%
+           family={Rostami},
+           familyi={R\bibinitperiod},
+           given={Kiana},
+           giveni={K\bibinitperiod}}}%
+        {{hash=4e41ac50a44ea2d2e0fbdd12c485c1b2}{%
+           family={Reussner},
+           familyi={R\bibinitperiod},
+           given={Ralf},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{2964bf33062d42cd2c6467af63253fa2}
+      \strng{fullhash}{2964bf33062d42cd2c6467af63253fa2}
+      \strng{bibnamehash}{2964bf33062d42cd2c6467af63253fa2}
+      \strng{authorbibnamehash}{2964bf33062d42cd2c6467af63253fa2}
+      \strng{authornamehash}{2964bf33062d42cd2c6467af63253fa2}
+      \strng{authorfullhash}{2964bf33062d42cd2c6467af63253fa2}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{01}
+      \field{title}{The CoCoME Platform for Collaborative Empirical Research on Information System Evolution}
+      \field{year}{2016}
+      \verb{doi}
+      \verb 10.5445/IR/1000052688
+      \endverb
+    \endentry
+    \entry{CoCoMEOld}{inbook}{}
+      \name{author}{12}{}{%
+        {{hash=6a8d0585febcf34f5cb893cc5cd89278}{%
+           family={Herold},
+           familyi={H\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+        {{hash=79d34dbdafeff440a6d4448f021a829a}{%
+           family={Klus},
+           familyi={K\bibinitperiod},
+           given={Holger},
+           giveni={H\bibinitperiod}}}%
+        {{hash=59a0b500291fdf7c3ceb4c0f3945786e}{%
+           family={Welsch},
+           familyi={W\bibinitperiod},
+           given={Yannick},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=23aaca69c26820ccba82e147b3727b5b}{%
+           family={Deiters},
+           familyi={D\bibinitperiod},
+           given={Constanze},
+           giveni={C\bibinitperiod}}}%
+        {{hash=60c5c4b16191f78e70fffb6492d9e6fd}{%
+           family={Rausch},
+           familyi={R\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4e41ac50a44ea2d2e0fbdd12c485c1b2}{%
+           family={Reussner},
+           familyi={R\bibinitperiod},
+           given={Ralf},
+           giveni={R\bibinitperiod}}}%
+        {{hash=ea463e7d98843baebb721149834e04e4}{%
+           family={Krogmann},
+           familyi={K\bibinitperiod},
+           given={Klaus},
+           giveni={K\bibinitperiod}}}%
+        {{hash=ba7ecc5039717e22ccf225ab7421719b}{%
+           family={Koziolek},
+           familyi={K\bibinitperiod},
+           given={Heiko},
+           giveni={H\bibinitperiod}}}%
+        {{hash=94a3bbc6e98da3ebe25cd9dc968b89d3}{%
+           family={Mirandola},
+           familyi={M\bibinitperiod},
+           given={Raffaela},
+           giveni={R\bibinitperiod}}}%
+        {{hash=525dcda9144713a116251d072da4ed77}{%
+           family={Hummel},
+           familyi={H\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod}}}%
+        {{hash=e996ceb83cfda59a78fdbff3b20dea8c}{%
+           family={Meisinger},
+           familyi={M\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=02ff78640c4cb4aa1bfcd8d3eb54dfb9}{%
+           family={Pfaller},
+           familyi={P\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=60c5c4b16191f78e70fffb6492d9e6fd}{%
+           family={Rausch},
+           familyi={R\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4e41ac50a44ea2d2e0fbdd12c485c1b2}{%
+           family={Reussner},
+           familyi={R\bibinitperiod},
+           given={Ralf},
+           giveni={R\bibinitperiod}}}%
+        {{hash=94a3bbc6e98da3ebe25cd9dc968b89d3}{%
+           family={Mirandola},
+           familyi={M\bibinitperiod},
+           given={Raffaela},
+           giveni={R\bibinitperiod}}}%
+        {{hash=3630984482546860f4b9ec46127b7b4f}{%
+           family={Pl{á}{š}il},
+           familyi={P\bibinitperiod},
+           given={Franti{š}ek},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{9592a10f05ecce151237e729f3cbfccd}
+      \strng{fullhash}{6e73648f5eb904bd903185e571115b4d}
+      \strng{bibnamehash}{9592a10f05ecce151237e729f3cbfccd}
+      \strng{authorbibnamehash}{9592a10f05ecce151237e729f3cbfccd}
+      \strng{authornamehash}{9592a10f05ecce151237e729f3cbfccd}
+      \strng{authorfullhash}{6e73648f5eb904bd903185e571115b4d}
+      \strng{editorbibnamehash}{246ad21e85b91e86f9aeb75da50fc1c0}
+      \strng{editornamehash}{246ad21e85b91e86f9aeb75da50fc1c0}
+      \strng{editorfullhash}{d44e6ee19ca84dabed4e44217d391a62}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The Common Component Modeling Example: Comparing Software Component Models}
+      \field{isbn}{978-3-540-85289-6}
+      \field{title}{CoCoME - The Common Component Modeling Example}
+      \field{year}{2008}
+      \field{pages}{16\bibrangedash 53}
+      \range{pages}{38}
+      \verb{doi}
+      \verb 10.1007/978-3-540-85289-6_3
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-540-85289-6_3
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-540-85289-6_3
+      \endverb
+    \endentry
+    \entry{EnticeApproach}{article}{}
+      \name{author}{3}{}{%
+        {{hash=d24a4c760bfd8a5d9cfbac9c41a229fb}{%
+           family={Kecskemeti},
+           familyi={K\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=711d035e9034c5cc2b79de8732e1aace}{%
+           family={Marosi},
+           familyi={M\bibinitperiod},
+           given={A.\bibnamedelimi C.},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=aa9475ed1eb14b3c5f64e6bf2f20588c}{%
+           family={Kertesz},
+           familyi={K\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{2f33f5631e0d7791ca114ccb0bb5df3d}
+      \strng{fullhash}{2f33f5631e0d7791ca114ccb0bb5df3d}
+      \strng{bibnamehash}{2f33f5631e0d7791ca114ccb0bb5df3d}
+      \strng{authorbibnamehash}{2f33f5631e0d7791ca114ccb0bb5df3d}
+      \strng{authornamehash}{2f33f5631e0d7791ca114ccb0bb5df3d}
+      \strng{authorfullhash}{2f33f5631e0d7791ca114ccb0bb5df3d}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 International Conference on High Performance Computing Simulation (HPCS)}
+      \field{month}{7}
+      \field{title}{The ENTICE approach to decompose monolithic services into microservices}
+      \field{year}{2016}
+      \field{pages}{591\bibrangedash 596}
+      \range{pages}{6}
+    \endentry
+    \entry{WorkloadbasedClustering}{article}{}
+      \name{author}{4}{}{%
+        {{hash=89bcb621aa279c7848b69b51055c7d7f}{%
+           family={Klock},
+           familyi={K\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=801a794fd381687159ce76275dcc8738}{%
+           family={Werf},
+           familyi={W\bibinitperiod},
+           given={J.\bibnamedelimi M.\bibnamedelimi E.\bibnamedelimi M.\bibnamedelimi V.\bibnamedelimi D.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=f42f2e8630f3297366598e6f08211e3c}{%
+           family={Guelen},
+           familyi={G\bibinitperiod},
+           given={J.\bibnamedelimi P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=e0e7f3ed1faa96add873a07da182f1a7}{%
+           family={Jansen},
+           familyi={J\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{569539d6aabb9c45872d17d3ec6ded27}
+      \strng{fullhash}{8d6eb4cc492070b114d8142472e17479}
+      \strng{bibnamehash}{569539d6aabb9c45872d17d3ec6ded27}
+      \strng{authorbibnamehash}{569539d6aabb9c45872d17d3ec6ded27}
+      \strng{authornamehash}{569539d6aabb9c45872d17d3ec6ded27}
+      \strng{authorfullhash}{8d6eb4cc492070b114d8142472e17479}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 IEEE International Conference on Software Architecture (ICSA)}
+      \field{month}{4}
+      \field{title}{Workload-Based Clustering of Coherent Feature Sets in Microservice Architectures}
+      \field{year}{2017}
+      \field{pages}{11\bibrangedash 20}
+      \range{pages}{10}
+    \endentry
+    \entry{TowardsTechnique}{article}{}
+      \name{author}{3}{}{%
+        {{hash=7a797524591294074b5f53214661b416}{%
+           family={Levcovitz},
+           familyi={L\bibinitperiod},
+           given={Alessandra},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ff1de5869662a07aee9ce8d35a66a1e6}{%
+           family={Terra},
+           familyi={T\bibinitperiod},
+           given={Ricardo},
+           giveni={R\bibinitperiod}}}%
+        {{hash=f324ce400373656751c8c5ec06005410}{%
+           family={Valente},
+           familyi={V\bibinitperiod},
+           given={Marco\bibnamedelima Tulio},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{82f7d5fb63d1d6a0b5a4da4ecfaf66b2}
+      \strng{fullhash}{82f7d5fb63d1d6a0b5a4da4ecfaf66b2}
+      \strng{bibnamehash}{82f7d5fb63d1d6a0b5a4da4ecfaf66b2}
+      \strng{authorbibnamehash}{82f7d5fb63d1d6a0b5a4da4ecfaf66b2}
+      \strng{authornamehash}{82f7d5fb63d1d6a0b5a4da4ecfaf66b2}
+      \strng{authorfullhash}{82f7d5fb63d1d6a0b5a4da4ecfaf66b2}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{CoRR}
+      \field{title}{Towards a Technique for Extracting Microservices from Monolithic Enterprise Systems}
+      \field{volume}{abs/1605.03175}
+      \field{year}{2016}
+      \verb{eprint}
+      \verb 1605.03175
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1605.03175
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1605.03175
+      \endverb
+    \endentry
+    \entry{MigratingCloud}{article}{}
+      \name{author}{3}{}{%
+        {{hash=11ccc60d0ab0725822a1eae13191a8ca}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c1f3f03490bc24a75422d44157511f62}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={L.\bibnamedelimi C.},
+           giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=6d4d76d3dacb90eb76d32a306c6c87fd}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{a6d4387aab8ef8640a0f9604ae884819}
+      \strng{fullhash}{a6d4387aab8ef8640a0f9604ae884819}
+      \strng{bibnamehash}{a6d4387aab8ef8640a0f9604ae884819}
+      \strng{authorbibnamehash}{a6d4387aab8ef8640a0f9604ae884819}
+      \strng{authornamehash}{a6d4387aab8ef8640a0f9604ae884819}
+      \strng{authorfullhash}{a6d4387aab8ef8640a0f9604ae884819}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 International Conference on Applied System Innovation (ICASI)}
+      \field{month}{5}
+      \field{title}{Migrating web applications to clouds with microservice architectures}
+      \field{year}{2016}
+      \field{pages}{1\bibrangedash 4}
+      \range{pages}{4}
+    \endentry
+    \entry{Lubke}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=31a7ea3468ca841da284ef26dadbd293}{%
+           family={Lubke},
+           familyi={L\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c0c170d27883740fcdb45bdef4366553}{%
+           family={Schneider},
+           familyi={S\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=a5d0caf92a8612203c215afd3af9b925}{%
+           family={Weidlich},
+           familyi={W\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{76418f48b8e62a120c770583b85e7b36}
+      \strng{fullhash}{76418f48b8e62a120c770583b85e7b36}
+      \strng{bibnamehash}{76418f48b8e62a120c770583b85e7b36}
+      \strng{authorbibnamehash}{76418f48b8e62a120c770583b85e7b36}
+      \strng{authornamehash}{76418f48b8e62a120c770583b85e7b36}
+      \strng{authorfullhash}{76418f48b8e62a120c770583b85e7b36}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2008 Requirements Engineering Visualization}
+      \field{month}{9}
+      \field{title}{Visualizing Use Case Sets as BPMN Processes}
+      \field{year}{2008}
+      \field{pages}{21\bibrangedash 25}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/REV.2008.8
+      \endverb
+      \keyw{business data processing;data flow graphs;data visualisation;software project;Use Case sets visualization;business process modeling notation;control-flow concept;Unified modeling language;Software engineering;Automatic control;Assembly;Books;Data visualization;Business communication}
+    \endentry
+    \entry{ExtractionMazlami}{article}{}
+      \name{author}{3}{}{%
+        {{hash=2f55f7d39d4d59bb70ff3b7d8d555bdd}{%
+           family={Mazlami},
+           familyi={M\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=f447d03752d6900d7534a67f77fb0340}{%
+           family={Cito},
+           familyi={C\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=28de0bd877317c840380a1c3ccf2c568}{%
+           family={Leitner},
+           familyi={L\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{2c30b0ac296a1bfa3c16af43804e3cfe}
+      \strng{fullhash}{2c30b0ac296a1bfa3c16af43804e3cfe}
+      \strng{bibnamehash}{2c30b0ac296a1bfa3c16af43804e3cfe}
+      \strng{authorbibnamehash}{2c30b0ac296a1bfa3c16af43804e3cfe}
+      \strng{authornamehash}{2c30b0ac296a1bfa3c16af43804e3cfe}
+      \strng{authorfullhash}{2c30b0ac296a1bfa3c16af43804e3cfe}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 IEEE International Conference on Web Services (ICWS)}
+      \field{month}{6}
+      \field{title}{Extraction of Microservices from Monolithic Software Architectures}
+      \field{year}{2017}
+      \field{pages}{524\bibrangedash 531}
+      \range{pages}{8}
+    \endentry
+    \entry{Mazlami}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=4173e736060981e0dc4a5836227b120a}{%
+           family={Mazlami},
+           familyi={M\bibinitperiod},
+           given={Genc},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{4173e736060981e0dc4a5836227b120a}
+      \strng{fullhash}{4173e736060981e0dc4a5836227b120a}
+      \strng{bibnamehash}{4173e736060981e0dc4a5836227b120a}
+      \strng{authorbibnamehash}{4173e736060981e0dc4a5836227b120a}
+      \strng{authornamehash}{4173e736060981e0dc4a5836227b120a}
+      \strng{authorfullhash}{4173e736060981e0dc4a5836227b120a}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Master Thesis}
+      \field{note}{Accessed on 20.01.2019}
+      \field{title}{Algorithmic Extraction of Microservices from Monolithic Code Bases}
+      \verb{urlraw}
+      \verb https://www.merlin.uzh.ch/contributionDocument/download/10978
+      \endverb
+      \verb{url}
+      \verb https://www.merlin.uzh.ch/contributionDocument/download/10978
+      \endverb
+    \endentry
+    \entry{DomainEngineeringMunezero}{article}{}
+      \name{author}{4}{}{%
+        {{hash=d6f567ae21f9caa1c72f994786a95e7b}{%
+           family={Munezero},
+           familyi={M\bibinitperiod},
+           given={I.\bibnamedelimi J.},
+           giveni={I\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=32026a4e02c8cc69f824c13567ce5be6}{%
+           family={Mukasa},
+           familyi={M\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=83a66b2d64945cb5525745a5473f27da}{%
+           family={Kanagwa},
+           familyi={K\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=ba2ccae56fa6999233426e4af7dcbac4}{%
+           family={Balikuddembe},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{2a72d94f689517fa78d08f339afb6a79}
+      \strng{fullhash}{f7f660a6ec90f044c7d0f5fd4767dec7}
+      \strng{bibnamehash}{2a72d94f689517fa78d08f339afb6a79}
+      \strng{authorbibnamehash}{2a72d94f689517fa78d08f339afb6a79}
+      \strng{authornamehash}{2a72d94f689517fa78d08f339afb6a79}
+      \strng{authorfullhash}{f7f660a6ec90f044c7d0f5fd4767dec7}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2018 IEEE/ACM Symposium on Software Engineering in Africa (SEiA)}
+      \field{month}{5}
+      \field{title}{Partitioning Microservices: A Domain Engineering Approach}
+      \field{year}{2018}
+      \field{pages}{43\bibrangedash 49}
+      \range{pages}{7}
+      \keyw{Business;Aggregates;Software;Meteorology;Object oriented modeling;Computer architecture;Complexity theory;Sizing microservice;DDD pattern;weather domain}
+    \endentry
+    \entry{infoq}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=d0740bcf48754b8fa2cd3549a1d73461}{%
+           family={Richardson},
+           familyi={R\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {InfoQ}%
+      }
+      \strng{namehash}{d0740bcf48754b8fa2cd3549a1d73461}
+      \strng{fullhash}{d0740bcf48754b8fa2cd3549a1d73461}
+      \strng{bibnamehash}{d0740bcf48754b8fa2cd3549a1d73461}
+      \strng{authorbibnamehash}{d0740bcf48754b8fa2cd3549a1d73461}
+      \strng{authornamehash}{d0740bcf48754b8fa2cd3549a1d73461}
+      \strng{authorfullhash}{d0740bcf48754b8fa2cd3549a1d73461}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{InfoQ}
+      \field{month}{5}
+      \field{note}{Accessed on 08.01.2019}
+      \field{title}{Microservices: Decomposing Applications for Deployability and Scalability}
+      \field{year}{2014}
+      \verb{urlraw}
+      \verb https://www.infoq.com/articles/microservices-intro
+      \endverb
+      \verb{url}
+      \verb https://www.infoq.com/articles/microservices-intro
+      \endverb
+    \endentry
+    \entry{cd}{article}{}
+      \name{author}{3}{}{%
+        {{hash=2463e3ddc010ccd007e782d30714ec00}{%
+           family={Shahin},
+           familyi={S\bibinitperiod},
+           given={Mojtaba},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ff9793c70e5ecb5e7e6d5edea08868fe}{%
+           family={Babar},
+           familyi={B\bibinitperiod},
+           given={Muhammad\bibnamedelima Ali},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=c10b260d67a13ae922e9d8c5819ce74d}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Liming},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{3665d05080726ac9b06b16118adc9da3}
+      \strng{fullhash}{3665d05080726ac9b06b16118adc9da3}
+      \strng{bibnamehash}{3665d05080726ac9b06b16118adc9da3}
+      \strng{authorbibnamehash}{3665d05080726ac9b06b16118adc9da3}
+      \strng{authornamehash}{3665d05080726ac9b06b16118adc9da3}
+      \strng{authorfullhash}{3665d05080726ac9b06b16118adc9da3}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{Continuous Integration, Delivery and Deployment: A Systematic Review on Approaches, Tools, Challenges and Practices}
+      \field{volume}{5}
+      \field{year}{2017}
+      \field{pages}{3909\bibrangedash 3943}
+      \range{pages}{35}
+    \endentry
+    \entry{FunctionalDecompositionHeinrich}{article}{}
+      \name{author}{4}{}{%
+        {{hash=6335e37557b4394c035af0f424fa68d3}{%
+           family={Tyszberowicz},
+           familyi={T\bibinitperiod},
+           given={Shmuel},
+           giveni={S\bibinitperiod}}}%
+        {{hash=3560bc0cad59a19a23274e4da94b8d57}{%
+           family={Heinrich},
+           familyi={H\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=fa97927921a403cfe822973e31081dca}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Bo},
+           giveni={B\bibinitperiod}}}%
+        {{hash=56b7afe864b19369dac050c1e667798f}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Zhiming},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=6b536c18f77809b498935e706ad0b6f8}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Xinyu},
+           giveni={X\bibinitperiod}}}%
+        {{hash=cb645676a652afddd333791ad81e3d77}{%
+           family={M{ü}ller-Olm},
+           familyi={M\bibinithyphendelim O\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a750ac255c3760db4db832c3efb68e0a}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Zijiang},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{7696bd8d28e875460f11abacb3005d1f}
+      \strng{fullhash}{e9c058758e43434371502f275fc65ead}
+      \strng{bibnamehash}{7696bd8d28e875460f11abacb3005d1f}
+      \strng{authorbibnamehash}{7696bd8d28e875460f11abacb3005d1f}
+      \strng{authornamehash}{7696bd8d28e875460f11abacb3005d1f}
+      \strng{authorfullhash}{e9c058758e43434371502f275fc65ead}
+      \strng{editorbibnamehash}{a8229fccf897facfe5e8a8ede2dca5dd}
+      \strng{editornamehash}{a8229fccf897facfe5e8a8ede2dca5dd}
+      \strng{editorfullhash}{a8229fccf897facfe5e8a8ede2dca5dd}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Dependable Software Engineering. Theories, Tools, and Applications}
+      \field{isbn}{978-3-319-99933-3}
+      \field{title}{Identifying Microservices Using Functional Decomposition}
+      \field{year}{2018}
+      \field{pages}{50\bibrangedash 65}
+      \range{pages}{16}
+    \endentry
+    \entry{TowardsCloudGuiseppe}{article}{}
+      \name{author}{3}{}{%
+        {{hash=a3c5893ddf5ab4cea49adc6a0393ce90}{%
+           family={UU},
+           familyi={U\bibinitperiod},
+           given={Zhiping\bibnamedelima Luo},
+           giveni={Z\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=8500550113a84d07bc076ebcfb05535d}{%
+           family={Korpershoek},
+           familyi={K\bibinitperiod},
+           given={Michel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ab95d4efc32ddb125ccacf752559d83d}{%
+           family={VU},
+           familyi={V\bibinitperiod},
+           given={AnaMaria\bibnamedelima Oprescu},
+           giveni={A\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \strng{namehash}{8ab53dcef55895c950686b9f47aa63a9}
+      \strng{fullhash}{8ab53dcef55895c950686b9f47aa63a9}
+      \strng{bibnamehash}{8ab53dcef55895c950686b9f47aa63a9}
+      \strng{authorbibnamehash}{8ab53dcef55895c950686b9f47aa63a9}
+      \strng{authornamehash}{8ab53dcef55895c950686b9f47aa63a9}
+      \strng{authorfullhash}{8ab53dcef55895c950686b9f47aa63a9}
+      \field{sortinit}{U}
+      \field{sortinithash}{36a2444f5238e0dcf4bb59704df6624d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Towards a MicroServices Architecture for Clouds}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

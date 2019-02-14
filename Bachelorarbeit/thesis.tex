@@ -1,0 +1,156 @@
+% !TeX spellcheck = de_DE
+\PassOptionsToPackage{table}{xcolor}
+% TODO bei abgabe\documentclass[twoside, english, final]{sdqthesis}
+\documentclass[oneside, english, draft]{sdqthesis}
+%\documentclass[twoside, english, final]{sdqthesis}
+
+
+%% ---------------------------------
+%% | Information about the thesis  |
+%% ---------------------------------
+
+%% Name of the author
+\author{Niko Benkler}
+
+%% Title (and possibly subtitle) of the thesis
+\title{An Approach for Identifying Microservices using Clustering on Control Flow and Data Flow}
+
+%% Type of the thesis 
+\thesistype{Bachelor Thesis}
+
+%% Change the institute here, ``IPD'' is default
+% \myinstitute{Institute for \dots}
+
+%% You can put a logo in the ``logos'' directory and include it here
+%% instead of the SDQ logo
+% \grouplogo{myfile}
+%% Alternatively, you can disable the group logo
+% \nogrouplogo
+
+%% The reviewers are the professors that grade your thesis
+\reviewerone{Prof. Dr. Ralf H. Reussner}
+\reviewertwo{Jun.-Prof. Dr.-Ing. Anne Koziolek}
+
+%% The advisors are PhDs or Postdocs
+\advisorone{Dr. Robert Heinrich}
+
+
+%% Please enter the start end end time of your thesis
+ \editingtime{02. Month 2019}{04. Month 2019}
+
+\settitle
+
+%% --------------------------------
+%% | Settings for word separation |
+%% --------------------------------
+
+%% Describe separation hints here.
+%% For more details, see 
+%% http://en.wikibooks.org/wiki/LaTeX/Text_Formatting#Hyphenation
+\hyphenation{
+% me-ta-mo-del
+}
+
+%% --------------------------------
+%% | Bibliography                 |
+%% --------------------------------
+
+%% Use biber instead of BibTeX, see README
+\usepackage[citestyle=numeric,style=numeric,backend=biber]{biblatex}
+\addbibresource{thesis.bib}
+
+
+\usepackage[T1]{fontenc}
+\usepackage[table]{xcolor}    % loads also »colortbl«
+\usepackage{makecell}
+\usepackage{adjustbox}
+\usepackage{tabularx} % in the preamble
+\usepackage{pdflscape}
+\usepackage{afterpage}
+\usepackage{capt-of}
+\usepackage{threeparttable}
+\usepackage{graphicx}
+\usepackage{pdfpages}
+\usepackage{booktabs}
+\usepackage{pgfgantt}
+\usepackage{hyperref}
+\usepackage{rotating}
+
+
+%% ====================================
+%% ====================================
+%% ||                                ||
+%% || Beginning of the main document ||
+%% ||                                ||
+%% ====================================
+%% ====================================
+\begin{document}
+
+
+%% Set PDF metadata
+\setpdf
+
+%% Set the title
+\maketitle
+
+%% The Preamble begins here
+\frontmatter
+
+\input{sections/declaration.tex}
+
+\setcounter{page}{1}
+\pagenumbering{roman}
+
+%% ----------------
+%% |   Abstract   |
+%% ----------------
+%% For theses written in English, an abstract both in English
+%% and German is mandatory.
+%%
+%% For theses written in German, a German abstract is sufficient.
+%%
+%% The text is included from the following files:
+%% - sections/abstract
+
+\includeabstract
+
+%% ------------------------
+%% |   Table of Contents  |
+%% ------------------------
+\tableofcontents
+
+\listoffigures
+\listoftables
+
+%% -----------------
+%% |   Main part   |
+%% -----------------
+
+\mainmatter
+
+\input{sections/introduction.tex}
+\input{sections/background.tex}
+\input{sections/CoCoME.tex}
+\input{sections/stateOfTheArt.tex}
+\input{sections/solutionOverview.tex}
+\input{sections/evaluationPlanning.tex}
+\input{sections/conclusion.tex}
+\input{sections/timetable.tex}
+
+
+
+
+%% --------------------
+%% |   Bibliography   |
+%% --------------------
+
+%% Add entry to the table of contents for the bibliography
+\printbibliography[heading=bibintoc]
+
+%% ----------------
+%% |   Appendix   |
+%% ----------------
+%\appendix
+%\input{sections/appendix.tex}
+
+\end{document}
