@@ -144,6 +144,34 @@
       \field{pages}{19\bibrangedash 33}
       \range{pages}{15}
     \endentry
+    \entry{BasiliGQM}{report}{}
+      \name{author}{1}{}{%
+        {{hash=64e80193ddf05cfd7705520c3cf19e56}{%
+           family={Basili},
+           familyi={B\bibinitperiod},
+           given={Victor\bibnamedelima R.},
+           giveni={V\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {College Park, MD, USA}%
+      }
+      \list{publisher}{1}{%
+        {University of Maryland at College Park}%
+      }
+      \strng{namehash}{64e80193ddf05cfd7705520c3cf19e56}
+      \strng{fullhash}{64e80193ddf05cfd7705520c3cf19e56}
+      \strng{bibnamehash}{64e80193ddf05cfd7705520c3cf19e56}
+      \strng{authorbibnamehash}{64e80193ddf05cfd7705520c3cf19e56}
+      \strng{authornamehash}{64e80193ddf05cfd7705520c3cf19e56}
+      \strng{authorfullhash}{64e80193ddf05cfd7705520c3cf19e56}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Software Modeling and Measurement: The Goal/Question/Metric Paradigm}
+      \field{type}{techreport}
+      \field{year}{1992}
+    \endentry
     \entry{NikoProseminar}{misc}{}
       \name{author}{1}{}{%
         {{hash=6f28ee7674aeeca2b141276b86e2bc86}{%
@@ -171,6 +199,40 @@
       \verb{url}
       \verb https://github.com/Benkler/Proseminar/blob/master/Niko_Benkler_Proseminar.pdf
       \endverb
+    \endentry
+    \entry{PrecisionRecall}{article}{}
+      \name{author}{2}{}{%
+        {{hash=eac5ab9213dbc9ea51ff70ba97e394d5}{%
+           family={Buckland},
+           familyi={B\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2e81e75ded17c83251c88663f822c747}{%
+           family={Gey},
+           familyi={G\bibinitperiod},
+           given={Fredric},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{e9f5a45eb94b2d821b60446d704e5172}
+      \strng{fullhash}{e9f5a45eb94b2d821b60446d704e5172}
+      \strng{bibnamehash}{e9f5a45eb94b2d821b60446d704e5172}
+      \strng{authorbibnamehash}{e9f5a45eb94b2d821b60446d704e5172}
+      \strng{authornamehash}{e9f5a45eb94b2d821b60446d704e5172}
+      \strng{authorfullhash}{e9f5a45eb94b2d821b60446d704e5172}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the American society for information science}
+      \field{number}{1}
+      \field{title}{The relationship between recall and precision}
+      \field{volume}{45}
+      \field{year}{1994}
+      \field{pages}{12\bibrangedash 19}
+      \range{pages}{8}
     \endentry
     \entry{DataflowDrivenChen}{article}{}
       \name{author}{3}{}{%
@@ -861,45 +923,6 @@
       \field{year}{2016}
       \field{pages}{1\bibrangedash 4}
       \range{pages}{4}
-    \endentry
-    \entry{Lubke}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=31a7ea3468ca841da284ef26dadbd293}{%
-           family={Lubke},
-           familyi={L\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod}}}%
-        {{hash=c0c170d27883740fcdb45bdef4366553}{%
-           family={Schneider},
-           familyi={S\bibinitperiod},
-           given={K.},
-           giveni={K\bibinitperiod}}}%
-        {{hash=a5d0caf92a8612203c215afd3af9b925}{%
-           family={Weidlich},
-           familyi={W\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{76418f48b8e62a120c770583b85e7b36}
-      \strng{fullhash}{76418f48b8e62a120c770583b85e7b36}
-      \strng{bibnamehash}{76418f48b8e62a120c770583b85e7b36}
-      \strng{authorbibnamehash}{76418f48b8e62a120c770583b85e7b36}
-      \strng{authornamehash}{76418f48b8e62a120c770583b85e7b36}
-      \strng{authorfullhash}{76418f48b8e62a120c770583b85e7b36}
-      \field{sortinit}{L}
-      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2008 Requirements Engineering Visualization}
-      \field{month}{9}
-      \field{title}{Visualizing Use Case Sets as BPMN Processes}
-      \field{year}{2008}
-      \field{pages}{21\bibrangedash 25}
-      \range{pages}{5}
-      \verb{doi}
-      \verb 10.1109/REV.2008.8
-      \endverb
-      \keyw{business data processing;data flow graphs;data visualisation;software project;Use Case sets visualization;business process modeling notation;control-flow concept;Unified modeling language;Software engineering;Automatic control;Assembly;Books;Data visualization;Business communication}
     \endentry
     \entry{ExtractionMazlami}{article}{}
       \name{author}{3}{}{%

@@ -1,0 +1,25 @@
+\chapter{Solution}
+\label{ch:Solution}
+//Erst mal nur Stichpunkte
+
+\section{Distance Metric}
+\begin{itemize}
+	\item Determine distance between pair of Objects in BPMN (Count activities in between)
+	\item Basic Idea: Data accessed more successively is more connected and belongs to same service
+	\item Pro: Easy
+	\item: Contra: Not really Data Flow; pair  occurs several times --> On time close, other times far away, what about average?
+\end{itemize}
+
+\section{Count Activities Metric}
+\begin{itemize}
+	\item Count activities that access a pair of objects in BPMN
+	\item Basic Idea: Data frequently accessed together is more connected and belongs to the same service
+	\item Pro: represents idea of data cohesiveness
+	\item Contra: Again activities (no clean data flow) but nothing else!
+
+\end{itemize}
+
+
+
+
+
