@@ -63,12 +63,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.3.2}Reference Set 2: Manual Decomposition}{23}{subsection.6.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Results}{23}{section.6.4}% 
+\contentsline {section}{\numberline {6.4}Results}{24}{section.6.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.1}Identified Microservices}{23}{subsection.6.4.1}% 
+\contentsline {subsection}{\numberline {6.4.1}Identified Microservices}{24}{subsection.6.4.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Conclusion}{24}{chapter.7}% 
+\contentsline {chapter}{\numberline {7}Conclusion}{25}{chapter.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Organization}{25}{chapter.8}% 
+\contentsline {chapter}{\numberline {8}Organization}{26}{chapter.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{27}{chapter*.6}% 
+\contentsline {chapter}{\nonumberline Bibliography}{28}{chapter*.6}% 

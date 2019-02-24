@@ -2142,7 +2142,7 @@
     <bcf:citekey order="184">PrecisionRecall</bcf:citekey>
     <bcf:citekey order="185">FunctionalDecompositionHeinrich</bcf:citekey>
     <bcf:citekey order="186">FunctionalDecompositionHeinrich</bcf:citekey>
-    <bcf:citekey order="187">FunctionalDecompositionHeinrich</bcf:citekey>
+    <bcf:citekey order="187">CoCoMEOld</bcf:citekey>
     <bcf:citekey order="188">ObjectAwareAmiri</bcf:citekey>
     <bcf:citekey order="189">FunctionalDecompositionHeinrich</bcf:citekey>
   </bcf:section>
