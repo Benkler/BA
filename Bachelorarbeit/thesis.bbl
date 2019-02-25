@@ -273,6 +273,35 @@
       \endverb
       \keyw{data flow computing;service-oriented architecture;agile practitioner communities;independently deployable microservices;monolithic application;microservice-based software systems;analysis approach;virtual abstract dataflow;microservice identification mechanism;business requirement analysis;dataflow-driven approach;multiple small-scale microservices;microservice identification tool;microservice candidates;dataflow-driven decomposition algorithm;Business;Computer architecture;Service-oriented architecture;Complexity theory;Data mining;Electronic mail;microservices;monolith;decomposition;data flow;business logic}
     \endentry
+    \entry{Cockburn}{book}{}
+      \name{author}{1}{}{%
+        {{hash=c1e5acec4259bb4c17ca1a00866f32e1}{%
+           family={Cockburn},
+           familyi={C\bibinitperiod},
+           given={Alistair},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boston, MA, USA}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley Longman Publishing Co., Inc.}%
+      }
+      \strng{namehash}{c1e5acec4259bb4c17ca1a00866f32e1}
+      \strng{fullhash}{c1e5acec4259bb4c17ca1a00866f32e1}
+      \strng{bibnamehash}{c1e5acec4259bb4c17ca1a00866f32e1}
+      \strng{authorbibnamehash}{c1e5acec4259bb4c17ca1a00866f32e1}
+      \strng{authornamehash}{c1e5acec4259bb4c17ca1a00866f32e1}
+      \strng{authorfullhash}{c1e5acec4259bb4c17ca1a00866f32e1}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1st}
+      \field{isbn}{0201702258}
+      \field{title}{Writing Effective Use Cases}
+      \field{year}{2000}
+    \endentry
     \entry{HeuristicsAlwis}{article}{}
       \name{author}{4}{}{%
         {{hash=71f43c378c230f2f37ebf192449af307}{%
@@ -923,6 +952,45 @@
       \field{year}{2016}
       \field{pages}{1\bibrangedash 4}
       \range{pages}{4}
+    \endentry
+    \entry{VisualizeBPMN}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=31a7ea3468ca841da284ef26dadbd293}{%
+           family={Lubke},
+           familyi={L\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c0c170d27883740fcdb45bdef4366553}{%
+           family={Schneider},
+           familyi={S\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=a5d0caf92a8612203c215afd3af9b925}{%
+           family={Weidlich},
+           familyi={W\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{76418f48b8e62a120c770583b85e7b36}
+      \strng{fullhash}{76418f48b8e62a120c770583b85e7b36}
+      \strng{bibnamehash}{76418f48b8e62a120c770583b85e7b36}
+      \strng{authorbibnamehash}{76418f48b8e62a120c770583b85e7b36}
+      \strng{authornamehash}{76418f48b8e62a120c770583b85e7b36}
+      \strng{authorfullhash}{76418f48b8e62a120c770583b85e7b36}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2008 Requirements Engineering Visualization}
+      \field{month}{9}
+      \field{title}{Visualizing Use Case Sets as BPMN Processes}
+      \field{year}{2008}
+      \field{pages}{21\bibrangedash 25}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/REV.2008.8
+      \endverb
+      \keyw{business data processing;data flow graphs;data visualisation;software project;Use Case sets visualization;business process modeling notation;control-flow concept;Unified modeling language;Software engineering;Automatic control;Assembly;Books;Data visualization;Business communication}
     \endentry
     \entry{ExtractionMazlami}{article}{}
       \name{author}{3}{}{%
