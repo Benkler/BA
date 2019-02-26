@@ -42,9 +42,7 @@ Use Cases are a widely adopted technique to document software system requirement
 \end{table}
 
 \noindent
-The usage of Use Cases as input for the approach has a remarkable benefit: Besides being a widely adopted technique to specify system requirements, the textual use case notation is understandable without further technical knowledge. Neither previous knowledge in specific graphic notations like UML, nor the capability to create a complex domain model is necessary. Consequently, all sort of stakeholders (non-technical and technically experienced) are capable to provide the necessary information. 
-
-
+The usage of Use Cases as input for the approach has a remarkable benefit: Besides being a widely adopted technique to specify system requirements, the textual use case notation is understandable without further technical knowledge. Neither previous knowledge in specific graphic notations like UML, nor the capability to create a complex domain model is necessary. Consequently, all sort of stakeholders (non-technical and technically experienced) are capable to provide the necessary information in terms of use cases. 
 
 
 
@@ -52,6 +50,20 @@ The usage of Use Cases as input for the approach has a remarkable benefit: Besid
 
 \section{Business Process and Model Notation}
 \label{sec:Fundamentals:BPMN}
+The Business Process and Model Notation (BPMN) is a graph oriented language to describe business processes. Originally, BPMN was designed to describe activities and their control flow dependencies only \cite{VisualizeBPMN}. Since the introduction of BPMN 2.0, it is possible to model the data needs and the data results of activities \cite{OMG}. Consequently, BPMN is capable to express the control flow and data flow of business processes \cite{DataFlowErrorBPMN}. In the remainder, we use BPMN instead of BPMN 2.0 for the sake of convenience. \\
+BPMN is easy-to-use, powerful and widely adopted in academia and industry. Hence, BPMN is a suitable approach to extract the implicitly given data flow and control flow in the use case description. Sec. \ref{sec:Fundamentals:TransformUCtoBPMN} introduces a formal approach to generate BPMN processes from use case sets. Next, the BPMN 2.0 process definition is shortly introduced:
 
-\section{Transform Use Case Sets as BPMN Processes}
+
+\begin{figure}[h!]
+	\includegraphics[width=\textwidth, trim={1cm 16.5cm 19.2cm 1cm}]{img/Overview.pdf}
+	\caption{BPMN Notation (Subset)}
+	\label{fig:BPMNSubset}
+\end{figure}
+
+
+
+
+
+\section{Transform Use Case Sets in BPMN Processes}
+\label{sec:Fundamentals:TransformUCtoBPMN}
 

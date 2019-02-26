@@ -200,6 +200,19 @@
       \verb https://github.com/Benkler/Proseminar/blob/master/Niko_Benkler_Proseminar.pdf
       \endverb
     \endentry
+    \entry{OMG}{misc}{}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed on 25.02.2019}
+      \field{title}{BPMN OMG}
+      \verb{urlraw}
+      \verb https://www.omg.org/spec/BPMN/2.0/
+      \endverb
+      \verb{url}
+      \verb https://www.omg.org/spec/BPMN/2.0/
+      \endverb
+    \endentry
     \entry{PrecisionRecall}{article}{}
       \name{author}{2}{}{%
         {{hash=eac5ab9213dbc9ea51ff70ba97e394d5}{%
@@ -1166,6 +1179,48 @@
       \field{year}{2017}
       \field{pages}{3909\bibrangedash 3943}
       \range{pages}{35}
+    \endentry
+    \entry{DataFlowErrorBPMN}{article}{}
+      \name{author}{4}{}{%
+        {{hash=00707f784398168757666e1953d8e88b}{%
+           family={Stackelberg},
+           familyi={S\bibinitperiod},
+           given={Silvia},
+           giveni={S\bibinitperiod},
+           prefix={von},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=9ef37a18b32eee84ab9e0a6f5af62f5a}{%
+           family={Putze},
+           familyi={P\bibinitperiod},
+           given={Susanne},
+           giveni={S\bibinitperiod}}}%
+        {{hash=129018ef866b1c8394980d90e9462249}{%
+           family={M{ü}lle},
+           familyi={M\bibinitperiod},
+           given={Jutta\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=3e69bfdc9d95ce817570962f0a79c16b}{%
+           family={B{ö}hm},
+           familyi={B\bibinitperiod},
+           given={Klemens},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{0819475c7fd48bba38016f4f46fe40f3}
+      \strng{fullhash}{178b56c2d37fca5d67a28293e0473017}
+      \strng{bibnamehash}{0819475c7fd48bba38016f4f46fe40f3}
+      \strng{authorbibnamehash}{0819475c7fd48bba38016f4f46fe40f3}
+      \strng{authornamehash}{0819475c7fd48bba38016f4f46fe40f3}
+      \strng{authorfullhash}{178b56c2d37fca5d67a28293e0473017}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{OJIS}
+      \field{title}{Detecting Data-Flow Errors in BPMN 2.0}
+      \field{volume}{1}
+      \field{year}{2014}
+      \field{pages}{1\bibrangedash 19}
+      \range{pages}{19}
     \endentry
     \entry{FunctionalDecompositionHeinrich}{article}{}
       \name{author}{4}{}{%
