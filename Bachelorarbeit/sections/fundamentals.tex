@@ -60,10 +60,42 @@ BPMN is easy-to-use, powerful and widely adopted in academia and industry. Hence
 	\label{fig:BPMNSubset}
 \end{figure}
 
+\noindent
+Fig.\ref{fig:BPMNSubset} presents the subset of BPMN symbols, that is required for the approach presented in this thesis \footnote{The entire specification is available at https://www.omg.org/spec/BPMN/2.0/}. Control flow activities are modelled as atomic \textit{Tasks} and connected through \textit{Sequence Flow Arcs}. \textit{Conditional Flow Arcs} integrate decision points into the control flow. Navigation decisions are based on the conditions related to the individual arcs. Such decision point are the \textit{Exclusive Or Gateway} and the \textit{Parallel Gateway}. Regarding the first one, if one of the incoming flows is triggered exactly one outgoing flow is activated based on the condition. For the latter, all outgoing flows are activated as soon as all of its incoming flows are activated. Each BPMN process starts with a \textit{Start Event} and ends with an \textit{End Event}. In case of several branches (due to Gateways), stop events need to be placed to each end. \textit{Intermediate Events} mark any other events that occur during the process. The trigger for an event is modelled using the \textit{Annotation} symbol. \textit{Abort Execution Event} extend the \textit{End Event} and marks the error-prone end of a business process. \\
+When it comes to data, each \textit{Task} may or may not require and/or produce data. Directed \textit{Data Association Arcs} provide the opportunity to model the data flow. In case a task requires data, the corresponding \textit{Data Objects} are connected to the task with the arrowhead attached to the task. Producing data works in the opposite direction. \\
 
 
 
 
-\section{Transform Use Case Sets in BPMN Processes}
+
+
+
+
+
+\section{Use Case Sets and BPMN Processes}
 \label{sec:Fundamentals:TransformUCtoBPMN}
+To visualize the implicit data and control flow in use cases, it is necessary to transform the given use cases into BPMN models. In "Visualizing Use Case Sets as BPMN Processes" \cite{VisualizeBPMN}, Lübke et al. already elaborated an approach to visualize the control flow that is hidden in use cases. As Lübke does not use the BPMN 2.0 notation, data is not considered and hence, data flow is not part of the approach. In the following, we will introduce a conceptional approach to transform use cases into BPMN models and extract the data flow and control flow.
+
+
+\subsection{Transform Use Case Sets in BPMN Processes}
+
+\subsection{Extract Control Flow of BPMN Processes}
+
+\subsection{Extract Data Flow of BPMN Processes}
+
+\subsection{Running Example}
+
+
+Subprocess!
+
+
+
+\textit{Example 1.} Fig . prese
+
+
+
+
+
+
+
 
