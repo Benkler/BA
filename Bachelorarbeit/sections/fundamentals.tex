@@ -74,10 +74,25 @@ When it comes to data, each \textit{Task} may or may not require and/or produce 
 
 \section{Use Case Sets and BPMN Processes}
 \label{sec:Fundamentals:TransformUCtoBPMN}
-To visualize the implicit data and control flow in use cases, it is necessary to transform the given use cases into BPMN models. In "Visualizing Use Case Sets as BPMN Processes" \cite{VisualizeBPMN}, Lübke et al. already elaborated an approach to visualize the control flow that is hidden in use cases. As Lübke does not use the BPMN 2.0 notation, data is not considered and hence, data flow is not part of the approach. In the following, we will introduce a conceptional approach to transform use cases into BPMN models and extract the data flow and control flow.
+To visualize the implicit data and control flow in use cases, it is necessary to transform the given use cases into BPMN models. In "Visualizing Use Case Sets as BPMN Processes" \cite{VisualizeBPMN}, Lübke et al. already elaborated an approach to visualize the control flow that is hidden in use cases. As Lübke does not use the BPMN 2.0 notation, data is not considered and hence, data flow is not part of the given approach. In the following, we will introduce a conceptional approach, which is based on \cite{VisualizeBPMN}, to transform use cases into BPMN models and extract the data flow and control flow.
 
 
 \subsection{Transform Use Case Sets in BPMN Processes}
+To visualize use case sets, including data flow and control flow, the following elementary steps need to be performed:
+
+\begin{enumerate}
+	\item Create a flat use case model. Replace \textit{include} and \textit{extend} relationships by the associated use case
+	\item Generate an independent BPMN process for each use case
+    \item Join the generated BPMN processes based on preconditions, trigger and postconditions
+    \item Remove duplicate Data Objects and refactor the data associations
+\end{enumerate}
+
+The first step only includes simple substitution of use cases, whereas step number two represents the main part of the transformation. Fig. %TODO 
+is an additional illustrative diagram that explains this step. First, the preconditions is assigned to the start event by using an annotation. Triggers are represented by intermediate events and as they are executed in parallel, connected by two Parallel Gateways. Each step in the use cases standard process is represented by a single task. Tasks that produce and/or consume data are connected to the corresponding data object. It has to be noticed, that data objects appear only once in a model. Given these point, it is necessary to check if a data object is already referenced by a previous task. Jumps and alternatives are modelled using Exclusive Or Gateways. Finally, the postcondition is added as annotation and connected to the end event. \\
+Joining the use case-based BPMN models is necessary to represent the control flow and data flow within the entire system. (The flows are generally not limited to "use case borders"). For each pair of use cases (\textit{UC A} and \textit{UC B}), check if the postcondition of UC A matches the precondition or triggers of the UC B. If this is the case, join the accompanying BPMN processes by deleting the start event (BPMN process of UC B) and the end event (BPMN process of UC B).
+
+
+
 
 \subsection{Extract Control Flow of BPMN Processes}
 
