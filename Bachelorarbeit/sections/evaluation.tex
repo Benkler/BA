@@ -126,11 +126,29 @@ As depicted in Sec.\ref{sec:stateOfTheArt:approaches}, Tyszberowicz et al. utili
 As mentioned in Sec.\ref{sec:stateOfTheArt:comparison}, the compulsory and non-trivial revision of nouns and verbs to eliminate synonyms etc. is a substantial disadvantage. However, the evaluation results in Tyszberowicz's approach demonstrate, that the identified microservices are good candidates for a microservice-based system decomposition of CoCoME. The aforementioned evaluation includes a comparison to three independent software projects that implemented CoCoME. Two groups identified, apart from the naming, the same set of microservices. The third group identified a more detailed decomposition of the case study, but a revision reveals that the additional microservices are only a refinement of the proposed microservices. \\
 The following microservices are identified: 
 \begin{itemize}
-    \item  List of Services
+    \item  \textit{Reporting:} TODO Features auflisten  %TODO Feautures
+    \item \textit{StockOrder:}
+    \item \textit{Sale:}
+    \item \textit{ProductList:}
 \end{itemize}
 
 \subsection{Reference Set 2: Manual Decomposition}
-//Gefahr vs Aufwand reinbringen
+In the course of this thesis, we implemented a microservice-based version of CoCoME. The microservice identification process itself was terminated before the literature review for the thesis started. Moreover, we were not aware of the microservice decomposition proposed by Tyszberowicz et al. \cite{FunctionalDecompositionHeinrich} by the time we identified possible microservice candidates. Consequently, the process was conducted without bias. \\
+The identification process itself was conducted manually and supported by the previous knowledge of the CoCoME domain. Beside the use case specification, we used a monolithic implementation of CoCoME, the Hybrid Cloud-based Variant \cite{CoCoMETechnical}, as information resource to discover requirements, functionality, dependencies and finally decompose the system into loosely coupled and high cohesive microservices. \\
+Once more, the time consuming and difficult discovery process clarified the necessity of a structured and formal approach to identify microservices. \\
+The following four microservices were identified:
+\begin{itemize}
+	\item \textit{Stores- and Sales service}
+	\item \textit{Product}
+	\item \textit{Order}
+	\item \textit{Reports}
+\end{itemize}
+
+\subsection{Differences between both sets}
+Roughly same services but differences in functionality
+%TODO Define differences
+
+
 
 
 \section{Results}

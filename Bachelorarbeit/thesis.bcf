@@ -2151,6 +2151,8 @@
     <bcf:citekey order="194">FunctionalDecompositionHeinrich</bcf:citekey>
     <bcf:citekey order="195">FunctionalDecompositionHeinrich</bcf:citekey>
     <bcf:citekey order="196">CoCoMEOld</bcf:citekey>
+    <bcf:citekey order="197">FunctionalDecompositionHeinrich</bcf:citekey>
+    <bcf:citekey order="198">CoCoMETechnical</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
