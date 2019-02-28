@@ -1318,6 +1318,46 @@
       \field{labeltitlesource}{title}
       \field{title}{Towards a MicroServices Architecture for Clouds}
     \endentry
+    \entry{YourdonDFD}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=ee6bc3c9f8c0a6c784c023dffc23d4ca}{%
+           family={Yourdon},
+           familyi={Y\bibinitperiod},
+           given={Edward},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Anaheim, California}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{ee6bc3c9f8c0a6c784c023dffc23d4ca}
+      \strng{fullhash}{ee6bc3c9f8c0a6c784c023dffc23d4ca}
+      \strng{bibnamehash}{ee6bc3c9f8c0a6c784c023dffc23d4ca}
+      \strng{authorbibnamehash}{ee6bc3c9f8c0a6c784c023dffc23d4ca}
+      \strng{authornamehash}{ee6bc3c9f8c0a6c784c023dffc23d4ca}
+      \strng{authorfullhash}{ee6bc3c9f8c0a6c784c023dffc23d4ca}
+      \field{sortinit}{Y}
+      \field{sortinithash}{b8d711a035f7be9840c721c82920477e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the May 19-22, 1975, National Computer Conference and Exposition}
+      \field{series}{AFIPS '75}
+      \field{title}{Structured Programming and Structured Design As Art Forms}
+      \field{year}{1975}
+      \field{pages}{277\bibrangedash 277}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1145/1499949.1499997
+      \endverb
+      \verb{urlraw}
+      \verb http://doi.acm.org/10.1145/1499949.1499997
+      \endverb
+      \verb{url}
+      \verb http://doi.acm.org/10.1145/1499949.1499997
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

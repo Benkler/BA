@@ -126,7 +126,7 @@ For example, given these two steps from two different use cases:
 Both steps update the same Data Object, which is the Stock Item, although the second step refers to the object as \textit{Stock}. The activity in both cases can be described as \textit{Update inventory}. Furthermore, steps one contains two activities and needs to be split in \textit{Change Price} and \textit{Update Inventory}.
 
 \subsection{Limitations and Drawbacks of the Transformation}
-In Chapter \ref{ch:Solution}, we present an approach that identifies microservices from the business point of view using BPMN processes as input. Nevertheless, the case study we use only provides system specification in form of detailed use cases. Therefore, the previous sections present a transformation of use cases in a set of BPMN models. However, this transformation requires a non-trivial refactoring process. In regard to data objects, it is obvious that multiple appearances of the same object (in different shaping) in a process devastate the resulting data flow. Speaking of tasks, it is necessary to examine the impact on the clustering presented in Chapter \ref{ch:Solution}: It is indispensable to identify common tasks among all use cases and consequently the resulting business processes to create the structural relationship between them. If not, the tasks would be arranged in a circle-like order and the resulting clusters would correspond to the business processes. \\
+In Chapter \ref{ch:Solution}, we present an approach that identifies microservices from the business point of view using BPMN processes as input. Nevertheless, the case study we use only provides system specification in form of detailed use cases. Therefore, the previous sections present a transformation of use cases in a set of BPMN models. However, this transformation requires a non-trivial refactoring process. In regard to data objects, it is obvious that multiple appearances of the same object (in different shaping) in a process devastate the resulting data flow. Speaking of tasks, it is necessary to examine the impact on the clustering presented in Chapter \ref{ch:Solution}: It is indispensable to identify common tasks among all use cases and consequently the resulting business processes to create the structural relationship between them. If not, the tasks would be arranged in a circle-like order and the resulting clusters would correspond to the business processes. Structural dependencies between processes like using the same functionalities would disappear.\\
 For this reasons, the refactoring process has to be conducted 
 conscientiously. If this is not the case or synonyms etc. are not identified, the results of the approach might not be satisfactory.
 
@@ -136,21 +136,54 @@ conscientiously. If this is not the case or synonyms etc. are not identified, th
 
 \section{Control Flow and Data Flow in BPMN Processes}
 \label{ch:PrepApproach:ControlDataFlowBPMNProcess}
+The approach uses structural and data object dependencies extracted from the control flow and data flow in order to build graphs, generate clusters and identify microservices. For this reason, the following sections explain how to extract these information from the given BPMN Processes. 
 
 \subsection{Extract Control Flow of BPMN Processes}
 Extracting the Control Flow in BPMN processes is a trivial task. The BPMN was originally designed to describe the control flow in business process. All that has to be done is to delete the Data Objects and the accompanying associations. The remaining diagram visualizes the control flow, including activities and their control flow dependencies. Further information, can be extracted in various ways. For instance, counting the amount of tasks between a pair of activities provides information about their structural dependency.
 
 \subsection{Extract Data Flow of BPMN Processes}
-%TODO Add DFD or BPMN Data Flow?
+First of all, data flows are usually represented using specific notations of Data Flow Diagrams (DFD), i.e. a notation proposed by E.Yourdon \cite{YourdonDFD}. For simplicity's sake, we relinquish to introduce another model notation and use the BPMN symbols instead. \\
+Extracting the Data Flow works similar to the previous process. First of all, all control flow related parts like sequence flows arcs, gateways, events and triggers are deleted. The remaining parts are the tasks, the data objects and the data associations. Consequently, some of the tasks are not connected to the rest which results in an incoherent graph. To re-establish the connection, restore the necessary control flow arcs and replace them with data association arcs by using the following rules:
+\begin{itemize}
+	\item Restore and replace if another data object access happens in the course of the control flow (cf. Fig\ref{fig:restoreDataFlow})
+	\item Replace gates by using two data association arcs (cf. Fig.\ref{fig:splitDataFlow} and Fig.\ref{fig:mergeDataFlow}). 
+	\item Remove the remaining tasks that are not connected by data association arcs (cf. Fig.\ref{fig:removeDataFlow})
+	
+\end{itemize}
+The remaining Graph contains all relevant tasks, the data objects and data associations that indicate the flow of data.
 
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\textwidth, trim={7.5cm 15cm 7cm 0cm}]{img/ExtractDFDRestore.pdf}
+	\caption{Restore data flow connection}
+	\label{fig:restoreDataFlow}
+\end{figure}
+
+\begin{figure}[h!]
+	\includegraphics[width=\textwidth, trim={8.5cm 13.2cm 8.5cm 2.4cm}]{img/ExtractDFDGateWaySplit.pdf}
+	\caption{Split data flow connection}
+	\label{fig:splitDataFlow}
+\end{figure}
+
+\begin{figure}[h!]
+	\includegraphics[width=\textwidth, trim={8.5cm 13.5cm 8.5cm 2.4cm}]{img/ExtractDFDGateWayMerge.pdf}
+	\caption{Merge data flow connection}
+	\label{fig:mergeDataFlow}
+\end{figure}
+
+\begin{figure}[h!]
+	\includegraphics[width=\textwidth, trim={7.5cm 15.3cm 8.5cm 1.5cm}]{img/ExtractDFDRemove.pdf}
+	\caption{Remove unnecessary tasks}
+	\label{fig:removeDataFlow}
+\end{figure}
+
+\pagebreak
 \subsection{Running Example}
 
-
+%TODO wird das benötigt?
 Subprocess!
 
 
-
-\textit{Example 1.} Fig . prese
 
 
 
