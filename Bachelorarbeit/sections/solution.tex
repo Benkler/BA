@@ -67,8 +67,43 @@ Admittedly, the manual effort to conduct the process entirely is still not to be
 
 
 
+\section{Specify BPMN Models}
+\label{sec:Solution:SpecifyBPMN}
+Chapter \ref{ch:PrepApproach}, introduces the BPMN 2.0 modelling language, as an easy to use, but yet powerful notation to illustrate business processes including their activities and their data needs.
+In the first step of the solution, those business processes need to be specified. Usually, the system specification are not directly given in form of business processes, bur rather in the form of use cases, UML models, domain models or even as textual description in natural language. Therefore, the first step consists of specifying a business model using the available system specification. This can be achieved using various approaches, for instance: \\
+
+\noindent
+\textbf{Workshops} At the very beginning of a software project, technical and non-technical stakeholders can participate in a workshop to specify the business process model. As illustrated in the BPMN specification, the "primary goal of BPMN is to provide a notation that is readily understandable by all business users"  \cite{OMG}. Consequently, a workshop can produce high quality BPMN models which can be further used as input for the extraction process.\\
+
+\noindent
+\textbf{Use Cases} In the case of CoCoME, the system specifications are available as use cases (cf. chapter \ref{ch:CoCoME}). Accordingly, we illustrate a process to transform use cases into BPMN models in section \ref{sec:PrepApproach:TransformUCtoBPMN}. \\
+
+\noindent
+\textbf{Others} Business processes can be extracted in various other ways. UML Activity diagrams, for instance, are very similar to BPMN models. Van der Aalst et al. elaborated the Process Mining Manifesto \cite{ProcessMiningManifesto} where he presents general techniques to extract business processes, although it is mainly event log driven. Another approach is the \textit{BPMN Miner}, an automatic discovery tool for BPMN process models \cite{BPMNMiner}. Again, the tool discovers the models dynamically, using log files of a legacy system.
 
 
+
+\section{Extract Control Flow}
+\label{sec:Solution:ExtractControlFlow}
+bbve
+
+
+\section{Extract Data Flow}
+\label{sec:Solution:ExtractDataFlow}
+
+
+
+\section{Create weighted Graphs}
+\label{sec:Solution:CreateGraph}
+
+\section{Identify Cluster}
+\label{sec:Solution:IdentifyCluster}
+
+\section{Match Cluster}
+\label{sec:Solution:MatchCluster}
+
+\section{Extract Microservice Candidates}
+\label{sec:Solution:ExtractMicroserviceCandidates}
 
 
 
