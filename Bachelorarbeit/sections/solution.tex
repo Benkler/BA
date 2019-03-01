@@ -1,6 +1,6 @@
 \chapter{Solution}
 \label{ch:Solution}
-This chapter provides a solution to tackle the issue of microservice identification. As noted in the state of the art chapter \ref{ch:StateOfTheArt}, existing approaches support two initial situations: They either conduct the extraction of microservices from existing (monolithic) systems or they are based on microservice greenfield development. Both types have their advantages and disadvantages. Existing systems, for instance, provide more information about the system specification and requirements. Legacy code and log files can be used to extract data dependencies or process structures. However, shortcoming in the design of the legacy application might have an impact on the extracted information and influence the microservice extraction in a negative manner. In contrast, greenfield development is not affected by any previously committed design decisions. Nevertheless, this type has to manage the identification process with less input. \\
+This chapter presents a solution to tackle the issue of microservice identification. As noted in the \textit{State of the Art} chapter \ref{ch:StateOfTheArt}, existing approaches support two initial situations: They either conduct the extraction of microservices from existing (monolithic) systems or they are based on microservice greenfield development. Both types have their advantages and disadvantages. Existing systems, for instance, provide more information about the system specification and requirements. Legacy code and log files can be used to extract data dependencies or process structures. However, shortcoming in the design of the legacy application might have an impact on the extracted information and influence the microservice extraction in a negative manner. In contrast, greenfield development is not affected by any previously committed design decisions. As a matter of fact, the greenfield approach can be applied to existing systems as well by discarding legacy code and additional information that arose during the development. Solely the system requirements that existed before the implementation started serve as input. Nevertheless, this type has to manage the identification process with less input.\\
 The solution we propose is based on pre-existing system requirements. No existing implementation is used and consequently, the presented approach is to be classified as greenfield method.\\
 
 
@@ -22,15 +22,43 @@ The solution we propose is based on pre-existing system requirements. No existin
 
 
 
+\noindent
+This thesis proposes a formal, graph-based microservice identification approach using clustering on control flow and data flow. It is  inspired by Amiri’s work on \textit{Object-aware Identification of Microservices} \cite{ObjectAwareAmiri}. In chapter \ref{ch:StateOfTheArt}, eight suitable approaches to identify microservices are presented and compared using well-defined criteria. Most of them require special prerequisites and cannot be applied to various types of systems, i.e. no greenfield applications, systems without meaningful VCS meta-data or the absence of log files.
+\\
+By the way of contrast, Amiri proposes an approach to extract structural and data object dependencies from business point of view in order to generate possible microservice candidates. In doing so, he relinquishes to use any further information besides BPMN models. Using both, structural and data object dependencies promotes high cohesiveness and loose coupling on functional and data object level. In other words, high cohesive functionality is divided into the same microservices, together with the data objects that are accessed. \\
+However, Sec.\ref{sec:stateOfTheArt:comparison} outlines the limitations and drawbacks of the approach. Whereas the control flow is depicted clearly, the data flow remains vague. The weight definitions regarding data object dependencies lack formal explanation. Further, the aggregation of structural and data object dependencies, and consequently the aggregation of control flow and data flow contains a significant problem: In Amiri's approach, the aggregation is conducted by summing up two relation matrices. The matrix entries representing the dependencies highly influence the results. For instance, a large amount of data reads and writes sum up to great numbers, outweighing the structural dependencies. Thus, the identification process would be almost based on data dependencies only, discarding any identified structural dependencies. \\
+The following sections introduces a formal approach to tackle \textit{RQ2}. First, a basic overview of the approach is provided. Afterwards, each step is introduced in detail including alternatives and examples. 
 
-This thesis proposes a formal, graph-based microservice identification approach using clustering on control flow and data flow. The approach is  inspired by Amiri’s work on \textit{Object-aware Identification of Microservices} \cite{ObjectAwareAmiri}. 
-to RQ1. Sec.5.2 suggests the improvements that form the basis of the approach
-proposed by this thesis (RQ2). 
 
 
+
+\vspace{0.5cm}
+\par
+\begingroup
+\leftskip=1cm
+\rightskip=1cm
+
+\noindent
+\textbf{RQ2: What formal approach can be constructed to identify possible microservices without detailed know-how and manual effort? }
+
+\endgroup
+\vspace{0.5cm}
+
+
+
+\noindent
+To that end, Fig.\ref{fig:thesisProcess} provides an overview of the proposed approach. As depicted previously, the process requires input in form of BPMN models. Therefore, specifying those models marks the beginning of the process. Afterwards, control flow and data flow need to be extracted. To avoid the ambiguity of aggregating data flow and control flow as proposed by Amiri, the approach recommends to create two independent weighted Graphs, using the information from the previous step. In the next step, a clustering algorithm determines two sets of clusters based on the weights in the graphs. At that point, the process determined a set of clusters that is based on the structural dependencies and another one, based on data object dependencies. In the following, a matching process identifies commonalities between data object-based and structural-based clusters in order to create comprehensive clusters. Based on these clusters, the last step extracts microservice candidates. \\
+%TODO  stimmt das noch?
+\textit{RQ2} also broaches the subject of necessary know-how and the amount of manual effort. As far as that is concerned, the proposed approach does not require human interaction as soon as the BPMN models are specified. Everything beyond that is based on a structural process.
+Admittedly, the manual effort to conduct the process entirely is still not to be neglected, as the extraction process, graph creation and cluster matching is not yet automated. Nevertheless, the structural process enables to implement the entire approach, excluding the BPMN model specification step. However, implementing an approach is beyond the scope of the paper.
+
+
+
+
+ 
 \begin{figure}[h!]
 	\includegraphics[width=\textwidth, trim={7.5cm 15.3cm 5.0cm 1.5cm}]{img/ThesisProcess.pdf}
-	\caption{Overview of the approach}
+	\caption{Overview of the identification approach}
 	\label{fig:thesisProcess}
 \end{figure}
 

@@ -65,38 +65,38 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.1}Basic Approach}{27}{section.6.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Distance Metric}{28}{section.6.2}% 
+\contentsline {section}{\numberline {6.2}Distance Metric}{29}{section.6.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Count Activities Metric}{28}{section.6.3}% 
+\contentsline {section}{\numberline {6.3}Count Activities Metric}{29}{section.6.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Solution Application}{29}{chapter.7}% 
+\contentsline {chapter}{\numberline {7}Solution Application}{30}{chapter.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Evaluation}{30}{chapter.8}% 
+\contentsline {chapter}{\numberline {8}Evaluation}{31}{chapter.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}GQM Plan}{30}{section.8.1}% 
+\contentsline {section}{\numberline {8.1}GQM Plan}{31}{section.8.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Metrics}{31}{section.8.2}% 
+\contentsline {section}{\numberline {8.2}Metrics}{32}{section.8.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2.1}Precision and Recall}{31}{subsection.8.2.1}% 
+\contentsline {subsection}{\numberline {8.2.1}Precision and Recall}{32}{subsection.8.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2.2}Some more Metrics if necessary}{33}{subsection.8.2.2}% 
+\contentsline {subsection}{\numberline {8.2.2}Some more Metrics if necessary}{34}{subsection.8.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.3}Reference Sets}{33}{section.8.3}% 
+\contentsline {section}{\numberline {8.3}Reference Sets}{34}{section.8.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3.1}Reference Set 1: Functional Decomposition Approach}{33}{subsection.8.3.1}% 
+\contentsline {subsection}{\numberline {8.3.1}Reference Set 1: Functional Decomposition Approach}{34}{subsection.8.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3.2}Reference Set 2: Manual Decomposition}{34}{subsection.8.3.2}% 
+\contentsline {subsection}{\numberline {8.3.2}Reference Set 2: Manual Decomposition}{35}{subsection.8.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3.3}Differences between both sets}{34}{subsection.8.3.3}% 
+\contentsline {subsection}{\numberline {8.3.3}Differences between both sets}{35}{subsection.8.3.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.4}Results}{34}{section.8.4}% 
+\contentsline {section}{\numberline {8.4}Results}{35}{section.8.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.4.1}Identified Microservices}{34}{subsection.8.4.1}% 
+\contentsline {subsection}{\numberline {8.4.1}Identified Microservices}{35}{subsection.8.4.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Discussion}{35}{chapter.9}% 
+\contentsline {chapter}{\numberline {9}Discussion}{36}{chapter.9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.1}Using Use Cases as Input}{35}{section.9.1}% 
+\contentsline {section}{\numberline {9.1}Using Use Cases as Input}{36}{section.9.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}Conclusion}{36}{chapter.10}% 
+\contentsline {chapter}{\numberline {10}Conclusion}{37}{chapter.10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{37}{chapter*.6}% 
+\contentsline {chapter}{\nonumberline Bibliography}{38}{chapter*.6}% 
