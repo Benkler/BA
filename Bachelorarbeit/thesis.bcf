@@ -2149,15 +2149,16 @@
     <bcf:citekey order="192">OMG</bcf:citekey>
     <bcf:citekey order="193">ProcessMiningManifesto</bcf:citekey>
     <bcf:citekey order="194">BPMNMiner</bcf:citekey>
-    <bcf:citekey order="195">BasiliGQM</bcf:citekey>
-    <bcf:citekey order="196">PrecisionRecall</bcf:citekey>
+    <bcf:citekey order="195">ObjectAwareAmiri</bcf:citekey>
+    <bcf:citekey order="196">BasiliGQM</bcf:citekey>
     <bcf:citekey order="197">PrecisionRecall</bcf:citekey>
     <bcf:citekey order="198">PrecisionRecall</bcf:citekey>
-    <bcf:citekey order="199">FunctionalDecompositionHeinrich</bcf:citekey>
+    <bcf:citekey order="199">PrecisionRecall</bcf:citekey>
     <bcf:citekey order="200">FunctionalDecompositionHeinrich</bcf:citekey>
-    <bcf:citekey order="201">CoCoMEOld</bcf:citekey>
-    <bcf:citekey order="202">FunctionalDecompositionHeinrich</bcf:citekey>
-    <bcf:citekey order="203">CoCoMETechnical</bcf:citekey>
+    <bcf:citekey order="201">FunctionalDecompositionHeinrich</bcf:citekey>
+    <bcf:citekey order="202">CoCoMEOld</bcf:citekey>
+    <bcf:citekey order="203">FunctionalDecompositionHeinrich</bcf:citekey>
+    <bcf:citekey order="204">CoCoMETechnical</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

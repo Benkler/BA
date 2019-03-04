@@ -1,6 +1,7 @@
 \chapter{Solution}
 \label{ch:Solution}
-This chapter presents a solution to tackle the issue of microservice identification. As noted in the \textit{State of the Art} chapter \ref{ch:StateOfTheArt}, existing approaches support two initial situations: They either conduct the extraction of microservices from existing (monolithic) systems or they are based on microservice greenfield development. Both types have their advantages and disadvantages. Existing systems, for instance, provide more information about the system specification and requirements. Legacy code and log files can be used to extract data dependencies or process structures. However, shortcoming in the design of the legacy application might have an impact on the extracted information and influence the microservice extraction in a negative manner. In contrast, greenfield development is not affected by any previously committed design decisions. As a matter of fact, the greenfield approach can be applied to existing systems as well by discarding legacy code and additional information that arose during the development. Solely the system requirements that existed before the implementation started serve as input. Nevertheless, this type has to manage the identification process with less input.\\
+This chapter presents the solution to tackle the issue of microservice identification. 
+As noted in the \textit{State of the Art} chapter \ref{ch:StateOfTheArt}, existing approaches support two initial situations: They either conduct the extraction of microservices from existing (monolithic) systems or they are based on microservice greenfield development. Both types have their advantages and disadvantages. Existing systems, for instance, provide more information about the system specification and requirements. Legacy code and log files can be used to extract data dependencies or process structures. However, shortcoming in the design of the legacy application might have an impact on the extracted information and influence the microservice extraction in a negative manner. In contrast, greenfield development is not affected by any previously committed design decisions. As a matter of fact, the greenfield approach can be applied to existing systems as well by discarding legacy code and additional information that arose during the development. Solely the system requirements that existed before the implementation started serve as input. Nevertheless, this type has to manage the identification process with less input.\\
 The solution we propose is based on pre-existing system requirements. No existing implementation is used and consequently, the presented approach is to be classified as greenfield method.\\
 
 
@@ -69,14 +70,15 @@ Admittedly, the manual effort to conduct the process entirely is still not to be
 
 \section{Specify BPMN Models}
 \label{sec:Solution:SpecifyBPMN}
-Chapter \ref{ch:PrepApproach}, introduces the BPMN 2.0 modelling language, as an easy to use, but yet powerful notation to illustrate business processes including their activities and their data needs.
+Chapter \ref{ch:PrepApproach}, introduces the BPMN 2.0 modelling language as an easy to use, but yet powerful notation to illustrate business processes including their activities and their data needs.
 In the first step of the solution, those business processes need to be specified. Usually, the system specification are not directly given in form of business processes, bur rather in the form of use cases, UML models, domain models or even as textual description in natural language. Therefore, the first step consists of specifying a business model using the available system specification. This can be achieved using various approaches, for instance: \\
 
 \noindent
-\textbf{Workshops} At the very beginning of a software project, technical and non-technical stakeholders can participate in a workshop to specify the business process model. As illustrated in the BPMN specification, the "primary goal of BPMN is to provide a notation that is readily understandable by all business users"  \cite{OMG}. Consequently, a workshop can produce high quality BPMN models which can be further used as input for the extraction process.\\
+\textbf{Workshops} At the very beginning of a software project, technical and non-technical stakeholders can participate in a workshop to specify the business process model. As illustrated in the BPMN specification, the "primary goal of BPMN is to provide a notation that is readily understandable by all business users"  \cite{OMG}. Therefore, carrying out a workshop with stakeholders from various departments can produce high quality BPMN models which can be further used as input for the extraction process.\\
 
 \noindent
-\textbf{Use Cases} In the case of CoCoME, the system specifications are available as use cases (cf. chapter \ref{ch:CoCoME}). Accordingly, we illustrate a process to transform use cases into BPMN models in section \ref{sec:PrepApproach:TransformUCtoBPMN}. \\
+\textbf{Use Cases} In the case of CoCoME, the system specifications are available as use cases (cf. chapter \ref{ch:CoCoME}). Accordingly, section \ref{sec:PrepApproach:TransformUCtoBPMN} illustrates a process to transform use cases into BPMN models. 
+\\
 
 \noindent
 \textbf{Others} Business processes can be extracted in various other ways. UML Activity diagrams, for instance, are very similar to BPMN models. Van der Aalst et al. elaborated the Process Mining Manifesto \cite{ProcessMiningManifesto} where he presents general techniques to extract business processes, although it is mainly event log driven. Another approach is the \textit{BPMN Miner}, an automatic discovery tool for BPMN process models \cite{BPMNMiner}. Again, the tool discovers the models dynamically, using log files of a legacy system.
@@ -85,22 +87,57 @@ In the first step of the solution, those business processes need to be specified
 
 \section{Extract Control Flow}
 \label{sec:Solution:ExtractControlFlow}
-bbve
+In the course of the process, activities of the business processes are clustered based on their structural dependency which is extracted from the control flow. Activities (tasks) in business processes play the role of operations in microservices, representing the functionality a service is able to offer. During the process of microservice identification, it is desired to cluster high cohesive functionality into one microservice. To achieve this, one must first extract the structural  dependencies between activities in business processes. \\
+The extraction process itself is trivial, as the business process language BPMN was designed to illustrate the control flow between activities (cf. Sec.\ref{sec:PrepApproach:BPMN}). Mainly inspired by the work of M. Amiri in \textit{Object-aware Identification of Microservices} \cite{ObjectAwareAmiri}, we propose a straightforward technique to separate the control flow information from BPMN 2.0 models in section \ref{ch:PrepApproach:ControlDataFlowBPMNProcess}.
+
+
 
 
 \section{Extract Data Flow}
 \label{sec:Solution:ExtractDataFlow}
+Besides the structural dependencies of activities, data object access plays a significant role in the definition of microservices. As depicted in the background chapter \ref{ch:background}, microservice generally administer their own database with the data entities that belong to the bounded context of the service. Nevertheless, data needs to be shared among services which raises the question where to place a shared data object. Like the previous section, we propose to use clustering based on data flow to identify high cohesive but loosely coupled set of data object clusters. \\
+When BPMN 2.0 was introduced, the language was extended by the ability to represent data objects that are consumed and/or produced by the activities. Despite the fact that BPMN is still a language to illustrate the control flow of business processes, the extension provides th possibility to visualize the data flow. In Sec.\ref{ch:PrepApproach:ControlDataFlowBPMNProcess}, we present a formal approach to extract the data flow by discarding anything but flow elements used to represent the data flow.
 
 
 
-\section{Create weighted Graphs}
-\label{sec:Solution:CreateGraph}
+\section{Create weighted Graph on Control Flow}
+\label{sec:Solution:CreateGraphControl}
+As depicted in the background chapter \ref{ch:background}, microservices are high cohesive, loosely coupled and fine-grained. 
+
+It is desired to have 
+
+Decomposing business processes into microservices 
+
+BPMN was originally designed to illustrate the control flow between activities. 
+
+Here the problem is to identify appropriate
+microservices by decomposing each business process in a way
+such that the identified microservices are cohesive, loosely
+coupled, and fine-grained. In other words, each activity of a
+business process plays the role of an operation (functionality
+in one microservice and we want to cluster all the activities
+of a business process. Each cluster is then introduced as a
+microservice.
+To find such microservices, one may take the structural
+dependency of activities into account and cluster activities
+based on the edges in the process model: if there is a direct
+edge between two activities within a business process, those
+two activities are more likely two be clustered in the same
+microservice. Fig. 2(a) shows the microservices identified from
+the PlanApproval process using this approach where the
+process decompose into 4 microservices.
+
+
+\section{Create weighted Graph on Data Flow}
+\label{sec:Solution:CreateGraphData}
+
 
 \section{Identify Cluster}
 \label{sec:Solution:IdentifyCluster}
 
 \section{Match Cluster}
 \label{sec:Solution:MatchCluster}
+Having both sets of clusters...
 
 \section{Extract Microservice Candidates}
 \label{sec:Solution:ExtractMicroserviceCandidates}
