@@ -95,41 +95,48 @@ The extraction process itself is trivial, as the business process language BPMN 
 
 \section{Extract Data Flow}
 \label{sec:Solution:ExtractDataFlow}
-Besides the structural dependencies of activities, data object access plays a significant role in the definition of microservices. As depicted in the background chapter \ref{ch:background}, microservice generally administer their own database with the data entities that belong to the bounded context of the service. Nevertheless, data needs to be shared among services which raises the question where to place a shared data object. Like the previous section, we propose to use clustering based on data flow to identify high cohesive but loosely coupled set of data object clusters. \\
-When BPMN 2.0 was introduced, the language was extended by the ability to represent data objects that are consumed and/or produced by the activities. Despite the fact that BPMN is still a language to illustrate the control flow of business processes, the extension provides th possibility to visualize the data flow. In Sec.\ref{ch:PrepApproach:ControlDataFlowBPMNProcess}, we present a formal approach to extract the data flow by discarding anything but flow elements used to represent the data flow.
+Besides the structural dependencies of activities, data object access plays a significant role in the definition of microservices. As depicted in the background chapter \ref{ch:background}, microservice generally administer their own database with the data entities that belong to the bounded context of the service. Usually, data needs to be shared among services which raises the question where to place a shared data object. However, sharing data among microservices is expensive because it includes network communication instead of inter process communication. It is therefore desirable to reduce the communication between services by distributing data objects into the same microservice if they are accessed together.  
+Like the previous section, we propose to use clustering based on data flow to identify high cohesive but loosely coupled set of data object clusters. \\
+When BPMN 2.0 was introduced, the language was extended by the ability to represent data objects that are consumed and/or produced by the activities. Despite the fact that BPMN is still a language to illustrate the control flow of business processes, the extension provides the possibility to visualize the data flow. In Sec.\ref{ch:PrepApproach:ControlDataFlowBPMNProcess}, we present a formal approach to extract the data flow by discarding anything but flow elements used to represent the data flow.
 
 
 
-\section{Create weighted Graph on Control Flow}
+\section{Create a weighted Graph using Control Flow}
 \label{sec:Solution:CreateGraphControl}
-As depicted in the background chapter \ref{ch:background}, microservices are high cohesive, loosely coupled and fine-grained. 
-
-It is desired to have 
-
-Decomposing business processes into microservices 
-
-BPMN was originally designed to illustrate the control flow between activities. 
-
-Here the problem is to identify appropriate
-microservices by decomposing each business process in a way
-such that the identified microservices are cohesive, loosely
-coupled, and fine-grained. In other words, each activity of a
-business process plays the role of an operation (functionality
-in one microservice and we want to cluster all the activities
-of a business process. Each cluster is then introduced as a
-microservice.
-To find such microservices, one may take the structural
-dependency of activities into account and cluster activities
-based on the edges in the process model: if there is a direct
-edge between two activities within a business process, those
-two activities are more likely two be clustered in the same
-microservice. Fig. 2(a) shows the microservices identified from
-the PlanApproval process using this approach where the
-process decompose into 4 microservices.
+The visualization of the control flow information as a graph enables to identify clusters of high cohesive functionality. Therefore, we build a directed graph G whose vertices represents the tasks/activities in the business process. The edges correspond to the control flow arcs in the BPMN model: a pair of activities is connected if there is a direct edge in the business process or if there is a path between them that contains only gateways. This decision is based on the heuristic, that two activities are more likely to be in the same microservice, if they are directly connected in a business process. \\
+Speaking of the weights, we decide to assign a value of 1 to each edge notwithstanding of the nature of the connection, which is i) directly connected ii) connected via parallel gateway iii) connected via XOR gateway. Regarding the first and the second case, it is motivated by the fact that activities connected by a parallel gateway and activities that are directly connected are always executed during control flow execution.
+In regard of the third case, one can argue that the probability of a condition influences the weight of a connection. For instance, a task has two subsequent tasks that are connected through an exclusive OR gateway and conditional flows. One of the tasks, the "main task", is more likely to be the successor as the alternative. Hence, the edges need a different weight. However, the information regarding the probability is usually not available and specified in business processes. Further, different weighting raises the question of the value determination. With this in mind, the generalization of all types of connections (using a weight of 1 for all edges) seems to be an appropriate solution. \\
+Fig.\ref{fig:controlFlow} shows an exemplary BPMN process whose object-related information has already been deleted (cf. Sec.\ref{sec:Solution:ExtractControlFlow}). As explained in this section, the control flow information given in this BPMN model is used to create a weighted graph. The corresponding graph is illustrated in Fig.\ref{fig:controlFlowGraph}. 
 
 
-\section{Create weighted Graph on Data Flow}
+\begin{figure}[h!]
+	\includegraphics[width=\textwidth, trim={4.5cm 14cm 4.0cm 1.5cm}]{img/ControlFlowExample.pdf}
+	\caption{An exemplary BPMN model illustrating the control flow only  }
+	\label{fig:controlFlow}
+\end{figure}
+%"l, b, r, t"
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=12cm, trim={1.5cm 9.0cm 13.0cm 0cm}]{img/ControlFlowGraph.pdf}
+	\caption{Weighted graph using Control Flow Dependencies}
+	\label{fig:controlFlowGraph}
+\end{figure}
+
+ 
+
+
+
+
+
+
+\section{Create a weighted Graph using Data Flow}
 \label{sec:Solution:CreateGraphData}
+To identify high cohesive data object clusters, the data flow information is visualized as a weighted graph, which is similar to the activity graph as described in previous sections. In this case, the vertices of a Graph G represent the data objects in the BPMN models. The edges illustrate the data object dependencies extracted from the data flow.
+Such dependencies are: i) data objects being accessed by the same task ii) a data object value that is used when writing to (creating) another data object. \\
+Speaking of the first dependency, it is obvious that data which is accessed by the same task is more likely to be partitioned into the same service. Otherwise, the execution of a task would always cause at least one expensive intra-service call.
+Therefore, two vertices that represent a pair of data objects which is accessed by the same task is to be connected by an edge. \\
+The second dependency is based on a similar heuristic. There is a certain connection between two data objects, if information of one data object is used to update or create another one. Placing the information source into another microservice as the information destination would require an inevitable cross-service communication which is meant to be prevented. \\
+To determine data flow connections and create a weighted graph, it is necessary to take a closer look at the extracted data flow (cf. Sec.\ref{sec:Solution:ExtractDataFlow}). It is noticeable that it requires additional information to decide whether two 
 
 
 \section{Identify Cluster}
