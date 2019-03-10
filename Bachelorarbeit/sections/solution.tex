@@ -88,7 +88,7 @@ In the first step of the solution, those business processes need to be specified
 \section{Extract Control Flow}
 \label{sec:Solution:ExtractControlFlow}
 In the course of the process, activities of the business processes are clustered based on their structural dependency which is extracted from the control flow. Activities (tasks) in business processes play the role of operations in microservices, representing the functionality a service is able to offer. During the process of microservice identification, it is desired to cluster high cohesive functionality into one microservice. To achieve this, one must first extract the structural  dependencies between activities in business processes. \\
-The extraction process itself is trivial, as the business process language BPMN was designed to illustrate the control flow between activities (cf. Sec.\ref{sec:PrepApproach:BPMN}). Mainly inspired by the work of M. Amiri in \textit{Object-aware Identification of Microservices} \cite{ObjectAwareAmiri}, we propose a straightforward technique to separate the control flow information from BPMN 2.0 models in section \ref{ch:PrepApproach:ControlDataFlowBPMNProcess}.
+The extraction process itself is trivial, as the business process language BPMN was designed to illustrate the control flow between activities (cf. Sec.\ref{sec:PrepApproach:BPMN}). Mainly inspired by the work of M. Amiri in \textit{Object-aware Identification of Microservices} \cite{ObjectAwareAmiri}, we propose a straightforward technique to separate the control flow information from BPMN 2.0 models in section \ref{ch:PrepApproach:ControlDataFlowBPMNProcess}. The control flow has to be extracted for each BPMN model that was specified in the previous step.
 
 
 
@@ -97,15 +97,19 @@ The extraction process itself is trivial, as the business process language BPMN 
 \label{sec:Solution:ExtractDataFlow}
 Besides the structural dependencies of activities, data object access plays a significant role in the definition of microservices. As depicted in the background chapter \ref{ch:background}, microservice generally administer their own database with the data entities that belong to the bounded context of the service. Usually, data needs to be shared among services which raises the question where to place a shared data object. However, sharing data among microservices is expensive because it includes network communication instead of inter process communication. It is therefore desirable to reduce the communication between services by distributing data objects into the same microservice if they are accessed together.  
 Like the previous section, we propose to use clustering based on data flow to identify high cohesive but loosely coupled set of data object clusters. \\
-When BPMN 2.0 was introduced, the language was extended by the ability to represent data objects that are consumed and/or produced by the activities. Despite the fact that BPMN is still a language to illustrate the control flow of business processes, the extension provides the possibility to visualize the data flow. In Sec.\ref{ch:PrepApproach:ControlDataFlowBPMNProcess}, we present a formal approach to extract the data flow by discarding anything but flow elements used to represent the data flow.
+When BPMN 2.0 was introduced, the language was extended by the ability to represent data objects that are consumed and/or produced by the activities. Despite the fact that BPMN is still a language to illustrate the control flow of business processes, the extension provides the possibility to visualize the data flow. In Sec.\ref{ch:PrepApproach:ControlDataFlowBPMNProcess}, we present a formal approach to extract the data flow by discarding anything but flow elements used to represent the data flow. Again, the data flow has to be extracted for each BPMN model that was specified in the previous step.
 
 
 
 \section{Create a weighted Graph using Control Flow}
 \label{sec:Solution:CreateGraphControl}
-The visualization of the control flow information as a graph enables to identify clusters of high cohesive functionality. Therefore, we build a directed graph G whose vertices represents the tasks/activities in the business process. The edges correspond to the control flow arcs in the BPMN model: a pair of activities is connected if there is a direct edge in the business process or if there is a path between them that contains only gateways. This decision is based on the heuristic, that two activities are more likely to be in the same microservice, if they are directly connected in a business process. \\
+In section \ref{sec:Solution:ExtractControlFlow}, the control flow is extracted from several BPMN models that represent the entire application.
+The visualization of the control flow information as a single graph enables to identify clusters of high cohesive functionality among all BPMN models, thus among the entire application. 
+Therefore, we build a directed graph G whose vertices represent the tasks/activities in the BPMN models. Duplicate vertices are not allowed. Hence, activities that occur several times in different BPMN models are only represented once in the graph.
+The edges correspond to the control flow arcs: a pair of activities is connected if there is a direct edge in the business processes or if there is a path between them that contains only gateways. This decision is based on the heuristic, that two activities are more likely to be in the same microservice, if they are directly connected in a business process. \\
 Speaking of the weights, we decide to assign a value of 1 to each edge notwithstanding of the nature of the connection, which is i) directly connected ii) connected via parallel gateway iii) connected via XOR gateway. Regarding the first and the second case, it is motivated by the fact that activities connected by a parallel gateway and activities that are directly connected are always executed during control flow execution.
 In regard of the third case, one can argue that the probability of a condition influences the weight of a connection. For instance, a task has two subsequent tasks that are connected through an exclusive OR gateway and conditional flows. One of the tasks, the "main task", is more likely to be the successor as the alternative. Hence, the edges need a different weight. However, the information regarding the probability is usually not available and specified in business processes. Further, different weighting raises the question of the value determination. With this in mind, the generalization of all types of connections (using a weight of 1 for all edges) seems to be an appropriate solution. \\
+In the case of duplicated control flow dependencies due to several BPMN models, the weights are summed up as a pair of connected tasks that occurs in multiple models indicates a stronger cohesion. As a result, the edge in the graph that connects the tasks in questions receives a greater weight (corresponding to the number of occurrences).\\
 Fig.\ref{fig:controlFlow} shows an exemplary BPMN process whose object-related information has already been deleted (cf. Sec.\ref{sec:Solution:ExtractControlFlow}). As explained in this section, the control flow information given in this BPMN model is used to create a weighted graph. The corresponding graph is illustrated in Fig.\ref{fig:controlFlowGraph}. 
 
 
@@ -131,12 +135,46 @@ Fig.\ref{fig:controlFlow} shows an exemplary BPMN process whose object-related i
 
 \section{Create a weighted Graph using Data Flow}
 \label{sec:Solution:CreateGraphData}
-To identify high cohesive data object clusters, the data flow information is visualized as a weighted graph, which is similar to the activity graph as described in previous sections. In this case, the vertices of a Graph G represent the data objects in the BPMN models. The edges illustrate the data object dependencies extracted from the data flow.
-Such dependencies are: i) data objects being accessed by the same task ii) a data object value that is used when writing to (creating) another data object. \\
+To identify high cohesive data object clusters, the data flow information is visualized as a weighted graph, which is similar to the activity graph as described in the previous sections. In this case, the vertices of a Graph G represent the data objects in the BPMN models. Like the activity graph, duplicated vertices are not allowed. Each data object is only represented once in the graph. The edges illustrate the data object dependencies extracted from the data flow. \\
+Such dependencies are: i) data objects being accessed by the same task ii) a data object value that is used when writing to (or creating) another data object. \\
 Speaking of the first dependency, it is obvious that data which is accessed by the same task is more likely to be partitioned into the same service. Otherwise, the execution of a task would always cause at least one expensive intra-service call.
-Therefore, two vertices that represent a pair of data objects which is accessed by the same task is to be connected by an edge. \\
+Therefore, two vertices that represent a pair of data objects which are accessed by the same task is to be connected by an edge. \\
 The second dependency is based on a similar heuristic. There is a certain connection between two data objects, if information of one data object is used to update or create another one. Placing the information source into another microservice as the information destination would require an inevitable cross-service communication which is meant to be prevented. \\
-To determine data flow connections and create a weighted graph, it is necessary to take a closer look at the extracted data flow (cf. Sec.\ref{sec:Solution:ExtractDataFlow}). It is noticeable that it requires additional information to decide whether two 
+To create a weighted graph based on data flow dependencies, it is necessary to take a closer look at the extracted data flow (cf. Sec.\ref{sec:Solution:ExtractDataFlow}). It is noticeable that it requires additional information to decide whether two data objects have a connection as described previously. Fig.\ref{fig:dataFlowExample} represents an exemplary data flow diagram that was extracted from a BPMN process. In the following, we discuss different possibilities to gain the data object dependencies.
+
+
+%"l, b, r, t"
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\textwidth, trim={10cm 14.5cm 10cm 2cm}]{img/DataFlowExample.pdf}
+	\caption{Data Flow Diagram extracted from BPMN process}
+	\label{fig:dataFlowExample}
+\end{figure}
+
+Information of one data object can flow into another one. That is the case, if a data object is updated or created using information of another data object which was read beforehand. 
+For instance, \textit{Task 3} processes information of \textit{Data Object 3}, passes it to \textit{Task 4}, which uses the information of the data object to update \textit{Data Object 4}. Consequently, \textit{Data Object 3 \& 4} should be connected by an edge in the resulting data object graph. Yet, another possibility is that \textit{Task 3} only reads \textit{Data Object 3} and displays some information to the user. Further, \textit{Task 4} may only processes user input to update \textit{Data Object 4}. Hence, \textit{Data Object 3 \& 4} are not to be connected by an edge, as there is no information flow in between. The same line of reasoning can be applied to \textit{Task 1}: Information of \textit{Data Object 1} may or may not flow into \textit{Data Object 2}, although both data accesses are executed by the same task. As a final point, the information of several data objects may flow into another one. For example, \textit{Data Object 2}, produced by \textit{Task 1} and \textit{Data Object 3}, read by \textit{Task 3}, may be used to create \textit{Data Object 4}.\\
+Given these points, identifying data object dependencies has to be estimated. The following possibilities are available to estimate the data dependencies:
+
+
+\begin{itemize}
+	\item Dependency between a pair of data objects, only if both data objects are read and written by the same task.
+	\item Dependency between a pair of data objects, if \textit{n} tasks\footnote{n $\in [0..]$, where 0 represents neighbouring tasks} are in between a task that reads the first data object and another task that writes into the other data object\footnote{Following the Data Flow Arcs when counting}.
+	
+
+	
+	\item Use additional information to determine the actual data flow dependencies
+\end{itemize}
+\noindent
+The dependencies are expressed by connecting the vertices in question (which represent the data objects) with a weighted edge. 
+Obviously, the third possibility is the most accurate one. The identified data object dependencies correspond to the reality. Though, one of the thesis' goals is to reduce human involvement to a minimum, so that the approach is able to run without further user interaction. Consequently, this possibility is discarded. \\
+Regarding the first option, data object dependencies are frequently underestimated, as no information flow from one task to another is discerned. For this reason, option one is also discarded. \\
+With this in mind, the second option seems to be the most appropriate one to determine the data flow dependencies based on the data flow graph. Still, the number \textit{n} has to be defined. Small numbers illustrate represent the case when data flows is accessed 
+
+Addiieren
+
+
+activitäten nachbarn sowieso gleich ==> 0
+
 
 
 \section{Identify Cluster}

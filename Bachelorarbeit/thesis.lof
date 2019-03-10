@@ -41,11 +41,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\relax 6.3}{\ignorespaces Weighted graph using Control Flow Dependencies}}{31}{figure.6.3}% 
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {\relax 6.4}{\ignorespaces Data Flow Diagram extracted from BPMN process}}{32}{figure.6.4}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 8.1}{\ignorespaces Precision and Recall for Microservices}}{36}{figure.8.1}% 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 8.1}{\ignorespaces Precision and Recall for Microservices}}{38}{figure.8.1}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
