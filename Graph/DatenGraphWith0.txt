@@ -1,0 +1,11 @@
+product order 1
+supplier order 1
+stockitem order 1
+product stockitem 1
+stockitem product 1
+store report 1
+stockitem report 1
+enterprise report 1
+supplier report 1
+stockitem store 1
+store stockitem 1

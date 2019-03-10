@@ -1,0 +1,40 @@
+/* ------------------------------------------------------------ */
+/* created with bunch v3 */
+/* Objective Function value = 1.3949579831932772*/
+/* ------------------------------------------------------------ */
+
+digraph G {
+size= "10,10";
+rotate = 0;
+subgraph cluster0 {
+label = "(SS-L0):stockitem";
+color = black;
+style = bold;
+
+"product"[label="product",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"stockitem"[label="stockitem",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"store"[label="store",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"order"[label="order",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+}
+subgraph cluster1 {
+label = "(SS-L0):report";
+color = black;
+style = bold;
+
+"enterprise"[label="enterprise",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"supplier"[label="supplier",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"report"[label="report",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+}
+"order" -> "stockitem" [color=blue,font=6];
+"store" -> "report" [color=blue,font=6];
+"store" -> "stockitem" [color=blue,font=6];
+"stockitem" -> "order" [color=blue,font=6];
+"stockitem" -> "report" [color=blue,font=6];
+"stockitem" -> "store" [color=blue,font=6];
+"stockitem" -> "product" [color=blue,font=6];
+"supplier" -> "order" [color=blue,font=6];
+"supplier" -> "report" [color=blue,font=6];
+"product" -> "order" [color=blue,font=6];
+"product" -> "stockitem" [color=blue,font=6];
+"enterprise" -> "report" [color=blue,font=6];
+}
