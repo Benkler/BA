@@ -5,6 +5,7 @@ product stockitem 1
 stockitem product 1
 store report 1
 stockitem report 1
+order stockitem 1
 enterprise report 1
 supplier report 1
 stockitem store 1
