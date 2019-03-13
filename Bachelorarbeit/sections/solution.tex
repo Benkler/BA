@@ -136,9 +136,9 @@ Fig.\ref{fig:controlFlow} shows an exemplary BPMN process whose object-related i
 \section{Create a weighted Graph using Data Flow}
 \label{sec:Solution:CreateGraphData}
 To identify high cohesive data object clusters, the data flow information is visualized as a weighted graph, which is similar to the activity graph as described in the previous sections. In this case, the vertices of a Graph G represent the data objects in the BPMN models. Like the activity graph, duplicated vertices are not allowed. Each data object is only represented once in the graph. The edges illustrate the data object dependencies extracted from the data flow. \\
-Such dependencies are: i) data objects being accessed by the same task ii) a data object value that is used when writing to (or creating) another data object. \\
-Speaking of the first dependency, it is obvious that data which is accessed by the same task is more likely to be partitioned into the same service. Otherwise, the execution of a task would always cause at least one expensive intra-service call.
-Therefore, two vertices that represent a pair of data objects which are accessed by the same task is to be connected by an edge. \\
+Such dependencies are: i) data objects read by the same task ii) a data object value that is used when writing to (or creating) another data object. \\
+Speaking of the first dependency, it is obvious that data which is read by the same task is more likely to be partitioned into the same service. Otherwise, the execution of a task would always cause at least one expensive intra-service call.
+Therefore, two vertices that represent a pair of data objects which are read by the same task is to be connected by an edge. \\
 The second dependency is based on a similar heuristic. There is a certain connection between two data objects, if information of one data object is used to update or create another one. Placing the information source into another microservice as the information destination would require an inevitable cross-service communication which is meant to be prevented. \\
 To create a weighted graph based on data flow dependencies, it is necessary to take a closer look at the extracted data flow (cf. Sec.\ref{sec:Solution:ExtractDataFlow}). It is noticeable that it requires additional information to decide whether two data objects have a connection as described previously. Fig.\ref{fig:dataFlowExample} represents an exemplary data flow diagram that was extracted from a BPMN process. In the following, we discuss different possibilities to gain the data object dependencies.
 
@@ -168,12 +168,32 @@ Given these points, identifying data object dependencies has to be estimated. Th
 The dependencies are expressed by connecting the vertices in question (which represent the data objects) with a weighted edge. 
 Obviously, the third possibility is the most accurate one. The identified data object dependencies correspond to the reality. Though, one of the thesis' goals is to reduce human involvement to a minimum, so that the approach is able to run without further user interaction. Consequently, this possibility is discarded. \\
 Regarding the first option, data object dependencies are frequently underestimated, as no information flow from one task to another is discerned. For this reason, option one is also discarded. \\
-With this in mind, the second option seems to be the most appropriate one to determine the data flow dependencies based on the data flow graph. Still, the number \textit{n} has to be defined. Small numbers illustrate represent the case when data flows is accessed 
-
-Addiieren
+With this in mind, the second option seems to be the most appropriate one to determine the data flow dependencies based on the data flow graph. Still, the number \textit{n} has to be defined. Having \textit{n=0}, only data objects that are processed by neighbouring tasks are considered to share a dependency, therefore connected by an edge. This is reasonably similar to the control flow dependency, where only neighbouring tasks are connected by an edge as well. However, we empirically examined the data flow with \textit{n=0} and experienced an underestimation of the existing data flow dependencies. This is due to the fact that data processing and data storing is quite often distributed among two tasks. Fig.\ref{fig:ExampleDataProcessing} illustrates this instance: 
 
 
-activitäten nachbarn sowieso gleich ==> 0
+%"l, b, r, t"
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=11cm, trim={10cm 14.0cm 10cm 1.9cm}]{img/ProcessDataDFD.pdf}
+	\caption{Data Flow Diagram to demonstrate data processing and data storing}
+	\label{fig:ExampleDataProcessing}
+\end{figure}
+
+\noindent
+Two data objects are read by the first task and passed to its neighbour, which is only in charge of processing it. Finally, the merged information is stored by a third task. To represent this common pattern of data processing, a value \textit{n>0} is required. In order to prevent an overestimation of data dependencies due to data access which is executed by distant tasks, we chose \textit{n=1} to be the desired value. \\
+Speaking of the weights, we decided to assign a weight of 1 to each each edge notwithstanding of the connection type, which again is i) two data objects are read by the same task ii) a data object value that is used when writing to another data object. Other approaches, like the one proposed by Amiri \cite{ObjectAwareAmiri}, often differentiate between data reads and data writes, where the latter is generally weighted higher. However, the cross-service communication outweighs the difference between both data access types. In detail, a cross-service data read is generally much more time consuming compared to a inter-service write, due to the expensive network communication. Consequently, we propose to generalize data accesses by consider binary data dependencies only: two data objects are dependent according to the rules mentioned previously or they are not. 
+In the case of duplicate data flow dependencies due to several BPMN models that process the same data objects in a similar way, the weights are summed up. This is motivated by the fact that multiple appearances of the same data object dependencies indicate a stronger cohesion.
+Fig.\ref{fig:dataFlowGraph} illustrates the Graph that is produced when applying the approach to the data flow described in Fig.\ref{fig:dataFlowExample}.
+
+%"l, b, r, t"
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=12cm, trim={1.5cm 7.5cm 13.0cm 1cm}]{img/DataFlowGraph.pdf}
+	\caption{Weighted graph using Control Flow Dependencies}
+	\label{fig:dataFlowGraph}
+\end{figure}
+
+
 
 
 

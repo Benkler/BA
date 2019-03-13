@@ -43,11 +43,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\relax 6.4}{\ignorespaces Data Flow Diagram extracted from BPMN process}}{32}{figure.6.4}% 
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {\relax 6.5}{\ignorespaces Data Flow Diagram to demonstrate data processing and data storing}}{33}{figure.6.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 6.6}{\ignorespaces Weighted graph using Control Flow Dependencies}}{34}{figure.6.6}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 8.1}{\ignorespaces Precision and Recall for Microservices}}{38}{figure.8.1}% 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 8.1}{\ignorespaces Precision and Recall for Microservices}}{39}{figure.8.1}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
