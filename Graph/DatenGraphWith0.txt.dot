@@ -5,7 +5,7 @@
 
 digraph G {
 size= "10,10";
-rotate = 0;
+rotate = 90;
 subgraph cluster0 {
 label = "(SS-L0):order";
 color = black;

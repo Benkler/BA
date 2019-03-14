@@ -619,6 +619,38 @@
       \field{type}{techreport}
       \field{year}{1992}
     \endentry
+    \entry{gephi}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=f9fab3924b8ea32748aeedb59e2b3b58}{%
+           family={Bastian},
+           familyi={B\bibinitperiod},
+           given={Mathieu},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8c2f33265854ee844e14d715f00e7dd5}{%
+           family={Heymann},
+           familyi={H\bibinitperiod},
+           given={Sebastien},
+           giveni={S\bibinitperiod}}}%
+        {{hash=1d8d87da63f7c5df6ac60ebe226f1ce0}{%
+           family={Jacomy},
+           familyi={J\bibinitperiod},
+           given={Mathieu},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{f46d750ffa7633791c477f06717fa430}
+      \strng{fullhash}{f46d750ffa7633791c477f06717fa430}
+      \strng{bibnamehash}{f46d750ffa7633791c477f06717fa430}
+      \strng{authorbibnamehash}{f46d750ffa7633791c477f06717fa430}
+      \strng{authornamehash}{f46d750ffa7633791c477f06717fa430}
+      \strng{authorfullhash}{f46d750ffa7633791c477f06717fa430}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Third international AAAI conference on weblogs and social media}
+      \field{title}{Gephi: an open source software for exploring and manipulating networks}
+      \field{year}{2009}
+    \endentry
     \entry{NikoProseminar}{misc}{}
       \name{author}{1}{}{%
         {{hash=6f28ee7674aeeca2b141276b86e2bc86}{%
@@ -645,6 +677,48 @@
       \endverb
       \verb{url}
       \verb https://github.com/Benkler/Proseminar/blob/master/Niko_Benkler_Proseminar.pdf
+      \endverb
+    \endentry
+    \entry{modularity}{article}{}
+      \name{author}{4}{}{%
+        {{hash=c1df4bb37f10209a4c8dae09fef9d712}{%
+           family={Blondel},
+           familyi={B\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+        {{hash=6b6e1859f5b4504b6f852c6112880f18}{%
+           family={Guillaume},
+           familyi={G\bibinitperiod},
+           given={Jean-Loup},
+           giveni={J\bibinithyphendelim L\bibinitperiod}}}%
+        {{hash=a0bc3d83c54bda6a078936b2d87d6c9f}{%
+           family={Lambiotte},
+           familyi={L\bibinitperiod},
+           given={Renaud},
+           giveni={R\bibinitperiod}}}%
+        {{hash=78c7291a964edd655c49fdec8099ab3e}{%
+           family={Lefebvre},
+           familyi={L\bibinitperiod},
+           given={Etienne},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{97181c347653a8883f82c40bf7dcba9f}
+      \strng{fullhash}{926234a630c52f485a995e95f6fdf9b5}
+      \strng{bibnamehash}{97181c347653a8883f82c40bf7dcba9f}
+      \strng{authorbibnamehash}{97181c347653a8883f82c40bf7dcba9f}
+      \strng{authornamehash}{97181c347653a8883f82c40bf7dcba9f}
+      \strng{authorfullhash}{926234a630c52f485a995e95f6fdf9b5}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Statistical Mechanics Theory and Experiment}
+      \field{month}{04}
+      \field{title}{Fast Unfolding of Communities in Large Networks}
+      \field{volume}{2008}
+      \field{year}{2008}
+      \verb{doi}
+      \verb 10.1088/1742-5468/2008/10/P10008
       \endverb
     \endentry
     \entry{OMG}{misc}{}
@@ -1386,6 +1460,38 @@
       \field{pages}{11\bibrangedash 20}
       \range{pages}{10}
     \endentry
+    \entry{DOT}{report}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{2}{}{%
+        {{hash=c50bf772f00bd5d0fe133a2d300bf385}{%
+           family={Koutsofios},
+           familyi={K\bibinitperiod},
+           given={Eleftherios},
+           giveni={E\bibinitperiod}}}%
+        {{hash=db950751dffc52cc76400e51ec36b01f}{%
+           family={North},
+           familyi={N\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Technical Report 910904-59113-08TM, AT\&T Bell Laboratories, Murray Hill, NJ}%
+      }
+      \strng{namehash}{546b7ea3b7c7f9a90ae2a61bd31b3d04}
+      \strng{fullhash}{546b7ea3b7c7f9a90ae2a61bd31b3d04}
+      \strng{bibnamehash}{546b7ea3b7c7f9a90ae2a61bd31b3d04}
+      \strng{authorbibnamehash}{546b7ea3b7c7f9a90ae2a61bd31b3d04}
+      \strng{authornamehash}{546b7ea3b7c7f9a90ae2a61bd31b3d04}
+      \strng{authorfullhash}{546b7ea3b7c7f9a90ae2a61bd31b3d04}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Drawing graphs with dot}
+      \field{type}{techreport}
+      \field{year}{1991}
+    \endentry
     \entry{TowardsTechnique}{article}{}
       \name{author}{3}{}{%
         {{hash=7a797524591294074b5f53214661b416}{%
@@ -1503,6 +1609,43 @@
       \endverb
       \keyw{business data processing;data flow graphs;data visualisation;software project;Use Case sets visualization;business process modeling notation;control-flow concept;Unified modeling language;Software engineering;Automatic control;Assembly;Books;Data visualization;Business communication}
     \endentry
+    \entry{bunch}{article}{}
+      \name{author}{4}{}{%
+        {{hash=043073794f94d812c81684d6c982f143}{%
+           family={Mancoridis},
+           familyi={M\bibinitperiod},
+           given={Spiros},
+           giveni={S\bibinitperiod}}}%
+        {{hash=eb35b191852e556ff6b9e08e97bd4937}{%
+           family={Mitchell},
+           familyi={M\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod}}}%
+        {{hash=57511b536f4ea3d9695ee65af0aa7e34}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yih-Farn},
+           giveni={Y\bibinithyphendelim F\bibinitperiod}}}%
+        {{hash=ba3d7e7e2849e2a229a8895fa414ae30}{%
+           family={Gansner},
+           familyi={G\bibinitperiod},
+           given={Emden},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{250cc18828c6b0aa462e7876f1eff1e1}
+      \strng{fullhash}{f77156170aecb3b34cb7e3f45c73501e}
+      \strng{bibnamehash}{250cc18828c6b0aa462e7876f1eff1e1}
+      \strng{authorbibnamehash}{250cc18828c6b0aa462e7876f1eff1e1}
+      \strng{authornamehash}{250cc18828c6b0aa462e7876f1eff1e1}
+      \strng{authorfullhash}{f77156170aecb3b34cb7e3f45c73501e}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{04}
+      \field{title}{Bunch: A Clustering Tool for the Recovery and Maintenance of Software System Structures}
+      \field{year}{1999}
+    \endentry
     \entry{ExtractionMazlami}{article}{}
       \name{author}{3}{}{%
         {{hash=2f55f7d39d4d59bb70ff3b7d8d555bdd}{%
@@ -1564,6 +1707,44 @@
       \endverb
       \verb{url}
       \verb https://www.merlin.uzh.ch/contributionDocument/download/10978
+      \endverb
+    \endentry
+    \entry{turbo-MQ}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=3129e3166d4ffe02bf777452c26328bf}{%
+           family={{Mitchell}},
+           familyi={M\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=366e426f961baa5408e355d4169d18cf}{%
+           family={{Traverso}},
+           familyi={T\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c90b941c6049f95f643d2339807b91e2}{%
+           family={{Mancoridis}},
+           familyi={M\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{b658df333aa3bbe3fd10e85c844f32f4}
+      \strng{fullhash}{b658df333aa3bbe3fd10e85c844f32f4}
+      \strng{bibnamehash}{b658df333aa3bbe3fd10e85c844f32f4}
+      \strng{authorbibnamehash}{b658df333aa3bbe3fd10e85c844f32f4}
+      \strng{authornamehash}{b658df333aa3bbe3fd10e85c844f32f4}
+      \strng{authorfullhash}{b658df333aa3bbe3fd10e85c844f32f4}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings Working IEEE/IFIP Conference on Software Architecture}
+      \field{month}{8}
+      \field{title}{An architecture for distributing the computation of software clustering algorithms}
+      \field{year}{2001}
+      \field{pages}{181\bibrangedash 190}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/WICSA.2001.948427
       \endverb
     \endentry
     \entry{DomainEngineeringMunezero}{article}{}

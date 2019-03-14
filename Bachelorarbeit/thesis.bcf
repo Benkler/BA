@@ -2151,15 +2151,21 @@
     <bcf:citekey order="194">BPMNMiner</bcf:citekey>
     <bcf:citekey order="195">ObjectAwareAmiri</bcf:citekey>
     <bcf:citekey order="196">ObjectAwareAmiri</bcf:citekey>
-    <bcf:citekey order="197">BasiliGQM</bcf:citekey>
-    <bcf:citekey order="198">PrecisionRecall</bcf:citekey>
-    <bcf:citekey order="199">PrecisionRecall</bcf:citekey>
-    <bcf:citekey order="200">PrecisionRecall</bcf:citekey>
-    <bcf:citekey order="201">FunctionalDecompositionHeinrich</bcf:citekey>
-    <bcf:citekey order="202">FunctionalDecompositionHeinrich</bcf:citekey>
-    <bcf:citekey order="203">CoCoMEOld</bcf:citekey>
-    <bcf:citekey order="204">FunctionalDecompositionHeinrich</bcf:citekey>
-    <bcf:citekey order="205">CoCoMETechnical</bcf:citekey>
+    <bcf:citekey order="197">gephi</bcf:citekey>
+    <bcf:citekey order="198">modularity</bcf:citekey>
+    <bcf:citekey order="199">bunch</bcf:citekey>
+    <bcf:citekey order="200">turbo-MQ</bcf:citekey>
+    <bcf:citekey order="201">turbo-MQ</bcf:citekey>
+    <bcf:citekey order="202">DOT</bcf:citekey>
+    <bcf:citekey order="203">BasiliGQM</bcf:citekey>
+    <bcf:citekey order="204">PrecisionRecall</bcf:citekey>
+    <bcf:citekey order="205">PrecisionRecall</bcf:citekey>
+    <bcf:citekey order="206">PrecisionRecall</bcf:citekey>
+    <bcf:citekey order="207">FunctionalDecompositionHeinrich</bcf:citekey>
+    <bcf:citekey order="208">FunctionalDecompositionHeinrich</bcf:citekey>
+    <bcf:citekey order="209">CoCoMEOld</bcf:citekey>
+    <bcf:citekey order="210">FunctionalDecompositionHeinrich</bcf:citekey>
+    <bcf:citekey order="211">CoCoMETechnical</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

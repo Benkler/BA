@@ -211,6 +211,41 @@ Fig.\ref{fig:dataFlowGraph} illustrates the Graph that is produced when applying
 
 \section{Identify Cluster}
 \label{sec:Solution:IdentifyCluster}
+The previous sections define strategies to represent the data flow and control flow dependencies as bi-directed weighted graphs. In this step of the identification process, the graphs are cut into disjunct set of nodes, called clusters. Common clustering techniques enable to identify sets of nodes with strong internal relationships and weak connections to the other clusters. The clustering is to be applied to both graphs equally, as they do not have any conceptual differences. At this point, it is important to emphasize that the elaboration of a clustering algorithm is beyond the scope of the paper. Therefore, we use existing tools for the visualization and identification of clusters. \\
+In the course of this work, the first attempt to identify clusters involved the use of the graph visualization tool \textit{Gephi} \footnote{https://gephi.org/}. To layout the graph, the tool uses a force-directed algorithm based on gravity and repulsion called \textit{Force Atlas} \cite{gephi}. For the clustering, it uses a heuristic algorithm elaborated by Blondel et al. to find "high modularity partitions of large graphs" \cite{modularity}. Whereas the activity clustering produced continuously constant results, the data object clustering did not. Despite using the same settings, the tool produced fair different sets of clusters when executing the algorithm. Obviously, the tool is not suitable for relatively small graphs as in the case of CoCoME.  \\
+Upon further research, we choose a tool called \textit{Bunch}, which is a clustering tool that creates a graph decomposition by treating clustering as an optimization problem \cite{bunch}. \textit{Bunch} uses a genetic algorithm and a fitness function called \textit{Turbo-MQ} \cite{turbo-MQ}. In each iteration, the algorithm randomly picks \textit{K} clusters and calculates \textit{Turbo-MQ} to measure the fitness of the selected partition. In the next iteration, the algorithm tries to improve the fitness by making changes to the previous selected clusters. The algorithm stops, as soon as the overall fitness converges.\\
+Mitchell et al. defined the "modularization quality \textit{MQ} measurement" \cite{turbo-MQ}, in such a way, that it rewards intra-cluster coupling while penalizing inter-cluster coupling:
+
+\vspace{1cm}
+\noindent
+\begin{minipage}{.25\linewidth}
+	
+	\flushleft
+	\begin{math}
+	  Turbo-MQ = \sum_{i=1}^{k} CF_{i} 
+	\end{math}
+	
+
+\end{minipage}%
+\begin{minipage}{.5\linewidth}
+	\flushleft
+	\begin{math}
+      CF_{i} = \begin{cases}
+       0 & \mu_{i} = 0 \\
+        \frac{\mu_{i}}{\mu_{i} + \epsilon_{i}}  & otherwise
+      \end{cases}
+  \end{math}
+
+
+\end{minipage}
+\vspace{1cm}
+
+
+The \textit{MQ} value of a partition with \textit{k} clusters is calculated by adding the \textit{Cluster Factor (CF)} of each cluster. $CF_{i}$ describes the normalized ratio between the total amount of internal edges $\mu_{i}$ and the amount of edges $\epsilon_{i}$ that originate in cluster \textit{i} and end in another cluster. The \textit{CF} value is between 0 (no internal edges) and 1 (no edge to another cluster), where larger values indicate a better quality of the partition. \\
+Bunch requires the input graph in a simple textual form: The Graph is represented as list of edges, where each edge is described in a separate row by \textit{<start node>} \textit{<end node>} \textit{<weight>} (without the pointed brackets). The output is in the \textit{DOT} format \cite{DOT}, which is a powerful graph description language. To visualize the clustered graph, we use the open-source tool \textit{Graphviz} \footnote{https://www.graphviz.org/}.
+
+
+
 
 \section{Match Cluster}
 \label{sec:Solution:MatchCluster}
@@ -219,25 +254,12 @@ Having both sets of clusters...
 \section{Extract Microservice Candidates}
 \label{sec:Solution:ExtractMicroserviceCandidates}
 
+The visualization of the data flow and control flow dependencies as a graph enables to identify clusters of dense relationships that are weakly connected to other clusters. As described in Sec. \ref{sec:Solution:CreateGraphControl},...
 
 
+--> Da rein, warum diese kandidaten gut sind: Meet low coupling, high cohesion criteria etc
 
-\section{Distance Metric}
-\begin{itemize}
-	\item Determine distance between pair of Objects in BPMN (Count activities in between)
-	\item Basic Idea: Data accessed more successively is more connected and belongs to same service
-	\item Pro: Easy
-	\item: Contra: Not really Data Flow; pair  occurs several times --> On time close, other times far away, what about average?
-\end{itemize}
 
-\section{Count Activities Metric}
-\begin{itemize}
-	\item Count activities that access a pair of objects in BPMN
-	\item Basic Idea: Data frequently accessed together is more connected and belongs to the same service
-	\item Pro: represents idea of data cohesiveness
-	\item Contra: Again activities (no clean data flow) but nothing else!
-
-\end{itemize}
 
 
 
