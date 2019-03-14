@@ -73,9 +73,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.6}Create a weighted Graph using Data Flow}{30}{section.6.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.7}Identify Cluster}{33}{section.6.7}% 
+\contentsline {section}{\numberline {6.7}Identify Cluster}{34}{section.6.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.8}Match Cluster}{33}{section.6.8}% 
+\contentsline {section}{\numberline {6.8}Match Cluster}{34}{section.6.8}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.9}Extract Microservice Candidates}{34}{section.6.9}% 
 \defcounter {refsection}{0}\relax 
@@ -114,5 +114,9 @@
 \contentsline {section}{\numberline {9.2}Control Flow Graph...}{41}{section.9.2}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {10}Conclusion}{42}{chapter.10}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10.1}Outcomes}{42}{section.10.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10.2}Limitations and Future Work}{42}{section.10.2}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\nonumberline Bibliography}{43}{chapter*.6}% 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.11)  14 MAR 2019 09:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.11)  14 MAR 2019 10:55
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -2960,7 +2960,7 @@ und PDF version <1.7>, but at most version <1.5> allowed
 <img/ProcessDataDFD.pdf, id=792, 845.07718pt x 597.55246pt>
 File: img/ProcessDataDFD.pdf Graphic file (type pdf)
 <use img/ProcessDataDFD.pdf>
-Package pdftex.def Info: img/ProcessDataDFD.pdf  used on input line 177.
+Package pdftex.def Info: img/ProcessDataDFD.pdf  used on input line 178.
 (pdftex.def)             Requested size: 312.9803pt x 164.59999pt.
 [32 <./img/ProcessDataDFD.pdf>]
 
@@ -2969,8 +2969,8 @@ nd PDF version <1.7>, but at most version <1.5> allowed
 <img/DataFlowGraph.pdf, id=835, 963.6pt x 542.025pt>
 File: img/DataFlowGraph.pdf Graphic file (type pdf)
 <use img/DataFlowGraph.pdf>
-Package pdftex.def Info: img/DataFlowGraph.pdf  used on input line 191.
-(pdftex.def)             Requested size: 341.43306pt x 185.99304pt.
+Package pdftex.def Info: img/DataFlowGraph.pdf  used on input line 199.
+(pdftex.def)             Requested size: 284.52756pt x 166.02908pt.
 [33 <./img/DataFlowGraph.pdf>]) (sections/solutionApplication.tex [34]
 chapter 7.
 ) (sections/evaluation.tex [35
@@ -3077,14 +3077,20 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37869 strings out of 492946
- 762354 string characters out of 3135518
+ 37873 strings out of 492946
+ 762390 string characters out of 3135518
  1348445 words of memory out of 3000000
- 40913 multiletter control sequences out of 15000+200000
+ 40915 multiletter control sequences out of 15000+200000
  186899 words of font info for 182 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  73i,20n,84p,9088b,3178s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{chapter*.6} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.10.2} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.10.1} has been referenced but does not exis
 t, replaced by a fixed one
 
 pdfTeX warning (dest): name{chapter.10} has been referenced but does not exist,
@@ -3275,9 +3281,9 @@ aming/MiKTeX/2.9/fonts/type1/public/txfonts/rtxmi.pfb><C:/Users/Nikolaus/AppDat
 a/Roaming/MiKTeX/2.9/fonts/type1/public/txfonts/rtxr.pfb><C:/Users/Nikolaus/App
 Data/Roaming/MiKTeX/2.9/fonts/type1/public/newtx/txsys.pfb><C:/Users/Nikolaus/A
 ppData/Roaming/MiKTeX/2.9/fonts/type1/public/newtx/zxlri.pfb>
-Output written on thesis.pdf (53 pages, 1769605 bytes).
+Output written on thesis.pdf (53 pages, 1771022 bytes).
 PDF statistics:
- 1186 PDF objects out of 1200 (max. 8388607)
- 57 named destinations out of 1000 (max. 500000)
- 569 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1194 PDF objects out of 1200 (max. 8388607)
+ 59 named destinations out of 1000 (max. 500000)
+ 585 words of extra memory for PDF output out of 10000 (max. 10000000)
 
