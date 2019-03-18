@@ -21,9 +21,27 @@ CoCoME's system specifications are given in terms of use cases. A short overview
 
 \section{Extract Control Flow}
 
-Connection
+In this step, the control flow is extracted from the BPMN models. Sec. \ref{sec:Solution:ExtractControlFlow} provides the detailed extraction process, but in a word, everything but the control flow elements are deleted. Fig.\ref{fig:UC3Control} presents the control flow for \textit{UC 3}. The remaining control flow diagrams are available in the appendix (cf. \ref{sec:appendix:ControlFlow}.)
+
+%"l, b, r, t"
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\textwidth, trim={5cm 14cm 6cm 2cm}]{img/UC3Control.pdf}
+	\caption{Control Flow UC3 - Order Products}
+	\label{fig:UC3Control}
+\end{figure}
 
 \section{Extract Data Flow}
+
+Like the previous step, the data flow is extracted from the BPMN models as described in Sec.\ref{sec:Solution:ExtractDataFlow}. Fig.\ref{fig:UC3Control} presents the data flow for \textit{UC 3}. The remaining data flow diagrams are available in the appendix (cf. \ref{sec:appendix:DataFlow}.)
+
+%"l, b, r, t"
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\textwidth, trim={5cm 14cm 6cm 2cm}]{img/UC3DFD.pdf}
+	\caption{Control Flow UC3 - Order Products}
+	\label{fig:UC3DFD}
+\end{figure}
 
 \section{Create weighted Graphs using Control Flow}
 
