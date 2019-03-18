@@ -1,13 +1,13 @@
 /* ------------------------------------------------------------ */
 /* created with bunch v3 */
-/* Objective Function value = 0.0*/
+/* Objective Function value = 1.0*/
 /* ------------------------------------------------------------ */
 
 digraph G {
 size= "10,10";
-rotate = 00;
+rotate = 0;
 subgraph cluster0 {
-label = "(SS-L1):updateInventory";
+label = "Inventory";
 color = black;
 style = bold;
 
@@ -20,7 +20,7 @@ style = bold;
 "finishSale"[label="finishSale",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
 }
 subgraph cluster1 {
-label = "(SS-L1):CreateReport";
+label = "Report";
 color = black;
 style = bold;
 
@@ -29,18 +29,18 @@ style = bold;
 "CreateReport"[label="CreateReport",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
 }
 subgraph cluster2 {
-label = "(SS-L1):showStockItems";
+label = "Sale";
 color = black;
 style = bold;
 
-"scanId"[label="scanId",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"enterId"[label="enterId",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
 "showStockItems"[label="showStockItems",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
 "addItemToSale"[label="addItemToSale",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
-"enterId"[label="enterId",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
 "startSale"[label="startSale",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"scanId"[label="scanId",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
 }
 subgraph cluster3 {
-label = "(SS-L1):checkDelivery";
+label = "Order";
 color = black;
 style = bold;
 

@@ -1,0 +1,71 @@
+/* ------------------------------------------------------------ */
+/* created with bunch v3 */
+/* Objective Function value = 0.0*/
+/* ------------------------------------------------------------ */
+
+digraph G {
+size= "10,10";
+rotate = 00;
+
+
+"changePrice"[label="changePrice",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"manageExpressCheckout"[label="manageExpressCheckout",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"productExchange"[label="productExchange",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"updateInventory"[label="updateInventory",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"cardPayment"[label="cardPayment",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"cashPayment"[label="cashPayment",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"finishSale"[label="finishSale",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+
+
+
+"selectEnterprise"[label="selectEnterprise",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"selectStore"[label="selectStore",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"CreateReport"[label="CreateReport",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+
+
+
+"scanId"[label="scanId",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"showStockItems"[label="showStockItems",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"addItemToSale"[label="addItemToSale",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"enterId"[label="enterId",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"startSale"[label="startSale",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+
+
+"showProducts"[label="showProducts",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"chooseItem"[label="chooseItem",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"rollInOrder"[label="rollInOrder",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"sendProductBack"[label="sendProductBack",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"checkDelivery"[label="checkDelivery",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"chooseSupplier"[label="chooseSupplier",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"generateOrder"[label="generateOrder",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+
+"updateInventory" -> "manageExpressCheckout" [color=blue,font=6, weight = 1, label ="1"];
+"updateInventory" -> "startSale" [color=blue,font=6, weight = 1, label ="1"];
+"updateInventory" -> "productExchange" [color=blue,font=6, weight = 1, label ="1"];
+"showStockItems" -> "addItemToSale" [color=blue,font=6, weight = 1, label ="1"];
+"showStockItems" -> "scanId" [color=blue,font=6, weight = 1, label ="1"];
+"showStockItems" -> "changePrice" [color=blue,font=6, weight = 1, label ="1"];
+"showStockItems" -> "enterId" [color=blue,font=6, weight = 1, label ="1"];
+"showStockItems" -> "chooseItem" [color=blue,font=6, weight = 1, label ="1"];
+"scanId" -> "showStockItems" [color=blue,font=6, weight = 1, label ="1"];
+"finishSale" -> "cashPayment" [color=blue,font=6, weight = 1, label ="1"];
+"finishSale" -> "cardPayment" [color=blue,font=6, weight = 1, label ="1"];
+"chooseItem" -> "generateOrder" [color=blue,font=6, weight = 1, label ="1"];
+"enterId" -> "showStockItems" [color=blue,font=6, weight = 1, label ="1"];
+"rollInOrder" -> "updateInventory" [color=blue,font=6, weight = 1, label ="1"];
+"showProducts" -> "chooseItem" [color=blue,font=6, weight = 1, label ="1"];
+"cardPayment" -> "updateInventory" [color=blue,font=6, weight = 1, label ="1"];
+"checkDelivery" -> "sendProductBack" [color=blue,font=6, weight = 1, label ="1"];
+"checkDelivery" -> "rollInOrder" [color=blue,font=6, weight = 1, label ="1"];
+"addItemToSale" -> "finishSale" [color=blue,font=6, weight = 1, label ="1"];
+"addItemToSale" -> "scanId" [color=blue,font=6, weight = 1, label ="1"];
+"addItemToSale" -> "enterId" [color=blue,font=6, weight = 1, label ="1"];
+"selectStore" -> "CreateReport" [color=blue,font=6, weight = 1, label ="1"];
+"startSale" -> "scanId" [color=blue,font=6, weight = 1, label ="1"];
+"startSale" -> "enterId" [color=blue,font=6, weight = 1, label ="1"];
+"selectEnterprise" -> "CreateReport" [color=blue,font=6, weight = 1, label ="1"];
+"generateOrder" -> "chooseSupplier" [color=blue,font=6, weight = 1, label ="1"];
+"changePrice" -> "updateInventory" [color=blue,font=6, weight = 1, label ="1"];
+"cashPayment" -> "updateInventory" [color=blue,font=6, weight = 1, label ="1"];
+"chooseSupplier" -> "checkDelivery" [color=blue,font=6, weight = 1, label ="1"];
+}

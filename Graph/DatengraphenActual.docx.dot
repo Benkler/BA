@@ -5,7 +5,7 @@
 
 digraph G {
 size= "10,10";
-rotate = 90;
+rotate = 0;
 subgraph cluster0 {
 label = "(SS-L0):order";
 color = black;
@@ -31,6 +31,7 @@ style = bold;
 "stockitem"[label="stockitem",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
 "store"[label="store",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
 }
+"order" -> "stockitem" [color=blue,font=6];
 "store" -> "report" [color=blue,font=6];
 "store" -> "stockitem" [color=blue,font=6];
 "stockitem" -> "order" [color=blue,font=6];
