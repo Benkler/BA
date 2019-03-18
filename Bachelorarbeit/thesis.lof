@@ -47,11 +47,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\relax 6.6}{\ignorespaces Weighted graph using Control Flow Dependencies}}{33}{figure.6.6}% 
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {\relax 6.7}{\ignorespaces Match Activity Cluster (A1-A3) and Object Cluster (O1-O2)}}{35}{figure.6.7}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 8.1}{\ignorespaces Precision and Recall for Microservices}}{39}{figure.8.1}% 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 8.1}{\ignorespaces Precision and Recall for Microservices}}{41}{figure.8.1}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

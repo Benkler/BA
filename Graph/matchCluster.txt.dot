@@ -1,0 +1,48 @@
+/* ------------------------------------------------------------ */
+/* created with bunch v3 */
+/* Objective Function value = 1.0*/
+/* ------------------------------------------------------------ */
+
+digraph G {
+size= "10,10";
+rotate = 90;
+subgraph cluster0 {
+label = "(SS-L0):delivery";
+color = black;
+style = bold;
+
+"delivery"[label="delivery",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"order"[label="order",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+}
+subgraph cluster1 {
+label = "(SS-L0):report";
+color = black;
+style = bold;
+
+"createreport"[label="createreport",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"report"[label="report",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+}
+subgraph cluster2 {
+label = "(SS-L0):stockitem";
+color = black;
+style = bold;
+
+"updateinventory"[label="updateinventory",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"stockitem"[label="stockitem",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+"showstockitem"[label="showstockitem",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
+}
+"order" -> "delivery" [color=blue,font=6];
+"report" -> "createreport" [color=blue,font=6];
+"report" -> "delivery" [color=blue,font=6];
+"createreport" -> "report" [color=blue,font=6];
+"createreport" -> "stockitem" [color=blue,font=6];
+"showstockitem" -> "stockitem" [color=blue,font=6];
+"stockitem" -> "createreport" [color=blue,font=6];
+"stockitem" -> "showstockitem" [color=blue,font=6];
+"stockitem" -> "updateinventory" [color=blue,font=6];
+"stockitem" -> "delivery" [color=blue,font=6];
+"updateinventory" -> "stockitem" [color=blue,font=6];
+"delivery" -> "order" [color=blue,font=6];
+"delivery" -> "report" [color=blue,font=6];
+"delivery" -> "stockitem" [color=blue,font=6];
+}

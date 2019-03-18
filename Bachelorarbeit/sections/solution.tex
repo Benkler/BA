@@ -249,7 +249,37 @@ Bunch requires the input graph in a simple textual form: The Graph is represente
 
 \section{Match Cluster}
 \label{sec:Solution:MatchCluster}
-Having both sets of clusters...
+Having both sets of clusters, it is now necessary to match the activity clusters and the data clusters in a way that reduces the required inter-microservice communication. As a first step, it is necessary to count how many times an activity cluster accesses each data object cluster. When doing this, it is not desired to differentiate between read and write accesses for the same reasons that the weighting for the object dependencies was chosen (cf. Sec. \ref{sec:Solution:CreateGraphData}). The calculation of data access is a trivial task and only requires to examine the BPMN models one more time: For each activity that accesses a data object, identify the activity cluster the activity is located and the data object cluster the data is located. Finally, summarize for each pair of activity cluster and data cluster to obtain a relationship between the sets regarding the amount of accesses.\\
+To process the obtained information, i.e. to match both sets of cluster, different approaches were elaborated during the course of the thesis:
+
+\begin{itemize}
+	\item Strongest relationship matching (data object cluster oriented)
+	\item Strongest relationship matching (activity cluster oriented)
+	\item Clustering on data access dependency
+	\item White box approach: Split and/or merge cluster
+\end{itemize}
+
+For the first three approaches, the respective clusters are considered from the black box point of view, as no closer look is taken into the actual clusters. Each cluster is represented as a node and connected by an undirected weighted edge, where the weights correspond to the respective amount of data accesses between the activity and the data cluster. Fig. \ref{fig:matchCluster} provides an example.\\
+
+%"l, b, r, t"
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=10cm, trim={1.5cm 9.5cm 16.0cm 0cm}]{img/MatchCluster.pdf}
+	\caption{Match Activity Cluster (A1-A3) and Object Cluster (O1-O2)}
+	\label{fig:matchCluster}
+\end{figure}
+
+
+Speaking the first approach, each data object cluster is simply matched to the activity cluster that is connected by th edge with the highest weight. Further, merge object clusters that match the same activity cluster. Activity clusters that have not been matched to a data object cluster remain without accompanying data objects, i.e. not merge with another activity cluster to avoid the combination of two different bounded contexts. Whereas this approach is straight forward and easy to apply, it has drawbacks: The cluster matching from data object point of view does not consider the overall dependencies. Regarding Fig.\ref{fig:matchCluster}, the result would be \textit{(O1,A1),(O2,A3),A2}. Despite the fact that \textit{A1} accesses \textit{O2} six times, it is outweighed by the combination \textit{O2,A3}.  \\
+The second approach is similar as each activity cluster is matched to the object cluster that is connected by th edge with the highest weight. Activity clusters that match the same object clusters are merged. Solely object clusters that remain unmatched in the end need to be matched with one of its connected activity clusters, as the data needs to be available somewhere. The best fit in regard to data accesses is the connected activity cluster node with the highest edge weight. In this case, the result obtained from Fig.\ref{fig:matchCluster} would be \textit{(A1,A3,O2),(A2,O1)}. Like the first approach, overall dependencies are not noticed. \\
+In order to avoid this, i.e. to consider the dependencies holistically, the third approach uses the same clustering algorithm as proposed in Sec.\ref{sec:Solution:IdentifyCluster}. Thus, high cohesive activity and data object clusters are combined. In regard to the case study \textit{CoCoME}, this approach provided satisfactory results. However, the clustering method usually merges activity clusters which can result in a too coarse-grained final microservice decomposition recommendation. So far, none of the approaches consider to split data object or activity clusters. For that, a closer look to the actual activity-data-relationships has to be taken. \\
+In the following, we present a conceptual solution to match the two types of clusters according to their profound relationships. Hence, a white box approach is proposed: First, the clustering as presented previously is applied to achieve a first decomposition. As mentioned before, this step combines high cohesive data object clusters and activity clusters. In the next step, each combined cluster is scrutinized more precisely. In the situation that a combined cluster consists only of one activity and one data object cluster, there is nothing to do. If two (or more) activity clusters are merged and reference one data object cluster, it is necessary to take a closer look at the actual data objects they reference. In case both activity clusters reference mostly the same set of data objects in that cluster, merging is useful as distributing the activities in different services causes inevitable cross-service communication. Splitting object clusters is reasonable if it becomes apparent that one part of the data objects are referenced mostly by one activity cluster and the other part by the other activity clusters. Consequently, the previously identified set of activity clusters and the data cluster is divided into smaller parts while preserving the internal cohesion between data and activities and while keeping the combined cluster small. \\
+This solution is not yet mature and only presented conceptional. Neither a concise definition is provided nor has it been tested on several case studies. However, we believe in the potential of the solution and propose a more detailed case study in the area of cluster matching. Although we are aware that the third solution may produce too coarsely granular results, we chose this one to match the identified data object clusters and activity clusters. 
+
+
+
+
+
 
 \section{Extract Microservice Candidates}
 \label{sec:Solution:ExtractMicroserviceCandidates}
