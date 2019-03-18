@@ -81,38 +81,58 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}Solution Application}{38}{chapter.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Evaluation}{39}{chapter.8}% 
+\contentsline {section}{\numberline {7.1}Specify BPMN Models}{38}{section.7.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}GQM Plan}{39}{section.8.1}% 
+\contentsline {section}{\numberline {7.2}Extract Control Flow}{39}{section.7.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Metrics}{40}{section.8.2}% 
+\contentsline {section}{\numberline {7.3}Extract Data Flow}{39}{section.7.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2.1}Precision and Recall}{40}{subsection.8.2.1}% 
+\contentsline {section}{\numberline {7.4}Create weighted Graphs using Control Flow}{39}{section.7.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2.2}Some more Metrics if necessary}{42}{subsection.8.2.2}% 
+\contentsline {section}{\numberline {7.5}Create weighted Graph using Data Flow}{39}{section.7.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.3}Reference Sets}{42}{section.8.3}% 
+\contentsline {section}{\numberline {7.6}Identify Clusters}{39}{section.7.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3.1}Reference Set 1: Functional Decomposition Approach}{42}{subsection.8.3.1}% 
+\contentsline {section}{\numberline {7.7}Match Clusters}{39}{section.7.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3.2}Reference Set 2: Manual Decomposition}{43}{subsection.8.3.2}% 
+\contentsline {section}{\numberline {7.8}Extract Microservice Candidates}{39}{section.7.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3.3}Differences between both sets}{43}{subsection.8.3.3}% 
+\contentsline {chapter}{\numberline {8}Evaluation}{40}{chapter.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.4}Results}{43}{section.8.4}% 
+\contentsline {section}{\numberline {8.1}GQM Plan}{40}{section.8.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.4.1}Identified Microservices}{43}{subsection.8.4.1}% 
+\contentsline {section}{\numberline {8.2}Metrics}{41}{section.8.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Discussion}{44}{chapter.9}% 
+\contentsline {subsection}{\numberline {8.2.1}Precision and Recall}{41}{subsection.8.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.1}Using Use Cases as Input}{44}{section.9.1}% 
+\contentsline {subsection}{\numberline {8.2.2}Some more Metrics if necessary}{43}{subsection.8.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.2}Control Flow Graph...}{44}{section.9.2}% 
+\contentsline {section}{\numberline {8.3}Reference Sets}{43}{section.8.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}Conclusion}{45}{chapter.10}% 
+\contentsline {subsection}{\numberline {8.3.1}Reference Set 1: Functional Decomposition Approach}{43}{subsection.8.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.1}Outcomes}{45}{section.10.1}% 
+\contentsline {subsection}{\numberline {8.3.2}Reference Set 2: Manual Decomposition}{44}{subsection.8.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.2}Limitations and Future Work}{45}{section.10.2}% 
+\contentsline {subsection}{\numberline {8.3.3}Differences between both sets}{44}{subsection.8.3.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{46}{chapter*.6}% 
+\contentsline {section}{\numberline {8.4}Results}{44}{section.8.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.4.1}Identified Microservices}{44}{subsection.8.4.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {9}Discussion}{45}{chapter.9}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.1}Using Use Cases as Input}{45}{section.9.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.2}Control Flow Graph...}{45}{section.9.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {10}Conclusion}{46}{chapter.10}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10.1}Outcomes}{46}{section.10.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10.2}Limitations and Future Work}{46}{section.10.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Bibliography}{47}{chapter*.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Appendix}{50}{appendix.A}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}BPMN Models}{50}{section.A.1}% 

@@ -156,7 +156,7 @@ For instance, \textit{Task 3} processes information of \textit{Data Object 3}, p
 The same line of reasoning can be applied to \textit{Task 1}: Information of \textit{Data Object 1} may or may not flow into \textit{Data Object 2}, although both data accesses are executed by the same task. As a final point, the information of several data objects may flow into another one. For example, \textit{Data Object 2}, produced by \textit{Task 1} and \textit{Data Object 3}, read by \textit{Task 3}, may be used to create \textit{Data Object 4}.\\
 Given these points, identifying data object dependencies has to be estimated. The following possibilities are available to estimate the data dependencies:
 
-
+%TODO was is mit der Sache in UC1 bei dem eigentlich weider ein rückwärts zugriff ist
 \begin{itemize}
 	\item Dependency between a pair of data objects, only if both data objects are read and written by the same task.
 	\item Dependency between a pair of data objects, if \textit{n} tasks\footnote{n $\in [0..]$, where 0 represents neighbouring tasks} are in between a task that reads the first data object and another task that writes into the other data object\footnote{Following the Data Flow Arcs when counting}.

@@ -51,12 +51,26 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 8.1}{\ignorespaces Precision and Recall for Microservices}}{41}{figure.8.1}% 
+\contentsline {figure}{\numberline {\relax 7.1}{\ignorespaces UC1-Process Sale (with UC2 and UC8)}}{38}{figure.7.1}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 8.1}{\ignorespaces Precision and Recall for Microservices}}{42}{figure.8.1}% 
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.1}{\ignorespaces UC3 - Order Products}}{50}{figure.A.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.2}{\ignorespaces UC4 - Receiver Ordered Products }}{50}{figure.A.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.3}{\ignorespaces UC5 - Show Stock Reports }}{51}{figure.A.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.4}{\ignorespaces UC6 - Show Delivery Reports }}{51}{figure.A.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.5}{\ignorespaces UC7 - Change Price }}{51}{figure.A.5}% 
