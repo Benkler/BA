@@ -665,6 +665,7 @@
       \strng{authorbibnamehash}{6f28ee7674aeeca2b141276b86e2bc86}
       \strng{authornamehash}{6f28ee7674aeeca2b141276b86e2bc86}
       \strng{authorfullhash}{6f28ee7674aeeca2b141276b86e2bc86}
+      \field{extraname}{1}
       \field{sortinit}{B}
       \field{sortinithash}{276475738cc058478c1677046f857703}
       \field{labelnamesource}{author}
@@ -678,6 +679,27 @@
       \verb{url}
       \verb https://github.com/Benkler/Proseminar/blob/master/Niko_Benkler_Proseminar.pdf
       \endverb
+    \endentry
+    \entry{NikoCoCoMEImpl}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=6f28ee7674aeeca2b141276b86e2bc86}{%
+           family={Benkler},
+           familyi={B\bibinitperiod},
+           given={Niko},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{6f28ee7674aeeca2b141276b86e2bc86}
+      \strng{fullhash}{6f28ee7674aeeca2b141276b86e2bc86}
+      \strng{bibnamehash}{6f28ee7674aeeca2b141276b86e2bc86}
+      \strng{authorbibnamehash}{6f28ee7674aeeca2b141276b86e2bc86}
+      \strng{authornamehash}{6f28ee7674aeeca2b141276b86e2bc86}
+      \strng{authorfullhash}{6f28ee7674aeeca2b141276b86e2bc86}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Microservice-based implementation of CoCoME}
     \endentry
     \entry{modularity}{article}{}
       \name{author}{4}{}{%

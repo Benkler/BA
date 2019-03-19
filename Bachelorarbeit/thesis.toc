@@ -97,48 +97,48 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.8}Match Clusters}{43}{section.7.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.9}Extract Microservice Candidates}{43}{section.7.9}% 
+\contentsline {section}{\numberline {7.9}Extract Microservice Candidates}{44}{section.7.9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Evaluation}{44}{chapter.8}% 
+\contentsline {chapter}{\numberline {8}Evaluation}{45}{chapter.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}GQM Plan}{44}{section.8.1}% 
+\contentsline {section}{\numberline {8.1}GQM Plan}{45}{section.8.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Metrics}{45}{section.8.2}% 
+\contentsline {section}{\numberline {8.2}Metrics}{46}{section.8.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2.1}Precision and Recall}{45}{subsection.8.2.1}% 
+\contentsline {subsection}{\numberline {8.2.1}Precision and Recall}{46}{subsection.8.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2.2}Some more Metrics if necessary}{47}{subsection.8.2.2}% 
+\contentsline {subsection}{\numberline {8.2.2}Some more Metrics if necessary}{48}{subsection.8.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.3}Reference Sets}{47}{section.8.3}% 
+\contentsline {section}{\numberline {8.3}Reference Sets}{48}{section.8.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3.1}Reference Set 1: Functional Decomposition Approach}{47}{subsection.8.3.1}% 
+\contentsline {subsection}{\numberline {8.3.1}Reference Set 1: Functional Decomposition Approach}{48}{subsection.8.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3.2}Reference Set 2: Manual Decomposition}{48}{subsection.8.3.2}% 
+\contentsline {subsection}{\numberline {8.3.2}Reference Set 2: Manual Decomposition}{49}{subsection.8.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3.3}Differences between both sets}{48}{subsection.8.3.3}% 
+\contentsline {subsection}{\numberline {8.3.3}Differences between both sets}{49}{subsection.8.3.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.4}Results}{48}{section.8.4}% 
+\contentsline {section}{\numberline {8.4}Results}{49}{section.8.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.4.1}Identified Microservices}{48}{subsection.8.4.1}% 
+\contentsline {subsection}{\numberline {8.4.1}Identified Microservices}{49}{subsection.8.4.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Discussion}{49}{chapter.9}% 
+\contentsline {chapter}{\numberline {9}Discussion}{50}{chapter.9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.1}Using Use Cases as Input}{49}{section.9.1}% 
+\contentsline {section}{\numberline {9.1}Using Use Cases as Input}{50}{section.9.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.2}Control Flow Graph...}{49}{section.9.2}% 
+\contentsline {section}{\numberline {9.2}Control Flow Graph...}{50}{section.9.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}Conclusion}{50}{chapter.10}% 
+\contentsline {chapter}{\numberline {10}Conclusion}{51}{chapter.10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.1}Outcomes}{50}{section.10.1}% 
+\contentsline {section}{\numberline {10.1}Outcomes}{51}{section.10.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.2}Limitations and Future Work}{50}{section.10.2}% 
+\contentsline {section}{\numberline {10.2}Limitations and Future Work}{51}{section.10.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{51}{chapter*.6}% 
+\contentsline {chapter}{\nonumberline Bibliography}{52}{chapter*.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Appendix}{54}{appendix.A}% 
+\contentsline {chapter}{\numberline {A}Appendix}{55}{appendix.A}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}BPMN Models}{54}{section.A.1}% 
+\contentsline {section}{\numberline {A.1}BPMN Models}{55}{section.A.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Control Flow Diagrams}{56}{section.A.2}% 
+\contentsline {section}{\numberline {A.2}Control Flow Diagrams}{57}{section.A.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Data Flow Diagrams}{58}{section.A.3}% 
+\contentsline {section}{\numberline {A.3}Data Flow Diagrams}{59}{section.A.3}% 

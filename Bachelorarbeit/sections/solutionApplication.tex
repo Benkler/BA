@@ -70,13 +70,13 @@ Fig.\ref{fig:CoCoMEDataFlowGraph} illustrates the data flow graph of CoCoME whic
 \pagebreak
 
 \section{Activity Clusters}
-Fig.\ref{fig:CoCoMEActivityCluster} shows the activity clusters that are identified using the clustering algorithm described in Sec.\ref{sec:Solution:IdentifyCluster}.
+Fig.\ref{fig:CoCoMEActivityCluster} shows the activity clusters that are identified using the clustering algorithm described in Sec.\ref{sec:Solution:IdentifyCluster}. The naming is inspired by the actual implementation of CoCoME \cite{NikoCoCoMEImpl}.
 
 %"l, b, r, t"
 \begin{figure}[h!]
 	\centering
 	\begin{sideways}
-		\includegraphics[width=19cm, trim={1.5cm 0cm 2cm 0cm}]{img/CoCoMEActivityCluster.pdf}
+		\includegraphics[width=19.0cm, trim={1.5cm 0cm 1.8cm 0cm}]{img/CoCoMEActivityCluster.pdf}
 	\end{sideways}
 	
 	\caption{Clustering on CoCoME's Activities}
@@ -96,5 +96,93 @@ Fig.\ref{fig:CoCoMEActivityCluster} shows the data object clusters that are iden
 \end{figure}
 
 \section{Match Clusters}
+In the following, the data object clusters and the activity clusters are matched. Section \ref{sec:Solution:MatchCluster} provides several solutions, including one that is only given conceptional and still raises too many uncertainties. Consequently, the matching is done by applying the black box clustering approach. Hence, the data access dependencies between data object and activity cluster need to be elaborated first. \\
+
+
+
+
+%"l, b, r, t"
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=12cm, trim={2cm 1cm 2cm 0cm}]{img/MatchClusterGraph.pdf}
+	\caption{Data Access Dependencies between Data Object Clusters and Activity Cluster of CoCoME}
+	\label{fig:CoCoMEClusterGraph}
+\end{figure}
+
+ Fig.\ref{fig:CoCoMEClusterGraph} illustrates the data access dependencies between the four activity clusters \textit{Order, Report, Sale} and  \textit{Inventory} and the \textit{DataClusters 1-3}. The weights correspond to the amount of read and write accesses between activities and data objects within the corresponding clusters.  \\
+ Finally, the clustering method introduced in Sec.\ref{sec:Solution:IdentifyCluster} identifies cohesive clusters of activity cluster nodes and data object cluster nodes.
+
+
+
+%"l, b, r, t"
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=12cm, trim={2cm 1cm 2cm 0cm}]{img/MatchClusterClustering.pdf}
+	\caption{Proposed Microservice Decomposition of CoCoME}
+	\label{fig:CoCoMEClusterMatching}
+\end{figure}
+
+
 
 \section{Extract Microservice Candidates}
+In the previous step, cohesive clusters of activity cluster nodes and data object cluster nodes are identified. Each of the combined clusters correspond to a microservice candidate. Fig.\ref{fig:CoCoMEClusterMatching} illustrates the  microservices that are identified. To compare the outcome with other results, it is necessary to elaborate the functionality that is provided by each microservice as well as the accompanying data objects:\\
+
+
+\vspace{1cm}
+
+\begin{multicols}{3}
+	\textbf{Microservice 1}
+	\begin{flushleft}
+	\begin{itemize}[noitemsep]
+	\item Handle sale
+	\item Handle payment
+	\item Manage express checkout
+	\item Exchange products
+	\item Handle inventory
+	\item Change price
+	\item \textbf{Data objects}: stockItem, store
+	\end{itemize}
+	\end{flushleft}
+
+
+	\vfill
+	\columnbreak
+	\textbf{Microservice 2}
+	\begin{flushleft}
+	\begin{itemize}[noitemsep]
+	\item Create delivery report
+	\item Create stock report
+	\item \textbf{Data Objects}: supplier, report, enterprise
+    \item[]
+    \item[]
+    \item[]
+    \item[]
+    \item[]
+	\end{itemize}
+	\end{flushleft}
+	
+	
+	\vfill
+	\columnbreak
+	\textbf{Microservice 3}
+	\begin{flushleft}
+	\begin{itemize}[noitemsep]
+		\item Handle products
+		\item Create Orders
+		\item Handle Deliveries
+		\item Handle Supplier
+		\item \textbf{Data Objects}: Product, Order
+	\end{itemize}
+\end{flushleft}
+\end{multicols}
+
+
+
+
+
+
+
+
+
+
+

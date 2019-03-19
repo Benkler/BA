@@ -3,11 +3,11 @@
 /* Objective Function value = 1.0*/
 /* ------------------------------------------------------------ */
 
-digraph G {
+graph G {
 size= "10,10";
-rotate = 90;
+rotate = 0;
 subgraph cluster0 {
-label = "(SS-L0):Report";
+label = "Microservice2";
 color = black;
 style = bold;
 
@@ -15,7 +15,7 @@ style = bold;
 "Report"[label="Report",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
 }
 subgraph cluster1 {
-label = "(SS-L0):Order";
+label = "Microservice3";
 color = black;
 style = bold;
 
@@ -23,7 +23,7 @@ style = bold;
 "DataCluster1"[label="DataCluster1",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
 }
 subgraph cluster2 {
-label = "(SS-L0):DataCluster3";
+label = "Microservice1";
 color = black;
 style = bold;
 
@@ -31,11 +31,11 @@ style = bold;
 "Inventory"[label="Inventory",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
 "Sale"[label="Sale",shape=ellipse,color=lightblue,fontcolor=black,style=filled];
 }
-"Report" -> "DataCluster3" [color=blue,font=6];
-"Report" -> "DataCluster2" [color=blue,font=6];
-"Sale" -> "DataCluster3" [color=blue,font=6];
-"Inventory" -> "DataCluster3" [color=blue,font=6];
-"Order" -> "DataCluster1" [color=blue,font=6];
-"Order" -> "DataCluster3" [color=blue,font=6];
-"Order" -> "DataCluster2" [color=blue,font=6];
+"Report" -- "DataCluster3" [color=blue,font=6];
+"Report" -- "DataCluster2" [color=blue,font=6];
+"Sale" -- "DataCluster3" [color=blue,font=6];
+"Inventory" -- "DataCluster3" [color=blue,font=6];
+"Order" -- "DataCluster1" [color=blue,font=6];
+"Order" -- "DataCluster3" [color=blue,font=6];
+"Order" -- "DataCluster2" [color=blue,font=6];
 }

@@ -1,15 +1,8 @@
-delivery stockitem 1
-delivery order 6
-delivery report 1
-showstockitem stockitem 4
-updateinventory stockitem 3
-createreport report 4
-createreport stockitem 2
+Order DataCluster3 1
+Order DataCluster1 6
+Order DataCluster2 1
+Sale DataCluster3 4
+Inventory DataCluster3 3
+Report DataCluster2 4
+Report DataCluster3 2
 
-stockitem delivery 1
-order delivery 6
-report delivery 1
-stockitem showstockitem 4
-stockitem updateinventory 3
-report createreport 4
-stockitem createreport 2
