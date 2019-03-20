@@ -1,7 +1,7 @@
-\chapter{Solution}
+\chapter{Approach for identifying Microservices}
 \label{ch:Solution}
 This chapter presents the solution to tackle the issue of microservice identification. 
-As noted in the \textit{State of the Art} chapter \ref{ch:StateOfTheArt}, existing approaches support two initial situations: They either conduct the extraction of microservices from existing (monolithic) systems or they are based on microservice greenfield development. Both types have their advantages and disadvantages. Existing systems, for instance, provide more information about the system specification and requirements. Legacy code and log files can be used to extract data dependencies or process structures. However, shortcoming in the design of the legacy application might have an impact on the extracted information and influence the microservice extraction in a negative manner. In contrast, greenfield development is not affected by any previously committed design decisions. As a matter of fact, the greenfield approach can be applied to existing systems as well by discarding legacy code and additional information that arose during the development. Solely the system requirements that existed before the implementation started serve as input. Nevertheless, this type has to manage the identification process with less input.\\
+As noted in the \textit{State of the Art} chapter \ref{ch:StateOfTheArt}, existing approaches support two initial situations: They either conduct the extraction of microservices from existing (monolithic) systems or they are based on microservice greenfield development. Both types have their advantages and disadvantages. Existing systems, for instance, provide more information about the system specification and requirements. Legacy code and log files can be used to extract data dependencies or process structures. However, shortcoming in the design of the legacy application might have an impact on the extracted information and influence the microservice extraction in a negative manner. In contrast, greenfield development is not affected by any previously committed design decisions. As a matter of fact, the greenfield approach can be applied to existing systems as well, by discarding legacy code and additional information that arose during the development. Solely the system requirements that existed before the implementation started serve as input. Nevertheless, this type has to manage the identification process with less input.\\
 The solution we propose is based on pre-existing system requirements. No existing implementation is used and consequently, the presented approach is to be classified as greenfield method.\\
 
 
@@ -16,7 +16,7 @@ The solution we propose is based on pre-existing system requirements. No existin
 \rightskip=1cm
 
 \noindent
-\textbf{RQ1: Which is the most appropriate strategy to decompose a system into microservices? }
+\textbf{RQ1.1: Which is the most appropriate strategy to decompose a system into microservices? }
 
 \endgroup
 \vspace{0.5cm}
@@ -28,7 +28,7 @@ This thesis proposes a formal, graph-based microservice identification approach 
 \\
 By the way of contrast, Amiri proposes an approach to extract structural and data object dependencies from business point of view in order to generate possible microservice candidates. In doing so, he relinquishes to use any further information besides BPMN models. Using both, structural and data object dependencies promotes high cohesiveness and loose coupling on functional and data object level. In other words, high cohesive functionality is divided into the same microservices, together with the data objects that are accessed. \\
 However, Sec.\ref{sec:stateOfTheArt:comparison} outlines the limitations and drawbacks of the approach. Whereas the control flow is depicted clearly, the data flow remains vague. The weight definitions regarding data object dependencies lack formal explanation. Further, the aggregation of structural and data object dependencies, and consequently the aggregation of control flow and data flow contains a significant problem: In Amiri's approach, the aggregation is conducted by summing up two relation matrices. The matrix entries representing the dependencies highly influence the results. For instance, a large amount of data reads and writes sum up to great numbers, outweighing the structural dependencies. Thus, the identification process would be almost based on data dependencies only, discarding any identified structural dependencies. \\
-The following sections introduces a formal approach to tackle \textit{RQ2}. First, a basic overview of the approach is provided. Afterwards, each step is introduced in detail including alternatives and examples. 
+The following sections introduces a formal approach to tackle \textit{RQ1.2}. First, a basic overview of the approach is provided. Afterwards, each step is introduced in detail including alternatives and examples. 
 
 
 
@@ -40,7 +40,7 @@ The following sections introduces a formal approach to tackle \textit{RQ2}. Firs
 \rightskip=1cm
 
 \noindent
-\textbf{RQ2: What formal approach can be constructed to identify possible microservices without detailed know-how and manual effort? }
+\textbf{RQ1.2: What formal approach can be constructed to identify possible microservices without detailed know-how and manual effort? }
 
 \endgroup
 \vspace{0.5cm}
@@ -50,7 +50,7 @@ The following sections introduces a formal approach to tackle \textit{RQ2}. Firs
 \noindent
 To that end, Fig.\ref{fig:thesisProcess} provides an overview of the proposed approach. As depicted previously, the process requires input in form of BPMN models. Therefore, specifying those models marks the beginning of the process. Afterwards, control flow and data flow need to be extracted. To avoid the ambiguity of aggregating data flow and control flow as proposed by Amiri, the approach recommends to create two independent weighted Graphs, using the information from the previous step. In the next step, a clustering algorithm determines two sets of clusters based on the weights in the graphs. At that point, the process determined a set of clusters that is based on the control flow and another one, based on the data flow. In the following, a matching process identifies commonalities between data object-based and structural-based clusters in order to create comprehensive clusters. Based on these clusters, the last step extracts microservice candidates. \\
 %TODO  stimmt das noch?
-\textit{RQ2} also broaches the subject of necessary know-how and the amount of manual effort. As far as that is concerned, the proposed approach does not require human interaction as soon as the BPMN models are specified. Everything beyond that is based on a structural process.
+\textit{RQ2.1} also broaches the subject of necessary know-how and the amount of manual effort. As far as that is concerned, the proposed approach does not require human interaction as soon as the BPMN models are specified. Everything beyond that is based on a structural process.
 Admittedly, the manual effort to conduct the process entirely is still not to be neglected, as the extraction process, graph creation and cluster matching is not yet automated. Nevertheless, the structural process enables to implement the entire approach, excluding the BPMN model specification step. However, implementing an approach is beyond the scope of the paper.
 
 
@@ -70,18 +70,76 @@ Admittedly, the manual effort to conduct the process entirely is still not to be
 
 \section{Specify BPMN Models}
 \label{sec:Solution:SpecifyBPMN}
-Chapter \ref{ch:PrepApproach}, introduces the BPMN 2.0 modelling language as an easy to use, but yet powerful notation to illustrate business processes including their activities and their data needs.
+Chapter \ref{ch:background}, introduces the BPMN 2.0 modelling language as an easy to use, but yet powerful notation to illustrate business processes including their activities and their data needs.
 In the first step of the solution, those business processes need to be specified. Usually, the system specification are not directly given in form of business processes, bur rather in the form of use cases, UML models, domain models or even as textual description in natural language. Therefore, the first step consists of specifying a business model using the available system specification. This can be achieved using various approaches, for instance: \\
 
 \noindent
 \textbf{Workshops} At the very beginning of a software project, technical and non-technical stakeholders can participate in a workshop to specify the business process model. As illustrated in the BPMN specification, the "primary goal of BPMN is to provide a notation that is readily understandable by all business users"  \cite{OMG}. Therefore, carrying out a workshop with stakeholders from various departments can produce high quality BPMN models which can be further used as input for the extraction process.\\
 
 \noindent
-\textbf{Use Cases} In the case of CoCoME, the system specifications are available as use cases (cf. chapter \ref{ch:CoCoME}). Accordingly, section \ref{sec:PrepApproach:TransformUCtoBPMN} illustrates a process to transform use cases into BPMN models. 
+\textbf{Use Cases} In the case of CoCoME, the system specifications are available as use cases (cf. chapter \ref{ch:CoCoME}). 
+Accordingly, section \ref{sec:PrepApproach:TransformUCtoBPMN} illustrates a process to transform use cases into BPMN models. 
 \\
 
 \noindent
 \textbf{Others} Business processes can be extracted in various other ways. UML Activity diagrams, for instance, are very similar to BPMN models. Van der Aalst et al. elaborated the Process Mining Manifesto \cite{ProcessMiningManifesto} where he presents general techniques to extract business processes, although it is mainly event log driven. Another approach is the \textit{BPMN Miner}, an automatic discovery tool for BPMN process models \cite{BPMNMiner}. Again, the tool discovers the models dynamically, using log files of a legacy system.
+
+
+
+
+
+\subsection{Transform Use Case Sets in BPMN Processes}
+\label{sec:PrepApproach:TransformUCtoBPMN}
+To visualize the implicit data and control flow in use cases, it is necessary to transform the given use cases into BPMN models. In "Visualizing Use Case Sets as BPMN Processes" \cite{VisualizeBPMN}, Lübke et al. already elaborated an approach to visualize the control flow that is hidden in use cases. As Lübke does not use the BPMN 2.0 notation, data is not considered and hence, data flow is not part of the given approach. In the following, we will introduce a conceptional approach, which is based on \cite{VisualizeBPMN}, to transform use cases into BPMN models and extract the data flow and control flow.
+
+
+\begin{enumerate}
+	\item Create a flat use case model. Replace \textit{include} and \textit{extend} relationships by the associated use case
+	\item Generate an independent BPMN process for each use case
+	\item Join the generated BPMN processes based on preconditions, trigger and postconditions
+	\item Remove duplicate Data Objects and refactor the data associations
+	\item Refactor the business model i.e. divide or remove unnecessary steps, identify synonymous data objects, trigger etc.
+\end{enumerate}
+
+
+\begin{figure}[h!]
+	\includegraphics[width=\textwidth, trim={6cm 14.5cm 6cm 1.5cm}]{img/usecaseTransformation.pdf}
+	\caption{Use Case transformed in a BPMN process}
+	\label{fig:useCaseTransformation}
+\end{figure}
+The first step only includes simple substitutions, as the \textit{extend} and \textit{include} relationships simply have to be replaced by the actual use case.\\
+Step number two represents the main part of the transformation. Fig.\ref{fig:useCaseTransformation} is an additional illustrative diagram that explains this step. First, the preconditions is assigned to the start event by using an annotation. Triggers are represented by intermediate events and as they are executed in parallel, connected by two Parallel Gateways. Each step in the use cases standard process is represented by a single task. This procedure might include some refactoring as further enlightened in the final step. Tasks that produce and/or consume data are connected to the corresponding data object. It has to be noticed, that data objects appear only once in a model. Given these point, it is necessary to check if a data object is already referenced by a previous task. Jumps and alternatives are modelled using Exclusive Or Gateways. Finally, the postcondition is added as annotation and connected to the end event. \\
+Joining the use case-based BPMN models is necessary to represent the control flow and data flow within the entire system. (The flows are generally not limited to "use case borders"). For each pair of use cases (\textit{UC A} and \textit{UC B}), check if the postcondition of UC A exists as precondition or trigger of UC B. If this is the case, join the accompanying BPMN processes by deleting the start event (BPMN process of UC B) and the end event (BPMN process of UC B) and connect the graphs. In case that multiple use cases have the same postcondition, their BPMN processes are connected using an Exclusive Or Gateway (Fig.\ref{fig:JoinBPMNPostcondition}). If several use cases have the same preconditions or triggers and therefore use the same postcondition (Fig.\ref{fig:JoinBPMNPrecondition}), join them by introducing a Parallel Gateway and split the control flow. Notice, that the use cases in Fig.\ref{fig:JoinBPMNPostcondition} and Fig.\ref{fig:JoinBPMNPrecondition} are only displayed as collapsed subprocess for the sake of clarity. 
+\begin{figure}[h!]
+	\centering
+	\begin{minipage}{0.45\textwidth}
+		\centering
+		\includegraphics[width=0.9\textwidth, trim={11cm 15cm 12cm 1cm}]{img/JoinBPMNpostcondition.pdf} % first figure itself
+		\caption{Join BPMN processes on same postconditions}
+		\label{fig:JoinBPMNPostcondition} %11cm 14cm 18cm 1cm
+	\end{minipage}\hfill
+	\begin{minipage}{0.45\textwidth}
+		\centering
+		\includegraphics[width=0.9\textwidth, trim={11cm 15cm 12cm 1cm}]{img/JoinBPMNPrecondition} % second figure itself
+		\caption{Join BPMN processes on same preconditions or triggers}
+		\label{fig:JoinBPMNPrecondition}
+	\end{minipage}
+\end{figure}
+Second to last, the resulting data associations and objects are refactored. Duplicate Data Objects that arose from joining two processes need to be eliminated. For each set of duplicate data objects, remove all but one and reconnect the existing Data Associations to the remaining object. \\ Finally, the entire business models need to be refactored. Whereas the prior steps are very algorithmic and follow a predefined concept, this step includes non-trivial work. Due to the fact that use cases are given in natural language, one has to identify synonymous data objects,steps, triggers, post- and preconditions. Moreover, a step in an use case may include two activities and has to be split up. For example, given these two steps from two different use cases:
+\begin{itemize}
+	\item \textit{The Store Manager changes the sales price of the Stock Item and commits the change by pressing enter}
+	\item \textit{The sale information is sent to the Inventory in order to update the Stock}
+\end{itemize}
+Both steps update the same Data Object, which is the Stock Item, although the second step refers to the object as \textit{Stock}. The activity in both cases can be described as \textit{Update inventory}. Furthermore, steps one contains two activities and needs to be split in \textit{Change Price} and \textit{Update Inventory}.
+
+
+%TODO  da drüber lesen.... chapter... raus!
+\subsection{Limitations and Drawbacks of the Transformation}
+In Chapter \ref{ch:Solution}, we present an approach that identifies microservices from the business point of view using BPMN processes as input. Nevertheless, the running example we use only provides system specification in form of detailed use cases. Therefore, the previous sections present a transformation of use cases in a set of BPMN models. However, this transformation requires a non-trivial refactoring process. In regard to data objects, it is obvious that multiple appearances of the same object (in different shaping) in a process devastate the resulting data flow. Speaking of tasks, it is necessary to examine the impact on the clustering presented in Chapter \ref{ch:Solution}: It is indispensable to identify common tasks among all use cases and consequently the resulting business processes to create the structural relationship between them. If not, the tasks would be arranged in a circle-like order and the resulting clusters would correspond to the single business processes. Structural dependencies between processes like using the same functionalities would disappear.\\
+For this reasons, the refactoring process has to be conducted 
+conscientiously. If this is not the case or synonyms etc. are not identified, the results of the approach might not be satisfactory.
+
+
 
 
 

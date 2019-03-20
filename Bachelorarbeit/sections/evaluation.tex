@@ -1,6 +1,6 @@
 \chapter{Evaluation}
 \label{ch:Evalutation}
-In the introduction chapter, the \textit{Research Questions} are presented. The third question is about the elaborated approach and its evaluation.
+In the introduction chapter, the \textit{Research Questions} are presented. The third question relates to the elaborated approach and its evaluation.
 
 
 
@@ -17,24 +17,30 @@ In the introduction chapter, the \textit{Research Questions} are presented. The 
 \vspace{0.5cm}
 
 \noindent
-To tackle this question, a \textit{Goal Quality Metrics Plan } (GQM) is introduced to specify the key aspects of the evaluation. In a word, the elaborated approach is used to identify a set of microservice candidates which is compared to two reference sets of microservices. \\
-In the following, a \textit{GQM Plan} is introduced to specify what exactly needs to be evaluated. Also, metrics to measure the results of the comparison are introduced. Second to last, the two reference sets are illustrated before the actual results of the approach are finally depicted.
+To answer this question efficiently, a \textit{Goal Quality Metrics Plan } (GQM) is to be created that specifies the key aspects of the evaluation. 
+Chapter \ref{ch:SolutionApplication} applies the identification approach to the case study. As a result, a set of microservices was identified where each microservice provides some functionality and administers data object.
+In order to evaluate the approach, we compare those results to two reference sets. In doing so, not only is it checked whether the right services have been found, but also whether the functionality and the data objetcs have been divided up correctly. During the evaluation, those aspects are examined independently.\\
+The rest of the chapter is structured as follows: First, the software engineering paradigm \textit{GQM Plan} is introduced. In addition, a metric is presented with which the results of the approach can be compared with two reference models. Second to last, two reference sets are illustrated before the actual results of the approach are finally compared.
 
 
 
 
 \section{GQM Plan}
 \label{sec:Evaluation:GQM}
-Basili et al. originally proposed the \textit{GQM Plan} (Goal Quality and Metrics) as a paradigm in software engineering but it is further extended to other engineering disciplines \cite{BasiliGQM}. Based on a precise and structured procedure, the paradigm enables a high traceability and 
-assessment of the engineering process. The main purpose is to specify the goals for a project, illustrate the data to define these goals and provide an environment to interpret the collected data. In the case of this thesis, the \textit{GQM Plan} is used to clarify the desired intention of the evaluation in order to prevent unnecessary metrics and measurements and consequently reduce the expenditure of work. \\
-The \textit{GQM Plan} is a Top-Down approach and divided in three fundamental steps that precede the measurement and evaluation of results. First, the goal of the evaluation is defined on a conceptual level. Seconds, questions are delineated to achieve the specific goal. Finally, to answer the questions in a measurable way, metrics have to be defined that are associated with the questions. \\
+Basili et al. originally proposed the \textit{GQM Plan} (Goal Quality and Metrics) as a paradigm in software engineering to create specific quality models \cite{BasiliGQM}. \\
+The main purpose of the \textit{GQM Plan} is to identify the right metrics to assess the quality of an object in a particular environment. This should prevent the gathering of unnecessary metrics and measurements and consequently reduce the expenditure of work. \\
+The \textit{GQM Plan} is a Top-Down approach and is divided in three fundamental steps that precede the measurement and evaluation of results. First, the goal of the evaluation is defined on a conceptual level. Second, questions are delineated to achieve the specific goal. Finally, to answer the questions in a measurable way, metrics have to be defined that are associated with the questions. \\
 In the following, the \textit{GQM Plan} for this the consecutive evaluation is illustrated:
 
 \begin{itemize}
 	\item \textbf{G1:} Determine the accuracy of the approach
 	\item \textbf{G1.Q1:} What is the \textit{Precision and Recall} of the identified microservices compared to the reference amount?
 	\item \textbf{G1.Q1.M1:}  Precision and Recall
-	\item WAS WAR HIER NOHCMAL MIT DEN ZYKLISCHEN ABHÄNGIGKEITEN
+	\item \textbf{G1.Q2:} What is the \textit{Precision and Recall} regarding the functionality of the identified microservices compared to the reference amount?
+	\item \textbf{G1.Q2.M1:}  Precision and Recall
+		\item \textbf{G1.Q3:} What is the \textit{Precision and Recall} regarding data objects each microservice administers compared to the reference amount?
+	\item \textbf{G1.Q3.M1:}  Precision and Recall
+
 \end{itemize}
 
 
@@ -42,8 +48,9 @@ In the following, the \textit{GQM Plan} for this the consecutive evaluation is i
 
 \section{Metrics}
 \label{sec:Evaluation:Metrics}
-%TODO Weitere Metriken als nur precision recall
-Using metrics is mandatory to measure the quality of the elaborated approach. In this case, it is required to choose a metric to classify a set of instances, namely microservices, regarding their relevance. Two reference sets are available as further depicted in Sec.\ref{sec:Evaluation:ReferenceSets}. \\
+
+Using metrics is mandatory to measure the quality of the elaborated approach. In this case, it is required to choose a metric to classify a set of instances regarding their relevance.
+In regard to the following evaluation, those instances are either microservices, functionality offered by microservices or data objects administered by microservices. Two reference sets are available as further depicted in Sec.\ref{sec:Evaluation:ReferenceSets}. \\
 A metric that is capable to measure the relevance of a set of instances compared to a reference set is \textit{Precision and Recall}. In subsequent, the proposed metric is briefly presented.
 
 \subsection{Precision and Recall}
@@ -91,14 +98,44 @@ A metric that is capable to measure the relevance of a set of instances compared
 
  
 \noindent
-It is important to notice that $N_{\overline{ret}}$ and $N_{\overline{rel}}$ are not part of the formulas. With that in mind, it is possible to apply \textit{Precision and Recall} to the prevalent evaluation scenario. With respect to Table \ref{tab:PrecRecall}, the reference set that is used forms the relevant items, or $N_{rel}$. Accordingly, the set of microservices identified by the proposed approach constitutes the retrieved items, or $N_{ret}$. The remaining part which are the non-relevant and non-retrieved items ($N_{\overline{ret}\cap \overline{rel}}$) are to be unimportant. The following list draws the analogy between Table \ref{tab:PrecRecall} and the predominant evaluation scenario:
+It is important to notice that $N_{\overline{ret}}$ and $N_{\overline{rel}}$ are not part of the formulas. With that in mind, it is possible to apply \textit{Precision and Recall} to the prevalent evaluation scenario. With respect to Table \ref{tab:PrecRecall}, the reference set used forms the relevant items, or $N_{rel}$. Accordingly, $N_{ret}$ constitutes the retrieved items which are either the actual microservices, the functionality provided by the microservices or the data objects administered by the microservices.
+The remaining part which are the non-relevant and non-retrieved items ($N_{\overline{ret}\cap \overline{rel}}$) are to be unimportant. The following list draws the analogy between Table \ref{tab:PrecRecall} and the predominant evaluation scenario:
 \begin{itemize}
-	\item \textbf{True Positives:}  $N_{ret\cap rel}$ , identified microservices that have a similar partner in the reference set
-	\item  \textbf{False Positives:}  $N_{ret\cap \overline{rel}}$, identified microservices that do not have a similar partner in the reference set
-	\item \textbf{False Negatives}:  $N_{\overline{ret}\cap rel}$, microservices in the reference set that have not been discovered by the proposed approach
-	\item \textbf{True Negatives}: $N_{\overline{ret}\cap \overline{rel}}$, microservices that are neither discovered by the approach, nor part of the reference set \footnote{Note, that this amount consists of all imaginable microservices and is therefore an infinite set. As it is not used to calculate either of the metrics, it is negligible. }
+	\item \textbf{True Positives:}  $N_{ret\cap rel}$  
+	
+	\begin{itemize}
+		\item Identified microservices that have a similar partner in the reference set \textbf{OR}
+		\item Identified functionality that is assigned to the appropriate microservice \textbf{OR}
+		\item Identified data objects that are assigned to the appropriate microservice
+	\end{itemize}
+	
+	
+	\item  \textbf{False Positives:}  $N_{ret\cap \overline{rel}}$ 
+	\begin{itemize}
+		\item Identified microservices that do not have a similar partner in the reference set \textbf{OR}
+		\item Identified functionality, that is assigned to the wrong microservice  \textbf{OR}
+		\item Identified data objects, that are assigned to the wrong microservice
+	\end{itemize}
+	
+	\item \textbf{False Negatives}:  $N_{\overline{ret}\cap rel}$ 
+		\begin{itemize}
+		\item Microservices in the reference set that are not discovered by the proposed approach  \textbf{OR}
+		\item Functionality in the reference microservices which is not discovered and allocated by the proposed approach  \textbf{OR}
+		\item Data objects in the reference microservices which are not discovered and allocated by the proposed approach
+	\end{itemize}
+	
+	\item \textbf{True Negatives}\footnote{Note, that this amount consists of all imaginable microservices and is therefore an infinite set. As it is not used to calculate either of the metrics, it is negligible. }: $N_{\overline{ret}\cap \overline{rel}}$
+	 	\begin{itemize}
+	 	\item  Microservices that are neither discovered by the approach, nor part of the reference set   \textbf{OR}
+	 	\item Functionality that is neither distributed into a microservice, nor part of any microservice of the reference set  \textbf{OR}
+	 	\item Data objects that are neither distributed into a microservice, nor part of any microservice of the reference set
+	 \end{itemize}
+	
+	
 	
 \end{itemize}
+
+
 
 \begin{figure}[!h]
 	\includegraphics[ trim={7cm 5.5cm 8cm 0.5cm}, scale =1]{img/PrecisionRecall.pdf}
@@ -109,8 +146,6 @@ It is important to notice that $N_{\overline{ret}}$ and $N_{\overline{rel}}$ are
 
 
 
-\subsection{Some more Metrics if necessary}
-//Hier noch erklären 
 
 
 
@@ -122,27 +157,150 @@ To evaluate the approach, the identified set of microservices (cf. Sec.\ref{sec:
 
 \subsection{Reference Set 1: Functional Decomposition Approach}
 \textit{Identifying Microservices Using Functional Decomposition} \cite{FunctionalDecompositionHeinrich} is a systematic approach to find a appropriate partition of a system into microservices. This paper emerged as a result of the collaboration of the Academic College Tel-Aviv Yafo, the Karlsruhe Institute of Technology and the Southwest University China and uses CoCoME as demonstrator as well.\\
-As depicted in Sec.\ref{sec:stateOfTheArt:approaches}, Tyszberowicz et al. utilize the Use Case specifications of CoCoME \cite{CoCoMEOld} as input for their decomposition approach. Several external tools are used to extract verbs an nouns from the use cases that serve as \textit{system operations} and \textit{state variables}. Irrelevant noun, verbs and synonyms are eliminated via brainstorming. The relationships between the aforementioned concepts are stored in a relation table. A relation exists, if a \textit{system operation} reads or updates a \textit{state variable}. Thereupon, the relation table is visualized as a weighted graph, which enables to identify clusters of dense relationships. Each cluster serves as a microservice candidate.\\
-As mentioned in Sec.\ref{sec:stateOfTheArt:comparison}, the compulsory and non-trivial revision of nouns and verbs to eliminate synonyms etc. is a substantial disadvantage. However, the evaluation results in Tyszberowicz's approach demonstrate, that the identified microservices are good candidates for a microservice-based system decomposition of CoCoME. The aforementioned evaluation includes a comparison to three independent software projects that implemented CoCoME. Two groups identified, apart from the naming, the same set of microservices. The third group identified a more detailed decomposition of the case study, but a revision reveals that the additional microservices are only a refinement of the proposed microservices. \\
-The following microservices are identified: 
-\begin{itemize}
-    \item  \textit{Reporting:} TODO Features auflisten  %TODO Feautures
-    \item \textit{StockOrder:}
-    \item \textit{Sale:}
-    \item \textit{ProductList:}
-\end{itemize}
+As depicted in Sec.\ref{sec:stateOfTheArt:approaches}, Tyszberowicz et al. utilize the use case specifications of CoCoME \cite{CoCoMEOld} as input for their decomposition approach. Several external tools are used to extract verbs an nouns from the use cases that serve as \textit{system operations} and \textit{state variables}. Irrelevant noun, verbs and synonyms are eliminated via brainstorming. The relationships between the aforementioned concepts are stored in a relation table. A relation exists, if a \textit{system operation} reads or updates a \textit{state variable}. Thereupon, the relation table is visualized as a weighted graph, which enables to identify clusters of dense relationships. Each cluster serves as a microservice candidate.\\
+As mentioned in Sec.\ref{sec:stateOfTheArt:comparison}, the compulsory and non-trivial revision of nouns and verbs to eliminate synonyms etc. is a substantial disadvantage. 
+
+
+Regarding the evaluation, Tyszberowicz et al. claim that their approach identifies good microservices for a microservice-based system decomposition of CoCoME. The aforementioned evaluation includes a comparison to three independent software projects that implemented CoCoME. Two groups identified, apart from the naming, a similar set of microservices. The third group identified a more detailed decomposition of the case study, but a revision reveals that the additional microservices are only a refinement of the proposed microservices. \\
+However, the evaluation lacks profundity: Microservices are only compared on a more abstract level, as is not checked whether functionality and data objects are assigned to the correct microservice. The following microservices are identified: 
+
+
+\vspace{1cm}
+
+\begin{multicols}{2}
+	\textbf{Sale}
+	\begin{flushleft}
+		\begin{itemize}[noitemsep]
+			\item Handle Sale
+			\item Handle Payment
+			\item Identify stock Item
+			\item \textbf{Data objects}: -  
+		\end{itemize}
+	\end{flushleft}
+	
+	
+	\vfill
+	\columnbreak
+	\textbf{ProductList}
+	\begin{flushleft}
+		\begin{itemize}[noitemsep]
+			\item Create orders
+			\item Change price
+			\item \textbf{Data Objects}: product
+			
+			
+		\end{itemize}
+	\end{flushleft}
+	
+\end{multicols}
+
+
+
+\vspace{1cm}
+\begin{multicols}{2}
+	\textbf{StockOrder}
+	\begin{flushleft}
+		\begin{itemize}[noitemsep]
+			\item Create stock report
+			\item Handle inventory
+			\item \textbf{Data objects}: stockItem, order
+		\end{itemize}
+	\end{flushleft}
+	
+	
+	\vfill
+	\columnbreak
+	\textbf{Reporting}
+	\begin{flushleft}
+		\begin{itemize}[noitemsep]
+			\item Create delivery report
+			\item Handle deliveries
+			\item \textbf{Data Objects}: - 
+			
+		\end{itemize}
+	\end{flushleft}
+\end{multicols}
+
+
 
 \subsection{Reference Set 2: Manual Decomposition}
 In the course of this thesis, we implemented a microservice-based version of CoCoME. The microservice identification process itself was terminated before the literature review for the thesis started. Moreover, we were not aware of the microservice decomposition proposed by Tyszberowicz et al. \cite{FunctionalDecompositionHeinrich} by the time we identified possible microservice candidates. Consequently, the process was conducted without bias. \\
 The identification process itself was conducted manually and supported by the previous knowledge of the CoCoME domain. Beside the use case specification, we used a monolithic implementation of CoCoME, the Hybrid Cloud-based Variant \cite{CoCoMETechnical}, as information resource to discover requirements, functionality, dependencies and finally decompose the system into loosely coupled and high cohesive microservices. \\
 Once more, the time consuming and difficult discovery process clarified the necessity of a structured and formal approach to identify microservices. \\
 The following four microservices were identified:
-\begin{itemize}
-	\item \textit{Stores- and Sales service}
-	\item \textit{Product}
-	\item \textit{Order}
-	\item \textit{Reports}
-\end{itemize}
+
+
+
+
+\vspace{1cm}
+
+\begin{multicols}{2}
+	\textbf{Stores- and Sale}
+	\begin{flushleft}
+		\begin{itemize}[noitemsep]
+			\item Handle sale
+			\item Handle payment
+			\item Manage express checkout
+			\item Exchange products
+			\item Identify stock items
+			\item Handle inventory
+			\item Change price
+			\item Handle stores
+			\item Handle enterprises
+			\item Handle deliveries
+			\item \textbf{Data objects}: stockItem, store, enterprise
+		\end{itemize}
+	\end{flushleft}
+	
+	
+	\vfill
+	\columnbreak
+	\textbf{Product}
+	\begin{flushleft}
+		\begin{itemize}[noitemsep]
+			\item Show products
+			\item Create products
+			\item Show suppliers
+			\item Create suppliers
+			\item \textbf{Data Objects}: product, supplier
+		
+		
+		\end{itemize}
+	\end{flushleft}
+
+\end{multicols}
+
+
+
+\vspace{1cm}
+\begin{multicols}{2}
+	\textbf{Order}
+	\begin{flushleft}
+		\begin{itemize}[noitemsep]
+			\item Show orders
+			\item Create orders
+			\item \textbf{Data objects}: order
+		\end{itemize}
+	\end{flushleft}
+	
+	
+	\vfill
+	\columnbreak
+	\textbf{Reports}
+	\begin{flushleft}
+		\begin{itemize}[noitemsep]
+			\item Create delivery report
+			\item Create stock report
+			\item \textbf{Data Objects}: report  
+	
+		\end{itemize}
+	\end{flushleft}
+\end{multicols}
+
+
+
+
+
 
 \subsection{Differences between both sets}
 Roughly same services but differences in functionality

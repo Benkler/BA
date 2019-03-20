@@ -1,5 +1,8 @@
 \chapter{Background}
 \label{ch:background}
+This chapter introduces and compares the monolithic software architecture and the microservice architecture. Further, benefits and challenges of the microservice architecture are outlined. Also, this chapter introduces a well known and established use case notation technique and a standardized notation to capture business processes.
+
+
 
 \section{Monolithic Software Architecture}
 \label{sec:background:monolith}
@@ -105,6 +108,7 @@ Besides, the distributed microservice landscape complicates the logging mechanis
 \textbf{Organizational Challenges}\\
 The microservice approach needs the establishment of cross-functional teams \cite{Fowler}. Adopting \textit{Continuous Practices}, such as \textit{Continuous Deployment}, are essential for the success of a profitable microservice architecture. Therefore, closer collaboration between development teams, operational staff and management has to be established. In summary, a costly and time consuming restructuring process of the entire organization is required \cite{NikoProseminar}. \\
 
+\pagebreak
 
 \noindent
 \textbf{Data Consistency}\\
@@ -114,7 +118,75 @@ Distributed systems need to share data. Heinrich et al. propose two concepts for
 
 \noindent
 \textbf{Decomposition}\\
-Decomposing a system into microservice is a very complex task that requires experienced system architects and domain experts \cite{Fowler}. Identifying the right granularity of microservice is one of the key issues. Too fine grained services cause inefficiency due to a high amount of expensive inter-service calls \cite{DomainEngineeringMunezero}. Developing the basic communication infrastructure adds additional complexity and slows down the initial developing process \cite{infoq}. 
+Decomposing a system into microservice is a very complex task that requires experienced system architects and domain experts \cite{Fowler}. It is irrelevant whether an existing system is decomposed into microservices or whether a new system is designed as a microservice-based application. The effort is very high in both cases.\\
+Identifying the right granularity of microservice is one of the key issues. Too fine grained services cause inefficiency due to a high amount of expensive inter-service calls \cite{DomainEngineeringMunezero}. Developing the basic communication infrastructure adds additional complexity and slows down the initial developing process \cite{infoq}. \\
+
+
+
+\section{Use Cases}
+\label{sec:PrepApproach:UC}
+Use Cases are a widely adopted technique to document software system requirements. Generally, they describe the interaction between actors (usually system users) and the software system itself. In this thesis, use cases are provided as semi-structured tables (following the notation presented by Cockburn et al. \cite{Cockburn}). \\ An example is given in Table \ref{tab:exampleUseCase}: Each use case has a unique identifier and a short description, followed by necessary preconditions and a trigger that causes the execution. The standard process is the main part and describes the success steps of the Use Case. Extensions provide additional information like alternatives or exceptional processes that occur in case of an unsuccessful step. 
+
+
+
+
+\begin{table}[!h]
+	\centering
+	\begin{tabularx}{\textwidth}{|l||X|}
+		\hline
+		UC 5 & Show Stock Reports \\ 
+		\hline
+		Brief Description &  The opportunity to generate stock-related reports is provided
+		by the Trading System. \\
+		\hline
+		Precondition & The reporting GUI at the Store Client has been started. \\
+		\hline
+		Trigger & The Store Manager wants to see statistics about his store. \\
+		\hline
+		Postcondition & The report for the Store has been generated and is displayed on
+		the reporting GUI. \\
+		\hline 
+		Standard Process &
+		
+		1. The Store Manager enters the store identifier and presses the button Create
+		Report.  \\
+		& 2. A report including all available stock items in the store is displayed. \\  
+		\hline
+		Extensions & (none) \\ \hline
+		
+		
+	\end{tabularx}
+	\caption{Example Use Case in Tabular Form, Source: \cite{CoCoMEOld}}
+	\label{tab:exampleUseCase}
+	
+\end{table}
+
+\noindent
+The usage of Use Cases as input for the approach has a remarkable benefit: Besides being a widely adopted technique to specify system requirements, the textual use case notation is understandable without further technical knowledge. Neither previous knowledge in specific graphic notations like UML, nor the capability to create a complex domain model is necessary. Consequently, all sort of stakeholders (non-technical and technically experienced) are capable to provide the necessary information in terms of use cases. \\
+However, the transformation as presented in Sec.\ref{sec:PrepApproach:TransformUCtoBPMN} is not always trivial and requires some manual effort to produce high quality business processes. 
+
+
+
+
+
+\section{Business Process and Model Notation}
+\label{sec:PrepApproach:BPMN}
+The Business Process and Model Notation (BPMN) is a graph oriented language to describe business processes. Originally, BPMN was designed to describe activities and their control flow dependencies only \cite{VisualizeBPMN}. Since the introduction of BPMN 2.0, it is possible to model the data needs and the data results of activities \cite{OMG}. Consequently, BPMN is capable to express the control flow and to approximate the data flow of business processes \cite{DataFlowErrorBPMN}. In the remainder, we use BPMN instead of BPMN 2.0 for the sake of convenience. \\
+BPMN is easy-to-use, powerful and widely adopted in academia and industry. Hence, BPMN is a suitable approach to extract the implicitly given data flow and control flow in the use case description. Sec.\ref{sec:PrepApproach:TransformUCtoBPMN} introduces a formal approach to generate BPMN processes from use case sets. Next, the BPMN 2.0 process definition is shortly introduced:
+
+
+\begin{figure}[h!]
+	\includegraphics[width=\textwidth, trim={1cm 16.5cm 19.2cm 1cm}]{img/Overview.pdf}
+	\caption{BPMN Notation (Subset)}
+	\label{fig:BPMNSubset}
+\end{figure}
+
+\noindent
+Fig.\ref{fig:BPMNSubset} presents the subset of BPMN symbols, that is required for the approach presented in this thesis \footnote{The entire specification is available at https://www.omg.org/spec/BPMN/2.0/}. Control flow activities are modelled as atomic \textit{Tasks} and connected through \textit{Sequence Flow Arcs}. \textit{Conditional Flow Arcs} integrate decision points into the control flow. Navigation decisions are based on the conditions related to the individual arcs. Such decision point are the \textit{Exclusive Or Gateway} and the \textit{Parallel Gateway}. Regarding the first one, if one of the incoming flows is triggered exactly one outgoing flow is activated based on the condition. For the latter, all outgoing flows are activated as soon as all of its incoming flows are activated. Each BPMN process starts with a \textit{Start Event} and ends with an \textit{End Event}. In case of several branches (due to Gateways), stop events need to be placed to each end. \textit{Intermediate Events} mark any other events that occur during the process. The trigger for an event is modelled using the \textit{Annotation} symbol. \textit{Abort Execution Event} extend the \textit{End Event} and marks the error-prone end of a business process. \\
+When it comes to data, each \textit{Task} may or may not require and/or produce data. Directed \textit{Data Association Arcs} provide the opportunity to model data needs and data results. In case a task requires data, the corresponding \textit{Data Objects} are connected to the task with the arrowhead attached to the task. Producing data works in the opposite direction. \\
+
+
+
 
 
 

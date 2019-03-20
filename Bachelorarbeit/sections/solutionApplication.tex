@@ -1,4 +1,4 @@
-\chapter{Solution Application}
+\chapter{Application of the Approach}
 \label{ch:SolutionApplication}
 This chapter applies the previously presented approach to identify microservices from the business point of view, using clustering on control flow and data flow. It is applied to the case study CoCoME, whose system specifications are defined in chapter \ref{ch:CoCoME}. Speaking of the order, this chapter follows the process overview illustrated by Fig.\ref{fig:thesisProcess}.
 
@@ -125,10 +125,9 @@ In the following, the data object clusters and the activity clusters are matched
 
 
 \section{Extract Microservice Candidates}
-In the previous step, cohesive clusters of activity cluster nodes and data object cluster nodes are identified. Each of the combined clusters correspond to a microservice candidate. Fig.\ref{fig:CoCoMEClusterMatching} illustrates the  microservices that are identified. To compare the outcome with other results, it is necessary to elaborate the functionality that is provided by each microservice as well as the accompanying data objects:\\
+In the previous step, cohesive clusters of activity cluster nodes and data object cluster nodes are identified. Each of the combined clusters correspond to a microservice candidate. Fig.\ref{fig:CoCoMEClusterMatching} illustrates the  microservices that are identified. To compare the outcome with other results, it is necessary to elaborate the functionality that is provided by each microservice as well as the accompanying data objects. To be able to compare it with the reference sets, the functionalities must be renamed and abstracted. For example, \textit{startSale} and \textit{finishSale} become \textit{Handle sale} or \textit{enterId} and \textit{showStockItems} become \textit{Identify stock items}. \\
 
 
-\vspace{1cm}
 
 \begin{multicols}{3}
 	\textbf{Microservice 1}
@@ -138,6 +137,7 @@ In the previous step, cohesive clusters of activity cluster nodes and data objec
 	\item Handle payment
 	\item Manage express checkout
 	\item Exchange products
+	\item Identify stock items
 	\item Handle inventory
 	\item Change price
 	\item \textbf{Data objects}: stockItem, store
@@ -158,6 +158,7 @@ In the previous step, cohesive clusters of activity cluster nodes and data objec
     \item[]
     \item[]
     \item[]
+    \item[]
 	\end{itemize}
 	\end{flushleft}
 	
@@ -167,11 +168,11 @@ In the previous step, cohesive clusters of activity cluster nodes and data objec
 	\textbf{Microservice 3}
 	\begin{flushleft}
 	\begin{itemize}[noitemsep]
-		\item Handle products
-		\item Create Orders
-		\item Handle Deliveries
-		\item Handle Supplier
-		\item \textbf{Data Objects}: Product, Order
+		\item Show products
+		\item Create orders
+		\item Handle deliveries
+		\item Show suppliers
+		\item \textbf{Data Objects}: product, order
 	\end{itemize}
 \end{flushleft}
 \end{multicols}
