@@ -1,6 +1,6 @@
 \chapter{Evaluation}
 \label{ch:Evalutation}
-In the introduction chapter, the \textit{Research Questions} are presented. The third question relates to the elaborated approach and its evaluation.
+In the introduction chapter, the \textit{Research Questions} are presented. The third question relates to the elaborated approach and its evaluation. This chapter outlines... %TODO   chapter beschreiben
 
 
 
@@ -18,8 +18,9 @@ In the introduction chapter, the \textit{Research Questions} are presented. The 
 
 \noindent
 To answer this question efficiently, a \textit{Goal Quality Metrics Plan } (GQM) is to be created that specifies the key aspects of the evaluation. 
-Chapter \ref{ch:SolutionApplication} applies the identification approach to the case study. As a result, a set of microservices was identified where each microservice provides some functionality and administers data object.
-In order to evaluate the approach, we compare those results to two reference sets. In doing so, not only is it checked whether the right services have been found, but also whether the functionality and the data objetcs have been divided up correctly. During the evaluation, those aspects are examined independently.\\
+Chapter \ref{ch:SolutionApplication} applies the identification approach to the running example. As a result, a set of microservices was identified where each microservice provides some functionality and administers data object.
+In order to evaluate the approach, we compare those results to two reference sets. In doing so, not only is it checked whether the right services have been found, but also whether the functionality and the data objects have been divided up correctly. During the evaluation, those aspects are examined independently. Functionality in this sense is a service offered by a microservice that is comprehensible and understood by non-technical stakeholders. 
+\\
 The rest of the chapter is structured as follows: First, the software engineering paradigm \textit{GQM Plan} is introduced. In addition, a metric is presented with which the results of the approach can be compared with two reference models. Second to last, two reference sets are illustrated before the actual results of the approach are finally compared.
 
 
@@ -151,7 +152,7 @@ The remaining part which are the non-relevant and non-retrieved items ($N_{\over
 
 \section{Reference Sets}
 \label{sec:Evaluation:ReferenceSets}
-To evaluate the approach, the identified set of microservices (cf. Sec.\ref{sec:Evalutation:Results}) is compared to two alternative decompositions of the case study: First, a decomposition proposed in the paper \textit{Identifying Microservices Using Functional Decomposition} \cite{FunctionalDecompositionHeinrich} and second, a set of microservices which we manually identified. \\
+To evaluate the approach, the identified set of microservices (cf. Sec.\ref{sec:Evalutation:Results}) is compared to two alternative decompositions of CoCoME: First, a decomposition proposed in the paper \textit{Identifying Microservices Using Functional Decomposition} \cite{FunctionalDecompositionHeinrich} and second, a set of microservices which we manually identified. \\
 
 
 
@@ -161,7 +162,7 @@ As depicted in Sec.\ref{sec:stateOfTheArt:approaches}, Tyszberowicz et al. utili
 As mentioned in Sec.\ref{sec:stateOfTheArt:comparison}, the compulsory and non-trivial revision of nouns and verbs to eliminate synonyms etc. is a substantial disadvantage. 
 
 
-Regarding the evaluation, Tyszberowicz et al. claim that their approach identifies good microservices for a microservice-based system decomposition of CoCoME. The aforementioned evaluation includes a comparison to three independent software projects that implemented CoCoME. Two groups identified, apart from the naming, a similar set of microservices. The third group identified a more detailed decomposition of the case study, but a revision reveals that the additional microservices are only a refinement of the proposed microservices. \\
+Regarding the evaluation, Tyszberowicz et al. claim that their approach identifies good microservices for a microservice-based system decomposition of CoCoME. The aforementioned evaluation includes a comparison to three independent software projects that implemented CoCoME. Two groups identified, apart from the naming, a similar set of microservices. The third group identified a more detailed decomposition of CoCoME, but a revision reveals that the additional microservices are only a refinement of the proposed microservices. \\
 However, the evaluation lacks profundity: Microservices are only compared on a more abstract level, as is not checked whether functionality and data objects are assigned to the correct microservice. The following microservices are identified: 
 
 
@@ -315,4 +316,7 @@ Roughly same services but differences in functionality
 \subsection{Identified Microservices}
 //Hier veranschaulichen was unser Ansatz gefunden hat
 
+
+\subsection{Threads to Validity}
+* Das abstrahieren der FUnktionalität biased by the outcome
 

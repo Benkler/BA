@@ -1,6 +1,6 @@
 \chapter{Background}
 \label{ch:background}
-This chapter introduces and compares the monolithic software architecture and the microservice architecture. Further, benefits and challenges of the microservice architecture are outlined. Also, this chapter introduces a well known and established use case notation technique and a standardized notation to capture business processes.
+This chapter introduces and compares the monolithic software architecture and the microservice architecture. Further, benefits and challenges of the microservice architecture are outlined. Also, it introduces a well known and established use case notation technique and a standardized notation to capture business processes.
 
 
 
@@ -13,57 +13,38 @@ For small applications, this approach works relatively well. They are simple to 
 But once they grow in size, they become exceedingly difficult to understand and hard to maintain without reasonable effort \cite{FunctionalDecompositionHeinrich} \cite{ClassificationOfRefactoring}. A complex and large code base prevents a fast addition of new features and makes the application risky and expensive to evolve \cite{TowardsTechnique}.
 Alterations to the system, even though they might be small, result in a redeployment of the whole monolith application due to its nature being a single unit \cite{FunctionalDecompositionHeinrich}. Moreover, it is difficult to adopt newer technologies without rewriting the whole application, as monolith are build on a specific technology stack \cite{infoq} \cite{ExtractionMazlami}.\\
 Scaling is only possible by duplicating the entire application, namely \textit{horizontal scaling}. Consequently, large portions of the infrastructure remains unused, if only parts of the application need to be upscaled or even used \cite{EnticeApproach} \cite{MigratingTowardsSurvey}. \\
-Chen et al. provide a short résumé:
-
-\vspace*{\fill}
-
-\begin{center}
-\textit{"Successful applications
-	are always growing in size and will eventually become a
-	monstrous monolith after a few years. Once this happens,
-	disadvantages of the monolithic architecture will outweigh
-	its advantages."}\\
-\vspace{0.5cm}
-- Rui Chen \cite{DataflowDrivenChen}
-
-\end{center}
-
-
-
-\vspace*{\fill}
+Rui Chen describes the shortcomings of monolith as follows: "Successful applications
+are always growing in size and will eventually become a
+monstrous monolith after a few years. Once this happens,
+disadvantages of the monolithic architecture will outweigh
+its advantages" \cite{DataflowDrivenChen}.
 
 
 
 \section{Microservices}
 \label{sec:background:microservices}
+M.Fowler and J.Lewis describe the microservice architectural style as "an approach to developing a single application as a suite of small services, each running in its own process and communicating with lightweight mechanisms, often an HTTP resource API"\cite{Fowler}.
 
-\vspace*{\fill}
-
-\begin{center}
-\textit{ "The microservice architectural style is an approach to developing a single application as a suite of small services, each running in its own process and communicating with lightweight mechanisms, often an HTTP resource API."   } \\
-\vspace{0.5cm}
- - Martin Fowler \cite{Fowler}
-\end{center}
-
-\vspace*{\fill}
-
-\subsection{Definition}
-The above quotation is a widely adopted definition of the term \textit{Microservice}, provided by M. Fowler and J. Lewis \cite{Fowler}, the pioneers of the microservice architecture. However, the term is not formally defined. Amiri et al. describes microservices as a collection of cohesive and loosely coupled components, where each service implements a business capability.
- The author introduces three principles upon which the architecture is build: \textit{Bounded Context, Size, Independence} \cite{ObjectAwareAmiri}. \\
- The first principle is about related functionality, that is combined in a single business capability - the  \textit{bounded context} \cite{FunctionalDecompositionHeinrich}. Each capability is implemented by one microservice. 
-The \textit{Size} of a microservice is defined by the number of features it provides (namely bundled functional capabilities)  \cite{WorkloadbasedClustering}. There is no consensus about the "proper" size of a microservice \cite{DomainEngineeringMunezero}, but several guidelines exists: Services should focus on one business capability only \cite{ObjectAwareAmiri}. Others state, that the size of a microservice should not exceed a level, where it cannot be rewritten within six weeks \cite{WorkloadbasedClustering}. However, the sizes vary from system to system \cite{FunctionalDecompositionHeinrich} and even different sizes for each microservice in a specific system are possible \cite{DomainEngineeringMunezero}. The bottom line of \textit{Independence} is in Amiri's description of microservices as "a collection of high cohesive and loosely coupled components" \cite{ObjectAwareAmiri}. High cohesive services implement a relatively independent piece of business logic (at the most one business capability). Further, microservices should hardly depend on each other, which is the idea of being loosely coupled \cite{DataflowDrivenChen}.
-\\
-Communication between microservices is achieved by lightweight message passing mechanisms such as \textit{REST}. Each service exposes a well defined interface (\textit{API}) with endpoints that provide information using standard data formats \cite{FunctionalDecompositionHeinrich}. 
-The design of microservices mainly follows the \textit{Single Responsibility Principle (SRP)}: Each service should not have more than one reason to change \cite{TowardsUnderstandingEvolution}. The SRP mainly corresponds to the idea of not implementing more than one business capability.
-The following covers the benefits and challenges of the microservice architecture.
-
-
-\begin{figure}[]
+\begin{figure}[t]
 	\includegraphics[width=\textwidth, trim={5cm 8cm 8cm 3cm}]{img/Architektur.pdf}
 	\caption{Monolithic vs. Microservice Architecture}
 	\label{fig:architekturMonolithVsMS}
 \end{figure}
 
+\subsection{Definition}
+Yet, the term microservices is not formally defined in academia. A popular definition of microservices is  "a collection of cohesive and loosely coupled components, where each service implements a business capability"\cite{ObjectAwareAmiri}.
+Amiri introduces three principles upon which the architecture is build: \textit{Bounded Context, Size, Independence} \cite{ObjectAwareAmiri}. \\
+The first principle is about related functionality, that is combined in a single business capability - the  \textit{bounded context} \cite{FunctionalDecompositionHeinrich}. Each capability is implemented by one microservice. 
+The \textit{Size} of a microservice is defined by the number of features it provides (namely bundled functional capabilities)  \cite{WorkloadbasedClustering}. There is no consensus about the "proper" size of a microservice \cite{DomainEngineeringMunezero}, but several guidelines exists: Services should focus on one business capability only \cite{ObjectAwareAmiri}. Others state, that the size of a microservice should not exceed a level, where it cannot be rewritten within six weeks \cite{WorkloadbasedClustering}. However, the sizes vary from system to system \cite{FunctionalDecompositionHeinrich} and even different sizes for each microservice in a specific system are possible \cite{DomainEngineeringMunezero}. The bottom line of \textit{Independence} is in Amiri's description of microservices as "a collection of high cohesive and loosely coupled components" \cite{ObjectAwareAmiri}. High cohesive services implement a relatively independent piece of business logic (at the most one business capability). Further, microservices should hardly depend on each other, which is the idea of being loosely coupled \cite{DataflowDrivenChen}.\\
+Communication between microservices is achieved by lightweight message passing mechanisms such as \textit{REST}. Each service exposes a well defined interface (\textit{API}) with endpoints that provide information using standard data formats \cite{FunctionalDecompositionHeinrich}. 
+The design of microservices mainly follows the \textit{Single Responsibility Principle (SRP)}: Each service should not have more than one reason to change \cite{TowardsUnderstandingEvolution}. The SRP mainly corresponds to the idea of not implementing more than one business capability.
+The following covers the benefits and challenges of the microservice architecture.
+
+
+
+
+
+\FloatBarrier
 
 \subsection{Benefits}
 \textbf{Fast and Independent Deployment} \\
@@ -108,7 +89,7 @@ Besides, the distributed microservice landscape complicates the logging mechanis
 \textbf{Organizational Challenges}\\
 The microservice approach needs the establishment of cross-functional teams \cite{Fowler}. Adopting \textit{Continuous Practices}, such as \textit{Continuous Deployment}, are essential for the success of a profitable microservice architecture. Therefore, closer collaboration between development teams, operational staff and management has to be established. In summary, a costly and time consuming restructuring process of the entire organization is required \cite{NikoProseminar}. \\
 
-\pagebreak
+
 
 \noindent
 \textbf{Data Consistency}\\
@@ -174,9 +155,9 @@ However, the transformation as presented in Sec.\ref{sec:PrepApproach:TransformU
 The Business Process and Model Notation (BPMN) is a graph oriented language to describe business processes. Originally, BPMN was designed to describe activities and their control flow dependencies only \cite{VisualizeBPMN}. Since the introduction of BPMN 2.0, it is possible to model the data needs and the data results of activities \cite{OMG}. Consequently, BPMN is capable to express the control flow and to approximate the data flow of business processes \cite{DataFlowErrorBPMN}. In the remainder, we use BPMN instead of BPMN 2.0 for the sake of convenience. \\
 BPMN is easy-to-use, powerful and widely adopted in academia and industry. Hence, BPMN is a suitable approach to extract the implicitly given data flow and control flow in the use case description. Sec.\ref{sec:PrepApproach:TransformUCtoBPMN} introduces a formal approach to generate BPMN processes from use case sets. Next, the BPMN 2.0 process definition is shortly introduced:
 
-
+%"l, b, r, t"
 \begin{figure}[h!]
-	\includegraphics[width=\textwidth, trim={1cm 16.5cm 19.2cm 1cm}]{img/Overview.pdf}
+	\includegraphics[width=\textwidth, trim={1cm 16.8cm 19.5cm 1cm}]{img/Overview.pdf}
 	\caption{BPMN Notation (Subset)}
 	\label{fig:BPMNSubset}
 \end{figure}

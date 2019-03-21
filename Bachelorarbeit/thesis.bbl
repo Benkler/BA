@@ -619,6 +619,40 @@
       \field{type}{techreport}
       \field{year}{1992}
     \endentry
+    \entry{DevOps}{book}{}
+      \name{author}{3}{}{%
+        {{hash=97196c0aaced1368c3042b9299a9b34b}{%
+           family={Bass},
+           familyi={B\bibinitperiod},
+           given={Len},
+           giveni={L\bibinitperiod}}}%
+        {{hash=abc750fbcc7dcb3bfa0e713bc89d28ff}{%
+           family={Weber},
+           familyi={W\bibinitperiod},
+           given={Ingo},
+           giveni={I\bibinitperiod}}}%
+        {{hash=c10b260d67a13ae922e9d8c5819ce74d}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Liming},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley Professional}%
+      }
+      \strng{namehash}{c005d805a98beed048a923e08cab17ec}
+      \strng{fullhash}{c005d805a98beed048a923e08cab17ec}
+      \strng{bibnamehash}{c005d805a98beed048a923e08cab17ec}
+      \strng{authorbibnamehash}{c005d805a98beed048a923e08cab17ec}
+      \strng{authornamehash}{c005d805a98beed048a923e08cab17ec}
+      \strng{authorfullhash}{c005d805a98beed048a923e08cab17ec}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{DevOps: A software architect's perspective}
+      \field{year}{2015}
+    \endentry
     \entry{gephi}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=f9fab3924b8ea32748aeedb59e2b3b58}{%

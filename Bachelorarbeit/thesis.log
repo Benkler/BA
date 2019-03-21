@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.11)  20 MAR 2019 15:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.11)  21 MAR 2019 15:15
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1285,7 +1285,17 @@ File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 \AM@toc@title=\toks33
 \c@AM@survey=\count326
 \AM@templatesizebox=\box44
-) (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/pgfgantt\pgfgantt.sty
+) (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/placeins\placeins.sty
+Package: placeins 2005/04/18  v 2.2
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count327
+\float@exts=\toks34
+\float@box=\box45
+\@float@everytoks=\toks35
+\@floatcapt=\box46
+)
+(C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/pgfgantt\pgfgantt.sty
 Package: pgfgantt 2018/01/10 v5.0 Draw Gantt diagrams with TikZ
 
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/frontendlayer\tikz.
@@ -1295,7 +1305,7 @@ sty
 y
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfutil
 -common.tex
-\pgfutil@everybye=\toks34
+\pgfutil@everybye=\toks36
 \pgfutil@tempdima=\dimen157
 \pgfutil@tempdimb=\dimen158
 
@@ -1303,7 +1313,7 @@ y
 -common-lists.tex))
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfutil
 -latex.def
-\pgfutil@abb=\box45
+\pgfutil@abb=\box47
 
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/ms\everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
@@ -1325,12 +1335,12 @@ Package: pgfsys 2019/01/05 v3.1 (3.1)
 
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfkeys
 .code.tex
-\pgfkeys@pathtoks=\toks35
-\pgfkeys@temptoks=\toks36
+\pgfkeys@pathtoks=\toks37
+\pgfkeys@temptoks=\toks38
 
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfkeys
 filtered.code.tex
-\pgfkeys@tmptoks=\toks37
+\pgfkeys@tmptoks=\toks39
 ))
 \pgf@x=\dimen159
 \pgf@y=\dimen160
@@ -1342,14 +1352,14 @@ filtered.code.tex
 \pgf@yc=\dimen166
 \w@pgf@writea=\write4
 \r@pgf@reada=\read2
-\c@pgf@counta=\count327
-\c@pgf@countb=\count328
-\c@pgf@countc=\count329
-\c@pgf@countd=\count330
-\t@pgf@toka=\toks38
-\t@pgf@tokb=\toks39
-\t@pgf@tokc=\toks40
-\pgf@sys@id@count=\count331
+\c@pgf@counta=\count328
+\c@pgf@countb=\count329
+\c@pgf@countc=\count330
+\c@pgf@countd=\count331
+\t@pgf@toka=\toks40
+\t@pgf@tokb=\toks41
+\t@pgf@tokc=\toks42
+\pgf@sys@id@count=\count332
 
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pgf.c
 fg
@@ -1368,8 +1378,8 @@ File: pgfsys-common-pdf.def 2019/01/05 v3.1 (3.1)
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pgfsy
 ssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2019/01/05 v3.1 (3.1)
-\pgfsyssoftpath@smallbuffer@items=\count332
-\pgfsyssoftpath@bigbuffer@items=\count333
+\pgfsyssoftpath@smallbuffer@items=\count333
+\pgfsyssoftpath@bigbuffer@items=\count334
 )
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pgfsy
 sprotocol.code.tex
@@ -1388,11 +1398,11 @@ code.tex)
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathparse
 r.code.tex
 \pgfmath@dimen=\dimen167
-\pgfmath@count=\count334
-\pgfmath@box=\box46
-\pgfmath@toks=\toks41
-\pgfmath@stack@operand=\toks42
-\pgfmath@stack@operation=\toks43
+\pgfmath@count=\count335
+\pgfmath@box=\box48
+\pgfmath@toks=\toks43
+\pgfmath@stack@operand=\toks44
+\pgfmath@stack@operation=\toks45
 )
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunct
 ions.code.tex
@@ -1414,7 +1424,7 @@ ions.misc.code.tex)
 ions.integerarithmetics.code.tex)))
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfloat
 .code.tex
-\c@pgfmathroundto@lastzeros=\count335
+\c@pgfmathroundto@lastzeros=\count336
 ))
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcor
 epoints.code.tex
@@ -1449,10 +1459,10 @@ File: pgfcorepathusage.code.tex 2019/01/05 v3.1 (3.1)
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcor
 escopes.code.tex
 File: pgfcorescopes.code.tex 2019/01/05 v3.1 (3.1)
-\pgfpic=\box47
-\pgf@hbox=\box48
-\pgf@layerbox@main=\box49
-\pgf@picture@serial@count=\count336
+\pgfpic=\box49
+\pgf@hbox=\box50
+\pgf@layerbox@main=\box51
+\pgf@picture@serial@count=\count337
 )
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcor
 egraphicstate.code.tex
@@ -1487,7 +1497,7 @@ File: pgfcorearrows.code.tex 2019/01/05 v3.1 (3.1)
 eshade.code.tex
 File: pgfcoreshade.code.tex 2019/01/05 v3.1 (3.1)
 \pgf@max=\dimen191
-\pgf@sys@shading@range@num=\count337
+\pgf@sys@shading@range@num=\count338
 )
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcor
 eimage.code.tex
@@ -1496,7 +1506,7 @@ File: pgfcoreimage.code.tex 2019/01/05 v3.1 (3.1)
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcor
 eexternal.code.tex
 File: pgfcoreexternal.code.tex 2019/01/05 v3.1 (3.1)
-\pgfexternal@startupbox=\box50
+\pgfexternal@startupbox=\box52
 ))
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcor
 elayers.code.tex
@@ -1517,7 +1527,7 @@ File: pgfcorerdf.code.tex 2019/01/05 v3.1 (3.1)
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/modules\pgfmodule
 shapes.code.tex
 File: pgfmoduleshapes.code.tex 2019/01/05 v3.1 (3.1)
-\pgfnodeparttextbox=\box51
+\pgfnodeparttextbox=\box53
 )
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/modules\pgfmodule
 plot.code.tex
@@ -1550,8 +1560,8 @@ Package: pgffor 2019/01/05 v3.1 (3.1)
 .tex)
 \pgffor@iter=\dimen194
 \pgffor@skip=\dimen195
-\pgffor@stack=\toks44
-\pgffor@toks=\toks45
+\pgffor@stack=\toks46
+\pgffor@toks=\toks47
 ))
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendlayer/tik
 z\tikz.code.tex
@@ -1560,7 +1570,7 @@ Package: tikz 2019/01/05 v3.1 (3.1)
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/libraries\pgflibr
 aryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2019/01/05 v3.1 (3.1)
-\pgf@plot@mark@count=\count338
+\pgf@plot@mark@count=\count339
 \pgfplotmarksize=\dimen196
 )
 \tikz@lastx=\dimen197
@@ -1569,23 +1579,23 @@ File: pgflibraryplothandlers.code.tex 2019/01/05 v3.1 (3.1)
 \tikz@lastysaved=\dimen256
 \tikzleveldistance=\dimen257
 \tikzsiblingdistance=\dimen258
-\tikz@figbox=\box52
-\tikz@figbox@bg=\box53
-\tikz@tempbox=\box54
-\tikz@tempbox@bg=\box55
-\tikztreelevel=\count339
-\tikznumberofchildren=\count340
-\tikznumberofcurrentchild=\count341
-\tikz@fig@count=\count342
+\tikz@figbox=\box54
+\tikz@figbox@bg=\box55
+\tikz@tempbox=\box56
+\tikz@tempbox@bg=\box57
+\tikztreelevel=\count340
+\tikznumberofchildren=\count341
+\tikznumberofcurrentchild=\count342
+\tikz@fig@count=\count343
 
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/modules\pgfmodule
 matrix.code.tex
 File: pgfmodulematrix.code.tex 2019/01/05 v3.1 (3.1)
-\pgfmatrixcurrentrow=\count343
-\pgfmatrixcurrentcolumn=\count344
-\pgf@matrix@numberofcolumns=\count345
+\pgfmatrixcurrentrow=\count344
+\pgfmatrixcurrentcolumn=\count345
+\pgf@matrix@numberofcolumns=\count346
 )
-\tikz@expandcount=\count346
+\tikz@expandcount=\count347
 
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibrarytopaths.code.tex
@@ -1603,8 +1613,8 @@ File: pgflibraryarrows.code.tex 2019/01/05 v3.1 (3.1)
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibrarybackgrounds.code.tex
 File: tikzlibrarybackgrounds.code.tex 2019/01/05 v3.1 (3.1)
-\pgf@layerbox@background=\box56
-\pgf@layerboxsaved@background=\box57
+\pgf@layerbox@background=\box58
+\pgf@layerboxsaved@background=\box59
 )
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibrarycalc.code.tex
@@ -1635,24 +1645,24 @@ ar.sty
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfcale
 ndar.code.tex
 File: pgfcalendar.code.tex 2019/01/05 v3.1 (3.1)
-\pgfcalendarcurrentjulian=\count347
+\pgfcalendarcurrentjulian=\count348
 ))
-\gtt@currentline=\count348
-\gtt@lasttitleline=\count349
-\gtt@currgrid=\count350
-\gtt@chartwidth=\count351
-\gtt@lasttitleslot=\count352
-\gtt@elementid=\count353
-\gtt@today@slot=\count354
-\gtt@startjulian=\count355
-\gtt@endjulian=\count356
-\gtt@chartid=\count357
-\gtt@vrule@slot=\count358
-\gtt@calendar@slots=\count359
-\gtt@calendar@weeknumber=\count360
-\gtt@calendar@startofweek=\count361
-\gtt@left@slot=\count362
-\gtt@right@slot=\count363
+\gtt@currentline=\count349
+\gtt@lasttitleline=\count350
+\gtt@currgrid=\count351
+\gtt@chartwidth=\count352
+\gtt@lasttitleslot=\count353
+\gtt@elementid=\count354
+\gtt@today@slot=\count355
+\gtt@startjulian=\count356
+\gtt@endjulian=\count357
+\gtt@chartid=\count358
+\gtt@vrule@slot=\count359
+\gtt@calendar@slots=\count360
+\gtt@calendar@weeknumber=\count361
+\gtt@calendar@startofweek=\count362
+\gtt@left@slot=\count363
+\gtt@right@slot=\count364
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\hyperref.sty"
 Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
 ("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\hobsub-hyperref.sty"
@@ -1692,15 +1702,15 @@ Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen260
-\Hy@linkcounter=\count364
-\Hy@pagecounter=\count365
+\Hy@linkcounter=\count365
+\Hy@pagecounter=\count366
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\pd1enc.def"
 File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count366
+\Hy@SavedSpaceFactor=\count367
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -1713,10 +1723,10 @@ Package hyperref Info: Plain pages OFF on input line 4534.
 Package hyperref Info: Backreferencing OFF on input line 4539.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4772.
-\c@Hy@tempcnt=\count367
+\c@Hy@tempcnt=\count368
 LaTeX Info: Redefining \url on input line 5125.
 \XeTeXLinkMargin=\dimen261
-\Fld@menulength=\count368
+\Fld@menulength=\count369
 \Field@Width=\dimen262
 \Fld@charsize=\dimen263
 Package hyperref Info: Hyper figures OFF on input line 6380.
@@ -1728,16 +1738,16 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6405.
 Package hyperref Info: PDF/A mode OFF on input line 6410.
 LaTeX Info: Redefining \ref on input line 6450.
 LaTeX Info: Redefining \pageref on input line 6454.
-\Hy@abspage=\count369
-\c@Item=\count370
-\c@Hfootnote=\count371
+\Hy@abspage=\count370
+\c@Item=\count371
+\c@Hfootnote=\count372
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\hpdftex.def"
 File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
-\Fld@listcount=\count372
-\c@bookmark@seq@number=\count373
+\Fld@listcount=\count373
+\c@bookmark@seq@number=\count374
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
@@ -1748,37 +1758,35 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\rotating.sty"
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count374
+\c@r@tfl@t=\count375
 \rotFPtop=\skip104
 \rotFPbot=\skip105
-\rot@float@box=\box58
-\rot@mess@toks=\toks46
+\rot@float@box=\box60
+\rot@mess@toks=\toks48
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/tools\multicol.sty"
 Package: multicol 2018/12/27 v1.8v multicolumn formatting (FMi)
-\c@tracingmulticols=\count375
-\mult@box=\box59
+\c@tracingmulticols=\count376
+\mult@box=\box61
 \multicol@leftmargin=\dimen264
-\c@unbalance=\count376
-\c@collectmore=\count377
-\doublecol@number=\count378
-\multicoltolerance=\count379
-\multicolpretolerance=\count380
+\c@unbalance=\count377
+\c@collectmore=\count378
+\doublecol@number=\count379
+\multicoltolerance=\count380
+\multicolpretolerance=\count381
 \full@width=\dimen265
 \page@free=\dimen266
 \premulticols=\dimen267
 \postmulticols=\dimen268
 \multicolsep=\skip106
 \multicolbaselineskip=\skip107
-\partial@page=\box60
-\last@line=\box61
+\partial@page=\box62
+\last@line=\box63
 \maxbalancingoverflow=\dimen269
-\mult@rightbox=\box62
-\mult@grightbox=\box63
-\mult@gfirstbox=\box64
-\mult@firstbox=\box65
-\@tempa=\box66
-\@tempa=\box67
+\mult@rightbox=\box64
+\mult@grightbox=\box65
+\mult@gfirstbox=\box66
+\mult@firstbox=\box67
 \@tempa=\box68
 \@tempa=\box69
 \@tempa=\box70
@@ -1794,14 +1802,16 @@ Package: multicol 2018/12/27 v1.8v multicolumn formatting (FMi)
 \@tempa=\box80
 \@tempa=\box81
 \@tempa=\box82
-\c@columnbadness=\count381
-\c@finalcolumnbadness=\count382
+\@tempa=\box83
+\@tempa=\box84
+\c@columnbadness=\count382
+\c@finalcolumnbadness=\count383
 \last@try=\dimen270
 \multicolovershoot=\dimen271
 \multicolundershoot=\dimen272
-\mult@nat@firstbox=\box83
-\colbreak@box=\box84
-\mc@col@check@num=\count383
+\mult@nat@firstbox=\box85
+\colbreak@box=\box86
+\mc@col@check@num=\count384
 )
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -1832,69 +1842,69 @@ File: german.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count384
-\@quotereset=\count385
+\@quotelevel=\count385
+\@quotereset=\count386
 (thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 88.
-LaTeX Font Info:    Try loading font information for OML+nxlmi on input line 88
+LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 90.
+LaTeX Font Info:    Try loading font information for OML+nxlmi on input line 90
 .
 
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/newtx\omlnxlmi.fd
 File: omlnxlmi.fd 2013/11/19 Fontinst v1.933 font definitions for OML/nxlmi.
 )
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 88.
-LaTeX Font Info:    Try loading font information for U+ntxexa on input line 88.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 90.
+LaTeX Font Info:    Try loading font information for U+ntxexa on input line 90.
 
 
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/newtx\untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 88.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 88.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 90.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 90.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 88.
-LaTeX Font Info:    Try loading font information for LMS+ntxsy on input line 88
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 90.
+LaTeX Font Info:    Try loading font information for LMS+ntxsy on input line 90
 .
 
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/newtx\lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 88.
-LaTeX Font Info:    Try loading font information for LMX+ntxexx on input line 8
-8.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 90.
+LaTeX Font Info:    Try loading font information for LMX+ntxexx on input line 9
+0.
 
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/newtx\lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 88.
-LaTeX Font Info:    Try loading font information for LY1+ptm on input line 88.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 90.
+LaTeX Font Info:    Try loading font information for LY1+ptm on input line 90.
 
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/ly1\ly1ptm.fd
 File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 )
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
 LaTeX Font Info:    Try loading font information for T1+LinuxLibertineT-TLF on 
-input line 88.
+input line 90.
 
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/libertine\t1linuxlibert
 inet-tlf.fd
@@ -1902,7 +1912,7 @@ File: T1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for T1/Li
 nuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 88.
+(Font)              scaled to size 12.0pt on input line 90.
 
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/translations/dicts\tran
 slations-basic-dictionary-english.trsl
@@ -1910,30 +1920,30 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 88.
-\c@mv@tabular=\count386
-\c@mv@boldtabular=\count387
-LaTeX Info: Redefining \microtypecontext on input line 88.
+or `english'. on input line 90.
+\c@mv@tabular=\count387
+\c@mv@boldtabular=\count388
+LaTeX Info: Redefining \microtypecontext on input line 90.
 
 
 Package microtype Warning: `draft' option active.
 (microtype)                Disabling all micro-typographic extensions.
 (microtype)                This might lead to different line and page breaks.
 
-\AtBeginShipoutBox=\box85
+\AtBeginShipoutBox=\box87
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/context/base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count388
+\scratchcounter=\count389
 \scratchdimen=\dimen273
-\scratchbox=\box86
-\nofMPsegments=\count389
-\nofMParguments=\count390
-\everyMPshowfont=\toks47
-\MPscratchCnt=\count391
+\scratchbox=\box88
+\nofMPsegments=\count390
+\nofMParguments=\count391
+\everyMPshowfont=\toks49
+\MPscratchCnt=\count392
 \MPscratchDim=\dimen274
-\MPnumerator=\count392
-\makeMPintoPDFobject=\count393
-\everyMPtoPDFconversion=\toks48
+\MPnumerator=\count393
+\makeMPintoPDFobject=\count394
+\everyMPtoPDFconversion=\toks50
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1955,32 +1965,32 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'thesis.bbl' found.
  (thesis.bbl)
-Package biblatex Info: Reference section=0 on input line 88.
-Package biblatex Info: Reference segment=0 on input line 88.
+Package biblatex Info: Reference section=0 on input line 90.
+Package biblatex Info: Reference segment=0 on input line 90.
 
 ABD: EveryShipout initializing macros
 
 Package hyperref Warning: Draft mode on.
 
-Package hyperref Info: Link coloring OFF on input line 88.
+Package hyperref Info: Link coloring OFF on input line 90.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 ("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count394
+\c@section@level=\count395
 )
-LaTeX Info: Redefining \ref on input line 88.
-LaTeX Info: Redefining \pageref on input line 88.
-LaTeX Info: Redefining \nameref on input line 88.
+LaTeX Info: Redefining \ref on input line 90.
+LaTeX Info: Redefining \pageref on input line 90.
+LaTeX Info: Redefining \nameref on input line 90.
 Class scrbook Info: loading recommended package `bookmark'.
 (scrbook)           Using `bookmark' together with `hyperref' is recommended,
 (scrbook)           because of handling of possible bookmark level gaps.
 (scrbook)           You can avoid loading `bookmark' with KOMA-Script option
 (scrbook)           `bookmarkpackage=false' before \begin{document} and
 (scrbook)           you can avoid this message with `\usepackage{bookmark}'
-(scrbook)           before \begin{document} on input line 88.
+(scrbook)           before \begin{document} on input line 90.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\bookmark.sty"
 Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
@@ -1990,22 +2000,22 @@ File: bkm-pdftex.def 2016/05/17 v1.26 bookmark driver for pdfTeX (HO)
 Package auxhook Info: \AddLineBeginMainAux comes a little late,
 (auxhook)             because the main .aux file is already opened on input lin
 e 164.
-\BKM@id=\count395
+\BKM@id=\count396
 ))
 <logos/kitlogo_en_cmyk.pdf, id=4, 198.7425pt x 92.345pt>
 File: logos/kitlogo_en_cmyk.pdf Graphic file (type pdf)
 <use logos/kitlogo_en_cmyk.pdf>
-Package pdftex.def Info: logos/kitlogo_en_cmyk.pdf  used on input line 96.
+Package pdftex.def Info: logos/kitlogo_en_cmyk.pdf  used on input line 98.
 (pdftex.def)             Requested size: 110.22453pt x 51.21504pt.
 <logos/sdqlogo.pdf, id=5, 558.085pt x 280.24701pt>
 File: logos/sdqlogo.pdf Graphic file (type pdf)
 <use logos/sdqlogo.pdf>
-Package pdftex.def Info: logos/sdqlogo.pdf  used on input line 96.
+Package pdftex.def Info: logos/sdqlogo.pdf  used on input line 98.
 (pdftex.def)             Requested size: 101.98378pt x 51.21504pt.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 24.88pt on input line 96.
+(Font)              scaled to size 24.88pt on input line 98.
 LaTeX Font Info:    Try loading font information for T1+SourceSansPro-LF on inp
-ut line 96.
+ut line 98.
 
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/sourcesanspro\t1sources
 anspro-lf.fd
@@ -2013,15 +2023,15 @@ File: T1SourceSansPro-LF.fd 2016/12/03 (autoinst) Font definitions for T1/Sourc
 eSansPro-LF.
 )
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/m/n' will be
-(Font)              scaled to size 22.88956pt on input line 96.
+(Font)              scaled to size 22.88956pt on input line 98.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/b/n' will be
-(Font)              scaled to size 22.88956pt on input line 96.
+(Font)              scaled to size 22.88956pt on input line 98.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 96.
+(Font)              scaled to size 14.4pt on input line 98.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 96.
+(Font)              scaled to size 17.28pt on input line 98.
 LaTeX Font Info:    Try loading font information for OT1+LinuxLibertineT-TLF on
- input line 96.
+ input line 98.
 
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/libertine\ot1linuxliber
 tinet-tlf.fd
@@ -2029,39 +2039,39 @@ File: OT1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for OT1/
 LinuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 96.
+(Font)              scaled to size 17.28pt on input line 98.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 12.5pt on input line 96.
+(Font)              scaled to size 12.5pt on input line 98.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 9.4pt on input line 96.
-LaTeX Font Info:    Try loading font information for U+ntxmia on input line 96.
+(Font)              scaled to size 9.4pt on input line 98.
+LaTeX Font Info:    Try loading font information for U+ntxmia on input line 98.
 
 
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/newtx\untxmia.fd
 File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsym on input line 96.
+LaTeX Font Info:    Try loading font information for U+ntxsym on input line 98.
 
 
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/newtx\untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 96.
+LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 98.
 
 
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/newtx\untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 96.
+(Font)              scaled to size 14.4pt on input line 98.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.5pt on input line 96.
+(Font)              scaled to size 10.5pt on input line 98.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.9pt on input line 96.
+(Font)              scaled to size 7.9pt on input line 98.
 <title-background.pdf, id=6, 597.50786pt x 845.04686pt>
 File: title-background.pdf Graphic file (type pdf)
 <use title-background.pdf>
-Package pdftex.def Info: title-background.pdf  used on input line 96.
+Package pdftex.def Info: title-background.pdf  used on input line 98.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 
 [1
@@ -2109,7 +2119,7 @@ LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 
 ]
 Package tocbasic Info: character protrusion at toc deactivated on input line 12
-1.
+3.
  (thesis.toc [3
 
 
@@ -2119,7 +2129,7 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 12
 
  [4]
 Package tocbasic Info: character protrusion at lof deactivated on input line 12
-3.
+5.
  (thesis.lof [5
 
 
@@ -2130,7 +2140,7 @@ Package tocbasic Info: character protrusion at lof deactivated on input line 12
 
 [6]
 Package tocbasic Info: character protrusion at lot deactivated on input line 12
-4.
+6.
  (thesis.lot)
 \tf@lot=\write7
 \openout7 = `thesis.lot'.
@@ -2140,6 +2150,21 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 12
 
 ] (sections/introduction.tex
 chapter 1.
+
+Class scrbook Warning: \float@addtolists detected!
+(scrbook)              Implementation of \float@addtolist became
+(scrbook)              deprecated in KOMA-Script v3.01 2008/11/14 and
+(scrbook)              has been replaced by several more flexible
+(scrbook)              features of package `tocbasic`.
+(scrbook)              Since Version 3.12 support for deprecated
+(scrbook)              \float@addtolist interface has been
+(scrbook)              restricted to only some of the KOMA-Script
+(scrbook)              features and been removed from others.
+(scrbook)              Loading of package `scrhack' may help to
+(scrbook)              avoid this warning, if you are using a
+(scrbook)              a package that still implements the
+(scrbook)              deprecated \float@addtolist interface .
+
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/b/n' will be
 (Font)              scaled to size 15.89755pt on input line 10.
 [1
@@ -2167,119 +2192,111 @@ LaTeX Warning: Reference `ch:timetable' on page 3 undefined on input line 88.
 
 ) (sections/background.tex [3]
 chapter 2.
+
+
+pdfTeX warning: pdflatex.exe (file ./img/Architektur.pdf): PDF inclusion: found
+ PDF version <1.7>, but at most version <1.5> allowed
+<img/Architektur.pdf, id=101, 963.6pt x 542.025pt>
+File: img/Architektur.pdf Graphic file (type pdf)
+<use img/Architektur.pdf>
+Package pdftex.def Info: img/Architektur.pdf  used on input line 29.
+(pdftex.def)             Requested size: 455.24416pt x 175.63101pt.
 [4
 
 
 ]
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/b/n' will be
-(Font)              scaled to size 13.24796pt on input line 50.
+(Font)              scaled to size 13.24796pt on input line 34.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/sb/n' will be
-(Font)              scaled to size 13.24796pt on input line 50.
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 61.
-
-
-
-pdfTeX warning: pdflatex.exe (file ./img/Architektur.pdf): PDF inclusion: found
- PDF version <1.7>, but at most version <1.5> allowed
-<img/Architektur.pdf, id=105, 963.6pt x 542.025pt>
-File: img/Architektur.pdf Graphic file (type pdf)
-<use img/Architektur.pdf>
-Package pdftex.def Info: img/Architektur.pdf  used on input line 62.
-(pdftex.def)             Requested size: 455.24416pt x 175.63101pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--71
-
- []
-
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 76--79
+(Font)              scaled to size 13.24796pt on input line 34.
+ [5 <./img/Architektur.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 50--52
 
  []
 
 
-Overfull \hbox (14.67128pt too wide) in paragraph at lines 80--86
+Underfull \hbox (badness 10000) in paragraph at lines 57--60
+
+ []
+
+
+Overfull \hbox (14.67128pt too wide) in paragraph at lines 61--67
 \T1/LinuxLibertineT-TLF/m/n/12 In con-trast, mi-croser-vices are or-ga-nized ar
 ound busi-ness ca-pa-bil-i-ties and re-quire cross-functional,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--86
+Underfull \hbox (badness 10000) in paragraph at lines 61--67
 
  []
 
-[6 <./img/Architektur.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 98--101
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--106
+Underfull \hbox (badness 10000) in paragraph at lines 79--82
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--110
-
- []
-
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 113--116
+Underfull \hbox (badness 10000) in paragraph at lines 83--87
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--123
+Underfull \hbox (badness 10000) in paragraph at lines 88--91
 
  []
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Underfull \hbox (badness 10000) in paragraph at lines 94--97
 
-[8]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--104
+
+ []
+
+[7] [8]
 
 pdfTeX warning: pdflatex.exe (file ./img/Overview.pdf): PDF inclusion: found PD
 F version <1.7>, but at most version <1.5> allowed
 <img/Overview.pdf, id=131, 845.07718pt x 597.55246pt>
 File: img/Overview.pdf Graphic file (type pdf)
 <use img/Overview.pdf>
-Package pdftex.def Info: img/Overview.pdf  used on input line 179.
-(pdftex.def)             Requested size: 455.24416pt x 167.78801pt.
+Package pdftex.def Info: img/Overview.pdf  used on input line 160.
+(pdftex.def)             Requested size: 455.24416pt x 158.41219pt.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.8pt on input line 185.
+(Font)              scaled to size 8.8pt on input line 166.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 185.
+(Font)              scaled to size 10.0pt on input line 166.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 185.
+(Font)              scaled to size 10.0pt on input line 166.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.3pt on input line 185.
+(Font)              scaled to size 7.3pt on input line 166.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 5.5pt on input line 185.
+(Font)              scaled to size 5.5pt on input line 166.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.3pt on input line 185.
+(Font)              scaled to size 7.3pt on input line 166.
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--187
+Underfull \hbox (badness 10000) in paragraph at lines 165--168
 
  []
 
-[9 <./img/Overview.pdf>]) (sections/CoCoME.tex [10]
+) (sections/CoCoME.tex [9 <./img/Overview.pdf>]
 chapter 3.
-<img/useCase.pdf, id=206, 845.10378pt x 597.19492pt>
+<img/useCase.pdf, id=202, 845.10378pt x 597.19492pt>
 File: img/useCase.pdf Graphic file (type pdf)
 <use img/useCase.pdf>
 Package pdftex.def Info: img/useCase.pdf  used on input line 22.
 (pdftex.def)             Requested size: 455.24416pt x 153.10065pt.
-[11
+[10
 
 
- <./img/useCase.pdf>]) (sections/stateOfTheArt.tex [12]
+ <./img/useCase.pdf>]) (sections/stateOfTheArt.tex [11]
 chapter 4.
 
 Underfull \hbox (badness 10000) in paragraph at lines 69--69
@@ -2424,10 +2441,10 @@ Underfull \hbox (badness 4454) in paragraph at lines 69--69
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[13
+[12
 
 
-] [14]
+] [13]
 Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
@@ -2447,7 +2464,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 102--105
 
  []
 
-[15
+[14
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 108--111
@@ -2464,7 +2481,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--121
 
  []
 
-[16]
+[15]
 Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
@@ -2479,7 +2496,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 134--137
 
  []
 
-[17]
+[16]
 Underfull \hbox (badness 10000) in paragraph at lines 138--139
 
  []
@@ -2504,7 +2521,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 146--149
 
  []
 
-) (sections/fundamentals.tex [18]
+) (sections/solution.tex [17]
 Underfull \hbox (badness 1917) in paragraph at lines 1--1
 []|\T1/LinuxLibertineT-TLF/m/n/12 meta-data aided graph
  []
@@ -2650,7 +2667,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1
 \T1/LinuxLibertineT-TLF/m/n/12 ence vo-cab-u-lary and
  []
 
-[19
+[18
 
 
 
@@ -2834,48 +2851,103 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1
 []|\T1/LinuxLibertineT-TLF/m/n/12 generating SSAs in
  []
 
-[20
+[19
 
 
 
 
 ]
 chapter 5.
-[21
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--6
+
+ []
+
+[20
 
 
 
 ]
 
+pdfTeX warning: pdflatex.exe (file ./img/ThesisProcess.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+<img/ThesisProcess.pdf, id=245, 845.07718pt x 597.55246pt>
+File: img/ThesisProcess.pdf Graphic file (type pdf)
+<use img/ThesisProcess.pdf>
+Package pdftex.def Info: img/ThesisProcess.pdf  used on input line 61.
+(pdftex.def)             Requested size: 455.24416pt x 111.20042pt.
+[21 <./img/ThesisProcess.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 73--75
+
+ []
+
+
+
+pdfTeX warning: pdflatex.exe (file ./img/usecaseTransformation.pdf): PDF inclus
+ion: found PDF version <1.7>, but at most version <1.5> allowed
+<img/usecaseTransformation.pdf, id=308, 845.07718pt x 597.55246pt>
+File: img/usecaseTransformation.pdf Graphic file (type pdf)
+<use img/usecaseTransformation.pdf>
+Package pdftex.def Info: img/usecaseTransformation.pdf  used on input line 95.
+(pdftex.def)             Requested size: 455.24416pt x 128.6366pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[22]
+
+pdfTeX warning: pdflatex.exe (file ./img/JoinBPMNpostcondition.pdf): PDF inclus
+ion: found PDF version <1.7>, but at most version <1.5> allowed
+<img/JoinBPMNpostcondition.pdf, id=313, 845.07718pt x 597.55246pt>
+File: img/JoinBPMNpostcondition.pdf Graphic file (type pdf)
+<use img/JoinBPMNpostcondition.pdf>
+Package pdftex.def Info: img/JoinBPMNpostcondition.pdf  used on input line 119.
+
+(pdftex.def)             Requested size: 184.37137pt x 110.10103pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./img/JoinBPMNPrecondition.pdf): PDF inclusi
+on: found PDF version <1.7>, but at most version <1.5> allowed
+<img/JoinBPMNPrecondition.pdf, id=314, 845.07718pt x 597.55246pt>
+File: img/JoinBPMNPrecondition.pdf Graphic file (type pdf)
+<use img/JoinBPMNPrecondition.pdf>
+Package pdftex.def Info: img/JoinBPMNPrecondition.pdf  used on input line 125.
+(pdftex.def)             Requested size: 184.37137pt x 110.10103pt.
+[23 <./img/usecaseTransformation.pdf> <./img/JoinBPMNpostcondition.pdf
+
+pdfTeX warning: pdflatex.exe (file ./img/JoinBPMNpostcondition.pdf): PDF inclus
+ion: multiple pdfs with page group included in a single page
+> <./img/JoinBPMNPrecondition.pdf
+
+pdfTeX warning: pdflatex.exe (file ./img/JoinBPMNPrecondition.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+>] [24] [25]
+
 pdfTeX warning: pdflatex.exe (file ./img/ExtractDFDRestore.pdf): PDF inclusion:
  found PDF version <1.7>, but at most version <1.5> allowed
-<img/ExtractDFDRestore.pdf, id=248, 845.07718pt x 597.55246pt>
+<img/ExtractDFDRestore.pdf, id=388, 845.07718pt x 597.55246pt>
 File: img/ExtractDFDRestore.pdf Graphic file (type pdf)
 <use img/ExtractDFDRestore.pdf>
-Package pdftex.def Info: img/ExtractDFDRestore.pdf  used on input line 43.
+Package pdftex.def Info: img/ExtractDFDRestore.pdf  used on input line 186.
 (pdftex.def)             Requested size: 455.24416pt x 119.84204pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./img/ExtractDFDGateWaySplit.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/ExtractDFDGateWaySplit.pdf, id=249, 845.07718pt x 597.55246pt>
+<img/ExtractDFDGateWaySplit.pdf, id=389, 845.07718pt x 597.55246pt>
 File: img/ExtractDFDGateWaySplit.pdf Graphic file (type pdf)
 <use img/ExtractDFDGateWaySplit.pdf>
-Package pdftex.def Info: img/ExtractDFDGateWaySplit.pdf  used on input line 49.
-
-(pdftex.def)             Requested size: 398.33858pt x 156.86325pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+Package pdftex.def Info: img/ExtractDFDGateWaySplit.pdf  used on input line 192
+.
+(pdftex.def)             Requested size: 369.88582pt x 145.65858pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./img/ExtractDFDGateWayMerge.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/ExtractDFDGateWayMerge.pdf, id=250, 845.07718pt x 597.55246pt>
+<img/ExtractDFDGateWayMerge.pdf, id=390, 845.07718pt x 597.55246pt>
 File: img/ExtractDFDGateWayMerge.pdf Graphic file (type pdf)
 <use img/ExtractDFDGateWayMerge.pdf>
-Package pdftex.def Info: img/ExtractDFDGateWayMerge.pdf  used on input line 55.
-
+Package pdftex.def Info: img/ExtractDFDGateWayMerge.pdf  used on input line 198
+.
 (pdftex.def)             Requested size: 398.33858pt x 172.54465pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -2884,153 +2956,73 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 pdfTeX warning: pdflatex.exe (file ./img/ExtractDFDRemove.pdf): PDF inclusion: 
 found PDF version <1.7>, but at most version <1.5> allowed
-<img/ExtractDFDRemove.pdf, id=251, 845.07718pt x 597.55246pt>
+<img/ExtractDFDRemove.pdf, id=391, 845.07718pt x 597.55246pt>
 File: img/ExtractDFDRemove.pdf Graphic file (type pdf)
 <use img/ExtractDFDRemove.pdf>
-Package pdftex.def Info: img/ExtractDFDRemove.pdf  used on input line 61.
+Package pdftex.def Info: img/ExtractDFDRemove.pdf  used on input line 204.
 (pdftex.def)             Requested size: 455.24416pt x 139.61116pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (sections/solution.tex [22 <./img/ExtractDFDRestore.pdf>] [23 <./img/ExtractD
-FDGateWaySplit.pdf> <./img/ExtractDFDGateWayMerge.pdf
+[26 <./img/ExtractDFDRestore.pdf> <./img/ExtractDFDGateWaySplit.pdf
 
-pdfTeX warning: pdflatex.exe (file ./img/ExtractDFDGateWayMerge.pdf): PDF inclu
+pdfTeX warning: pdflatex.exe (file ./img/ExtractDFDGateWaySplit.pdf): PDF inclu
 sion: multiple pdfs with page group included in a single page
-> <./img/ExtractDFDRemove.pdf
+>] [27 <./img/ExtractDFDGateWayMerge.pdf> <./img/ExtractDFDRemove.pdf
 
 pdfTeX warning: pdflatex.exe (file ./img/ExtractDFDRemove.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
 >]
-chapter 6.
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--6
-
- []
-
-[24
-
-
-]
-
-pdfTeX warning: pdflatex.exe (file ./img/ThesisProcess.pdf): PDF inclusion: fou
-nd PDF version <1.7>, but at most version <1.5> allowed
-<img/ThesisProcess.pdf, id=570, 845.07718pt x 597.55246pt>
-File: img/ThesisProcess.pdf Graphic file (type pdf)
-<use img/ThesisProcess.pdf>
-Package pdftex.def Info: img/ThesisProcess.pdf  used on input line 61.
-(pdftex.def)             Requested size: 455.24416pt x 111.20042pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--75
-
- []
-
-[25 <./img/ThesisProcess.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 76--78
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--83
-
- []
-
-[26]
-
-pdfTeX warning: pdflatex.exe (file ./img/usecaseTransformation.pdf): PDF inclus
-ion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/usecaseTransformation.pdf, id=636, 845.07718pt x 597.55246pt>
-File: img/usecaseTransformation.pdf Graphic file (type pdf)
-<use img/usecaseTransformation.pdf>
-Package pdftex.def Info: img/usecaseTransformation.pdf  used on input line 106.
-
-(pdftex.def)             Requested size: 455.24416pt x 128.6366pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./img/JoinBPMNpostcondition.pdf): PDF inclus
-ion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/JoinBPMNpostcondition.pdf, id=637, 845.07718pt x 597.55246pt>
-File: img/JoinBPMNpostcondition.pdf Graphic file (type pdf)
-<use img/JoinBPMNpostcondition.pdf>
-Package pdftex.def Info: img/JoinBPMNpostcondition.pdf  used on input line 117.
-
-(pdftex.def)             Requested size: 184.37137pt x 137.61552pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./img/JoinBPMNPrecondition.pdf): PDF inclusi
-on: found PDF version <1.7>, but at most version <1.5> allowed
-<img/JoinBPMNPrecondition.pdf, id=638, 845.07718pt x 597.55246pt>
-File: img/JoinBPMNPrecondition.pdf Graphic file (type pdf)
-<use img/JoinBPMNPrecondition.pdf>
-Package pdftex.def Info: img/JoinBPMNPrecondition.pdf  used on input line 123.
-(pdftex.def)             Requested size: 184.37137pt x 137.61552pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[27 <./img/usecaseTransformation.pdf>] [28 <./img/JoinBPMNpostcondition.pdf> <.
-/img/JoinBPMNPrecondition.pdf
-
-pdfTeX warning: pdflatex.exe (file ./img/JoinBPMNPrecondition.pdf): PDF inclusi
-on: multiple pdfs with page group included in a single page
->] [29]
 
 pdfTeX warning: pdflatex.exe (file ./img/ControlFlowExample.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
-<img/ControlFlowExample.pdf, id=714, 845.07718pt x 597.55246pt>
+<img/ControlFlowExample.pdf, id=706, 845.07718pt x 597.55246pt>
 File: img/ControlFlowExample.pdf Graphic file (type pdf)
 <use img/ControlFlowExample.pdf>
-Package pdftex.def Info: img/ControlFlowExample.pdf  used on input line 173.
+Package pdftex.def Info: img/ControlFlowExample.pdf  used on input line 229.
 (pdftex.def)             Requested size: 455.24416pt x 118.13405pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./img/ControlFlowGraph.pdf): PDF inclusion: 
 found PDF version <1.7>, but at most version <1.5> allowed
-<img/ControlFlowGraph.pdf, id=715, 963.6pt x 542.025pt>
+<img/ControlFlowGraph.pdf, id=707, 963.6pt x 542.025pt>
 File: img/ControlFlowGraph.pdf Graphic file (type pdf)
 <use img/ControlFlowGraph.pdf>
-Package pdftex.def Info: img/ControlFlowGraph.pdf  used on input line 180.
+Package pdftex.def Info: img/ControlFlowGraph.pdf  used on input line 236.
 (pdftex.def)             Requested size: 341.43306pt x 177.1782pt.
+[28 <./img/ControlFlowExample.pdf> <./img/ControlFlowGraph.pdf
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[30 <./img/ControlFlowExample.pdf>]
+pdfTeX warning: pdflatex.exe (file ./img/ControlFlowGraph.pdf): PDF inclusion: 
+multiple pdfs with page group included in a single page
+>]
 
 pdfTeX warning: pdflatex.exe (file ./img/DataFlowExample.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
 <img/DataFlowExample.pdf, id=774, 845.07718pt x 597.55246pt>
 File: img/DataFlowExample.pdf Graphic file (type pdf)
 <use img/DataFlowExample.pdf>
-Package pdftex.def Info: img/DataFlowExample.pdf  used on input line 205.
-(pdftex.def)             Requested size: 455.24416pt x 211.2617pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[31 <./img/ControlFlowGraph.pdf>]
+Package pdftex.def Info: img/DataFlowExample.pdf  used on input line 261.
+(pdftex.def)             Requested size: 341.43306pt x 158.44676pt.
+[29 <./img/DataFlowExample.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./img/ProcessDataDFD.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
-<img/ProcessDataDFD.pdf, id=786, 845.07718pt x 597.55246pt>
+<img/ProcessDataDFD.pdf, id=789, 845.07718pt x 597.55246pt>
 File: img/ProcessDataDFD.pdf Graphic file (type pdf)
 <use img/ProcessDataDFD.pdf>
-Package pdftex.def Info: img/ProcessDataDFD.pdf  used on input line 234.
-(pdftex.def)             Requested size: 312.9803pt x 164.59999pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[32 <./img/DataFlowExample.pdf>]
+Package pdftex.def Info: img/ProcessDataDFD.pdf  used on input line 289.
+(pdftex.def)             Requested size: 256.0748pt x 118.83363pt.
+[30 <./img/ProcessDataDFD.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./img/DataFlowGraph.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<img/DataFlowGraph.pdf, id=804, 963.6pt x 542.025pt>
+<img/DataFlowGraph.pdf, id=832, 963.6pt x 542.025pt>
 File: img/DataFlowGraph.pdf Graphic file (type pdf)
 <use img/DataFlowGraph.pdf>
-Package pdftex.def Info: img/DataFlowGraph.pdf  used on input line 255.
+Package pdftex.def Info: img/DataFlowGraph.pdf  used on input line 310.
 (pdftex.def)             Requested size: 284.52756pt x 166.02908pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[33 <./img/ProcessDataDFD.pdf>] [34 <./img/DataFlowGraph.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 318--319
+[31 <./img/DataFlowGraph.pdf>] [32]
+Underfull \hbox (badness 10000) in paragraph at lines 373--374
 
  []
 
@@ -3038,45 +3030,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 318--319
 
 pdfTeX warning: pdflatex.exe (file ./img/MatchCluster.pdf): PDF inclusion: foun
 d PDF version <1.7>, but at most version <1.5> allowed
-<img/MatchCluster.pdf, id=861, 963.6pt x 542.025pt>
+<img/MatchCluster.pdf, id=852, 963.6pt x 542.025pt>
 File: img/MatchCluster.pdf Graphic file (type pdf)
 <use img/MatchCluster.pdf>
-Package pdftex.def Info: img/MatchCluster.pdf  used on input line 323.
+Package pdftex.def Info: img/MatchCluster.pdf  used on input line 378.
 (pdftex.def)             Requested size: 284.52756pt x 166.02908pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \hbox (1.19936pt too wide) in paragraph at lines 329--334
+Overfull \hbox (1.19936pt too wide) in paragraph at lines 384--389
 \T1/LinuxLibertineT-TLF/m/n/12 high-est edge weight. In this case, the re-sult 
-ob-tained from Fig.6.10 would be \T1/LinuxLibertineT-TLF/m/it/12 (A1,A3,O2),(A2
+ob-tained from Fig.5.14 would be \T1/LinuxLibertineT-TLF/m/it/12 (A1,A3,O2),(A2
 ,O1)\T1/LinuxLibertineT-TLF/m/n/12 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 329--334
+Underfull \hbox (badness 10000) in paragraph at lines 384--389
 
  []
 
-[35] [36 <./img/MatchCluster.pdf>]) (sections/solutionApplication.tex [37]
-chapter 7.
+[33 <./img/MatchCluster.pdf>] [34]) (sections/solutionApplication.tex [35]
+chapter 6.
 
 
 pdfTeX warning: pdflatex.exe (file ./img/UC1.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<img/UC1.pdf, id=879, 845.07718pt x 597.55246pt>
+<img/UC1.pdf, id=871, 845.07718pt x 597.55246pt>
 File: img/UC1.pdf Graphic file (type pdf)
 <use img/UC1.pdf>
 Package pdftex.def Info: img/UC1.pdf  used on input line 14.
 (pdftex.def)             Requested size: 455.24416pt x 218.65398pt.
-[38
+[36
 
 
  <./img/UC1.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./img/UC3Control.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<img/UC3Control.pdf, id=893, 845.07718pt x 597.55246pt>
+<img/UC3Control.pdf, id=885, 845.07718pt x 597.55246pt>
 File: img/UC3Control.pdf Graphic file (type pdf)
 <use img/UC3Control.pdf>
 Package pdftex.def Info: img/UC3Control.pdf  used on input line 29.
@@ -3085,55 +3074,55 @@ Package pdftex.def Info: img/UC3Control.pdf  used on input line 29.
 
 pdfTeX warning: pdflatex.exe (file ./img/UC3DFD.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<img/UC3DFD.pdf, id=894, 845.07718pt x 597.55246pt>
+<img/UC3DFD.pdf, id=886, 845.07718pt x 597.55246pt>
 File: img/UC3DFD.pdf Graphic file (type pdf)
 <use img/UC3DFD.pdf>
 Package pdftex.def Info: img/UC3DFD.pdf  used on input line 41.
 (pdftex.def)             Requested size: 227.62204pt x 206.9526pt.
-<img/CoCoMEControlFlowGraph.pdf, id=895, 777.90625pt x 794.97pt>
+<img/CoCoMEControlFlowGraph.pdf, id=887, 777.90625pt x 794.97pt>
 File: img/CoCoMEControlFlowGraph.pdf Graphic file (type pdf)
 <use img/CoCoMEControlFlowGraph.pdf>
 Package pdftex.def Info: img/CoCoMEControlFlowGraph.pdf  used on input line 52.
 
 (pdftex.def)             Requested size: 455.24416pt x 544.97574pt.
-[39 <./img/UC3Control.pdf> <./img/UC3DFD.pdf
+[37 <./img/UC3Control.pdf> <./img/UC3DFD.pdf
 
 pdfTeX warning: pdflatex.exe (file ./img/UC3DFD.pdf): PDF inclusion: multiple p
 dfs with page group included in a single page
->] [40 <./img/CoCoMEControlFlowGraph.pdf>]
-<img/CoCoMEDataFlowGraph.pdf, id=1012, 406.51875pt x 465.74pt>
+>] [38 <./img/CoCoMEControlFlowGraph.pdf>]
+<img/CoCoMEDataFlowGraph.pdf, id=1003, 406.51875pt x 465.74pt>
 File: img/CoCoMEDataFlowGraph.pdf Graphic file (type pdf)
 <use img/CoCoMEDataFlowGraph.pdf>
 Package pdftex.def Info: img/CoCoMEDataFlowGraph.pdf  used on input line 65.
 (pdftex.def)             Requested size: 284.52756pt x 412.61694pt.
- [41 <./img/CoCoMEDataFlowGraph.pdf>]
-<img/CoCoMEActivityCluster.pdf, id=1025, 794.97pt x 435.6275pt>
+ [39 <./img/CoCoMEDataFlowGraph.pdf>]
+<img/CoCoMEActivityCluster.pdf, id=1016, 794.97pt x 435.6275pt>
 File: img/CoCoMEActivityCluster.pdf Graphic file (type pdf)
 <use img/CoCoMEActivityCluster.pdf>
 Package pdftex.def Info: img/CoCoMEActivityCluster.pdf  used on input line 79.
 (pdftex.def)             Requested size: 540.60236pt x 335.91945pt.
-<img/CoCoMEDataClusterWith1.pdf, id=1026, 523.9575pt x 243.91125pt>
+<img/CoCoMEDataClusterWith1.pdf, id=1017, 523.9575pt x 243.91125pt>
 File: img/CoCoMEDataClusterWith1.pdf Graphic file (type pdf)
 <use img/CoCoMEDataClusterWith1.pdf>
 Package pdftex.def Info: img/CoCoMEDataClusterWith1.pdf  used on input line 93.
 
 (pdftex.def)             Requested size: 341.43306pt x 203.05664pt.
-[42 <./img/CoCoMEActivityCluster.pdf>]
+[40 <./img/CoCoMEActivityCluster.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
  []
 
-<img/MatchClusterGraph.pdf, id=1039, 543.02875pt x 203.76125pt>
+<img/MatchClusterGraph.pdf, id=1031, 543.02875pt x 203.76125pt>
 File: img/MatchClusterGraph.pdf Graphic file (type pdf)
 <use img/MatchClusterGraph.pdf>
 Package pdftex.def Info: img/MatchClusterGraph.pdf  used on input line 107.
 (pdftex.def)             Requested size: 341.43306pt x 139.46321pt.
-[43 <./img/CoCoMEDataClusterWith1.pdf> <./img/MatchClusterGraph.pdf
+[41 <./img/CoCoMEDataClusterWith1.pdf> <./img/MatchClusterGraph.pdf
 
 pdfTeX warning: pdflatex.exe (file ./img/MatchClusterGraph.pdf): PDF inclusion:
  multiple pdfs with page group included in a single page
 >]
-<img/MatchClusterClustering.pdf, id=1060, 556.0775pt x 243.91125pt>
+<img/MatchClusterClustering.pdf, id=1052, 556.0775pt x 243.91125pt>
 File: img/MatchClusterClustering.pdf Graphic file (type pdf)
 <use img/MatchClusterClustering.pdf>
 Package pdftex.def Info: img/MatchClusterClustering.pdf  used on input line 120
@@ -3144,22 +3133,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  []
 
-[44 <./img/MatchClusterClustering.pdf>]) (sections/evaluation.tex
-chapter 8.
-[45
+[42 <./img/MatchClusterClustering.pdf>]) (sections/evaluation.tex
+chapter 7.
+[43
 
 
-] [46]
+] [44]
 
 pdfTeX warning: pdflatex.exe (file ./img/PrecisionRecall.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<img/PrecisionRecall.pdf, id=1080, 963.6pt x 542.025pt>
+<img/PrecisionRecall.pdf, id=1071, 963.6pt x 542.025pt>
 File: img/PrecisionRecall.pdf Graphic file (type pdf)
 <use img/PrecisionRecall.pdf>
-Package pdftex.def Info: img/PrecisionRecall.pdf  used on input line 141.
+Package pdftex.def Info: img/PrecisionRecall.pdf  used on input line 142.
 (pdftex.def)             Requested size: 536.80739pt x 371.30759pt.
 
-Overfull \hbox (81.56323pt too wide) in paragraph at lines 141--142
+Overfull \hbox (81.56323pt too wide) in paragraph at lines 142--143
 [][] 
  []
 
@@ -3167,67 +3156,74 @@ Overfull \hbox (81.56323pt too wide) in paragraph at lines 141--142
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--155
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
 
  []
 
-[47] [48 <./img/PrecisionRecall.pdf>]
-Overfull \hbox (1.20425pt too wide) in paragraph at lines 227--231
+[45] [46 <./img/PrecisionRecall.pdf>]
+Overfull \hbox (1.20425pt too wide) in paragraph at lines 228--232
 \T1/LinuxLibertineT-TLF/m/n/12 The iden-ti-fi-ca-tion pro-cess it-self was con-
 ducted man-u-ally and sup-ported by the pre-vi-ous knowl-
  []
 
-[49]) (sections/discussion.tex [50]
-chapter 9.
-) (sections/conclusion.tex [51
+[47]) (sections/discussion.tex [48]
+chapter 8.
+) (sections/conclusion.tex [49
 
 
 ]
-chapter 10.
-) [52
+chapter 9.
+) [50
 
 
 ]
 chapter without number
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 152.
-LaTeX Font Info:    Try loading font information for T1+fvm on input line 152.
+(Font)              scaled to size 12.0pt on input line 153.
+LaTeX Font Info:    Try loading font information for T1+fvm on input line 153.
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/bera\t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 9.35999pt on input line 152.
+(Font)              scaled to size 9.35999pt on input line 153.
 
-Overfull \hbox (12.48131pt too wide) in paragraph at lines 152--152
+Overfull \hbox (12.48131pt too wide) in paragraph at lines 153--153
 []\T1/LinuxLibertineT-TLF/m/n/12 Luciano Baresi, Mar-tin Gar-riga, and Alan De 
 Ren-zis. ``Mi-croser-vices Iden-ti-fi-ca-tion Through
  []
 
 
-Overfull \hbox (2.04593pt too wide) in paragraph at lines 152--152
+Overfull \hbox (2.04593pt too wide) in paragraph at lines 153--153
 []\T1/LinuxLibertineT-TLF/m/n/12 Victor R. Basili. \T1/LinuxLibertineT-TLF/m/it
 /12 Soft-ware Mod-el-ing and Mea-sure-ment: The Goal/Question/Metric Paradigm\T
 1/LinuxLibertineT-TLF/m/n/12 .
  []
 
 
-Overfull \hbox (0.36272pt too wide) in paragraph at lines 152--152
+Overfull \hbox (10.0251pt too wide) in paragraph at lines 153--153
+[]\T1/LinuxLibertineT-TLF/m/n/12 Len Bass, Ingo We-ber, and Lim-ing Zhu. \T1/Li
+nuxLibertineT-TLF/m/it/12 De-vOps: A soft-ware ar-chi-tect's per-spec-tive\T1/L
+inuxLibertineT-TLF/m/n/12 . Addison-
+ []
+
+
+Overfull \hbox (0.36272pt too wide) in paragraph at lines 153--153
 \T1/LinuxLibertineT-TLF/m/it/12 Prac-tices in CI/CD Pipelines\T1/LinuxLibertine
 T-TLF/m/n/12 . Ac-cessed on 20.01.2019. \T1/LinuxLibertineT-TLF/m/sc/12 url\T1/
 LinuxLibertineT-TLF/m/n/12 : $\T1/fvm/m/n/12 https : / / github . com / Benkler
  /
  []
 
-[53
+[51
 
 
-] [54] (sections/appendix.tex [55]
+] [52] (sections/appendix.tex [53]
 chapter A.
 
 
 pdfTeX warning: pdflatex.exe (file ./img/UC3.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<img/UC3.pdf, id=1123, 845.07718pt x 597.55246pt>
+<img/UC3.pdf, id=1115, 845.07718pt x 597.55246pt>
 File: img/UC3.pdf Graphic file (type pdf)
 <use img/UC3.pdf>
 Package pdftex.def Info: img/UC3.pdf  used on input line 30.
@@ -3236,12 +3232,12 @@ Package pdftex.def Info: img/UC3.pdf  used on input line 30.
 
 pdfTeX warning: pdflatex.exe (file ./img/UC4.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<img/UC4.pdf, id=1124, 845.07718pt x 597.55246pt>
+<img/UC4.pdf, id=1116, 845.07718pt x 597.55246pt>
 File: img/UC4.pdf Graphic file (type pdf)
 <use img/UC4.pdf>
 Package pdftex.def Info: img/UC4.pdf  used on input line 39.
 (pdftex.def)             Requested size: 455.24416pt x 158.84009pt.
-[56
+[54
 
 
  <./img/UC3.pdf> <./img/UC4.pdf
@@ -3252,7 +3248,7 @@ pdfTeX warning: pdflatex.exe (file ./img/UC4.pdf): PDF inclusion: multiple pdfs
 
 pdfTeX warning: pdflatex.exe (file ./img/UC5.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<img/UC5.pdf, id=1247, 845.07718pt x 597.55246pt>
+<img/UC5.pdf, id=1239, 845.07718pt x 597.55246pt>
 File: img/UC5.pdf Graphic file (type pdf)
 <use img/UC5.pdf>
 Package pdftex.def Info: img/UC5.pdf  used on input line 49.
@@ -3261,7 +3257,7 @@ Package pdftex.def Info: img/UC5.pdf  used on input line 49.
 
 pdfTeX warning: pdflatex.exe (file ./img/UC6.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<img/UC6.pdf, id=1248, 845.07718pt x 597.55246pt>
+<img/UC6.pdf, id=1240, 845.07718pt x 597.55246pt>
 File: img/UC6.pdf Graphic file (type pdf)
 <use img/UC6.pdf>
 Package pdftex.def Info: img/UC6.pdf  used on input line 57.
@@ -3270,12 +3266,12 @@ Package pdftex.def Info: img/UC6.pdf  used on input line 57.
 
 pdfTeX warning: pdflatex.exe (file ./img/UC7.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<img/UC7.pdf, id=1249, 845.07718pt x 597.55246pt>
+<img/UC7.pdf, id=1241, 845.07718pt x 597.55246pt>
 File: img/UC7.pdf Graphic file (type pdf)
 <use img/UC7.pdf>
 Package pdftex.def Info: img/UC7.pdf  used on input line 65.
 (pdftex.def)             Requested size: 455.24416pt x 190.85104pt.
-[57 <./img/UC5.pdf> <./img/UC6.pdf
+[55 <./img/UC5.pdf> <./img/UC6.pdf
 
 pdfTeX warning: pdflatex.exe (file ./img/UC6.pdf): PDF inclusion: multiple pdfs
  with page group included in a single page
@@ -3287,7 +3283,7 @@ pdfTeX warning: pdflatex.exe (file ./img/UC7.pdf): PDF inclusion: multiple pdfs
 
 pdfTeX warning: pdflatex.exe (file ./img/UC1Control.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<img/UC1Control.pdf, id=1378, 845.07718pt x 597.55246pt>
+<img/UC1Control.pdf, id=1370, 845.07718pt x 597.55246pt>
 File: img/UC1Control.pdf Graphic file (type pdf)
 <use img/UC1Control.pdf>
 Package pdftex.def Info: img/UC1Control.pdf  used on input line 78.
@@ -3296,12 +3292,12 @@ Package pdftex.def Info: img/UC1Control.pdf  used on input line 78.
 
 pdfTeX warning: pdflatex.exe (file ./img/UC4Control.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<img/UC4Control.pdf, id=1379, 845.07718pt x 597.55246pt>
+<img/UC4Control.pdf, id=1371, 845.07718pt x 597.55246pt>
 File: img/UC4Control.pdf Graphic file (type pdf)
 <use img/UC4Control.pdf>
 Package pdftex.def Info: img/UC4Control.pdf  used on input line 87.
 (pdftex.def)             Requested size: 455.24416pt x 163.59271pt.
-[58
+[56
 
  <./img/UC1Control.pdf> <./img/UC4Control.pdf
 
@@ -3311,7 +3307,7 @@ le pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex.exe (file ./img/UC5Control.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<img/UC5Control.pdf, id=1444, 845.07718pt x 597.55246pt>
+<img/UC5Control.pdf, id=1435, 845.07718pt x 597.55246pt>
 File: img/UC5Control.pdf Graphic file (type pdf)
 <use img/UC5Control.pdf>
 Package pdftex.def Info: img/UC5Control.pdf  used on input line 97.
@@ -3320,7 +3316,7 @@ Package pdftex.def Info: img/UC5Control.pdf  used on input line 97.
 
 pdfTeX warning: pdflatex.exe (file ./img/UC6Control.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<img/UC6Control.pdf, id=1445, 845.07718pt x 597.55246pt>
+<img/UC6Control.pdf, id=1436, 845.07718pt x 597.55246pt>
 File: img/UC6Control.pdf Graphic file (type pdf)
 <use img/UC6Control.pdf>
 Package pdftex.def Info: img/UC6Control.pdf  used on input line 105.
@@ -3329,12 +3325,12 @@ Package pdftex.def Info: img/UC6Control.pdf  used on input line 105.
 
 pdfTeX warning: pdflatex.exe (file ./img/UC7Control.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<img/UC7Control.pdf, id=1446, 845.07718pt x 597.55246pt>
+<img/UC7Control.pdf, id=1437, 845.07718pt x 597.55246pt>
 File: img/UC7Control.pdf Graphic file (type pdf)
 <use img/UC7Control.pdf>
 Package pdftex.def Info: img/UC7Control.pdf  used on input line 113.
 (pdftex.def)             Requested size: 455.24416pt x 122.70522pt.
-[59 <./img/UC5Control.pdf> <./img/UC6Control.pdf
+[57 <./img/UC5Control.pdf> <./img/UC6Control.pdf
 
 pdfTeX warning: pdflatex.exe (file ./img/UC6Control.pdf): PDF inclusion: multip
 le pdfs with page group included in a single page
@@ -3346,7 +3342,7 @@ le pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex.exe (file ./img/UC1DFD.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<img/UC1DFD.pdf, id=1553, 845.07718pt x 597.55246pt>
+<img/UC1DFD.pdf, id=1544, 845.07718pt x 597.55246pt>
 File: img/UC1DFD.pdf Graphic file (type pdf)
 <use img/UC1DFD.pdf>
 Package pdftex.def Info: img/UC1DFD.pdf  used on input line 138.
@@ -3355,12 +3351,12 @@ Package pdftex.def Info: img/UC1DFD.pdf  used on input line 138.
 
 pdfTeX warning: pdflatex.exe (file ./img/UC4DFD.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<img/UC4DFD.pdf, id=1554, 845.07718pt x 597.55246pt>
+<img/UC4DFD.pdf, id=1545, 845.07718pt x 597.55246pt>
 File: img/UC4DFD.pdf Graphic file (type pdf)
 <use img/UC4DFD.pdf>
 Package pdftex.def Info: img/UC4DFD.pdf  used on input line 147.
 (pdftex.def)             Requested size: 156.49014pt x 133.2123pt.
-[60 <./img/UC1DFD.pdf> <./img/UC4DFD.pdf
+[58 <./img/UC1DFD.pdf> <./img/UC4DFD.pdf
 
 pdfTeX warning: pdflatex.exe (file ./img/UC4DFD.pdf): PDF inclusion: multiple p
 dfs with page group included in a single page
@@ -3368,7 +3364,7 @@ dfs with page group included in a single page
 
 pdfTeX warning: pdflatex.exe (file ./img/UC5DFD.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<img/UC5DFD.pdf, id=1629, 845.07718pt x 597.55246pt>
+<img/UC5DFD.pdf, id=1621, 845.07718pt x 597.55246pt>
 File: img/UC5DFD.pdf Graphic file (type pdf)
 <use img/UC5DFD.pdf>
 Package pdftex.def Info: img/UC5DFD.pdf  used on input line 157.
@@ -3377,7 +3373,7 @@ Package pdftex.def Info: img/UC5DFD.pdf  used on input line 157.
 
 pdfTeX warning: pdflatex.exe (file ./img/UC6DFD.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<img/UC6DFD.pdf, id=1630, 845.07718pt x 597.55246pt>
+<img/UC6DFD.pdf, id=1622, 845.07718pt x 597.55246pt>
 File: img/UC6DFD.pdf Graphic file (type pdf)
 <use img/UC6DFD.pdf>
 Package pdftex.def Info: img/UC6DFD.pdf  used on input line 165.
@@ -3386,12 +3382,12 @@ Package pdftex.def Info: img/UC6DFD.pdf  used on input line 165.
 
 pdfTeX warning: pdflatex.exe (file ./img/UC7DFD.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<img/UC7DFD.pdf, id=1631, 845.07718pt x 597.55246pt>
+<img/UC7DFD.pdf, id=1623, 845.07718pt x 597.55246pt>
 File: img/UC7DFD.pdf Graphic file (type pdf)
 <use img/UC7DFD.pdf>
 Package pdftex.def Info: img/UC7DFD.pdf  used on input line 173.
 (pdftex.def)             Requested size: 156.49014pt x 183.14734pt.
-) [61 <./img/UC5DFD.pdf> <./img/UC6DFD.pdf
+) [59 <./img/UC5DFD.pdf> <./img/UC6DFD.pdf
 
 pdfTeX warning: pdflatex.exe (file ./img/UC6DFD.pdf): PDF inclusion: multiple p
 dfs with page group included in a single page
@@ -3400,11 +3396,11 @@ dfs with page group included in a single page
 pdfTeX warning: pdflatex.exe (file ./img/UC7DFD.pdf): PDF inclusion: multiple p
 dfs with page group included in a single page
 >]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 160.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 160.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 161.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 161.
  (thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 160.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 160.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 161.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 161.
 
 
 LaTeX Warning: There were undefined references.
@@ -3414,13 +3410,13 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38203 strings out of 492946
- 768898 string characters out of 3135518
- 1355239 words of memory out of 3000000
- 41182 multiletter control sequences out of 15000+200000
+ 38262 strings out of 492946
+ 769806 string characters out of 3135518
+ 1356583 words of memory out of 3000000
+ 41239 multiletter control sequences out of 15000+200000
  194250 words of font info for 206 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 73i,20n,84p,9088b,3176s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 73i,20n,84p,9088b,3175s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{section.A.3} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -3436,15 +3432,6 @@ pdfTeX warning (dest): name{appendix.A} has been referenced but does not exist,
 pdfTeX warning (dest): name{chapter*.6} has been referenced but does not exist,
  replaced by a fixed one
 
-pdfTeX warning (dest): name{section.10.2} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.10.1} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.10} has been referenced but does not exist,
- replaced by a fixed one
-
 pdfTeX warning (dest): name{section.9.2} has been referenced but does not exist
 , replaced by a fixed one
 
@@ -3453,27 +3440,6 @@ pdfTeX warning (dest): name{section.9.1} has been referenced but does not exist
 
 pdfTeX warning (dest): name{chapter.9} has been referenced but does not exist, 
 replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.8.4.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.8.4} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.8.3.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.8.3.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.8.3.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.8.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.8.2.1} has been referenced but does not 
-exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{section.8.2} has been referenced but does not exist
 , replaced by a fixed one
@@ -3484,26 +3450,29 @@ pdfTeX warning (dest): name{section.8.1} has been referenced but does not exist
 pdfTeX warning (dest): name{chapter.8} has been referenced but does not exist, 
 replaced by a fixed one
 
-pdfTeX warning (dest): name{section.7.9} has been referenced but does not exist
-, replaced by a fixed one
+pdfTeX warning (dest): name{subsection.7.4.2} has been referenced but does not 
+exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{section.7.8} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.7.7} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.7.6} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.7.5} has been referenced but does not exist
-, replaced by a fixed one
+pdfTeX warning (dest): name{subsection.7.4.1} has been referenced but does not 
+exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{section.7.4} has been referenced but does not exist
 , replaced by a fixed one
 
+pdfTeX warning (dest): name{subsection.7.3.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.7.3.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.7.3.1} has been referenced but does not 
+exist, replaced by a fixed one
+
 pdfTeX warning (dest): name{section.7.3} has been referenced but does not exist
 , replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.7.2.1} has been referenced but does not 
+exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{section.7.2} has been referenced but does not exist
 , replaced by a fixed one
@@ -3535,12 +3504,6 @@ pdfTeX warning (dest): name{section.6.4} has been referenced but does not exist
 pdfTeX warning (dest): name{section.6.3} has been referenced but does not exist
 , replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.6.2.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.6.2.1} has been referenced but does not 
-exist, replaced by a fixed one
-
 pdfTeX warning (dest): name{section.6.2} has been referenced but does not exist
 , replaced by a fixed one
 
@@ -3550,11 +3513,35 @@ pdfTeX warning (dest): name{section.6.1} has been referenced but does not exist
 pdfTeX warning (dest): name{chapter.6} has been referenced but does not exist, 
 replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.5.1.2} has been referenced but does not 
+pdfTeX warning (dest): name{section.5.9} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.5.8} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.5.7} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.5.6} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.5.5} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.5.4} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.5.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.5.2.2} has been referenced but does not 
 exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.5.1.1} has been referenced but does not 
+pdfTeX warning (dest): name{subsection.5.2.1} has been referenced but does not 
 exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.5.2} has been referenced but does not exist
+, replaced by a fixed one
 
 pdfTeX warning (dest): name{section.5.1} has been referenced but does not exist
 , replaced by a fixed one
@@ -3649,9 +3636,9 @@ sers/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/newtx/txexs.pfb><C:
 /Users/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/newtx/txsys.pfb><
 C:/Users/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/newtx/zxlri.pfb
 >
-Output written on thesis.pdf (70 pages, 3684439 bytes).
+Output written on thesis.pdf (68 pages, 3688683 bytes).
 PDF statistics:
- 2071 PDF objects out of 2073 (max. 8388607)
- 68 named destinations out of 1000 (max. 500000)
- 782 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2050 PDF objects out of 2073 (max. 8388607)
+ 65 named destinations out of 1000 (max. 500000)
+ 758 words of extra memory for PDF output out of 10000 (max. 10000000)
 
