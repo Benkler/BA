@@ -105,34 +105,38 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {7.3.3}Differences between both sets}{48}{subsection.7.3.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.4}Precision and Recall Measurement}{48}{section.7.4}% 
+\contentsline {section}{\numberline {7.4}Precision and Recall Measurement}{49}{section.7.4}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {7.4.1}Reference Set 1}{49}{subsection.7.4.1}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {7.4.2}Reference Set 2}{49}{subsection.7.4.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.5}Evaluation Results}{50}{section.7.5}% 
+\contentsline {section}{\numberline {7.5}Results}{50}{section.7.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.6}Threats to Validity}{50}{section.7.6}% 
+\contentsline {section}{\numberline {7.6}Threats to Validity}{51}{section.7.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Discussion}{51}{chapter.8}% 
+\contentsline {subsection}{\numberline {7.6.1}Internal Validity}{51}{subsection.7.6.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Using Use Cases as Input}{51}{section.8.1}% 
+\contentsline {subsection}{\numberline {7.6.2}External Validity}{51}{subsection.7.6.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Control Flow Graph...}{51}{section.8.2}% 
+\contentsline {chapter}{\numberline {8}Discussion}{52}{chapter.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Conclusion}{52}{chapter.9}% 
+\contentsline {section}{\numberline {8.1}Using Use Cases as Input}{52}{section.8.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.1}Outcomes}{52}{section.9.1}% 
+\contentsline {section}{\numberline {8.2}Control Flow Graph...}{52}{section.8.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.2}Limitations and Future Work}{52}{section.9.2}% 
+\contentsline {chapter}{\numberline {9}Conclusion}{53}{chapter.9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{53}{chapter*.6}% 
+\contentsline {section}{\numberline {9.1}Outcomes}{53}{section.9.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Appendix}{56}{appendix.A}% 
+\contentsline {section}{\numberline {9.2}Limitations and Future Work}{53}{section.9.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}BPMN Models}{56}{section.A.1}% 
+\contentsline {chapter}{\nonumberline Bibliography}{54}{chapter*.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Control Flow Diagrams}{58}{section.A.2}% 
+\contentsline {chapter}{\numberline {A}Appendix}{57}{appendix.A}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Data Flow Diagrams}{60}{section.A.3}% 
+\contentsline {section}{\numberline {A.1}BPMN Models}{57}{section.A.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.2}Control Flow Diagrams}{59}{section.A.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.3}Data Flow Diagrams}{61}{section.A.3}% 

@@ -1844,6 +1844,44 @@
       \range{pages}{7}
       \keyw{Business;Aggregates;Software;Meteorology;Object oriented modeling;Computer architecture;Complexity theory;Sizing microservice;DDD pattern;weather domain}
     \endentry
+    \entry{Validity}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c2a8e681c3043f71fdac582b1490746a}{%
+           family={Ransdell},
+           familyi={R\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{c2a8e681c3043f71fdac582b1490746a}
+      \strng{fullhash}{c2a8e681c3043f71fdac582b1490746a}
+      \strng{bibnamehash}{c2a8e681c3043f71fdac582b1490746a}
+      \strng{authorbibnamehash}{c2a8e681c3043f71fdac582b1490746a}
+      \strng{authornamehash}{c2a8e681c3043f71fdac582b1490746a}
+      \strng{authorfullhash}{c2a8e681c3043f71fdac582b1490746a}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The difficulties inherent in the evaluation of educational software are described in terms of the tradeoffs between internal, external, and ecological validity. Larger issues in evaluation research design and computer-based instruction are highlighted by primary and metaanalytic studies designed to reveal the effects of computer simulations in psychology classrooms and laboratories. The effectiveness of classroom and laboratory computer activities depends on how the inclusion of software, as well as the evaluation process itself, changes the entire instructional process.}
+      \field{issn}{1532-5970}
+      \field{journaltitle}{Behavior Research Methods, Instruments, {\&} Computers}
+      \field{month}{6}
+      \field{number}{2}
+      \field{title}{Educational software evaluation research: Balancing internal, external, and ecological validity}
+      \field{volume}{25}
+      \field{year}{1993}
+      \field{pages}{228\bibrangedash 232}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.3758/BF03204502
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.3758/BF03204502
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.3758/BF03204502
+      \endverb
+    \endentry
     \entry{infoq}{misc}{}
       \name{author}{1}{}{%
         {{hash=d0740bcf48754b8fa2cd3549a1d73461}{%
