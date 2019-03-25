@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.11)  24 MAR 2019 15:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.11)  25 MAR 2019 10:48
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -3181,7 +3181,18 @@ chapter 8.
 [52
 
 
-] [53]) [54]
+]
+Overfull \hbox (4.19145pt too wide) in paragraph at lines 72--75
+\T1/LinuxLibertineT-TLF/m/n/12 Probably the most con-tro-ver-sial is-sue is the
+ iden-ti-fi-ca-tion of data flow de-pen-den-cies (cf. Sec.5.6).
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--75
+
+ []
+
+[53] [54]) [55]
 chapter without number
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/sc' will be
 (Font)              scaled to size 12.0pt on input line 152.
@@ -3219,16 +3230,16 @@ LinuxLibertineT-TLF/m/n/12 : $\T1/fvm/m/n/12 https : / / github . com / Benkler
  /
  []
 
-[55
+[56
 
 
-] [56] (sections/appendix.tex [57]
+] [57] (sections/appendix.tex [58]
 chapter A.
 
 
 pdfTeX warning: pdflatex.exe (file ./img/UC3.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<img/UC3.pdf, id=1127, 845.07718pt x 597.55246pt>
+<img/UC3.pdf, id=1131, 845.07718pt x 597.55246pt>
 File: img/UC3.pdf Graphic file (type pdf)
 <use img/UC3.pdf>
 Package pdftex.def Info: img/UC3.pdf  used on input line 30.
@@ -3237,12 +3248,12 @@ Package pdftex.def Info: img/UC3.pdf  used on input line 30.
 
 pdfTeX warning: pdflatex.exe (file ./img/UC4.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<img/UC4.pdf, id=1128, 845.07718pt x 597.55246pt>
+<img/UC4.pdf, id=1132, 845.07718pt x 597.55246pt>
 File: img/UC4.pdf Graphic file (type pdf)
 <use img/UC4.pdf>
 Package pdftex.def Info: img/UC4.pdf  used on input line 39.
 (pdftex.def)             Requested size: 455.24416pt x 158.84009pt.
-[58
+[59
 
 
  <./img/UC3.pdf> <./img/UC4.pdf
@@ -3253,7 +3264,7 @@ pdfTeX warning: pdflatex.exe (file ./img/UC4.pdf): PDF inclusion: multiple pdfs
 
 pdfTeX warning: pdflatex.exe (file ./img/UC5.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<img/UC5.pdf, id=1252, 845.07718pt x 597.55246pt>
+<img/UC5.pdf, id=1255, 845.07718pt x 597.55246pt>
 File: img/UC5.pdf Graphic file (type pdf)
 <use img/UC5.pdf>
 Package pdftex.def Info: img/UC5.pdf  used on input line 49.
@@ -3262,7 +3273,7 @@ Package pdftex.def Info: img/UC5.pdf  used on input line 49.
 
 pdfTeX warning: pdflatex.exe (file ./img/UC6.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<img/UC6.pdf, id=1253, 845.07718pt x 597.55246pt>
+<img/UC6.pdf, id=1256, 845.07718pt x 597.55246pt>
 File: img/UC6.pdf Graphic file (type pdf)
 <use img/UC6.pdf>
 Package pdftex.def Info: img/UC6.pdf  used on input line 57.
@@ -3271,12 +3282,12 @@ Package pdftex.def Info: img/UC6.pdf  used on input line 57.
 
 pdfTeX warning: pdflatex.exe (file ./img/UC7.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<img/UC7.pdf, id=1254, 845.07718pt x 597.55246pt>
+<img/UC7.pdf, id=1257, 845.07718pt x 597.55246pt>
 File: img/UC7.pdf Graphic file (type pdf)
 <use img/UC7.pdf>
 Package pdftex.def Info: img/UC7.pdf  used on input line 65.
 (pdftex.def)             Requested size: 455.24416pt x 190.85104pt.
-[59 <./img/UC5.pdf> <./img/UC6.pdf
+[60 <./img/UC5.pdf> <./img/UC6.pdf
 
 pdfTeX warning: pdflatex.exe (file ./img/UC6.pdf): PDF inclusion: multiple pdfs
  with page group included in a single page
@@ -3288,7 +3299,7 @@ pdfTeX warning: pdflatex.exe (file ./img/UC7.pdf): PDF inclusion: multiple pdfs
 
 pdfTeX warning: pdflatex.exe (file ./img/UC1Control.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<img/UC1Control.pdf, id=1383, 845.07718pt x 597.55246pt>
+<img/UC1Control.pdf, id=1386, 845.07718pt x 597.55246pt>
 File: img/UC1Control.pdf Graphic file (type pdf)
 <use img/UC1Control.pdf>
 Package pdftex.def Info: img/UC1Control.pdf  used on input line 78.
@@ -3297,12 +3308,12 @@ Package pdftex.def Info: img/UC1Control.pdf  used on input line 78.
 
 pdfTeX warning: pdflatex.exe (file ./img/UC4Control.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<img/UC4Control.pdf, id=1384, 845.07718pt x 597.55246pt>
+<img/UC4Control.pdf, id=1387, 845.07718pt x 597.55246pt>
 File: img/UC4Control.pdf Graphic file (type pdf)
 <use img/UC4Control.pdf>
 Package pdftex.def Info: img/UC4Control.pdf  used on input line 87.
 (pdftex.def)             Requested size: 455.24416pt x 163.59271pt.
-[60
+[61
 
  <./img/UC1Control.pdf> <./img/UC4Control.pdf
 
@@ -3312,7 +3323,7 @@ le pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex.exe (file ./img/UC5Control.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<img/UC5Control.pdf, id=1448, 845.07718pt x 597.55246pt>
+<img/UC5Control.pdf, id=1451, 845.07718pt x 597.55246pt>
 File: img/UC5Control.pdf Graphic file (type pdf)
 <use img/UC5Control.pdf>
 Package pdftex.def Info: img/UC5Control.pdf  used on input line 97.
@@ -3321,7 +3332,7 @@ Package pdftex.def Info: img/UC5Control.pdf  used on input line 97.
 
 pdfTeX warning: pdflatex.exe (file ./img/UC6Control.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<img/UC6Control.pdf, id=1449, 845.07718pt x 597.55246pt>
+<img/UC6Control.pdf, id=1452, 845.07718pt x 597.55246pt>
 File: img/UC6Control.pdf Graphic file (type pdf)
 <use img/UC6Control.pdf>
 Package pdftex.def Info: img/UC6Control.pdf  used on input line 105.
@@ -3330,12 +3341,12 @@ Package pdftex.def Info: img/UC6Control.pdf  used on input line 105.
 
 pdfTeX warning: pdflatex.exe (file ./img/UC7Control.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<img/UC7Control.pdf, id=1450, 845.07718pt x 597.55246pt>
+<img/UC7Control.pdf, id=1453, 845.07718pt x 597.55246pt>
 File: img/UC7Control.pdf Graphic file (type pdf)
 <use img/UC7Control.pdf>
 Package pdftex.def Info: img/UC7Control.pdf  used on input line 113.
 (pdftex.def)             Requested size: 455.24416pt x 122.70522pt.
-[61 <./img/UC5Control.pdf> <./img/UC6Control.pdf
+[62 <./img/UC5Control.pdf> <./img/UC6Control.pdf
 
 pdfTeX warning: pdflatex.exe (file ./img/UC6Control.pdf): PDF inclusion: multip
 le pdfs with page group included in a single page
@@ -3347,7 +3358,7 @@ le pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex.exe (file ./img/UC1DFD.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<img/UC1DFD.pdf, id=1557, 845.07718pt x 597.55246pt>
+<img/UC1DFD.pdf, id=1560, 845.07718pt x 597.55246pt>
 File: img/UC1DFD.pdf Graphic file (type pdf)
 <use img/UC1DFD.pdf>
 Package pdftex.def Info: img/UC1DFD.pdf  used on input line 138.
@@ -3356,12 +3367,12 @@ Package pdftex.def Info: img/UC1DFD.pdf  used on input line 138.
 
 pdfTeX warning: pdflatex.exe (file ./img/UC4DFD.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<img/UC4DFD.pdf, id=1558, 845.07718pt x 597.55246pt>
+<img/UC4DFD.pdf, id=1561, 845.07718pt x 597.55246pt>
 File: img/UC4DFD.pdf Graphic file (type pdf)
 <use img/UC4DFD.pdf>
 Package pdftex.def Info: img/UC4DFD.pdf  used on input line 147.
 (pdftex.def)             Requested size: 156.49014pt x 133.2123pt.
-[62 <./img/UC1DFD.pdf> <./img/UC4DFD.pdf
+[63 <./img/UC1DFD.pdf> <./img/UC4DFD.pdf
 
 pdfTeX warning: pdflatex.exe (file ./img/UC4DFD.pdf): PDF inclusion: multiple p
 dfs with page group included in a single page
@@ -3369,7 +3380,7 @@ dfs with page group included in a single page
 
 pdfTeX warning: pdflatex.exe (file ./img/UC5DFD.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<img/UC5DFD.pdf, id=1633, 845.07718pt x 597.55246pt>
+<img/UC5DFD.pdf, id=1636, 845.07718pt x 597.55246pt>
 File: img/UC5DFD.pdf Graphic file (type pdf)
 <use img/UC5DFD.pdf>
 Package pdftex.def Info: img/UC5DFD.pdf  used on input line 157.
@@ -3378,7 +3389,7 @@ Package pdftex.def Info: img/UC5DFD.pdf  used on input line 157.
 
 pdfTeX warning: pdflatex.exe (file ./img/UC6DFD.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<img/UC6DFD.pdf, id=1634, 845.07718pt x 597.55246pt>
+<img/UC6DFD.pdf, id=1637, 845.07718pt x 597.55246pt>
 File: img/UC6DFD.pdf Graphic file (type pdf)
 <use img/UC6DFD.pdf>
 Package pdftex.def Info: img/UC6DFD.pdf  used on input line 165.
@@ -3387,12 +3398,12 @@ Package pdftex.def Info: img/UC6DFD.pdf  used on input line 165.
 
 pdfTeX warning: pdflatex.exe (file ./img/UC7DFD.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<img/UC7DFD.pdf, id=1635, 845.07718pt x 597.55246pt>
+<img/UC7DFD.pdf, id=1638, 845.07718pt x 597.55246pt>
 File: img/UC7DFD.pdf Graphic file (type pdf)
 <use img/UC7DFD.pdf>
 Package pdftex.def Info: img/UC7DFD.pdf  used on input line 173.
 (pdftex.def)             Requested size: 156.49014pt x 183.14734pt.
-) [63 <./img/UC5DFD.pdf> <./img/UC6DFD.pdf
+) [64 <./img/UC5DFD.pdf> <./img/UC6DFD.pdf
 
 pdfTeX warning: pdflatex.exe (file ./img/UC6DFD.pdf): PDF inclusion: multiple p
 dfs with page group included in a single page
@@ -3653,9 +3664,9 @@ sers/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/newtx/txexs.pfb><C:
 /Users/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/newtx/txsys.pfb><
 C:/Users/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/newtx/zxlri.pfb
 >
-Output written on thesis.pdf (72 pages, 3707539 bytes).
+Output written on thesis.pdf (73 pages, 3711851 bytes).
 PDF statistics:
- 2079 PDF objects out of 2487 (max. 8388607)
+ 2084 PDF objects out of 2487 (max. 8388607)
  69 named destinations out of 1000 (max. 500000)
  790 words of extra memory for PDF output out of 10000 (max. 10000000)
 
