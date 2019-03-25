@@ -7,102 +7,102 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 2.1}{\ignorespaces Monolithic vs. Microservice Architecture}}{5}{figure.2.1}% 
+\contentsline {figure}{\numberline {\relax 2.1}{\ignorespaces Monolithic vs. Microservice Architecture}}{6}{figure.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 2.2}{\ignorespaces BPMN Notation (Subset)}}{9}{figure.2.2}% 
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces Use Case Diagram of CoCoME}}{10}{figure.3.1}% 
+\contentsline {figure}{\numberline {\relax 2.2}{\ignorespaces BPMN Notation (Subset)}}{10}{figure.2.2}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces Overview of the identification approach}}{21}{figure.5.1}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 5.2}{\ignorespaces Use Case transformed in a BPMN process}}{23}{figure.5.2}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 5.3}{\ignorespaces Join multiple BPMN processes on same postconditions}}{23}{figure.5.3}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 5.4}{\ignorespaces Join multiple BPMN processes on same preconditions or triggers}}{23}{figure.5.4}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 5.5}{\ignorespaces Restore data flow connection}}{26}{figure.5.5}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 5.6}{\ignorespaces Split data flow connection}}{26}{figure.5.6}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 5.7}{\ignorespaces Merge data flow connection}}{27}{figure.5.7}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 5.8}{\ignorespaces Remove unnecessary tasks}}{27}{figure.5.8}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 5.9}{\ignorespaces An exemplary BPMN model illustrating the control flow only }}{28}{figure.5.9}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 5.10}{\ignorespaces Weighted graph using Control Flow Dependencies}}{28}{figure.5.10}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 5.11}{\ignorespaces Data Flow Diagram extracted from BPMN process}}{29}{figure.5.11}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 5.12}{\ignorespaces Data Flow Diagram to demonstrate data processing and data storing}}{30}{figure.5.12}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 5.13}{\ignorespaces Weighted graph using Control Flow Dependencies}}{31}{figure.5.13}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 5.14}{\ignorespaces Match Activity Cluster (A1-A3) and Object Cluster (O1-O2)}}{33}{figure.5.14}% 
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.1}{\ignorespaces UC1-Process Sale (with UC2 and UC8)}}{36}{figure.6.1}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.2}{\ignorespaces Control Flow UC3 - Order Products}}{37}{figure.6.2}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.3}{\ignorespaces Control Flow UC3 - Order Products}}{37}{figure.6.3}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.4}{\ignorespaces Control Flow Information as Graph CoCoME}}{38}{figure.6.4}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.5}{\ignorespaces Data Flow Information as Graph CoCoME}}{39}{figure.6.5}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.6}{\ignorespaces Clustering on CoCoME's Activities}}{40}{figure.6.6}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.7}{\ignorespaces Clustering on CoCoME's Data Objects}}{41}{figure.6.7}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.8}{\ignorespaces Data Access Dependencies between Data Object Clusters and Activity Cluster of CoCoME}}{41}{figure.6.8}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.9}{\ignorespaces Proposed Microservice Decomposition of CoCoME}}{42}{figure.6.9}% 
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 7.1}{\ignorespaces Precision and Recall for Microservices}}{46}{figure.7.1}% 
+\contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces Use Case Diagram of CoCoME}}{14}{figure.3.1}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces Overview of the identification approach}}{27}{figure.5.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 5.2}{\ignorespaces Use Case transformed in a BPMN process}}{28}{figure.5.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 5.3}{\ignorespaces Join multiple BPMN processes on same postconditions}}{29}{figure.5.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 5.4}{\ignorespaces Join multiple BPMN processes on same preconditions or triggers}}{29}{figure.5.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 5.5}{\ignorespaces Restore data flow connection}}{32}{figure.5.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 5.6}{\ignorespaces Split data flow connection}}{33}{figure.5.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 5.7}{\ignorespaces Merge data flow connection}}{33}{figure.5.7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 5.8}{\ignorespaces Remove unnecessary tasks}}{33}{figure.5.8}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 5.9}{\ignorespaces An exemplary BPMN model illustrating the control flow only }}{34}{figure.5.9}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 5.10}{\ignorespaces Weighted graph using Control Flow Dependencies}}{35}{figure.5.10}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 5.11}{\ignorespaces Data Flow Diagram extracted from BPMN process}}{36}{figure.5.11}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 5.12}{\ignorespaces Data Flow Diagram to demonstrate data processing and data storing}}{37}{figure.5.12}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 5.13}{\ignorespaces Weighted graph using Control Flow Dependencies}}{38}{figure.5.13}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 5.14}{\ignorespaces Match Activity Cluster (A1-A3) and Object Cluster (O1-O2)}}{40}{figure.5.14}% 
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.1}{\ignorespaces UC3 - Order Products}}{59}{figure.A.1}% 
+\contentsline {figure}{\numberline {\relax 6.1}{\ignorespaces UC1-Process Sale (with UC2 and UC8)}}{44}{figure.6.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.2}{\ignorespaces UC4 - Receive Ordered Products }}{59}{figure.A.2}% 
+\contentsline {figure}{\numberline {\relax 6.2}{\ignorespaces Control Flow UC3 - Order Products}}{44}{figure.6.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.3}{\ignorespaces UC5 - Show Stock Reports }}{60}{figure.A.3}% 
+\contentsline {figure}{\numberline {\relax 6.3}{\ignorespaces Control Flow UC3 - Order Products}}{45}{figure.6.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.4}{\ignorespaces UC6 - Show Delivery Reports }}{60}{figure.A.4}% 
+\contentsline {figure}{\numberline {\relax 6.4}{\ignorespaces Control Flow Information as Graph CoCoME}}{46}{figure.6.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.5}{\ignorespaces UC7 - Change Price }}{60}{figure.A.5}% 
+\contentsline {figure}{\numberline {\relax 6.5}{\ignorespaces Data Flow Information as Graph CoCoME}}{47}{figure.6.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.6}{\ignorespaces Control Flow UC1 - Start Sale}}{61}{figure.A.6}% 
+\contentsline {figure}{\numberline {\relax 6.6}{\ignorespaces Clustering on CoCoME's Activities}}{48}{figure.6.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.7}{\ignorespaces Control Flow UC4 - Receive Ordered Products }}{61}{figure.A.7}% 
+\contentsline {figure}{\numberline {\relax 6.7}{\ignorespaces Clustering on CoCoME's Data Objects}}{49}{figure.6.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.8}{\ignorespaces Control Flow UC5 - Show Stock Reports }}{62}{figure.A.8}% 
+\contentsline {figure}{\numberline {\relax 6.8}{\ignorespaces Data Access Dependencies between Data Object Clusters and Activity Cluster of CoCoME}}{49}{figure.6.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.9}{\ignorespaces Control Flow UC6 - Show Delivery Reports }}{62}{figure.A.9}% 
+\contentsline {figure}{\numberline {\relax 6.9}{\ignorespaces Proposed Microservice Decomposition of CoCoME}}{49}{figure.6.9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.10}{\ignorespaces Control Flow UC7 - Change Price }}{62}{figure.A.10}% 
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.11}{\ignorespaces Data Flow UC1 - Start Sale}}{63}{figure.A.11}% 
+\contentsline {figure}{\numberline {\relax 7.1}{\ignorespaces Precision and Recall for Microservices}}{54}{figure.7.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.12}{\ignorespaces Data Flow UC4 - Receive Ordered Products }}{63}{figure.A.12}% 
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.13}{\ignorespaces Data Flow UC5 - Show Stock Reports }}{64}{figure.A.13}% 
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.14}{\ignorespaces Data Flow UC6 - Show Delivery Reports }}{64}{figure.A.14}% 
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.15}{\ignorespaces Data Flow UC7 - Change Price }}{64}{figure.A.15}% 
+\contentsline {figure}{\numberline {\relax A.1}{\ignorespaces UC3 - Order Products}}{69}{figure.A.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.2}{\ignorespaces UC4 - Receive Ordered Products }}{69}{figure.A.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.3}{\ignorespaces UC5 - Show Stock Reports }}{70}{figure.A.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.4}{\ignorespaces UC6 - Show Delivery Reports }}{70}{figure.A.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.5}{\ignorespaces UC7 - Change Price }}{70}{figure.A.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.6}{\ignorespaces Control Flow UC1 - Start Sale}}{71}{figure.A.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.7}{\ignorespaces Control Flow UC4 - Receive Ordered Products }}{71}{figure.A.7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.8}{\ignorespaces Control Flow UC5 - Show Stock Reports }}{72}{figure.A.8}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.9}{\ignorespaces Control Flow UC6 - Show Delivery Reports }}{72}{figure.A.9}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.10}{\ignorespaces Control Flow UC7 - Change Price }}{72}{figure.A.10}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.11}{\ignorespaces Data Flow UC1 - Start Sale}}{73}{figure.A.11}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.12}{\ignorespaces Data Flow UC4 - Receive Ordered Products }}{73}{figure.A.12}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.13}{\ignorespaces Data Flow UC5 - Show Stock Reports }}{74}{figure.A.13}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.14}{\ignorespaces Data Flow UC6 - Show Delivery Reports }}{74}{figure.A.14}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax A.15}{\ignorespaces Data Flow UC7 - Change Price }}{74}{figure.A.15}% 

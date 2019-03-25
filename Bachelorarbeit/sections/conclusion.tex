@@ -73,7 +73,7 @@ Using use cases as input causes some trouble as the transformation into BPMN mod
 Section \ref{sec:Solution:CreateGraphControl} introduces the creation of a graph based on the control flow information. Regarding possible alternatives in the control flow (XOR gateways), it was decided not to assess different choices in terms of different weighting. Yet, it is debatable whether this does not distort the actual control flow dependencies and consequently the results. Since the goal was not to identify perfect and fixed microservices, but to deliver candidates with little additional knowledge, this point is rather insignificant. \\
 Another debatable topic is the equal weighting of all edges between activities. One can argue that some activities are more relevant and executed more often. For instance, the \textit{Sale} process is probably performed much more often than creating a new product. Hence, activities covering the \textit{Sale} process need to be connected using edges with higher weights to raise the probability of ending in the same service. However, this would require domain experts to judge the relevance of each activity, leading to a much more complex and user-interactive process. \\ 
 Probably the most controversial issue is the identification of data flow dependencies (cf. Sec.\ref{sec:Solution:CreateGraphData}). As BPMN 2.0 is not capable to model the data flow but rather the data needs of the activities, it is necessary to extract data flow dependencies between two data object based on heuristics. However, these depend very much on the granularity of the BPMN models. The value for the parameter \textit{n} needs to be adapted to the granularity, where fine-grained business processes demand for a higher value and vice versa. Additionally, the approach may not produce satisfying results if the granularity varies, that is if some business processes are much more fine or coarse grained than others. Consequently, it is perhaps necessary to think about additional input: The BPMN models are still used to extract the control flow information and to create activity clusters. In regard to data clusters, it might be necessary to use actual data flow diagrams that represent the exact data flow dependencies in order to create the data object related graph. Although this increases the necessary amount of input, it might improve the quality of the identified microservices. It is worth mentioning that the approach itself only needs to be adapted at two positions: i) \textit{Extract Data Flow} and ii) \textit{Create a weighted Graph using Data Flow}, which both would be trivial steps if the input is expanded by data flow diagrams. \\
-The evaluation demonstrated how close the result is compared to an actual implementation. However, it shows how important a complete system specification is: The use case specification of CoCoME does not mention tasks like \textit{Create Store} or \textit{Create Products}. Consequently, the result does not contain these either. Since the approach requires no further human intervention, the input must be very precise and detailed.\\
+The evaluation also demonstrated how close the result is compared to an actual implementation. However, it shows how important a complete system specification is: The use case specification of CoCoME does not mention tasks like \textit{Create Store} or \textit{Create Products}. Consequently, the result does not contain these either. Since the approach requires no further human intervention, the input must be very precise and detailed.\\
 The overall results are sophisticating. The identified microservice, including their functionalities and data objects are mostly correctly identified. Compared to the manual process as presented in Sec.\ref{sec:Evaluation:ReferenceSets} which took days, the approach presented requires only a few hours. 
 
 
@@ -83,52 +83,11 @@ The overall results are sophisticating. The identified microservice, including t
 
 
 \section{Limitations and Future Work}
+Despite the overall satisfying results, the approach has its limitations. First of all, system requirements need to be transformed into BPMN 2.0 models with additional data needs. Even though the BPMN language is well known to describe business processes, the extension by the data objects is rather unusual. Hence, specifying those models might be a new task for the system designers.  \\
+In addition, it needs to be verified whether the approach is capable to detect different granular microservices. For instance, small services like \textit{Order} and \textit{Product} are not identified by the approach, because it merges them to a more coarse-grained microservice which has approximately the size of the other identified services. In this case, further research on different clustering algorithms has to be done. In addition, we presented a conceptual algorithm to match cluster by using merging but also splitting. This needs further attention as it might solve the issue of different granular microservices.  Above all, the currently used black box cluster matching process can lead to very large microservices, since only merging is used. Therefore, the conceptional white box clustering algorithm should be further investigated. \\
+As already discussed in the previous section, the granularity of the BPMN models determines the choice of the parameter \textit{n}, which influences possible data object dependencies. 
+Apart from the fact that a wrong choice of the parameter distorts the result, it is questionable to apply the approach to BPMN models of different granularity. In other words, the approach is able to handle either coarse-grained or fine-grained BPMN models, but not a mix of both. \\
+The microservice candidates generated by the approach are not fix and ready to implement but should rather used as a recommendation to inspire the system architect. Additionally, microservices need a clear and well-defined external interface to provide shared functionality and data access to other services. This is not yet covered by the approach, although the information is already provided implicitly. 
 
 
 
-
-
-
-
-Granularität der Business Prozesse...
-
-
-Matching Algo weiterführen
-
-Schauen ob es mit exclusive Or genauer wird
-
-
-Weitere Arbeit wie automatisach Interfaces erstellen und zw internen und externen DO zu beurteilen
-
-Alternative Clustering Mechansimen bei denen man Granularität einstellen kann
-
-
-
-
-\section{Control Flow Graph...}
-- Das Transformieren mit Data Needs ist nicht komplett trivial --> Falls aber BPMN als Input bereits vorliegen, wäre es perfekt
-
-sehr schnell
-
-
-Wollen gar nicht darübe reden, ob die Services gut sind im Sinne von Microservice gut
-
-
-Accuracy:
-The overall results are sophisticating: Apart from the functionality recall value, any other value exceeds 0.7. In other words, the approach identifies on average more than 70   
-
-
-Use cases /sys spec müssen komplett sein, sonst wird hlt nicht alles identifiziert
-
-
-- Bei direkt verbundenen ist es eindeutig. Bei Parallel Gateway auch, da beide gleich oft ausgeführt werden. Problematisch wird es bei XOR, da man nicht weiß, welche der wege mit welcher Wahrscheinlichkeit genommen werden
-
-
-
-Rein das wir kein extra DFD wollen als inpout sonder einfachen input verarbeiten --> mehr testen und eventuell doch den DFD extra extrahieren
-
-
-Sind denn alle zugriffe gleichwertig? Gbt es unterschiede
-
-
-Das mit dem 4 matching ansatz könnte problem mit grob/feingranular lösen! --> Limitations

@@ -49,7 +49,7 @@ The following sections introduces a formal approach to tackle \textit{RQ1.2}. Fi
 
 \noindent
 To that end, Fig.\ref{fig:thesisProcess} provides an overview of the proposed approach. As depicted previously, the process requires input in form of BPMN models. Therefore, specifying those models marks the beginning of the process. Afterwards, control flow and data flow need to be extracted. To avoid the ambiguity of aggregating data flow and control flow as proposed by Amiri, the approach recommends to create two independent weighted Graphs, using the information from the previous step. In the next step, a clustering algorithm determines two sets of clusters based on the weights in the graphs. At that point, the process determined a set of clusters that is based on the control flow and another one, based on the data flow. In the following, a matching process identifies commonalities between data object-based and structural-based clusters in order to create comprehensive clusters. Based on these clusters, the last step extracts microservice candidates. \\
-%TODO  stimmt das noch?
+
 \textit{RQ2.1} also broaches the subject of necessary know-how and the amount of manual effort. As far as that is concerned, the proposed approach does not require human interaction as soon as the BPMN models are specified. Everything beyond that is based on a structural process.
 Admittedly, the manual effort to conduct the process entirely is still not to be neglected, as the extraction process, graph creation and cluster matching is not yet automated. Nevertheless, the structural process enables to implement the entire approach, excluding the BPMN model specification step. However, implementing an approach is beyond the scope of the paper.
 
@@ -139,7 +139,7 @@ Finally, the entire business models need to be refactored. Whereas the prior ste
 Both steps update the same Data Object, which is the Stock Item, although the second step refers to the object as \textit{Stock}. The activity in both cases can be described as \textit{Update inventory}. Furthermore, steps one contains two activities and needs to be split in \textit{Change Price} and \textit{Update Inventory}.
 
 
-%TODO  Hier lassen oder in die Diskussion????
+
 \subsection{Limitations and Drawbacks of the Transformation}
 In the previous section, a method to transform use cases in a set of BPMN models is introduced, as the running example only provides system specifications in form of detailed use cases (cf.\ref{ch:CoCoME}). However, this transformation requires a non-trivial refactoring process. \\
 In regard to data objects, it is obvious that multiple appearances of the same object (in different shaping) in a process devastate the resulting data flow. Hence, it is necessary to eliminate synonyms to ensure an unadulterated outcome.\\
@@ -267,7 +267,7 @@ Information of one data object can flow into another one. That is the case, if a
 For instance, \textit{Task 3} processes information of \textit{Data Object 3}, passes it to \textit{Task 4}, which uses the information of the data object to update \textit{Data Object 4}. Consequently, \textit{Data Object 3 \& 4} should be connected by an edge in the resulting data object graph. Yet, another possibility is that \textit{Task 3} only reads \textit{Data Object 3} and displays some information to the user. Further, \textit{Task 4} only processes user input to update \textit{Data Object 4}. Hence, \textit{Data Object 3 \& 4} are not to be connected by an edge, as there is no information flow in between. \\
 The same line of reasoning can be applied to \textit{Task 1}: Information of \textit{Data Object 1} may or may not flow into \textit{Data Object 2}, although both data accesses are executed by the same task. As a final point, the information of several data objects may flow into another one. For example, \textit{Data Object 2}, produced by \textit{Task 1} and \textit{Data Object 3}, read by \textit{Task 3}, may be used to create \textit{Data Object 4}. Given these points, identifying data object dependencies has to be estimated. The following possibilities are available to estimate the data dependencies:
 
-%TODO was is mit der Sache in UC1 bei dem eigentlich weider ein rückwärts zugriff ist
+
 \begin{itemize}
 	\item Dependency between a pair of data objects, only if both data objects are read and written by the same task.
 	\item Dependency between a pair of data objects, if \textit{n} tasks\footnote{n $\in [0..]$, where 0 represents neighbouring tasks} are in between a task that reads the first data object and another task that writes into the other data object\footnote{Following the Data Flow Arcs when counting}.

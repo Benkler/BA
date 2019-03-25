@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.11)  25 MAR 2019 12:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.11)  25 MAR 2019 15:21
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -65,12 +65,6 @@ Package: tocbasic 2018/12/30 v3.26a KOMA-Script package (handling toc-files)
 Package tocbasic Info: omitting babel extension for `toc'
 (tocbasic)             because of feature `nobabel' available
 (tocbasic)             for `toc' on input line 136.
-Class scrbook Info: You've used standard option `oneside'.
-(scrbook)           This is correct!
-(scrbook)           Internally I'm using `twoside=false'.
-(scrbook)           If you'd like to set the option with \KOMAoptions,
-(scrbook)           you'd have to use `twoside=false' there
-(scrbook)           instead of `oneside', too.
 Package scrbook Info: You've used standard option `12pt'.
 (scrbook)             This is correct!
 (scrbook)             Internally I'm using `fontsize=12pt'.
@@ -90,24 +84,18 @@ y
 Package: typearea 2018/12/30 v3.26a KOMA-Script package (type area)
 \ta@bcor=\skip42
 \ta@div=\count81
-Package typearea Info: You've used standard option `oneside'.
-(typearea)             This is correct!
-(typearea)             Internally I'm using `twoside=false'.
-(typearea)             If you'd like to set the option with \KOMAoptions,
-(typearea)             you'd have to use `twoside=false' there
-(typearea)             instead of `oneside', too.
 \ta@hblk=\skip43
 \ta@vblk=\skip44
 \ta@temp=\skip45
 \footheight=\skip46
 Package typearea Info: These are the values describing the layout:
 (typearea)             DIV  = 15
-(typearea)             BCOR = 28.45274pt
+(typearea)             BCOR = 56.9055pt
 (typearea)             \paperwidth      = 597.50793pt
-(typearea)              \textwidth      = 455.24416pt
-(typearea)              DIV departure   = -8%
-(typearea)              \evensidemargin = 13.08827pt
-(typearea)              \oddsidemargin  = 13.08827pt
+(typearea)              \textwidth      = 432.48195pt
+(typearea)              DIV departure   = -2%
+(typearea)              \evensidemargin = -0.18967pt
+(typearea)              \oddsidemargin  = 20.67567pt
 (typearea)             \paperheight     = 845.04694pt
 (typearea)              \textheight     = 650.0pt
 (typearea)              \topmargin      = -15.93353pt
@@ -1715,7 +1703,7 @@ Now handling font encoding PD1 ...
 ("C:\Program Files\MiKTeX 2.9\tex/latex/00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `draft' set `true' on input line 4393.
+Package hyperref Info: Option `final' set `true' on input line 4393.
 Package hyperref Info: Hyper figures OFF on input line 4519.
 Package hyperref Info: Link nesting OFF on input line 4524.
 Package hyperref Info: Hyper index ON on input line 4527.
@@ -1924,13 +1912,21 @@ or `english'. on input line 90.
 \c@mv@tabular=\count387
 \c@mv@boldtabular=\count388
 LaTeX Info: Redefining \microtypecontext on input line 90.
-
-
-Package microtype Warning: `draft' option active.
-(microtype)                Disabling all micro-typographic extensions.
-(microtype)                This might lead to different line and page breaks.
-
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `LinuxLibertineT-TLF' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 \AtBeginShipoutBox=\box87
+
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/context/base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count389
@@ -1969,10 +1965,8 @@ Package biblatex Info: Reference section=0 on input line 90.
 Package biblatex Info: Reference segment=0 on input line 90.
 
 ABD: EveryShipout initializing macros
-
-Package hyperref Warning: Draft mode on.
-
 Package hyperref Info: Link coloring OFF on input line 90.
+
 ("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -1984,6 +1978,11 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 90.
 LaTeX Info: Redefining \pageref on input line 90.
 LaTeX Info: Redefining \nameref on input line 90.
+
+(thesis.out) (thesis.out)
+\@outlinefile=\write5
+\openout5 = `thesis.out'.
+
 Class scrbook Info: loading recommended package `bookmark'.
 (scrbook)           Using `bookmark' together with `hyperref' is recommended,
 (scrbook)           because of handling of possible bookmark level gaps.
@@ -2002,12 +2001,12 @@ Package auxhook Info: \AddLineBeginMainAux comes a little late,
 e 164.
 \BKM@id=\count396
 ))
-<logos/kitlogo_en_cmyk.pdf, id=4, 198.7425pt x 92.345pt>
+<logos/kitlogo_en_cmyk.pdf, id=6, 198.7425pt x 92.345pt>
 File: logos/kitlogo_en_cmyk.pdf Graphic file (type pdf)
 <use logos/kitlogo_en_cmyk.pdf>
 Package pdftex.def Info: logos/kitlogo_en_cmyk.pdf  used on input line 98.
 (pdftex.def)             Requested size: 110.22453pt x 51.21504pt.
-<logos/sdqlogo.pdf, id=5, 558.085pt x 280.24701pt>
+<logos/sdqlogo.pdf, id=7, 558.085pt x 280.24701pt>
 File: logos/sdqlogo.pdf Graphic file (type pdf)
 <use logos/sdqlogo.pdf>
 Package pdftex.def Info: logos/sdqlogo.pdf  used on input line 98.
@@ -2024,6 +2023,10 @@ eSansPro-LF.
 )
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/m/n' will be
 (Font)              scaled to size 22.88956pt on input line 98.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `SourceSansPro-LF' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/b/n' will be
 (Font)              scaled to size 22.88956pt on input line 98.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
@@ -2040,6 +2043,10 @@ LinuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 17.28pt on input line 98.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `LinuxLibertineT-TLF' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 12.5pt on input line 98.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
@@ -2068,7 +2075,7 @@ LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 10.5pt on input line 98.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 7.9pt on input line 98.
-<title-background.pdf, id=6, 597.50786pt x 845.04686pt>
+<title-background.pdf, id=8, 597.50786pt x 845.04686pt>
 File: title-background.pdf Graphic file (type pdf)
 <use title-background.pdf>
 Package pdftex.def Info: title-background.pdf  used on input line 98.
@@ -2083,10 +2090,16 @@ background.pdf> <./logos/kitlogo_en_cmyk.pdf> <./logos/sdqlogo.pdf
 
 pdfTeX warning: pdflatex.exe (file ./logos/sdqlogo.pdf): PDF inclusion: multipl
 e pdfs with page group included in a single page
->] (sections/declaration.tex
+>] [2
+
+] (sections/declaration.tex
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 12.0pt on input line 28.
  [1
+
+
+] [2
+
 
 ]) (sections/abstract_en.tex
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/m/n' will be
@@ -2109,43 +2122,56 @@ LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 8.8pt on input line 14.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 6.6pt on input line 14.
- [1
+pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.14 A
+      ngetrieben durch den Aufstieg von Cloud Computing, agilen Entwicklungs...
+[1
 
 
+]pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.14 A
+      ngetrieben durch den Aufstieg von Cloud Computing, agilen Entwicklungs...
+[2
 
 
-]) [2
+]) [3] [4
 
 
 ]
 Package tocbasic Info: character protrusion at toc deactivated on input line 12
 3.
- (thesis.toc [3
+ (thesis.toc [5])
+\tf@toc=\write6
+\openout6 = `thesis.toc'.
 
-
-])
-\tf@toc=\write5
-\openout5 = `thesis.toc'.
-
- [4]
+ [6]
 Package tocbasic Info: character protrusion at lof deactivated on input line 12
 5.
- (thesis.lof [5
+ (thesis.lof [7
 
 
 ])
-\tf@lof=\write6
-\openout6 = `thesis.lof'.
+\tf@lof=\write7
+\openout7 = `thesis.lof'.
 
-
-[6]
+ [8]
 Package tocbasic Info: character protrusion at lot deactivated on input line 12
 6.
  (thesis.lot)
-\tf@lot=\write7
-\openout7 = `thesis.lot'.
+\tf@lot=\write8
+\openout8 = `thesis.lot'.
 
- [7
+ [9
+
+
+]
+[10
 
 
 ] (sections/introduction.tex
@@ -2167,11 +2193,23 @@ Class scrbook Warning: \float@addtolists detected!
 
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/b/n' will be
 (Font)              scaled to size 15.89755pt on input line 10.
-[1
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.15 
+      [1
 
 
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] [2]
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.47 
+      [2]
 LaTeX Font Info:    Try loading font information for TS1+LinuxLibertineT-TLF on
  input line 83.
 
@@ -2182,26 +2220,25 @@ LinuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 12.0pt on input line 83.
-
-
-LaTeX Warning: Reference `ch:SolutionOverview' on page 3 undefined on input lin
-e 86.
-
-
-LaTeX Warning: Reference `ch:timetable' on page 3 undefined on input line 88.
-
-) (sections/background.tex [3]
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `LinuxLibertineT-TLF' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [3]) (sections/background.tex [4]
 chapter 2.
 
 
 pdfTeX warning: pdflatex.exe (file ./img/Architektur.pdf): PDF inclusion: found
  PDF version <1.7>, but at most version <1.5> allowed
-<img/Architektur.pdf, id=101, 963.6pt x 542.025pt>
+<img/Architektur.pdf, id=439, 963.6pt x 542.025pt>
 File: img/Architektur.pdf Graphic file (type pdf)
 <use img/Architektur.pdf>
 Package pdftex.def Info: img/Architektur.pdf  used on input line 29.
-(pdftex.def)             Requested size: 455.24416pt x 175.63101pt.
-[4
+(pdftex.def)             Requested size: 432.48195pt x 166.84824pt.
+
+Underfull \vbox (badness 6758) has occurred while \output is active []
+
+ [5
 
 
 ]
@@ -2209,7 +2246,8 @@ LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/b/n' will be
 (Font)              scaled to size 13.24796pt on input line 34.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/sb/n' will be
 (Font)              scaled to size 13.24796pt on input line 34.
- [5 <./img/Architektur.pdf>]
+
+[6 <./img/Architektur.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 50--52
 
  []
@@ -2220,17 +2258,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--60
  []
 
 
-Overfull \hbox (14.67128pt too wide) in paragraph at lines 61--67
-\T1/LinuxLibertineT-TLF/m/n/12 In con-trast, mi-croser-vices are or-ga-nized ar
-ound busi-ness ca-pa-bil-i-ties and re-quire cross-functional,
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 61--67
 
  []
 
-[6]
+
+Overfull \hbox (7.08049pt too wide) in paragraph at lines 69--72
+\T1/LinuxLibertineT-TLF/m/n/12 (-20) Microservices are highly de-cou-pled from 
+each other, as they use stan-dard-ized and lightweight
+ []
+
+[7]
 Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
@@ -2260,15 +2298,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 100--104
 
  []
 
-[7] [8]
+[8] [9]
 
 pdfTeX warning: pdflatex.exe (file ./img/Overview.pdf): PDF inclusion: found PD
 F version <1.7>, but at most version <1.5> allowed
-<img/Overview.pdf, id=131, 845.07718pt x 597.55246pt>
+<img/Overview.pdf, id=535, 845.07718pt x 597.55246pt>
 File: img/Overview.pdf Graphic file (type pdf)
 <use img/Overview.pdf>
 Package pdftex.def Info: img/Overview.pdf  used on input line 160.
-(pdftex.def)             Requested size: 455.24416pt x 158.41219pt.
+(pdftex.def)             Requested size: 432.48195pt x 150.49213pt.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 8.8pt on input line 166.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
@@ -2286,167 +2324,146 @@ Underfull \hbox (badness 10000) in paragraph at lines 165--168
 
  []
 
-) (sections/CoCoME.tex [9 <./img/Overview.pdf>]
+[10 <./img/Overview.pdf>]) (sections/CoCoME.tex [11] [12
+
+
+]
 chapter 3.
-<img/useCase.pdf, id=202, 845.10378pt x 597.19492pt>
+<img/useCase.pdf, id=629, 845.10378pt x 597.19492pt>
 File: img/useCase.pdf Graphic file (type pdf)
 <use img/useCase.pdf>
 Package pdftex.def Info: img/useCase.pdf  used on input line 22.
-(pdftex.def)             Requested size: 455.24416pt x 153.10065pt.
-[10
+(pdftex.def)             Requested size: 432.48195pt x 145.44626pt.
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
- <./img/useCase.pdf>]) (sections/stateOfTheArt.tex [11]
+[13]) (sections/stateOfTheArt.tex [14 <./img/useCase.pdf>]
 chapter 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
-[]|\T1/LinuxLibertineT-TLF/m/n/12 Extraction of Mi-
+Underfull \hbox (badness 2035) in paragraph at lines 69--69
+[]|\T1/LinuxLibertineT-TLF/m/n/12 (+20) Extraction of Mi-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 69--69
-\T1/LinuxLibertineT-TLF/m/n/12 croser-vices from
+\T1/LinuxLibertineT-TLF/m/n/12 (+20) croser-vices from
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 69--69
-[]|\T1/LinuxLibertineT-TLF/m/n/12 Object-Aware
+\T1/LinuxLibertineT-TLF/m/n/12 (+20) Mono-lithic Soft-
+ []
+
+
+Underfull \hbox (badness 5802) in paragraph at lines 69--69
+[]|\T1/LinuxLibertineT-TLF/m/it/12 microservice iden-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 69--69
-\T1/LinuxLibertineT-TLF/m/n/12 Iden-ti-fi-ca-tion of
+[]|\T1/LinuxLibertineT-TLF/m/n/12 (+20) Object-Aware
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 69--69
-[]|\T1/LinuxLibertineT-TLF/m/it/12 identification mi-
+\T1/LinuxLibertineT-TLF/m/n/12 (+20) Iden-ti-fi-ca-tion of
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 69--69
-\T1/LinuxLibertineT-TLF/m/n/12 ti-fi-ca-tion Through
+[]|\T1/LinuxLibertineT-TLF/m/it/12 identification
  []
 
 
-Underfull \hbox (badness 5050) in paragraph at lines 69--69
-[]|\T1/LinuxLibertineT-TLF/m/n/12 L. Baresi et. al.
+Underfull \hbox (badness 2111) in paragraph at lines 69--69
+[]|\T1/LinuxLibertineT-TLF/m/n/12 (+20) L. Baresi et. al.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
-[]|\T1/LinuxLibertineT-TLF/m/n/12 Identifying Mi-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
-\T1/LinuxLibertineT-TLF/m/n/12 croser-vices Us-ing
- []
-
-
-Underfull \hbox (badness 5893) in paragraph at lines 69--69
-\T1/LinuxLibertineT-TLF/m/n/12 Func-tional De-com-
- []
-
-
-Underfull \hbox (badness 1038) in paragraph at lines 69--69
-[]|\T1/LinuxLibertineT-TLF/m/n/12 S. Tyszberow-icz et.
+Underfull \hbox (badness 5802) in paragraph at lines 69--69
+[]|\T1/LinuxLibertineT-TLF/m/it/12 microservice iden-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 69--69
-[]|\T1/LinuxLibertineT-TLF/m/n/12 Partitioning Mi-
+[]|\T1/LinuxLibertineT-TLF/m/n/12 (+20) Identifying Mi-
+ []
+
+
+Underfull \hbox (badness 2269) in paragraph at lines 69--69
+\T1/LinuxLibertineT-TLF/m/n/12 (+20) croser-vices Us-ing
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 69--69
-\T1/LinuxLibertineT-TLF/m/n/12 croser-vices: A
+[]|\T1/LinuxLibertineT-TLF/m/n/12 (+20) Partitioning Mi-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 69--69
-\T1/LinuxLibertineT-TLF/m/n/12 Do-main En-gi-neer-
+\T1/LinuxLibertineT-TLF/m/n/12 (+20) croser-vices: A
+ []
+
+
+Underfull \hbox (badness 1983) in paragraph at lines 69--69
+\T1/LinuxLibertineT-TLF/m/n/12 (+20) Mi-croser-vices: A
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 69--69
-[]|\T1/LinuxLibertineT-TLF/m/it/12 partition mi-croser-
- []
-
-
-Underfull \hbox (badness 7415) in paragraph at lines 69--69
-[]|\T1/LinuxLibertineT-TLF/m/n/12 From Mono-lith to
+\T1/LinuxLibertineT-TLF/m/n/12 (+20) Dataflow-Driven
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 69--69
-\T1/LinuxLibertineT-TLF/m/n/12 Mi-croser-vices: A
+[]|\T1/LinuxLibertineT-TLF/m/n/12 (+20) Function-Splitting
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 69--69
-\T1/LinuxLibertineT-TLF/m/n/12 Dataflow-Driven
- []
-
-
-Underfull \hbox (badness 3492) in paragraph at lines 69--69
-[]|\T1/LinuxLibertineT-TLF/m/n/12 monolith mi-croser-
+\T1/LinuxLibertineT-TLF/m/n/12 (+20) Heuris-tics for
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 69--69
-[]|\T1/LinuxLibertineT-TLF/m/n/12 Function-Splitting
+\T1/LinuxLibertineT-TLF/m/n/12 (+20) Dis-cov-ery of
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 69--69
-\T1/LinuxLibertineT-TLF/m/n/12 Heuris-tics for
+\T1/LinuxLibertineT-TLF/m/n/12 (+20) Mi-croser-vices in
+ []
+
+
+Underfull \hbox (badness 2277) in paragraph at lines 69--69
+[]|\T1/LinuxLibertineT-TLF/m/n/12 (+20) identify mi-croser-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 69--69
-\T1/LinuxLibertineT-TLF/m/n/12 Dis-cov-ery of Mi-
+\T1/LinuxLibertineT-TLF/m/n/12 (+20) Sys-tem-atic Ap-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
-\T1/LinuxLibertineT-TLF/m/n/12 croser-vices in
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
-[]|\T1/LinuxLibertineT-TLF/m/n/12 identify mi-croser-
- []
-
-
-Underfull \hbox (badness 3514) in paragraph at lines 69--69
-[]|\T1/LinuxLibertineT-TLF/m/n/12 Service Cut-ter: A
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
-\T1/LinuxLibertineT-TLF/m/n/12 Sys-tem-atic Ap-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
-\T1/LinuxLibertineT-TLF/m/n/12 proach to Ser-vice
- []
-
-
-Underfull \hbox (badness 4454) in paragraph at lines 69--69
-[]|\T1/LinuxLibertineT-TLF/m/n/12 M. Gy-sel et. al.
+Underfull \hbox (badness 1776) in paragraph at lines 69--69
+[]|\T1/LinuxLibertineT-TLF/m/n/12 (+20) M. Gy-sel et. al.
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[12
+[15
 
 
-] [13]
+] [16]
 Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
+ []
+
+
+Overfull \hbox (7.62947pt too wide) in paragraph at lines 85--89
+\T1/LinuxLibertineT-TLF/m/n/12 (-20) The ap-proach pre-sented in [[]32[]] is a 
+class based ex-trac-tion model, that uses (meta-)information
  []
 
 
@@ -2464,7 +2481,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 102--105
 
  []
 
-[14
+
+Underfull \vbox (badness 3460) has occurred while \output is active []
+
+ [17
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 108--111
@@ -2481,7 +2501,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--121
 
  []
 
-[15]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18]
 Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
@@ -2491,12 +2514,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
-
+[19]
 Underfull \hbox (badness 10000) in paragraph at lines 134--137
 
  []
 
-[16]
+
 Underfull \hbox (badness 10000) in paragraph at lines 138--139
 
  []
@@ -2521,338 +2544,217 @@ Underfull \hbox (badness 10000) in paragraph at lines 146--149
 
  []
 
-) (sections/solution.tex [17]
-Underfull \hbox (badness 1917) in paragraph at lines 1--1
-[]|\T1/LinuxLibertineT-TLF/m/n/12 meta-data aided graph
+[20]) (sections/solution.tex [21]
+Underfull \hbox (badness 10000) in paragraph at lines 1--1
+[]|\T1/LinuxLibertineT-TLF/m/n/12 (+20) business pro-cess ori-
+ []
+
+
+Underfull \hbox (badness 3199) in paragraph at lines 1--1
+[]|\T1/LinuxLibertineT-TLF/m/n/12 (+20) semantic sim-i-lar-ity of
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
-[]|\T1/LinuxLibertineT-TLF/m/n/12 business pro-cess ori-
+[]|\T1/LinuxLibertineT-TLF/m/n/12 (+20) functional de-com-po-si-
  []
 
 
-Underfull \hbox (badness 5681) in paragraph at lines 1--1
-[]|\T1/LinuxLibertineT-TLF/m/n/12 semantic sim-i-lar-ity of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1--1
-[]|\T1/LinuxLibertineT-TLF/m/n/12 functional de-com-po-si-
- []
-
-
-Underfull \hbox (badness 4805) in paragraph at lines 1--1
-[]|\T1/LinuxLibertineT-TLF/m/n/12 well-defined Api with
- []
-
-
-Underfull \hbox (badness 1675) in paragraph at lines 1--1
-[]|\T1/LinuxLibertineT-TLF/m/n/12 Source Code and VCS
+Underfull \hbox (badness 2600) in paragraph at lines 1--1
+[]|\T1/LinuxLibertineT-TLF/m/n/12 (+20) well-defined Api with
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
-[]|\T1/LinuxLibertineT-TLF/m/n/12 BPMN busi-ness pro-
+[]|\T1/LinuxLibertineT-TLF/m/n/12 (+20) BPMN busi-ness pro-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
-[]|\T1/LinuxLibertineT-TLF/m/n/12 reference vo-cab-u-lary
+[]|\T1/LinuxLibertineT-TLF/m/n/12 (+20) prototype avail-able
+ []
+
+
+Overfull \hbox (141.3421pt too wide) in paragraph at lines 1--1
+\T1/LinuxLibertineT-TLF/m/n/12 (-20) (https://github.com/gmazlami/microserviceE
+xtraction-
+ []
+
+
+Overfull \hbox (2.34985pt too wide) in paragraph at lines 1--1
+\T1/LinuxLibertineT-TLF/m/n/12 (-20) (https://github.com/mgar
+ []
+
+
+Underfull \hbox (badness 4779) in paragraph at lines 1--1
+[]|\T1/LinuxLibertineT-TLF/m/n/12 (+20) Degree of hu-man in-
+ []
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 1--1
+[]|\T1/LinuxLibertineT-TLF/m/n/12 (+20) manual elim-i-na-tion of
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
-\T1/LinuxLibertineT-TLF/m/n/12 (fit-ness func-tion),
+\T1/LinuxLibertineT-TLF/m/n/12 (+20) syn-onyms, ir-rel-e-vant
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
-[]|\T1/LinuxLibertineT-TLF/m/n/12 prototype avail-able
- []
-
-
-Overfull \hbox (149.0717pt too wide) in paragraph at lines 1--1
-\T1/LinuxLibertineT-TLF/m/n/12 (https://github.com/gmazlami/microserviceExtract
-ion-
- []
-
-
-Overfull \hbox (5.40788pt too wide) in paragraph at lines 1--1
-\T1/LinuxLibertineT-TLF/m/n/12 (https://github.com/mgar
- []
-
-
-Underfull \hbox (badness 4634) in paragraph at lines 1--1
-[]|\T1/LinuxLibertineT-TLF/m/n/12 Degree of hu-man in-
- []
-
-
-Underfull \hbox (badness 3312) in paragraph at lines 1--1
-[]|\T1/LinuxLibertineT-TLF/m/n/12 manual elim-i-na-tion of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1--1
-\T1/LinuxLibertineT-TLF/m/n/12 syn-onyms, ir-rel-e-vant
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1--1
-[]|\T1/LinuxLibertineT-TLF/m/n/12 depends on choosen
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1--1
-\T1/LinuxLibertineT-TLF/m/n/12 ge-netic al-go-rithm for
- []
-
-
-Underfull \hbox (badness 2469) in paragraph at lines 1--1
-\T1/LinuxLibertineT-TLF/m/n/12 con-ver-gence of fit-ness
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1--1
-[]|\T1/LinuxLibertineT-TLF/m/n/12 experiements us-ing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1--1
-\T1/LinuxLibertineT-TLF/m/n/12 open-source projects
- []
-
-
-Underfull \hbox (badness 1622) in paragraph at lines 1--1
-\T1/LinuxLibertineT-TLF/m/n/12 500000 LOC, 5 to 200
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1--1
-[]|\T1/LinuxLibertineT-TLF/m/n/12 multiple ex-per-i-ments,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1--1
-\T1/LinuxLibertineT-TLF/m/n/12 re-sults com-pared
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1--1
-\T1/LinuxLibertineT-TLF/m/n/12 with do-main ex-perts
- []
-
-
-Underfull \hbox (badness 4518) in paragraph at lines 1--1
-\T1/LinuxLibertineT-TLF/m/n/12 tion, 5 sam-ples com-
+[]|\T1/LinuxLibertineT-TLF/m/n/12 (+20) depends on choosen
  []
 
 
 Underfull \hbox (badness 7186) in paragraph at lines 1--1
-[]|\T1/LinuxLibertineT-TLF/m/n/12 case study, com-pared
+\T1/LinuxLibertineT-TLF/m/n/12 (+20) ge-netic al-go-rithm for
  []
 
 
-Underfull \hbox (badness 5908) in paragraph at lines 1--1
-[]|\T1/LinuxLibertineT-TLF/m/n/12 need mean-ing-ful VCS
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1--1
-[]|\T1/LinuxLibertineT-TLF/m/n/12 depends on ref-er-
+Underfull \hbox (badness 1097) in paragraph at lines 1--1
+\T1/LinuxLibertineT-TLF/m/n/12 (+20) con-ver-gence of fit-ness
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
-\T1/LinuxLibertineT-TLF/m/n/12 ence vo-cab-u-lary and
+[]|\T1/LinuxLibertineT-TLF/m/n/12 (+20) experiements us-ing
  []
 
-[18
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--1
+\T1/LinuxLibertineT-TLF/m/n/12 (+20) open-source projects
+ []
+
+
+Underfull \hbox (badness 1107) in paragraph at lines 1--1
+\T1/LinuxLibertineT-TLF/m/n/12 (+20) 500000 LOC, 5 to 200
+ []
+
+
+Underfull \hbox (badness 4673) in paragraph at lines 1--1
+\T1/LinuxLibertineT-TLF/m/n/12 (+20) tion, 5 sam-ples com-
+ []
+
+
+Underfull \hbox (badness 3354) in paragraph at lines 1--1
+[]|\T1/LinuxLibertineT-TLF/m/n/12 (+20) need mean-ing-ful VCS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--1
+[]|\T1/LinuxLibertineT-TLF/m/n/12 (+20) depends on ref-er-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--1
+\T1/LinuxLibertineT-TLF/m/n/12 (+20) ence vo-cab-u-lary and
+ []
+
+[22
 
 
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
-[]|\T1/LinuxLibertineT-TLF/m/n/12 algorithmic iden-ti-fi-ca-
+[]|\T1/LinuxLibertineT-TLF/m/n/12 (+20) algorithmic iden-ti-fi-ca-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
-\T1/LinuxLibertineT-TLF/m/n/12 tion of mi-croser-vices
+\T1/LinuxLibertineT-TLF/m/n/12 (+20) tion of mi-croser-vices
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
-[]|\T1/LinuxLibertineT-TLF/m/n/12 graph-based iden-ti-fi-
+[]|\T1/LinuxLibertineT-TLF/m/n/12 (+20) graph-based iden-ti-fi-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
-\T1/LinuxLibertineT-TLF/m/n/12 ca-tion pro-cess us-ing
+\T1/LinuxLibertineT-TLF/m/n/12 (+20) ca-tion pro-cess us-ing
+ []
+
+
+Underfull \hbox (badness 7030) in paragraph at lines 1--1
+\T1/LinuxLibertineT-TLF/m/n/12 (+20) heuris-tics to de-scribe
+ []
+
+
+Underfull \hbox (badness 7759) in paragraph at lines 1--1
+[]|\T1/LinuxLibertineT-TLF/m/n/12 (+20) service de-com-po-si-tion
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
-\T1/LinuxLibertineT-TLF/m/n/12 heuris-tics to de-scribe
+[]|\T1/LinuxLibertineT-TLF/m/n/12 (+20) well de-fined do-main
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
-[]|\T1/LinuxLibertineT-TLF/m/n/12 service de-com-po-si-tion
- []
-
-
-Underfull \hbox (badness 3679) in paragraph at lines 1--1
-\T1/LinuxLibertineT-TLF/m/n/12 based on 16 cou-pling
+[]|\T1/LinuxLibertineT-TLF/m/n/12 (+20) Data Flow Di-a-grams
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
-[]|\T1/LinuxLibertineT-TLF/m/n/12 systems's data flows
- []
-
-
-Underfull \hbox (badness 7907) in paragraph at lines 1--1
-\T1/LinuxLibertineT-TLF/m/n/12 con-structen on users'
+[]|\T1/LinuxLibertineT-TLF/m/n/12 (+20) Call Graphs, Source
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
-\T1/LinuxLibertineT-TLF/m/n/12 nat-u-ral lan-gu-gae de-
+[]|\T1/LinuxLibertineT-TLF/m/n/12 (+20) implementation and
  []
 
 
-Underfull \hbox (badness 1533) in paragraph at lines 1--1
-\T1/LinuxLibertineT-TLF/m/n/12 ca-tion Ar-ti-facts (SSAs)
+Underfull \hbox (badness 4779) in paragraph at lines 1--1
+[]|\T1/LinuxLibertineT-TLF/m/n/12 (+20) Degree of hu-man in-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1--1
-[]|\T1/LinuxLibertineT-TLF/m/n/12 well de-fined do-main
+Underfull \hbox (badness 1442) in paragraph at lines 1--1
+[]|\T1/LinuxLibertineT-TLF/m/n/12 (+20) domain ex-perts de-fine
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1--1
-[]|\T1/LinuxLibertineT-TLF/m/n/12 Data Flow Di-a-grams
+Underfull \hbox (badness 6412) in paragraph at lines 1--1
+[]|\T1/LinuxLibertineT-TLF/m/n/12 (+20) most fine-grained ms
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1--1
-[]|\T1/LinuxLibertineT-TLF/m/n/12 Call Graphs, Source
+Underfull \hbox (badness 2142) in paragraph at lines 1--1
+[]|\T1/LinuxLibertineT-TLF/m/n/12 (+20) two case stud-ies ver-i-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1--1
-[]|\T1/LinuxLibertineT-TLF/m/n/12 implementation and
+Underfull \hbox (badness 2205) in paragraph at lines 1--1
+[]|\T1/LinuxLibertineT-TLF/m/n/12 (+20) two ex-periemtns with
  []
 
 
-Underfull \hbox (badness 4634) in paragraph at lines 1--1
-[]|\T1/LinuxLibertineT-TLF/m/n/12 Degree of hu-man in-
+Underfull \hbox (badness 5908) in paragraph at lines 1--1
+[]|\T1/LinuxLibertineT-TLF/m/n/12 (+20) only con-cep-tional ap-
  []
 
 
-Underfull \hbox (badness 3039) in paragraph at lines 1--1
-[]|\T1/LinuxLibertineT-TLF/m/n/12 domain ex-perts de-fine
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1--1
-[]|\T1/LinuxLibertineT-TLF/m/n/12 most fine-grained ms
- []
-
-
-Underfull \hbox (badness 1048) in paragraph at lines 1--1
-\T1/LinuxLibertineT-TLF/m/n/12 can-di-dates in terms of
- []
-
-
-Underfull \hbox (badness 2310) in paragraph at lines 1--1
-[]|\T1/LinuxLibertineT-TLF/m/n/12 demonstrated on sam-
- []
-
-
-Underfull \hbox (badness 4205) in paragraph at lines 1--1
-[]|\T1/LinuxLibertineT-TLF/m/n/12 two case stud-ies ver-
+Underfull \hbox (badness 6978) in paragraph at lines 1--1
+\T1/LinuxLibertineT-TLF/m/n/12 (+20) proach, re-quires vast
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
-\T1/LinuxLibertineT-TLF/m/n/12 i-fied against rel-e-vant
+[]|\T1/LinuxLibertineT-TLF/m/n/12 (+20) transforming pu-ri-fied
  []
 
 
-Underfull \hbox (badness 1946) in paragraph at lines 1--1
-\T1/LinuxLibertineT-TLF/m/n/12 mi-croser-vice prin-ci-ples
+Underfull \hbox (badness 6559) in paragraph at lines 1--1
+\T1/LinuxLibertineT-TLF/m/n/12 (+20) files to gen-er-ate call
  []
 
-
-Underfull \hbox (badness 4229) in paragraph at lines 1--1
-[]|\T1/LinuxLibertineT-TLF/m/n/12 two ex-periemtns with
- []
+[23
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1--1
-[]|\T1/LinuxLibertineT-TLF/m/n/12 validation via im-ple-
- []
 
 
-Underfull \hbox (badness 5878) in paragraph at lines 1--1
-[]|\T1/LinuxLibertineT-TLF/m/n/12 only con-cep-tional ap-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1--1
-\T1/LinuxLibertineT-TLF/m/n/12 proach, re-quires vast
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1--1
-[]|\T1/LinuxLibertineT-TLF/m/n/12 transforming pu-ri-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1--1
-\T1/LinuxLibertineT-TLF/m/n/12 fied DFD not triv-ial
- []
-
-
-Underfull \hbox (badness 2426) in paragraph at lines 1--1
-\T1/LinuxLibertineT-TLF/m/n/12 (iden-ti-fy-ing same data
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1--1
-\T1/LinuxLibertineT-TLF/m/n/12 op-er-a-tions re-quires
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1--1
-[]|\T1/LinuxLibertineT-TLF/m/n/12 requires ex-pres-sive
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1--1
-\T1/LinuxLibertineT-TLF/m/n/12 log files to gen-er-ate
- []
-
-
-Underfull \hbox (badness 4013) in paragraph at lines 1--1
-\T1/LinuxLibertineT-TLF/m/n/12 call graphs and iden-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1--1
-\T1/LinuxLibertineT-TLF/m/n/12 tify busi-ness ob-ject
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1--1
-[]|\T1/LinuxLibertineT-TLF/m/n/12 generating SSAs in
- []
-
-[19
-
+] [24
 
 
 
@@ -2863,87 +2765,108 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--6
 
  []
 
-[20
-
-
-
-]
-
-pdfTeX warning: pdflatex.exe (file ./img/ThesisProcess.pdf): PDF inclusion: fou
-nd PDF version <1.7>, but at most version <1.5> allowed
-<img/ThesisProcess.pdf, id=245, 845.07718pt x 597.55246pt>
-File: img/ThesisProcess.pdf Graphic file (type pdf)
-<use img/ThesisProcess.pdf>
-Package pdftex.def Info: img/ThesisProcess.pdf  used on input line 61.
-(pdftex.def)             Requested size: 455.24416pt x 111.20042pt.
-[21 <./img/ThesisProcess.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 73--75
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 50--52
 
  []
 
 
 
-pdfTeX warning: pdflatex.exe (file ./img/usecaseTransformation.pdf): PDF inclus
-ion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/usecaseTransformation.pdf, id=308, 845.07718pt x 597.55246pt>
-File: img/usecaseTransformation.pdf Graphic file (type pdf)
-<use img/usecaseTransformation.pdf>
-Package pdftex.def Info: img/usecaseTransformation.pdf  used on input line 95.
-(pdftex.def)             Requested size: 455.24416pt x 128.6366pt.
+pdfTeX warning: pdflatex.exe (file ./img/ThesisProcess.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+<img/ThesisProcess.pdf, id=821, 845.07718pt x 597.55246pt>
+File: img/ThesisProcess.pdf Graphic file (type pdf)
+<use img/ThesisProcess.pdf>
+Package pdftex.def Info: img/ThesisProcess.pdf  used on input line 61.
+(pdftex.def)             Requested size: 432.48195pt x 105.6405pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[22]
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--75
+
+ []
+
+[26]
+
+pdfTeX warning: pdflatex.exe (file ./img/usecaseTransformation.pdf): PDF inclus
+ion: found PDF version <1.7>, but at most version <1.5> allowed
+<img/usecaseTransformation.pdf, id=834, 845.07718pt x 597.55246pt>
+File: img/usecaseTransformation.pdf Graphic file (type pdf)
+<use img/usecaseTransformation.pdf>
+Package pdftex.def Info: img/usecaseTransformation.pdf  used on input line 95.
+(pdftex.def)             Requested size: 432.48195pt x 122.20477pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[27 <./img/ThesisProcess.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./img/JoinBPMNpostcondition.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/JoinBPMNpostcondition.pdf, id=313, 845.07718pt x 597.55246pt>
+<img/JoinBPMNpostcondition.pdf, id=903, 845.07718pt x 597.55246pt>
 File: img/JoinBPMNpostcondition.pdf Graphic file (type pdf)
 <use img/JoinBPMNpostcondition.pdf>
 Package pdftex.def Info: img/JoinBPMNpostcondition.pdf  used on input line 119.
 
-(pdftex.def)             Requested size: 184.37137pt x 110.10103pt.
+(pdftex.def)             Requested size: 175.1528pt x 104.59555pt.
+
+Underfull \hbox (badness 4266) in paragraph at lines 120--120
+[][][]\T1/LinuxLibertineT-TLF/m/n/12 (+20) Join mul-ti-ple BPMN pro-
+ []
+
 
 
 pdfTeX warning: pdflatex.exe (file ./img/JoinBPMNPrecondition.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<img/JoinBPMNPrecondition.pdf, id=314, 845.07718pt x 597.55246pt>
+<img/JoinBPMNPrecondition.pdf, id=904, 845.07718pt x 597.55246pt>
 File: img/JoinBPMNPrecondition.pdf Graphic file (type pdf)
 <use img/JoinBPMNPrecondition.pdf>
 Package pdftex.def Info: img/JoinBPMNPrecondition.pdf  used on input line 125.
-(pdftex.def)             Requested size: 184.37137pt x 110.10103pt.
-[23 <./img/usecaseTransformation.pdf> <./img/JoinBPMNpostcondition.pdf
+(pdftex.def)             Requested size: 175.1528pt x 104.59555pt.
 
-pdfTeX warning: pdflatex.exe (file ./img/JoinBPMNpostcondition.pdf): PDF inclus
-ion: multiple pdfs with page group included in a single page
-> <./img/JoinBPMNPrecondition.pdf
+Underfull \hbox (badness 4266) in paragraph at lines 126--126
+[][][]\T1/LinuxLibertineT-TLF/m/n/12 (+20) Join mul-ti-ple BPMN pro-
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[28 <./img/usecaseTransformation.pdf>] [29 <./img/JoinBPMNpostcondition.pdf> <.
+/img/JoinBPMNPrecondition.pdf
 
 pdfTeX warning: pdflatex.exe (file ./img/JoinBPMNPrecondition.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
->] [24] [25]
+>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [30]
+[31]
 
 pdfTeX warning: pdflatex.exe (file ./img/ExtractDFDRestore.pdf): PDF inclusion:
  found PDF version <1.7>, but at most version <1.5> allowed
-<img/ExtractDFDRestore.pdf, id=388, 845.07718pt x 597.55246pt>
+<img/ExtractDFDRestore.pdf, id=1005, 845.07718pt x 597.55246pt>
 File: img/ExtractDFDRestore.pdf Graphic file (type pdf)
 <use img/ExtractDFDRestore.pdf>
 Package pdftex.def Info: img/ExtractDFDRestore.pdf  used on input line 186.
-(pdftex.def)             Requested size: 455.24416pt x 119.84204pt.
+(pdftex.def)             Requested size: 432.48195pt x 113.85011pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./img/ExtractDFDGateWaySplit.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/ExtractDFDGateWaySplit.pdf, id=389, 845.07718pt x 597.55246pt>
+<img/ExtractDFDGateWaySplit.pdf, id=1006, 845.07718pt x 597.55246pt>
 File: img/ExtractDFDGateWaySplit.pdf Graphic file (type pdf)
 <use img/ExtractDFDGateWaySplit.pdf>
 Package pdftex.def Info: img/ExtractDFDGateWaySplit.pdf  used on input line 192
 .
 (pdftex.def)             Requested size: 369.88582pt x 145.65858pt.
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
 
 pdfTeX warning: pdflatex.exe (file ./img/ExtractDFDGateWayMerge.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/ExtractDFDGateWayMerge.pdf, id=390, 845.07718pt x 597.55246pt>
+<img/ExtractDFDGateWayMerge.pdf, id=1007, 845.07718pt x 597.55246pt>
 File: img/ExtractDFDGateWayMerge.pdf Graphic file (type pdf)
 <use img/ExtractDFDGateWayMerge.pdf>
 Package pdftex.def Info: img/ExtractDFDGateWayMerge.pdf  used on input line 198
@@ -2956,19 +2879,23 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 pdfTeX warning: pdflatex.exe (file ./img/ExtractDFDRemove.pdf): PDF inclusion: 
 found PDF version <1.7>, but at most version <1.5> allowed
-<img/ExtractDFDRemove.pdf, id=391, 845.07718pt x 597.55246pt>
+<img/ExtractDFDRemove.pdf, id=1008, 845.07718pt x 597.55246pt>
 File: img/ExtractDFDRemove.pdf Graphic file (type pdf)
 <use img/ExtractDFDRemove.pdf>
 Package pdftex.def Info: img/ExtractDFDRemove.pdf  used on input line 204.
-(pdftex.def)             Requested size: 455.24416pt x 139.61116pt.
+(pdftex.def)             Requested size: 432.48195pt x 132.63025pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[26 <./img/ExtractDFDRestore.pdf> <./img/ExtractDFDGateWaySplit.pdf
 
-pdfTeX warning: pdflatex.exe (file ./img/ExtractDFDGateWaySplit.pdf): PDF inclu
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32 <./img/ExtractDFDRestore.pdf>] [33 <./img/ExtractDFDGateWaySplit.pdf> <./i
+mg/ExtractDFDGateWayMerge.pdf
+
+pdfTeX warning: pdflatex.exe (file ./img/ExtractDFDGateWayMerge.pdf): PDF inclu
 sion: multiple pdfs with page group included in a single page
->] [27 <./img/ExtractDFDGateWayMerge.pdf> <./img/ExtractDFDRemove.pdf
+> <./img/ExtractDFDRemove.pdf
 
 pdfTeX warning: pdflatex.exe (file ./img/ExtractDFDRemove.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
@@ -2976,197 +2903,223 @@ multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex.exe (file ./img/ControlFlowExample.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
-<img/ControlFlowExample.pdf, id=706, 845.07718pt x 597.55246pt>
+<img/ControlFlowExample.pdf, id=1329, 845.07718pt x 597.55246pt>
 File: img/ControlFlowExample.pdf Graphic file (type pdf)
 <use img/ControlFlowExample.pdf>
 Package pdftex.def Info: img/ControlFlowExample.pdf  used on input line 229.
-(pdftex.def)             Requested size: 455.24416pt x 118.13405pt.
+(pdftex.def)             Requested size: 432.48195pt x 112.22723pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./img/ControlFlowGraph.pdf): PDF inclusion: 
 found PDF version <1.7>, but at most version <1.5> allowed
-<img/ControlFlowGraph.pdf, id=707, 963.6pt x 542.025pt>
+<img/ControlFlowGraph.pdf, id=1330, 963.6pt x 542.025pt>
 File: img/ControlFlowGraph.pdf Graphic file (type pdf)
 <use img/ControlFlowGraph.pdf>
 Package pdftex.def Info: img/ControlFlowGraph.pdf  used on input line 236.
 (pdftex.def)             Requested size: 341.43306pt x 177.1782pt.
-[28 <./img/ControlFlowExample.pdf> <./img/ControlFlowGraph.pdf
 
-pdfTeX warning: pdflatex.exe (file ./img/ControlFlowGraph.pdf): PDF inclusion: 
-multiple pdfs with page group included in a single page
->]
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [34 <./img/ControlFlowExample.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./img/DataFlowExample.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<img/DataFlowExample.pdf, id=774, 845.07718pt x 597.55246pt>
+<img/DataFlowExample.pdf, id=1392, 845.07718pt x 597.55246pt>
 File: img/DataFlowExample.pdf Graphic file (type pdf)
 <use img/DataFlowExample.pdf>
 Package pdftex.def Info: img/DataFlowExample.pdf  used on input line 261.
 (pdftex.def)             Requested size: 341.43306pt x 158.44676pt.
-[29 <./img/DataFlowExample.pdf>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[35 <./img/ControlFlowGraph.pdf>] [36 <./img/DataFlowExample.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./img/ProcessDataDFD.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
-<img/ProcessDataDFD.pdf, id=789, 845.07718pt x 597.55246pt>
+<img/ProcessDataDFD.pdf, id=1429, 845.07718pt x 597.55246pt>
 File: img/ProcessDataDFD.pdf Graphic file (type pdf)
 <use img/ProcessDataDFD.pdf>
 Package pdftex.def Info: img/ProcessDataDFD.pdf  used on input line 289.
 (pdftex.def)             Requested size: 256.0748pt x 118.83363pt.
-[30 <./img/ProcessDataDFD.pdf>]
+
 
 pdfTeX warning: pdflatex.exe (file ./img/DataFlowGraph.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<img/DataFlowGraph.pdf, id=832, 963.6pt x 542.025pt>
+<img/DataFlowGraph.pdf, id=1433, 963.6pt x 542.025pt>
 File: img/DataFlowGraph.pdf Graphic file (type pdf)
 <use img/DataFlowGraph.pdf>
 Package pdftex.def Info: img/DataFlowGraph.pdf  used on input line 310.
 (pdftex.def)             Requested size: 284.52756pt x 166.02908pt.
-[31 <./img/DataFlowGraph.pdf>] [32]
+[37 <./img/ProcessDataDFD.pdf>] [38 <./img/DataFlowGraph.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 373--374
 
  []
 
-
+[39]
 
 pdfTeX warning: pdflatex.exe (file ./img/MatchCluster.pdf): PDF inclusion: foun
 d PDF version <1.7>, but at most version <1.5> allowed
-<img/MatchCluster.pdf, id=852, 963.6pt x 542.025pt>
+<img/MatchCluster.pdf, id=1512, 963.6pt x 542.025pt>
 File: img/MatchCluster.pdf Graphic file (type pdf)
 <use img/MatchCluster.pdf>
 Package pdftex.def Info: img/MatchCluster.pdf  used on input line 378.
 (pdftex.def)             Requested size: 284.52756pt x 166.02908pt.
 
-Overfull \hbox (1.19936pt too wide) in paragraph at lines 384--389
-\T1/LinuxLibertineT-TLF/m/n/12 high-est edge weight. In this case, the re-sult 
-ob-tained from Fig.5.14 would be \T1/LinuxLibertineT-TLF/m/it/12 (A1,A3,O2),(A2
-,O1)\T1/LinuxLibertineT-TLF/m/n/12 .
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 384--389
 
  []
 
-[33 <./img/MatchCluster.pdf>] [34]) (sections/solutionApplication.tex [35]
+[40 <./img/MatchCluster.pdf>]) (sections/solutionApplication.tex [41] [42
+
+
+]
 chapter 6.
 
 
 pdfTeX warning: pdflatex.exe (file ./img/UC1.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<img/UC1.pdf, id=871, 845.07718pt x 597.55246pt>
+<img/UC1.pdf, id=1546, 845.07718pt x 597.55246pt>
 File: img/UC1.pdf Graphic file (type pdf)
 <use img/UC1.pdf>
 Package pdftex.def Info: img/UC1.pdf  used on input line 15.
-(pdftex.def)             Requested size: 455.24416pt x 218.65398pt.
-[36
+(pdftex.def)             Requested size: 432.48195pt x 207.72127pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
- <./img/UC1.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./img/UC3Control.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<img/UC3Control.pdf, id=885, 845.07718pt x 597.55246pt>
+<img/UC3Control.pdf, id=1550, 845.07718pt x 597.55246pt>
 File: img/UC3Control.pdf Graphic file (type pdf)
 <use img/UC3Control.pdf>
 Package pdftex.def Info: img/UC3Control.pdf  used on input line 30.
-(pdftex.def)             Requested size: 455.24416pt x 121.7531pt.
+(pdftex.def)             Requested size: 432.48195pt x 115.66652pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 
 pdfTeX warning: pdflatex.exe (file ./img/UC3DFD.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<img/UC3DFD.pdf, id=886, 845.07718pt x 597.55246pt>
+<img/UC3DFD.pdf, id=1554, 845.07718pt x 597.55246pt>
 File: img/UC3DFD.pdf Graphic file (type pdf)
 <use img/UC3DFD.pdf>
 Package pdftex.def Info: img/UC3DFD.pdf  used on input line 42.
 (pdftex.def)             Requested size: 227.62204pt x 206.9526pt.
-<img/CoCoMEControlFlowGraph.pdf, id=887, 777.90625pt x 794.97pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<img/CoCoMEControlFlowGraph.pdf, id=1556, 777.90625pt x 794.97pt>
 File: img/CoCoMEControlFlowGraph.pdf Graphic file (type pdf)
 <use img/CoCoMEControlFlowGraph.pdf>
 Package pdftex.def Info: img/CoCoMEControlFlowGraph.pdf  used on input line 54.
 
-(pdftex.def)             Requested size: 455.24416pt x 544.97574pt.
-[37 <./img/UC3Control.pdf> <./img/UC3DFD.pdf
+(pdftex.def)             Requested size: 432.48195pt x 517.73119pt.
+[43]
 
-pdfTeX warning: pdflatex.exe (file ./img/UC3DFD.pdf): PDF inclusion: multiple p
-dfs with page group included in a single page
->] [38 <./img/CoCoMEControlFlowGraph.pdf>]
-<img/CoCoMEDataFlowGraph.pdf, id=1003, 406.51875pt x 465.74pt>
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<img/CoCoMEDataFlowGraph.pdf, id=1562, 406.51875pt x 465.74pt>
 File: img/CoCoMEDataFlowGraph.pdf Graphic file (type pdf)
 <use img/CoCoMEDataFlowGraph.pdf>
 Package pdftex.def Info: img/CoCoMEDataFlowGraph.pdf  used on input line 67.
 (pdftex.def)             Requested size: 284.52756pt x 412.61694pt.
- [39 <./img/CoCoMEDataFlowGraph.pdf>]
-<img/CoCoMEActivityCluster.pdf, id=1016, 794.97pt x 435.6275pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 7415) has occurred while \output is active []
+
+ [44 <./img/UC1.pdf> <./img/UC3Control.pdf
+
+pdfTeX warning: pdflatex.exe (file ./img/UC3Control.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+>]
+<img/CoCoMEActivityCluster.pdf, id=1634, 794.97pt x 435.6275pt>
 File: img/CoCoMEActivityCluster.pdf Graphic file (type pdf)
 <use img/CoCoMEActivityCluster.pdf>
 Package pdftex.def Info: img/CoCoMEActivityCluster.pdf  used on input line 82.
 (pdftex.def)             Requested size: 540.60236pt x 335.91945pt.
-<img/CoCoMEDataClusterWith1.pdf, id=1017, 523.9575pt x 243.91125pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<img/CoCoMEDataClusterWith1.pdf, id=1637, 523.9575pt x 243.91125pt>
 File: img/CoCoMEDataClusterWith1.pdf Graphic file (type pdf)
 <use img/CoCoMEDataClusterWith1.pdf>
 Package pdftex.def Info: img/CoCoMEDataClusterWith1.pdf  used on input line 97.
 
 (pdftex.def)             Requested size: 341.43306pt x 203.05664pt.
-[40 <./img/CoCoMEActivityCluster.pdf>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
-<img/MatchClusterGraph.pdf, id=1031, 543.02875pt x 203.76125pt>
+<img/MatchClusterGraph.pdf, id=1639, 543.02875pt x 203.76125pt>
 File: img/MatchClusterGraph.pdf Graphic file (type pdf)
 <use img/MatchClusterGraph.pdf>
 Package pdftex.def Info: img/MatchClusterGraph.pdf  used on input line 112.
 (pdftex.def)             Requested size: 341.43306pt x 139.46321pt.
-[41 <./img/CoCoMEDataClusterWith1.pdf> <./img/MatchClusterGraph.pdf
 
-pdfTeX warning: pdflatex.exe (file ./img/MatchClusterGraph.pdf): PDF inclusion:
- multiple pdfs with page group included in a single page
->]
-<img/MatchClusterClustering.pdf, id=1052, 556.0775pt x 243.91125pt>
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<img/MatchClusterClustering.pdf, id=1642, 556.0775pt x 243.91125pt>
 File: img/MatchClusterClustering.pdf Graphic file (type pdf)
 <use img/MatchClusterClustering.pdf>
 Package pdftex.def Info: img/MatchClusterClustering.pdf  used on input line 125
 .
 (pdftex.def)             Requested size: 341.43306pt x 166.3408pt.
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 134--135
 
  []
 
-[42 <./img/MatchClusterClustering.pdf>]) (sections/evaluation.tex
+[45 <./img/UC3DFD.pdf>] [46 <./img/CoCoMEControlFlowGraph.pdf>] [47 <./img/CoCo
+MEDataFlowGraph.pdf>] [48 <./img/CoCoMEActivityCluster.pdf>])
+(sections/evaluation.tex [49 <./img/CoCoMEDataClusterWith1.pdf> <./img/MatchClu
+sterGraph.pdf
+
+pdfTeX warning: pdflatex.exe (file ./img/MatchClusterGraph.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+> <./img/MatchClusterClustering.pdf
+
+pdfTeX warning: pdflatex.exe (file ./img/MatchClusterClustering.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+>] [50
+
+
+]
 chapter 7.
-[43
-
-
-] [44]
+[51] [52] [53]
 
 pdfTeX warning: pdflatex.exe (file ./img/PrecisionRecall.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<img/PrecisionRecall.pdf, id=1071, 963.6pt x 542.025pt>
+<img/PrecisionRecall.pdf, id=1792, 963.6pt x 542.025pt>
 File: img/PrecisionRecall.pdf Graphic file (type pdf)
 <use img/PrecisionRecall.pdf>
 Package pdftex.def Info: img/PrecisionRecall.pdf  used on input line 140.
 (pdftex.def)             Requested size: 536.80739pt x 371.30759pt.
 
-Overfull \hbox (81.56323pt too wide) in paragraph at lines 140--141
+Overfull \hbox (104.32544pt too wide) in paragraph at lines 140--141
 [][] 
  []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 153--154
 
  []
 
-[45] [46 <./img/PrecisionRecall.pdf>]
-Overfull \hbox (1.20425pt too wide) in paragraph at lines 225--228
-\T1/LinuxLibertineT-TLF/m/n/12 The iden-ti-fi-ca-tion pro-cess it-self was con-
-ducted man-u-ally and sup-ported by the pre-vi-ous knowl-
- []
-
-[47] [48] [49]
+[54 <./img/PrecisionRecall.pdf>] [55] [56] [57]
 Underfull \hbox (badness 10000) in paragraph at lines 472--473
 
  []
@@ -3176,18 +3129,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 474--477
 
  []
 
-[50]) (sections/conclusion.tex [51]
+[58] [59]) (sections/conclusion.tex [60]
 chapter 8.
-[52
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [61
 
 
 ]
-Overfull \hbox (4.19145pt too wide) in paragraph at lines 72--78
-\T1/LinuxLibertineT-TLF/m/n/12 Probably the most con-tro-ver-sial is-sue is the
- iden-ti-fi-ca-tion of data flow de-pen-den-cies (cf. Sec.5.6).
- []
+[62]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[53] [54]) [55]
+ [63])
+[64]
 chapter without number
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/sc' will be
 (Font)              scaled to size 12.0pt on input line 152.
@@ -3197,61 +3152,47 @@ File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 (Font)              scaled to size 9.35999pt on input line 152.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `fvm' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 
-Overfull \hbox (12.48131pt too wide) in paragraph at lines 152--152
-[]\T1/LinuxLibertineT-TLF/m/n/12 Luciano Baresi, Mar-tin Gar-riga, and Alan De 
-Ren-zis. ``Mi-croser-vices Iden-ti-fi-ca-tion Through
+Overfull \hbox (21.51274pt too wide) in paragraph at lines 152--152
+[]\T1/LinuxLibertineT-TLF/m/n/12 (-20) Victor R. Basili. \T1/LinuxLibertineT-TL
+F/m/it/12 Soft-ware Mod-el-ing and Mea-sure-ment: The Goal/Question/Metric Para
+digm\T1/LinuxLibertineT-TLF/m/n/12 (-20) .
  []
 
-
-Overfull \hbox (2.04593pt too wide) in paragraph at lines 152--152
-[]\T1/LinuxLibertineT-TLF/m/n/12 Victor R. Basili. \T1/LinuxLibertineT-TLF/m/it
-/12 Soft-ware Mod-el-ing and Mea-sure-ment: The Goal/Question/Metric Paradigm\T
-1/LinuxLibertineT-TLF/m/n/12 .
- []
+[65
 
 
-Overfull \hbox (10.0251pt too wide) in paragraph at lines 152--152
-[]\T1/LinuxLibertineT-TLF/m/n/12 Len Bass, Ingo We-ber, and Lim-ing Zhu. \T1/Li
-nuxLibertineT-TLF/m/it/12 De-vOps: A soft-ware ar-chi-tect's per-spec-tive\T1/L
-inuxLibertineT-TLF/m/n/12 . Addison-
- []
+] [66] (sections/appendix.tex [67] [68
 
 
-Overfull \hbox (0.36272pt too wide) in paragraph at lines 152--152
-\T1/LinuxLibertineT-TLF/m/it/12 Prac-tices in CI/CD Pipelines\T1/LinuxLibertine
-T-TLF/m/n/12 . Ac-cessed on 20.01.2019. \T1/LinuxLibertineT-TLF/m/sc/12 url\T1/
-LinuxLibertineT-TLF/m/n/12 : $\T1/fvm/m/n/12 https : / / github . com / Benkler
- /
- []
-
-[56
-
-
-] [57] (sections/appendix.tex [58]
+]
 chapter A.
 
 
 pdfTeX warning: pdflatex.exe (file ./img/UC3.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<img/UC3.pdf, id=1131, 845.07718pt x 597.55246pt>
+<img/UC3.pdf, id=1927, 845.07718pt x 597.55246pt>
 File: img/UC3.pdf Graphic file (type pdf)
 <use img/UC3.pdf>
 Package pdftex.def Info: img/UC3.pdf  used on input line 30.
-(pdftex.def)             Requested size: 455.24416pt x 154.35585pt.
+(pdftex.def)             Requested size: 432.48195pt x 146.63806pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./img/UC4.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<img/UC4.pdf, id=1132, 845.07718pt x 597.55246pt>
+<img/UC4.pdf, id=1928, 845.07718pt x 597.55246pt>
 File: img/UC4.pdf Graphic file (type pdf)
 <use img/UC4.pdf>
 Package pdftex.def Info: img/UC4.pdf  used on input line 39.
-(pdftex.def)             Requested size: 455.24416pt x 158.84009pt.
-[59
+(pdftex.def)             Requested size: 432.48195pt x 150.89821pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- <./img/UC3.pdf> <./img/UC4.pdf
+ [69 <./img/UC3.pdf> <./img/UC4.pdf
 
 pdfTeX warning: pdflatex.exe (file ./img/UC4.pdf): PDF inclusion: multiple pdfs
  with page group included in a single page
@@ -3259,30 +3200,30 @@ pdfTeX warning: pdflatex.exe (file ./img/UC4.pdf): PDF inclusion: multiple pdfs
 
 pdfTeX warning: pdflatex.exe (file ./img/UC5.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<img/UC5.pdf, id=1255, 845.07718pt x 597.55246pt>
+<img/UC5.pdf, id=2052, 845.07718pt x 597.55246pt>
 File: img/UC5.pdf Graphic file (type pdf)
 <use img/UC5.pdf>
 Package pdftex.def Info: img/UC5.pdf  used on input line 49.
-(pdftex.def)             Requested size: 455.24416pt x 136.33437pt.
+(pdftex.def)             Requested size: 432.48195pt x 129.51819pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./img/UC6.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<img/UC6.pdf, id=1256, 845.07718pt x 597.55246pt>
+<img/UC6.pdf, id=2053, 845.07718pt x 597.55246pt>
 File: img/UC6.pdf Graphic file (type pdf)
 <use img/UC6.pdf>
 Package pdftex.def Info: img/UC6.pdf  used on input line 57.
-(pdftex.def)             Requested size: 455.24416pt x 149.96355pt.
+(pdftex.def)             Requested size: 432.48195pt x 142.46597pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./img/UC7.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<img/UC7.pdf, id=1257, 845.07718pt x 597.55246pt>
+<img/UC7.pdf, id=2054, 845.07718pt x 597.55246pt>
 File: img/UC7.pdf Graphic file (type pdf)
 <use img/UC7.pdf>
 Package pdftex.def Info: img/UC7.pdf  used on input line 65.
-(pdftex.def)             Requested size: 455.24416pt x 190.85104pt.
-[60 <./img/UC5.pdf> <./img/UC6.pdf
+(pdftex.def)             Requested size: 432.48195pt x 181.30925pt.
+[70 <./img/UC5.pdf> <./img/UC6.pdf
 
 pdfTeX warning: pdflatex.exe (file ./img/UC6.pdf): PDF inclusion: multiple pdfs
  with page group included in a single page
@@ -3294,21 +3235,24 @@ pdfTeX warning: pdflatex.exe (file ./img/UC7.pdf): PDF inclusion: multiple pdfs
 
 pdfTeX warning: pdflatex.exe (file ./img/UC1Control.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<img/UC1Control.pdf, id=1386, 845.07718pt x 597.55246pt>
+<img/UC1Control.pdf, id=2184, 845.07718pt x 597.55246pt>
 File: img/UC1Control.pdf Graphic file (type pdf)
 <use img/UC1Control.pdf>
 Package pdftex.def Info: img/UC1Control.pdf  used on input line 78.
-(pdftex.def)             Requested size: 455.24416pt x 219.94626pt.
+(pdftex.def)             Requested size: 432.48195pt x 208.94743pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./img/UC4Control.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<img/UC4Control.pdf, id=1387, 845.07718pt x 597.55246pt>
+<img/UC4Control.pdf, id=2185, 845.07718pt x 597.55246pt>
 File: img/UC4Control.pdf Graphic file (type pdf)
 <use img/UC4Control.pdf>
 Package pdftex.def Info: img/UC4Control.pdf  used on input line 87.
-(pdftex.def)             Requested size: 455.24416pt x 163.59271pt.
-[61
+(pdftex.def)             Requested size: 432.48195pt x 155.41373pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [71
 
  <./img/UC1Control.pdf> <./img/UC4Control.pdf
 
@@ -3318,30 +3262,33 @@ le pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex.exe (file ./img/UC5Control.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<img/UC5Control.pdf, id=1451, 845.07718pt x 597.55246pt>
+<img/UC5Control.pdf, id=2251, 845.07718pt x 597.55246pt>
 File: img/UC5Control.pdf Graphic file (type pdf)
 <use img/UC5Control.pdf>
 Package pdftex.def Info: img/UC5Control.pdf  used on input line 97.
-(pdftex.def)             Requested size: 455.24416pt x 95.4469pt.
+(pdftex.def)             Requested size: 432.48195pt x 90.67494pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./img/UC6Control.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<img/UC6Control.pdf, id=1452, 845.07718pt x 597.55246pt>
+<img/UC6Control.pdf, id=2252, 845.07718pt x 597.55246pt>
 File: img/UC6Control.pdf Graphic file (type pdf)
 <use img/UC6Control.pdf>
 Package pdftex.def Info: img/UC6Control.pdf  used on input line 105.
-(pdftex.def)             Requested size: 455.24416pt x 95.4469pt.
+(pdftex.def)             Requested size: 432.48195pt x 90.67494pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./img/UC7Control.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<img/UC7Control.pdf, id=1453, 845.07718pt x 597.55246pt>
+<img/UC7Control.pdf, id=2253, 845.07718pt x 597.55246pt>
 File: img/UC7Control.pdf Graphic file (type pdf)
 <use img/UC7Control.pdf>
 Package pdftex.def Info: img/UC7Control.pdf  used on input line 113.
-(pdftex.def)             Requested size: 455.24416pt x 122.70522pt.
-[62 <./img/UC5Control.pdf> <./img/UC6Control.pdf
+(pdftex.def)             Requested size: 432.48195pt x 116.57043pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [72 <./img/UC5Control.pdf> <./img/UC6Control.pdf
 
 pdfTeX warning: pdflatex.exe (file ./img/UC6Control.pdf): PDF inclusion: multip
 le pdfs with page group included in a single page
@@ -3353,7 +3300,7 @@ le pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex.exe (file ./img/UC1DFD.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<img/UC1DFD.pdf, id=1560, 845.07718pt x 597.55246pt>
+<img/UC1DFD.pdf, id=2361, 845.07718pt x 597.55246pt>
 File: img/UC1DFD.pdf Graphic file (type pdf)
 <use img/UC1DFD.pdf>
 Package pdftex.def Info: img/UC1DFD.pdf  used on input line 138.
@@ -3362,12 +3309,15 @@ Package pdftex.def Info: img/UC1DFD.pdf  used on input line 138.
 
 pdfTeX warning: pdflatex.exe (file ./img/UC4DFD.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<img/UC4DFD.pdf, id=1561, 845.07718pt x 597.55246pt>
+<img/UC4DFD.pdf, id=2362, 845.07718pt x 597.55246pt>
 File: img/UC4DFD.pdf Graphic file (type pdf)
 <use img/UC4DFD.pdf>
 Package pdftex.def Info: img/UC4DFD.pdf  used on input line 147.
 (pdftex.def)             Requested size: 156.49014pt x 133.2123pt.
-[63 <./img/UC1DFD.pdf> <./img/UC4DFD.pdf
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [73 <./img/UC1DFD.pdf> <./img/UC4DFD.pdf
 
 pdfTeX warning: pdflatex.exe (file ./img/UC4DFD.pdf): PDF inclusion: multiple p
 dfs with page group included in a single page
@@ -3375,7 +3325,7 @@ dfs with page group included in a single page
 
 pdfTeX warning: pdflatex.exe (file ./img/UC5DFD.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<img/UC5DFD.pdf, id=1636, 845.07718pt x 597.55246pt>
+<img/UC5DFD.pdf, id=2438, 845.07718pt x 597.55246pt>
 File: img/UC5DFD.pdf Graphic file (type pdf)
 <use img/UC5DFD.pdf>
 Package pdftex.def Info: img/UC5DFD.pdf  used on input line 157.
@@ -3384,7 +3334,7 @@ Package pdftex.def Info: img/UC5DFD.pdf  used on input line 157.
 
 pdfTeX warning: pdflatex.exe (file ./img/UC6DFD.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<img/UC6DFD.pdf, id=1637, 845.07718pt x 597.55246pt>
+<img/UC6DFD.pdf, id=2439, 845.07718pt x 597.55246pt>
 File: img/UC6DFD.pdf Graphic file (type pdf)
 <use img/UC6DFD.pdf>
 Package pdftex.def Info: img/UC6DFD.pdf  used on input line 165.
@@ -3393,12 +3343,12 @@ Package pdftex.def Info: img/UC6DFD.pdf  used on input line 165.
 
 pdfTeX warning: pdflatex.exe (file ./img/UC7DFD.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<img/UC7DFD.pdf, id=1638, 845.07718pt x 597.55246pt>
+<img/UC7DFD.pdf, id=2440, 845.07718pt x 597.55246pt>
 File: img/UC7DFD.pdf Graphic file (type pdf)
 <use img/UC7DFD.pdf>
 Package pdftex.def Info: img/UC7DFD.pdf  used on input line 173.
 (pdftex.def)             Requested size: 156.49014pt x 183.14734pt.
-) [64 <./img/UC5DFD.pdf> <./img/UC6DFD.pdf
+) [74 <./img/UC5DFD.pdf> <./img/UC6DFD.pdf
 
 pdfTeX warning: pdflatex.exe (file ./img/UC6DFD.pdf): PDF inclusion: multiple p
 dfs with page group included in a single page
@@ -3411,254 +3361,48 @@ Package atveryend Info: Empty hook `BeforeClearDocument' on input line 160.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 160.
  (thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 160.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 160.
-
-
-LaTeX Warning: There were undefined references.
-
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 160.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38278 strings out of 492946
- 770269 string characters out of 3135518
- 1357127 words of memory out of 3000000
- 41253 multiletter control sequences out of 15000+200000
- 195626 words of font info for 208 fonts, out of 3000000 for 9000
+ 38750 strings out of 492946
+ 779875 string characters out of 3135518
+ 1359328 words of memory out of 3000000
+ 41316 multiletter control sequences out of 15000+200000
+ 217394 words of font info for 330 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 73i,20n,84p,9088b,3175s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{section.A.3} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.A.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.A.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{appendix.A} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter*.6} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{section.8.4} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.8.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.8.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.8.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.8} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.7.6.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.7.6.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.7.6} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.7.5} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.7.4.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.7.4.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.7.4} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.7.3.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.7.3.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.7.3.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.7.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.7.2.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.7.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.7.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.7} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{section.6.9} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.6.8} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.6.7} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.6.6} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.6.5} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.6.4} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.6.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.6.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.6.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.6} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5.9} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5.8} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5.7} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5.6} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5.5} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5.4} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.2.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.2.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.5} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{section.4.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.4.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.4.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.4} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.3} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{section.2.4} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.2.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.2.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.2.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.2.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.2.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.2.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.2} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.1} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter*.2} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter*.1} has been referenced but does not exist,
- replaced by a fixed one
-
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Users/Nikolaus/App
-Data/Roaming/MiKTeX/2.9/fonts/enc/dvips/libertine/lbtn_ncsllp.enc}{C:/Users/Nik
-olaus/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/newtx/libertinealt.enc}{C:/Use
-rs/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/libertine/lbtn_oexx6f.en
-c}{C:/Users/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/sourcesanspro/a
-_ggs4wk.enc}{C:/Users/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/liber
-tine/lbtn_naooyc.enc}{C:/Users/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/enc/dv
-ips/libertine/lbtn_7grukw.enc}{C:/Users/Nikolaus/AppData/Roaming/MiKTeX/2.9/fon
-ts/enc/dvips/libertine/lbtn_nh77jq.enc}{C:/Users/Nikolaus/AppData/Roaming/MiKTe
-X/2.9/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}<C:/Users/Nikolaus/AppData/Roam
-ing/MiKTeX/2.9/fonts/type1/public/libertine/LinLibertineT.pfb><C:/Users/Nikolau
-s/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/libertine/LinLibertineTB.pfb><C
-:/Users/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/libertine/LinLib
-ertineTI.pfb><C:/Users/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/type1/adobe/so
-urcesanspro/SourceSansPro-Bold.pfb><C:/Users/Nikolaus/AppData/Roaming/MiKTeX/2.
-9/fonts/type1/adobe/sourcesanspro/SourceSansPro-Semibold.pfb><C:/Users/Nikolaus
-/AppData/Roaming/MiKTeX/2.9/fonts/type1/bera/fvmr8a.pfb><C:/Users/Nikolaus/AppD
-ata/Roaming/MiKTeX/2.9/fonts/type1/public/newtx/fxlri-7letters.pfb><C:/Users/Ni
-kolaus/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/txfonts/rtxmi.pfb><C:/User
-s/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/txfonts/rtxr.pfb><C:/U
-sers/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/newtx/txexs.pfb><C:
-/Users/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/newtx/txsys.pfb><
-C:/Users/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/newtx/zxlri.pfb
->
-Output written on thesis.pdf (73 pages, 3712489 bytes).
+ 73i,21n,89p,9088b,3187s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Users/Nikolaus/A
+ppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/libertine/lbtn_ncsllp.enc}{C:/Users/N
+ikolaus/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/newtx/libertinealt.enc}{C:/U
+sers/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/libertine/lbtn_oexx6f.
+enc}{C:/Users/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/sourcesanspro
+/a_ggs4wk.enc}{C:/Users/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/lib
+ertine/lbtn_naooyc.enc}{C:/Users/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/enc/
+dvips/libertine/lbtn_7grukw.enc}{C:/Users/Nikolaus/AppData/Roaming/MiKTeX/2.9/f
+onts/enc/dvips/libertine/lbtn_nh77jq.enc}{C:/Users/Nikolaus/AppData/Roaming/MiK
+TeX/2.9/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}<C:/Users/Nikolaus/AppData/Ro
+aming/MiKTeX/2.9/fonts/type1/public/libertine/LinLibertineT.pfb><C:/Users/Nikol
+aus/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/libertine/LinLibertineTB.pfb>
+<C:/Users/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/libertine/LinL
+ibertineTI.pfb><C:/Users/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/type1/adobe/
+sourcesanspro/SourceSansPro-Bold.pfb><C:/Users/Nikolaus/AppData/Roaming/MiKTeX/
+2.9/fonts/type1/adobe/sourcesanspro/SourceSansPro-Semibold.pfb><C:/Users/Nikola
+us/AppData/Roaming/MiKTeX/2.9/fonts/type1/bera/fvmr8a.pfb><C:/Users/Nikolaus/Ap
+pData/Roaming/MiKTeX/2.9/fonts/type1/public/newtx/fxlri-7letters.pfb><C:/Users/
+Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/txfonts/rtxmi.pfb><C:/Us
+ers/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/txfonts/rtxr.pfb><C:
+/Users/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/newtx/txexs.pfb><
+C:/Users/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/newtx/txsys.pfb
+><C:/Users/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/newtx/zxlri.p
+fb>
+Output written on thesis.pdf (88 pages, 3846834 bytes).
 PDF statistics:
- 2080 PDF objects out of 2487 (max. 8388607)
- 68 named destinations out of 1000 (max. 500000)
- 782 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2852 PDF objects out of 2984 (max. 8388607)
+ 265 named destinations out of 1000 (max. 500000)
+ 44806 words of extra memory for PDF output out of 51595 (max. 10000000)
 
