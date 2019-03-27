@@ -6,7 +6,7 @@ This chapter outlines the current state of the art regarding microservice identi
 
 \section{Literature Review}
 \label{sec:StateOfTheArt:LiteratureReview}
-The approaches mentioned in table \ref{tab:overviewLiterature} are the result of an extensive literature research which was conducted using the digital libraries IEEE \footnote{http://ieeexplore.ieee.org }, ACM \footnote{http://portal.acm.org} and SpringerLink \footnote{http://www.springerlink.com }. The web search engine Google Scholar \footnote{http://scholar.google.com} provided further approaches and general information. \\ 
+The approaches mentioned in table \ref{tab:overviewLiterature} are the result of a literature research which was conducted using the digital libraries IEEE \footnote{http://ieeexplore.ieee.org }, ACM \footnote{http://portal.acm.org} and SpringerLink \footnote{http://www.springerlink.com }. The web search engine Google Scholar \footnote{http://scholar.google.com} provided further approaches and general information. \\ 
 \textit{"Identifying Microservices using Functional Decomposition"} \cite{FunctionalDecompositionHeinrich} was provided by the supervisor of this thesis. Besides, \textit{"Service Cutter - A Systematic Approach for Service Decomposition"} \cite{ServiceCutter} was cited by various approaches, including \cite{interfaceAnalysisBaresi} while the remaining papers were found using following search string: 
 
 \vspace{1cm}
@@ -23,14 +23,15 @@ The approaches mentioned in table \ref{tab:overviewLiterature} are the result of
 \vspace{1cm}
 
 \noindent
-Table \ref{tab:overviewLiterature} presents the 8 most promising approaches in the area of microservice identification. Other papers like \cite{TowardsCloudGuiseppe} only presented a conceptual train of thought, whereas \cite{MigratingCloud}, for instance, focuses on migrating strategies on infrastructural level. This thesis mainly focus on the identification part and disregards the actual implementation and deployment process afterwards. \\
-To compare the available approaches, criteria have to be defined. Sec.\ref{sec:stateOfTheArt:comparison} introduces 8 criteria and explains why they take part in the comparison. The comparison itself is done by applying the criteria to each approach using Table \ref{tab:compareApproaches1} and \ref{tab:compareApproaches2}. Incidentally, the comparison including some criteria are inspired by the work of \cite{ClassificationOfRefactoring}.
+Table \ref{tab:overviewLiterature} presents the eight most promising approaches in the area of microservice identification. Other papers like \cite{TowardsCloudGuiseppe} only presented a conceptual train of thought, whereas \cite{MigratingCloud}, for instance, focuses on migrating strategies on infrastructural level. This thesis mainly focus on the identification part and disregards the actual implementation and deployment process afterwards. \\
+To compare the available approaches, criteria have to be defined. Sec.\ref{sec:stateOfTheArt:comparison} introduces eight criteria and explains why they take part in the comparison. The comparison itself is done by applying the criteria to each approach using Table \ref{tab:compareApproaches1} and \ref{tab:compareApproaches2}. Incidentally, the comparison including some criteria are inspired by the work of \cite{ClassificationOfRefactoring}.
 Further information is given in textual form in the same section. 
 
 
 
 
 
+\begin{flushleft}
 
 \begin{table}[h!]
 
@@ -38,9 +39,10 @@ Further information is given in textual form in the same section.
      
 	
 	 \rowcolors{2}{gray!25}{white}
+	 \flushleft
 	\begin{tabularx}{\textwidth}{lXXlX}
 		\rowcolor{gray!50}
-		Link & Titel & Author   & Origin & Search String  \\
+		Link & Title & Author   & Origin & Search String  \\
 		
 		\rowcolor{gray!50}
 		& & (Year) & & \\
@@ -60,7 +62,7 @@ Further information is given in textual form in the same section.
 		 \cite{DomainEngineeringMunezero} & Partitioning Microservices: A Domain Engineering Approach & I. J. Munezero et. al. (2018) & ACM & \textit{partition microservices}\\
 		 
 		 
-		 \cite{DataflowDrivenChen} & From Monolith to Microservices: A Dataflow-Driven Approach & R.Chen et. al & IEEE & monolith microservice \\
+		 \cite{DataflowDrivenChen} & From Monolith to Microservices: A Dataflow-Driven Approach & R.Chen et. al (2017)& IEEE & monolith microservice \\
 		 
 		\cite{HeuristicsAlwis} & Function-Splitting Heuristics for Discovery of Microservices in Enterprise Systems & A. De Alwis et. al. (2018 )& Google Scholar & identify microservices \\
 		
@@ -71,6 +73,7 @@ Further information is given in textual form in the same section.
 	\label{tab:overviewLiterature}
 \end{table}
 
+\end{flushleft}
 
 \clearpage
 
@@ -90,8 +93,8 @@ Starting with a given code base, the approach uses three different coupling stra
 \noindent
 \textbf{Object-Aware Identification of Microservice  } \\
 \cite{ObjectAwareAmiri} identifies microservices from business processes, using the widely known \textit{Business Process and Model Notation (BPMN)}. The approach uses clustering based on structural dependency and data object dependency. The first aspect is extracted from related activities within the business process model. A relation exists, if an edge directly connects a pair of activities or if only gateways are in between. \\
-The latter aspect is based on the data object read and writes of each activity. Activities that are directly or indirectly connected and perform write or read operations are more likely to partition into the same microservice. \\
-Both relations are stored in a separate matrix. To aggregate both relations, the matrices are summed up by simple matrix addition. Second to last, the relation matrix is transformed into a weighted graph using the values of the matrix as weights. Finally, clustering algorithms determine clusters that represent microservice candidates.
+The latter aspect is based on the data object read and writes of each activity. Activities that are directly or indirectly connected and perform write or read operations are more likely to be partitioned into the same microservice. \\
+Both relations are stored in a separate matrix. To aggregate both relations, the matrices are summed up by simple matrix addition. Second to last, the relation matrix is transformed into a weighted graph using the values of the matrix as weights. Finally, clustering algorithms determine clusters that represent microservice candidates.\\
 
 
 \noindent
@@ -117,7 +120,7 @@ Chen et al. \cite{DataflowDrivenChen} uses a top-down data flow driven decomposi
 \noindent
 \textbf{Function-Splitting Heuristics for Discovery of Microservices in Enterprise Systems  } \\
 This is an approach that utilizes heuristics to specify two fundamental areas of microservice discovery: Function splitting based on common object subtypes and functional splitting based on common execution fragments across software \cite{HeuristicsAlwis}. \\
-The discovery process consists of two steps: First, the code, database tables and the SQL queries are evaluated to identify business objects and their relationships. Along with a set of given execution call graphs (different sequences of operations; generated though e.g. analysing log data), the information found is passed to the second part of the process. Algorithms processes the call graphs of the legacy system to derive a set of subgraphs and analyse which fragments are related to the same business objects in order to recommend possible microservices. \\
+The discovery process consists of two steps: First, the code, database tables and the SQL queries are evaluated to identify business objects and their relationships. Along with a set of given execution call graphs (different sequences of operations, generated through e.g. analysing the log data), the information found is passed to the second part of the process. Algorithms process the call graphs of the legacy system to derive a set of subgraphs and analyse which fragments are related to the same business objects in order to recommend possible microservices. \\
 
 \noindent
 \textbf{Service Cutter: A Systematic Approach to Service Decomposition  } \\
@@ -131,17 +134,17 @@ Table \ref{tab:compareApproaches1} and \ref{tab:compareApproaches2} provide a sh
 
 The approach mentioned in \cite{ExtractionMazlami} is the result of a master thesis \cite{Mazlami}. Therefore, the degree of available information is larger compared to other approaches. The algorithmic recommendation of microservices candidates is implemented in a web-based, open source prototype and permits to choose three different coupling criteria, which can be combined for better results. Nevertheless, the main limitation relies in its type of input data: meaningful VCS data. For instance, developers must not commit changes on two independent functionalities together, but split it up. If this is not the case, the outcome may be wrong. \\
 
-Amiri's approach \cite{ObjectAwareAmiri} uses the open-source clustering software \textit{Bunch}\footnote{https://www.cs.drexel.edu/~spiros/bunch/} . Further, information about the validation process (i.e. tested systems) are not given, but he claims that the process was successful. The weighting of the relationships lack formal explanation and need further analysis. Besides, the aggregation of structural dependency and data object dependency lack formal explanation too. 
+Amiri's approach \cite{ObjectAwareAmiri} uses the open-source clustering software \textit{Bunch}\footnote{https://www.cs.drexel.edu/~spiros/bunch/} . Further, information about the validation process (i.e. tested systems) are not given, but he claims that the process was successful. The weighting of the relationships lacks formal explanation and needs further analysis. Besides, the aggregation of structural dependency and data object dependency lack formal explanation too. 
 Eventually, Amiri does no clearly differentiate data- and control flow.
 Nonetheless, the approach is straightforward and does not require any user involvement once the input data is available. \\
 
 Baresi et al. \cite{interfaceAnalysisBaresi} developed an experimental prototype to validate their results. They used a multitude of specifications and compared the outcome  with results of software engineers and the tool \textit{Service Cutter} \cite{ServiceCutter}. Nevertheless, the outcome highly depends on the chosen reference vocabulary and  well-defined APIs in the legacy system. Operations and resources (variables, return values) have to be expressive and represent what they do. Variable names like \textit{temp} or \textit{var1} would result in a useless service decomposition. \\
 
-\cite{FunctionalDecompositionHeinrich} uses external tools to realize the approach. Once the operations and state variable are identified, the identification method is universally applicable to all sort of legacy systems and also greenfield applications\footnote{Project which lacks any constraints imposed by legacy systems}. Nonetheless, identifying relevant nouns and verbs that represent the operations and state variables is only partly supported by tools. It still requires human expertise to eliminate duplicates and identify ambiguities. \\
+Tyszberowicz et al. \cite{FunctionalDecompositionHeinrich} use external tools to realize the approach. Once the operations and state variable are identified, the approach is universally applicable to all sort of legacy systems and also greenfield applications\footnote{Project which lacks any constraints imposed by legacy systems}. Nonetheless, identifying relevant nouns and verbs that represent the operations and state variables is only partly supported by tools. It still requires human expertise to eliminate duplicates and identify ambiguities. \\
 
-Munezero et al. present a conceptional approach based on DDD patterns.\footnote{Domain-driven Design}. Although the domain-driven design approach is currently the most common technique for identifying microservices (\cite{FunctionalDecompositionHeinrich}\cite{Fowler}\cite{MigratingTowardsSurvey} and more), it does not tackle RQ2 (precisely \textit{RQ2}) mentioned in Sec.\ref{sec:Introduction:ResearchQuestions}, as it requires the expertise and experience of domain experts.\\
+Munezero et al. present a conceptional approach based on DDD patterns\footnote{Domain-driven Design}. Although the domain-driven design approach is currently the most common technique for identifying microservices (\cite{FunctionalDecompositionHeinrich}\cite{Fowler}\cite{MigratingTowardsSurvey} and more), it requires the expertise and experience of domain experts, which is not desired in the case og this thesis.\\
 
-Chen's semi-automate approach \cite{DataflowDrivenChen} is based on Data-flow Diagrams (DFD). Transforming the traditional DFDs to purified DFDs is not trivial an therefore requires a vast amount of additional manual work. Nevertheless, the purified DFD represents the real information flow of the corresponding business logic in the legacy system and therefore provides valuable information regarding potential inter- and intra service communication. \\
+Chen's semi-automate approach \cite{DataflowDrivenChen} is based on Data-flow Diagrams (DFD). Transforming the traditional DFDs to purified DFDs is not trivial and therefore requires a vast amount of additional manual work. Nevertheless, the purified DFD represents the real information flow of the corresponding business logic in the legacy system and therefore provides valuable information regarding potential inter- and intra service communication. \\
 
 The approach presented by Alwis et al. \cite{HeuristicsAlwis} is a more complex method for microservice identification: Many steps and 
 prerequisites are necessary to prepare the input data. For example, expressive \textit{Log Files} are required to generate call graphs. Further, source code and the system's database is required to identify so-called business objects and their relationships. The latter one lacks a formal description in the paper. 
@@ -177,11 +180,11 @@ Additionally, the algorithms to identify potential microservice candidates are s
 			
 			 	Prerequisites	& applications with meaningful VCS data & business processes and entities available  & well-defined Api with proper naming & specification of software requirements \\
 			
-			Input & Source Code and VCS meta data & BPMN business processes with
+			Input & source code and VCS meta data & BPMN business processes with
 			data object reads and writes  & reference vocabulary (fitness function), OpenApi specifications & use cases\\
 			
 			Tool support & prototype available (https://github.com/gmazlami/microserviceExtraction-frontend)
-			  & Clustering tool "Bunch" & experimental prototype (https://github.com/mgar riga/decomposer) & use external graph visualize and analyse tools \\
+			  & Clustering tool Bunch & experimental prototype (https://github.com/mgar riga/decomposer) & usees external graph visualize and analyse tools \\
 			
 			Degree of human involvement & choose amount of clusters that will represent the microservices  & no interaction needed & user defines level of hierachy & manual elimination of synonyms, irrelevant nouns and verbs \\
 			
@@ -189,7 +192,7 @@ Additionally, the algorithms to identify potential microservice candidates are s
 			
 			Validation & experiements using open-source projects with VCS data (200 to 25000 commits, 1000 to 500000 LOC, 5 to 200 authors)  & multiple experiments, results compared with domain experts knowledge  & 452 OpenApi specification, 5 samples compared with results of sw-engineers and \cite{ServiceCutter}& case study, compared to three manual implementations \\
 			
-			Limitation & need meaningful VCS data and ORM model for its data entities & given weight definitions lack formal explanation    & depends on reference vocabulary and well-defined interfaces & manual revision of operations (nouns) and state variable (verbs) \\
+			Limitation & needs meaningful VCS data and ORM model for its data entities & given weight definitions lack formal explanation    & depends on reference vocabulary and well-defined interfaces & manual revision of operations (nouns) and state variable (verbs) \\
 			
 		\end{tabularx}
 		\caption{Comparison of Approaches, Part I}
