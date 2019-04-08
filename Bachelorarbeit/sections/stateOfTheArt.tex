@@ -84,7 +84,7 @@ Further information is given in textual form in the same section.
 
 \section{Approaches for Identifying Microservices}
 \label{sec:stateOfTheArt:approaches}
-The following section provides a short introduction into the approaches listed in table \ref{tab:overviewLiterature}. \\
+The following section provides a short introduction of the approaches listed in table \ref{tab:overviewLiterature}. \\
 
 \noindent
 \textbf{Extraction of Microservices from Monolithic Software Architectures   } \\
@@ -94,7 +94,7 @@ Starting with a given code base, the approach uses three different coupling stra
 \noindent
 \textbf{Object-Aware Identification of Microservices  } \\
 \cite{ObjectAwareAmiri} identifies microservices from business processes, using the widely known \textit{Business Process and Model Notation (BPMN)}. The approach uses clustering based on structural dependency and data object dependency. The first aspect is extracted from related activities within the business process model. A relation exists, if an edge directly connects a pair of activities or if only gateways are in between. \\
-The latter aspect is based on the data object read and writes of each activity. Activities that are directly or indirectly connected and perform write or read operations are more likely to be partitioned into the same microservice. \\
+The latter aspect is based on the data object reads and writes of each activity. Activities that are directly or indirectly connected and perform write or read operations are more likely to be partitioned into the same microservice. \\
 Both relations are stored in a separate matrix. To aggregate both relations, the matrices are summed up by simple matrix addition. Second to last, the relation matrix is transformed into a weighted graph using the values of the matrix as weights. Finally, clustering algorithms determine clusters that represent microservice candidates.\\
 
 
@@ -105,7 +105,7 @@ In \cite{interfaceAnalysisBaresi}, the author proposes an approach that is based
 
 \noindent
 \textbf{Identifying Microservices Using Functional Decomposition  } \\
-The approach presented in \cite{FunctionalDecompositionHeinrich} identifies microservices by functional decomposition of the software requirements, provided as use case specifications. In order to achieve the decomposition, the system is  modelled as a finite set of \textit{system operations} and the system's \textit{state space}. Use cases provide the necessary input data: Verbs found in the use cases serve as \textit{system operations} and nouns correspond to the \textit{state variables} that the operations read or write. The state variables constitute the state space. Relationships between the operations and the variables are stored in a relation table, that is visualized as a weighted graph. Finally, the approach uses graph analysis tools to determine clusters, where each cluster is a potential candidate of a microservice that fulfils the criteria of low coupling and high cohesion. \\
+The approach presented in \cite{FunctionalDecompositionHeinrich} identifies microservices by functional decomposition of the software requirements, provided as use case specifications. In order to achieve the decomposition, the system is  modelled as a finite set of \textit{system operations} and the system's \textit{state space}. Use cases provide the necessary input data: Verbs found in the use cases serve as \textit{system operations} and nouns correspond to the \textit{state variables} that the operations read or write. The state variables constitute the state space. Relationships between the operations and the variables are stored in a relation table, that is visualized as a weighted graph. Finally, the approach uses graph analysis tools to determine clusters, where each cluster is a potential candidate for a microservice that fulfils the criteria of low coupling and high cohesion. \\
 
 
 
@@ -115,7 +115,7 @@ Munezaro \textit{et al.} \cite{DomainEngineeringMunezero} propose an approach to
 
 \noindent
 \textbf{From Monolith to Microservices: A Dataflow-Driven Approach } \\
-Chen \textit{et al.} \cite{DataflowDrivenChen} use a top-down data flow driven decomposition approach to determine high cohesive and loosely coupled microservices. Before the actual identification process starts, a \textit{Data Flow Diagram (DFD)} needs to be constructed on the users' natural language description of the system to illustrate the detailed data flow. The first step of the approach consists of manually constructing a purified DFD, which focuses on data's semanteme and operations only. Afterwards, the purified DFD is algorithmically transformed into a decomposable DFD which is finally used to extract potential microservice candidates. \\
+Chen \textit{et al.} \cite{DataflowDrivenChen} use a top-down data flow driven decomposition approach to determine highly cohesive and loosely coupled microservices. Before the actual identification process starts, a \textit{Data Flow Diagram (DFD)} needs to be constructed on the users' natural language description of the system to illustrate the detailed data flow. The first step of the approach consists of manually constructing a purified DFD, which focuses on data's semanteme and operations only. Afterwards, the purified DFD is algorithmically transformed into a decomposable DFD which is finally used to extract potential microservice candidates. \\
 
 
 \noindent
@@ -126,12 +126,12 @@ The discovery process consists of two steps: First, the code, database tables an
 \noindent
 \textbf{Service Cutter: A Systematic Approach to Service Decomposition  } \\
 Gysel \textit{et al.} \cite{ServiceCutter} introduce a service decomposition tool based on 16 coupling criteria derived from industry and literature. A coupling criterion is a decision driver to decide whether data, operations or artifacts (generalized under the term \textit{nanoentity}) should or should not be owned and exposed by the same service. Additionally, each criterion has a different score according to its priority.
-The input is in form of various \textit{System Specification Artifacts (SSAs)}, such as domain models and use cases.  The tool \textit{Service Cutter} extracts coupling criteria information out of it, that must be prioritised by an user. To analyse and process the coupling criteria, \textit{Service Cutter} creates a weighted graph. The nodes represent the nanoentities which are connected via weighted edges. The weighting corresponds to the sum of all scores defined by the criteria as mentioned above. In addition, the user can prioritize individual criteria by adding a multiplier that increases the weight of the score. In the end, an exchangeable clustering algorithm identifies potential microservice candidates where each cluster correspond to a high cohesive and loosely coupled service.
+The input is in form of various \textit{System Specification Artifacts (SSAs)}, such as domain models and use cases.  The tool \textit{Service Cutter} extracts coupling criteria information out of it, that must be prioritised by an user. To analyse and process the coupling criteria, \textit{Service Cutter} creates a weighted graph. The nodes represent the nanoentities which are connected via weighted edges. The weighting corresponds to the sum of all scores defined by the criteria as mentioned above. In addition, the user can prioritize individual criteria by adding a multiplier that increases the weight of the score. In the end, an exchangeable clustering algorithm identifies potential microservice candidates where each cluster correspond to a highly cohesive and loosely coupled service.
  
 \section{Comparison} 
 \label{sec:stateOfTheArt:comparison}
 
-Table \ref{tab:compareApproaches1} and \ref{tab:compareApproaches2} provide a short description of the identified approaches mentioned above regarding some comparison criteria. The following criteria were used: The \textbf{Basic Concept} recaptures the underlying approach of the microservice identification for classification purposes. The column \textbf{Prerequisites} presents the necessary preconditions for the success of the approach. For example, the approach mentioned in \cite{ExtractionMazlami} cannot be used without meaningful VCS\footnote{Version Control System} data. The \textbf{Input} row describes the type and amount of input that is used to realize the approach, i.e. Data Flow Diagrams in \cite{DataflowDrivenChen}. The row \textbf{Tool Support} indicates, whether the approach has been implemented or if other supporting tools are available to simplify the identification of high cohesive and loosely coupled microservices. The \textbf{Degree of human involvement} is part of the comparison, as this thesis aims to reduce the complexity of the service identification while keeping the required amount of expertise and manual tasks on a minimum. As evaluated in Sec.\ref{sec:background:microservices}, defining fine-grained microservices is a key challenge. Therefore, the approaches need to be compared in regard to the \textbf{Granularity of the recommended Microservices}. Some approaches allow an adjustable level of the granularity (e.g. \cite{ExtractionMazlami}), whereas others generate a predefined granularity (e.g. always the most fine-grained microservice candidates \cite{HeuristicsAlwis}). \textbf{Validation} compares how the approaches are validated to strengthen the credibility of the individual results. Each approach might have some drawbacks regarding it's applicability to universal systems, required amount and type of input, user interaction and further expertise. \textbf{Limitations} is meant to point out the identified drawbacks. The following paragraph replenishes and explains the results given in Table \ref{tab:compareApproaches1} and Table \ref{tab:compareApproaches2} shortly: \\
+Table \ref{tab:compareApproaches1} and \ref{tab:compareApproaches2} provide a short description of the identified approaches mentioned above regarding some comparison criteria. The following criteria were used: The \textbf{Basic Concept} recaptures the underlying approach of the microservice identification for classification purposes. The column \textbf{Prerequisites} present the necessary preconditions for the success of the approach. For example, the approach mentioned in \cite{ExtractionMazlami} cannot be used without meaningful VCS\footnote{Version Control System} data. The \textbf{Input} row describes the type and amount of input that is used to realize the approach, i.e. Data Flow Diagrams in \cite{DataflowDrivenChen}. The row \textbf{Tool Support} indicates, whether the approach has been implemented or if other supporting tools are available to simplify the identification of highly cohesive and loosely coupled microservices. The \textbf{Degree of human involvement} is part of the comparison, as this thesis aims to reduce the complexity of the service identification while keeping the required amount of expertise and manual tasks on a minimum. As evaluated in Sec.\ref{sec:background:microservices}, defining fine-grained microservices is a key challenge. Therefore, the approaches need to be compared in regard to the \textbf{Granularity of the recommended Microservices}. Some approaches allow an adjustable level of the granularity (e.g. \cite{ExtractionMazlami}), whereas others generate a predefined granularity (e.g. always the most fine-grained microservice candidates \cite{HeuristicsAlwis}). \textbf{Validation} compares how the approaches are validated to strengthen the credibility of the individual results. Each approach might have some drawbacks regarding it's applicability to universal systems, required amount and type of input, user interaction and further expertise. \textbf{Limitations} is meant to point out the identified drawbacks. The following paragraph replenishes and explains the results given in Table \ref{tab:compareApproaches1} and Table \ref{tab:compareApproaches2} shortly: \\
 
 \noindent
 The approach mentioned in \cite{ExtractionMazlami} is the result of a master thesis \cite{Mazlami}. Therefore, the degree of available information is larger compared to other approaches. The algorithmic recommendation of microservice candidates is implemented in a web-based, open source prototype and permits to choose three different coupling criteria, which can be combined for better results. Nevertheless, the main limitation relies in its type of input data: meaningful VCS data. For instance, developers must not commit changes on two independent functionalities together, but split it up. If this is not the case, the outcome may be wrong. \\
@@ -192,12 +192,12 @@ Additionally, the algorithms to identify potential microservice candidates are s
 			Input & source code and VCS meta data & BPMN business processes with
 			data object reads and writes  & reference vocabulary (fitness function), OpenApi specifications & use cases\\
 			
-			Tool support & prototype available (https://github.com/gmazlami/microserviceExtraction-frontend)
-			  & Clustering tool Bunch & experimental prototype (https://github.com/mgar riga/decomposer) & usees external graph visualize and analyse tools \\
+			Tool support & prototype available  (https://github.com/gmazlami/microserviceExtraction-frontend)
+			  & Clustering tool Bunch & experimental prototype (https://github.com/mgar riga/decomposer) & uses external graph visualize and analysis tools \\
 			
 			Degree of human involvement & choose amount of clusters that will represent the microservices  & no interaction needed & user defines level of hierachy & manual elimination of synonyms, irrelevant nouns and verbs \\
 			
-			Granularity & depends on choosen amount of clusters & depends on iteration of genetic algorithm for convergence of fitness function & depends on choosen hierachy lebel, varies from one to many & depends on size of business capability \\
+			Granularity & depends on choosen amount of clusters & depends on iteration of genetic algorithm for convergence of fitness function & depends on choosen hierachy level, varies from one to many & depends on size of business capability \\
 			
 			Validation & experiements using open-source projects with VCS data (200 to 25000 commits, 1000 to 500000 LOC, 5 to 200 authors)  & multiple experiments, results compared with domain experts knowledge  & 452 OpenApi specification, 5 samples compared with results of sw-engineers and \cite{ServiceCutter}& case study, compared to three manual implementations \\
 			
@@ -263,11 +263,10 @@ Additionally, the algorithms to identify potential microservice candidates are s
 	\end{landscape}
 	\clearpage% Flush page
 }
+ 
 
-
-
-
-
+ 
+  
 
 
 
