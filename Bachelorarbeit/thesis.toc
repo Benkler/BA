@@ -31,108 +31,110 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.4}Business Process and Model Notation}{10}{section.2.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Running Example}{13}{chapter.3}% 
+\contentsline {section}{\numberline {2.5}Transform Use Case Sets in BPMN Processes}{11}{section.2.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Introduction to CoCoME}{13}{section.3.1}% 
+\contentsline {subsection}{\numberline {2.5.1}Limitations and Drawbacks of the Transformation}{13}{subsection.2.5.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}System Specifications}{13}{section.3.2}% 
+\contentsline {chapter}{\numberline {3}Running Example}{15}{chapter.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}State of the Art}{15}{chapter.4}% 
+\contentsline {section}{\numberline {3.1}Introduction to CoCoME}{15}{section.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Literature Review}{15}{section.4.1}% 
+\contentsline {section}{\numberline {3.2}System Specifications}{15}{section.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Approaches for Identifying Microservices}{17}{section.4.2}% 
+\contentsline {chapter}{\numberline {4}State of the Art}{17}{chapter.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Comparison}{19}{section.4.3}% 
+\contentsline {section}{\numberline {4.1}Literature Review}{17}{section.4.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Approach for identifying Microservices}{25}{chapter.5}% 
+\contentsline {section}{\numberline {4.2}Approaches for Identifying Microservices}{19}{section.4.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Basic Approach}{25}{section.5.1}% 
+\contentsline {section}{\numberline {4.3}Comparison}{21}{section.4.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Specify BPMN Models}{26}{section.5.2}% 
+\contentsline {chapter}{\numberline {5}Approach for identifying Microservices}{27}{chapter.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.1}Transform Use Case Sets in BPMN Processes}{27}{subsection.5.2.1}% 
+\contentsline {section}{\numberline {5.1}Underlying strategy}{27}{section.5.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.2}Limitations and Drawbacks of the Transformation}{29}{subsection.5.2.2}% 
+\contentsline {section}{\numberline {5.2}Basic Approach}{28}{section.5.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Extract Control Flow}{30}{section.5.3}% 
+\contentsline {subsection}{\numberline {5.2.1}Specify BPMN Models}{29}{subsection.5.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Create a weighted Graph using Control Flow}{30}{section.5.4}% 
+\contentsline {subsection}{\numberline {5.2.2}Extract Control Flow}{29}{subsection.5.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Extract Data Flow}{32}{section.5.5}% 
+\contentsline {subsection}{\numberline {5.2.3}Create a weighted Graph using Control Flow}{30}{subsection.5.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.6}Create a weighted Graph using Data Flow}{34}{section.5.6}% 
+\contentsline {subsection}{\numberline {5.2.4}Extract Data Flow}{32}{subsection.5.2.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.7}Identify Cluster}{37}{section.5.7}% 
+\contentsline {subsection}{\numberline {5.2.5}Create a weighted Graph using Data Flow}{34}{subsection.5.2.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.8}Match Cluster}{38}{section.5.8}% 
+\contentsline {subsection}{\numberline {5.2.6}Identify Cluster}{37}{subsection.5.2.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.9}Extract Microservice Candidates}{40}{section.5.9}% 
+\contentsline {subsection}{\numberline {5.2.7}Match Cluster}{38}{subsection.5.2.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Application of the Approach}{41}{chapter.6}% 
+\contentsline {subsection}{\numberline {5.2.8}Extract Microservice Candidates}{40}{subsection.5.2.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Use Cases as BPMN Models}{41}{section.6.1}% 
+\contentsline {chapter}{\numberline {6}Application of the Approach}{43}{chapter.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Extracted Control Flow}{42}{section.6.2}% 
+\contentsline {section}{\numberline {6.1}Use Cases as BPMN Models}{43}{section.6.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Extracted Data Flow}{42}{section.6.3}% 
+\contentsline {section}{\numberline {6.2}Extracted Control Flow}{44}{section.6.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Control Flow Graph}{43}{section.6.4}% 
+\contentsline {section}{\numberline {6.3}Extracted Data Flow}{44}{section.6.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.5}Data Flow Graph}{44}{section.6.5}% 
+\contentsline {section}{\numberline {6.4}Control Flow Graph}{45}{section.6.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.6}Activity Clusters}{45}{section.6.6}% 
+\contentsline {section}{\numberline {6.5}Data Flow Graph}{46}{section.6.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.7}Data Object Clusters}{46}{section.6.7}% 
+\contentsline {section}{\numberline {6.6}Activity Clusters}{47}{section.6.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.8}Match Clusters}{46}{section.6.8}% 
+\contentsline {section}{\numberline {6.7}Data Object Clusters}{48}{section.6.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.9}Extract Microservice Candidates}{47}{section.6.9}% 
+\contentsline {section}{\numberline {6.8}Match Clusters}{48}{section.6.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Evaluation}{49}{chapter.7}% 
+\contentsline {section}{\numberline {6.9}Extract Microservice Candidates}{49}{section.6.9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}GQM Plan}{49}{section.7.1}% 
+\contentsline {chapter}{\numberline {7}Evaluation}{51}{chapter.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Metrics}{50}{section.7.2}% 
+\contentsline {section}{\numberline {7.1}GQM Plan}{51}{section.7.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.1}Precision and Recall}{50}{subsection.7.2.1}% 
+\contentsline {section}{\numberline {7.2}Metrics}{52}{section.7.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}Reference Sets}{52}{section.7.3}% 
+\contentsline {subsection}{\numberline {7.2.1}Precision and Recall}{52}{subsection.7.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.1}Reference Set 1: Functional Decomposition Approach}{53}{subsection.7.3.1}% 
+\contentsline {section}{\numberline {7.3}Reference Sets}{54}{section.7.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.2}Reference Set 2: Manual Decomposition}{53}{subsection.7.3.2}% 
+\contentsline {subsection}{\numberline {7.3.1}Reference Set 1: Functional Decomposition Approach}{55}{subsection.7.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.3}Differences between both sets}{54}{subsection.7.3.3}% 
+\contentsline {subsection}{\numberline {7.3.2}Reference Set 2: Manual Decomposition}{55}{subsection.7.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.4}Precision and Recall Measurement}{55}{section.7.4}% 
+\contentsline {subsection}{\numberline {7.3.3}Differences between both sets}{56}{subsection.7.3.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.4.1}Reference Set 1}{55}{subsection.7.4.1}% 
+\contentsline {section}{\numberline {7.4}Precision and Recall Measurement}{57}{section.7.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.4.2}Reference Set 2}{56}{subsection.7.4.2}% 
+\contentsline {subsection}{\numberline {7.4.1}Reference Set 1}{57}{subsection.7.4.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.5}Results}{56}{section.7.5}% 
+\contentsline {subsection}{\numberline {7.4.2}Reference Set 2}{58}{subsection.7.4.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.6}Threats to Validity}{57}{section.7.6}% 
+\contentsline {section}{\numberline {7.5}Results}{58}{section.7.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.6.1}Internal Validity}{57}{subsection.7.6.1}% 
+\contentsline {section}{\numberline {7.6}Threats to Validity}{59}{section.7.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.6.2}External Validity}{58}{subsection.7.6.2}% 
+\contentsline {subsection}{\numberline {7.6.1}Internal Validity}{59}{subsection.7.6.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Conclusion}{59}{chapter.8}% 
+\contentsline {subsection}{\numberline {7.6.2}External Validity}{60}{subsection.7.6.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Outcomes}{60}{section.8.1}% 
+\contentsline {chapter}{\numberline {8}Conclusion}{61}{chapter.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Discussion}{60}{section.8.2}% 
+\contentsline {section}{\numberline {8.1}Outcomes}{62}{section.8.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.3}Limitations and Future Work}{62}{section.8.3}% 
+\contentsline {section}{\numberline {8.2}Discussion}{62}{section.8.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{63}{chapter*.6}% 
+\contentsline {section}{\numberline {8.3}Limitations and Future Work}{64}{section.8.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Appendix}{67}{appendix.A}% 
+\contentsline {chapter}{\nonumberline Bibliography}{65}{chapter*.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}BPMN Models}{67}{section.A.1}% 
+\contentsline {chapter}{\numberline {A}Appendix}{69}{appendix.A}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Control Flow Diagrams}{69}{section.A.2}% 
+\contentsline {section}{\numberline {A.1}BPMN Models}{69}{section.A.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Data Flow Diagrams}{71}{section.A.3}% 
+\contentsline {section}{\numberline {A.2}Control Flow Diagrams}{71}{section.A.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.3}Data Flow Diagrams}{73}{section.A.3}% 
