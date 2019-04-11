@@ -211,7 +211,7 @@ The second dependency is based on a similar heuristic. There is a certain connec
 %"l, b, r, t"
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=12cm, trim={10cm 14.5cm 10cm 2cm}]{img/DataFlowExample.pdf}
+	\includegraphics[width=12cm, trim={10cm 14.5cm 10cm 3cm}]{img/DataFlowExample.pdf}
 	\caption{Data Flow Diagram extracted from BPMN process}
 	\label{fig:dataFlowExample}
 \end{figure}
@@ -225,10 +225,8 @@ The same line of reasoning can be applied to \textit{Task 1}: Information of \te
 \begin{itemize}
 	\item Dependency between a pair of data objects, only if both data objects are read and written by the same task.
 	\item Dependency between a pair of data objects, if \textit{n} tasks\footnote{n $\in [0..]$, where 0 represents neighbouring tasks} are in between a task that reads the first data object and another task that writes into the other data object\footnote{Following the Data Flow Arcs when counting}.
-	
 
-	
-	\item Use additional information to determine the actual data flow dependencies
+	\item Use additional information to determine the actual data flow dependencies.
 \end{itemize}
 \noindent
 The dependencies are expressed by connecting the vertices in question (which represent the data objects) with a weighted edge. 

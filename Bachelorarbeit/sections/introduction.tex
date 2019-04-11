@@ -13,7 +13,6 @@ Monolithic software applications develop over time and become more and more comp
 The microservice architecture has many advantages over the monolithic style. Sec.\ref{sec:background:microservices} elaborates the main aspects of microservices, including several benefits. Netflix, for instance, is able to cope with one billion calls a day to its video streaming API, by migrating their monolithic system to a highly flexible, maintainable and scalable microservice architecture \cite{DataflowDrivenChen}. Consequently, moving existing applications to a microservice landscape is an upcoming philosophy in academia and industry \cite{ObjectAwareAmiri}. Besides the migration of existing system towards a microservice architecture, many greenfield systems are already designed using the microservice architecture.\\
 Nevertheless, decomposing a (existing) system in loosely coupled, fine-grained and independent microservices is a time consuming task that requires tedious manual effort \cite{ServiceCutter} and is technically cumbersome \cite{HeuristicsAlwis}. So far, it is done mainly intuitively and relies on the experience of software architects and system designers. Hence, a formal approach to identify microservices is required. 
 
-
 \section{Research Questions and Contributions}
 \label{sec:Introduction:ResearchQuestions}
 The microservice architecture is a fast rising approach to structure a system as a collection of highly cohesive but loosely coupled and independent services. Large applications are decomposed into small, independent microservices where each service can be independently scaled and deployed. 
@@ -24,7 +23,7 @@ Baresi \textit{et al.} state that a "proper" microservice identification defines
 So far, the partition is performed mainly intuitively based on the experience and know-how of experts that perform the extraction. Hassan \textit{et al.} criticise a lack of systematic approaches to reduce the complexity of the extraction process \cite{ArchitecturalMetaModelling}. Extracting microservices from monoliths or design a larger greenfield application as microservice-based system therefore requires tedious manual effort and can be very costly \cite{FunctionalDecompositionHeinrich} \cite{ExtractionMazlami}. In the following, we present Research Questions (RQ) to tackle the issue of microservice identification. They are general and do not restrict the application area to a single system type:
 
 
-\vspace{1cm}
+\vspace{0.5cm}
 \par
 \begingroup
 \leftskip=1cm
@@ -33,7 +32,7 @@ So far, the partition is performed mainly intuitively based on the experience an
 \noindent
 \textbf{RQ1: How to identify microservices based on the system specifications?}
 
-\vspace{0.5cm}
+\vspace{0.2cm}
 \noindent
 The research question can be further divided into more specific sub-questions, where the first question covers the literature research, the second one addresses the construction of a new approach and the last one deals with the evaluation.
 
@@ -41,7 +40,7 @@ The research question can be further divided into more specific sub-questions, w
 \noindent
 \textbf{RQ1.1: Which is an appropriate strategy to decompose a system into microservices?}
 
-\vspace{0.5cm}
+\vspace{0.2cm}
 \noindent
 To identify possible strategies, a literature research is conducted. Suitable strategies and approaches are compared based on criteria identified in the literature research.
 \vspace{0.5cm}
@@ -49,7 +48,7 @@ To identify possible strategies, a literature research is conducted. Suitable st
 \noindent
 \textbf{RQ1.2: What formal approach can be constructed to identify possible microservices without detailed know-how and manual effort?}
 
-\vspace{0.5cm}
+\vspace{0.2cm}
 \noindent
 To that end, the most promising strategy identified in RQ1.1 is used as basis. Thereupon, a formal approach is elaborated that aims to reduce the complexity and manual work that has to be done when identifying microservices.
 \vspace{0.5cm}
@@ -58,21 +57,11 @@ To that end, the most promising strategy identified in RQ1.1 is used as basis. T
 \noindent
 \textbf{RQ1.3: What is the accuracy of the approach?   }
 
-\vspace{0.5cm}
+\vspace{0.2cm}
 \noindent
 Research question RQ1.3 is tackled by applying the approach to the Common Component Modelling Example (\textit{CoCoME}). The subsequent system decomposition is evaluated by comparing the identified microservices with two other approaches: First, Tyszberowicz \textit{et al.} \cite{FunctionalDecompositionHeinrich} provide a decomposition of CoCoME based on their approach. Second, we identified and implemented a microservice-based version of CoCoME manually. 
 
-\vspace{0.5cm}
-
-
-
 \endgroup
-\vspace{1cm}
-
-
-
-
-
 
 
 \section{Thesis Outline}
