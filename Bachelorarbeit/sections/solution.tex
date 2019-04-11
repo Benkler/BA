@@ -89,13 +89,15 @@ Accordingly, section \ref{sec:PrepApproach:TransformUCtoBPMN} illustrates a proc
 
 \subsection{Extract Control Flow}
 \label{sec:Solution:ExtractControlFlow}
-In the course of the process, activities of the business processes are clustered based on their structural dependency which is extracted from the control flow. Activities (tasks) in business processes play the role of operations in microservices, representing the functionality a service is able to offer. During the process of microservice identification, it is desired to cluster highly cohesive functionality into one microservice. To achieve this, one must first extract the structural  dependencies between activities in business processes. \\
-The extraction process itself is trivial, as the business process language BPMN was designed to illustrate the control flow between activities (cf. Sec.\ref{sec:PrepApproach:BPMN}). Mainly inspired by the work of M. Amiri in \textit{Object-aware Identification of Microservices} \cite{ObjectAwareAmiri}, we propose a straightforward technique to separate the control flow information from BPMN 2.0 models:\\
-All that has to be done is to delete the Data Objects and the accompanying associations. The remaining diagram visualizes the control flow, including activities and their control flow dependencies. Further information can be extracted in various ways. For instance, counting the amount of tasks between a pair of activities provides information about their structural dependency. The control flow has to be extracted for each BPMN model that was specified in the previous step.
+\textbf{Background:} In the course of the process, activities of the business processes are clustered based on their structural dependency which is extracted from the control flow. Activities (tasks) in business processes play the role of operations in microservices, representing the functionality a service is able to offer. During the process of microservice identification, it is desired to cluster highly cohesive functionality into one microservice. To achieve this, one must first extract the structural  dependencies between activities in business processes. \\
+The extraction process itself is trivial, as the business process language BPMN was designed to illustrate the control flow between activities (cf. Sec.\ref{sec:PrepApproach:BPMN}). Mainly inspired by the work of M. Amiri in \textit{Object-aware Identification of Microservices} \cite{ObjectAwareAmiri}, we propose a straightforward technique to separate the control flow information from BPMN 2.0 models.\\
+
+\noindent
+\textbf{Process:} All that has to be done is to delete the Data Objects and the accompanying associations. The remaining diagram visualizes the control flow, including activities and their control flow dependencies. Further information can be extracted in various ways. For instance, counting the amount of tasks between a pair of activities provides information about their structural dependency. The control flow has to be extracted for each BPMN model that was specified in the previous step.
 
 \subsection{Create a weighted Graph using Control Flow}
 \label{sec:Solution:CreateGraphControl}
-In section \ref{sec:Solution:ExtractControlFlow}, the control flow is extracted from several BPMN models that represent the entire system.
+\textbf{Background:} In section \ref{sec:Solution:ExtractControlFlow}, the control flow is extracted from several BPMN models that represent the entire system.
 The visualization of the control flow information as a single graph enables to identify clusters of highly cohesive functionality among all BPMN models, thus among the entire system. Fig.\ref{fig:controlFlow} shows an the control flow of an exemplary BPMN model whose object-related information has already been deleted (cf. Sec.\ref{sec:Solution:ExtractControlFlow}).
 
  \begin{figure}[h!]
@@ -106,7 +108,9 @@ The visualization of the control flow information as a single graph enables to i
 
 \noindent
 Based on all BPMN models derived from the system specifications, a directed graph G whose vertices represent the tasks/activities in the BPMN models is built. To visualize this step, only one BPMN model is presented and transformed into a Graph for the sake of simplicity. Fig.\ref{fig:controlFlowGraph} illustrates the Graph that corresponds to the BPMN model as depicted in Fig.\ref{fig:controlFlow} and demonstrates the transformation. This graph would be bigger, if more BPMN models were used.  \\
-Duplicate vertices are not allowed. Hence, activities that occur several times in different BPMN models are only represented once in the graph.
+
+\noindent
+\textbf{Process:} Duplicate vertices are not allowed. Hence, activities that occur several times in different BPMN models are only represented once in the graph.
 The edges correspond to the control flow arcs: a pair of activities is connected if there is a direct edge in the business processes or if there is a path between them that contains only gateways (parallel or XOR). This decision is based on the heuristic, that two activities are more likely to be in the same microservice, if they are directly connected in a business process. \\
 Speaking of the weights, it is decided to assign a value of 1 to each edge, notwithstanding of the nature of the connection, which is i) directly connected ii) connected via parallel gateway iii) connected via XOR gateway. Regarding the first and the second case, it is motivated by the fact that activities connected by a parallel gateway and activities that are directly connected are always executed during control flow execution.
 In regard of the third case, one can argue that the probability of a condition influences the weight of a connection. For instance, a task has two subsequent tasks that are connected through an exclusive OR gateway and conditional flows. One of the tasks, the "main task", is more likely to be the successor as the alternative. Hence, the edges need a different weight. However, the information regarding the probability is usually not available and specified in business processes. Further, different weighting raises the question of the value determination. With this in mind, the generalization of all types of connections (using a weight of 1 for all edges) seems to be an appropriate solution. \\
@@ -127,7 +131,7 @@ In the case of duplicated control flow dependencies due to several BPMN models, 
 
 \subsection{Extract Data Flow}
 \label{sec:Solution:ExtractDataFlow}
-Besides the structural dependencies of activities, data object access plays a significant role in the definition of microservices. As depicted in the background chapter \ref{ch:background}, microservice generally administer their own database with the data entities that belong to the bounded context of the service. Usually, data needs to be shared among services which raises the question where to place a shared data object. However, sharing data among microservices is expensive because it includes network communication instead of inter process communication. It is therefore desirable to reduce the communication between services by distributing data objects into the same microservice if they are accessed together. In order to achieve this, we propose to use clustering based on data flow to identify highly cohesive but loosely coupled set of data object clusters. \\
+\textbf{Background:} Besides the structural dependencies of activities, data object access plays a significant role in the definition of microservices. As depicted in the background chapter \ref{ch:background}, microservice generally administer their own database with the data entities that belong to the bounded context of the service. Usually, data needs to be shared among services which raises the question where to place a shared data object. However, sharing data among microservices is expensive because it includes network communication instead of inter process communication. It is therefore desirable to reduce the communication between services by distributing data objects into the same microservice if they are accessed together. In order to achieve this, we propose to use clustering based on data flow to identify highly cohesive but loosely coupled set of data object clusters. \\
 Usually, data flows are represented using specific notations of Data Flow Diagrams (DFD), i.e. a notation proposed by E.Yourdon \cite{YourdonDFD}. For simplicity's sake, we relinquish to introduce another model notation and use the BPMN symbols instead. \\
 When BPMN 2.0 was introduced, the language was extended by the ability to represent data objects that are consumed and/or produced by the activities. Despite the fact that BPMN is still a language to illustrate the control flow of business processes, the 2.0 extension provides the possibility to visualize an approximated data flow based on the data needs and writes of each activity. The data flow can only be approximated due to the capability of BPMN to express the data needs and the data results of single activities only, whereas the data flow describes the flow of data in a process. This problem can be explained using Fig.\ref{fig:problemDataFlow} as an example:\\
 \textit{Step 1} reads \textit{Data Object 1} and writes \textit{Data Object 2}. Despite the information about the data reads and writes of \textit{Step 1}, it is not possible to determine without further knowledge, if any information of \textit{Data Object 1} is used to write into \textit{Data Object 2}. Usually, this information has to be provided by system experts.\\
@@ -136,13 +140,16 @@ When BPMN 2.0 was introduced, the language was extended by the ability to repres
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\textwidth, trim={3.5cm 15cm 12.5cm 2cm}]{img/ExtractDFDProblem.pdf}
-	\caption{BPMN model to illustrate the }
+	\caption{BPMN model to illustrate the issue of the data flow approximation}
 	\label{fig:problemDataFlow}
 \end{figure}
 
 \noindent
 However, the approach presented in this thesis aims to reduce the required expertise and the additional information that is necessary during the execution. 
-Hence, it is fundamental to approximate the data flow based on the data needs and writes of each activity. As in this case, the approximated data flow has to be extracted for each BPMN model. \\
+Hence, it is fundamental to approximate the data flow based on the data needs and writes of each activity. As in this case, the data flow has to be approximated for each BPMN model. \\
+
+\noindent
+\textbf{Process:} In the following, the process to extract and approximate the data flow from BPMN models is presented: \\
 First of all, control flow related parts like sequence flows arcs, gateways, events and triggers are deleted. The remaining parts are tasks, data objects and data associations. Now, the tasks are not connected to their previous neighbours, with which they might exchange data. In this case, data exchange is synonymous with the flow of data.
 To re-establish the possible data flow, follow the previously deleted control flow and reconnect the tasks with data association arcs by applying the following rules:
 
@@ -150,7 +157,7 @@ To re-establish the possible data flow, follow the previously deleted control fl
 	\item Connect a pair of tasks if previously connected by a control flow arc and 
 	if another data object access happens in the course of the control flow (cf. Fig.\ref{fig:restoreDataFlow})
 	\item Replace gates by using two data association arcs (cf. Fig.\ref{fig:splitDataFlow} and Fig.\ref{fig:mergeDataFlow}). 
-	\item Remove the remaining tasks that are not connected by data association arcs (cf. Fig.\ref{fig:removeDataFlow})
+	\item Remove the remaining tasks that are not connected by data association arcs and therefore not necessary for the data flow (cf. Fig.\ref{fig:removeDataFlow})
 	
 \end{itemize}
 The remaining Graph contains all relevant tasks, the data objects and data associations that indicate the flow of data.
@@ -191,12 +198,14 @@ The remaining Graph contains all relevant tasks, the data objects and data assoc
 
 \subsection{Create a weighted Graph using Data Flow}
 \label{sec:Solution:CreateGraphData}
-To identify highly cohesive data object clusters, the data flow information is visualized as a weighted graph, which is similar to the activity graph as described in the previous sections. In this case, the vertices of a Graph G represent the data objects in the BPMN models. Like the activity graph, duplicated vertices are not allowed. Each data object is only represented once in the graph. The edges illustrate the data object dependencies extracted from the data flow. \\
+\textbf{Background:} To identify highly cohesive data object clusters, the data flow information is visualized as a weighted graph, which is similar to the activity graph as described in the previous sections. In this case, the vertices of a Graph G represent the data objects in the BPMN models. Like the activity graph, duplicated vertices are not allowed. Each data object is only represented once in the graph. The edges illustrate the data object dependencies extracted from the data flow. \\
 Such dependencies are: i) data objects read by the same task ii) a data object value that is used when writing to (or creating) another data object. \\
 Speaking of the first dependency, it is obvious that data which is read by the same task is more likely to be partitioned into the same service. Otherwise, the execution of a task would always cause at least one expensive intra-service call.
 Therefore, a pair of data objects represented by two vertices are to be connected by an edge in case they are both read by the same task.\\
 The second dependency is based on a similar heuristic. There is a certain connection between two data objects, if information of one data object is used to update or create another one. Placing the information source into another microservice as the information destination would require an inevitable cross-service communication which is meant to be prevented. \\
-To create a weighted graph based on data flow dependencies, it is necessary to take a closer look at the extracted data flow (cf. Sec.\ref{sec:Solution:ExtractDataFlow}). It is noticeable that it requires additional information to decide whether two data objects have one of the proposed connections. Fig.\ref{fig:dataFlowExample} represents an exemplary data flow diagram that was extracted from a BPMN process. In the following, we discuss different possibilities to gain the data object dependencies.
+
+\noindent
+\textbf{Process:} To create a weighted graph based on data flow dependencies, it is necessary to take a closer look at the extracted data flow (cf. Sec.\ref{sec:Solution:ExtractDataFlow}). It is noticeable that it requires additional information to decide whether two data objects have one of the proposed connections. Fig.\ref{fig:dataFlowExample} represents an exemplary data flow diagram that was extracted from a BPMN process. In the following, we discuss different possibilities to gain the data object dependencies.
 
 
 %"l, b, r, t"
@@ -267,8 +276,10 @@ Fig.\ref{fig:dataFlowGraph} illustrates the Graph that is produced when applying
 
 \subsection{Identify Cluster}
 \label{sec:Solution:IdentifyCluster}
-The previous sections define strategies to represent the data flow and control flow dependencies as bi-directed weighted graphs. In this step of the identification process, the graphs are cut into disjunct set of nodes, called clusters. Common clustering techniques enable to identify sets of nodes with strong internal relationships and weak connections to the other clusters. The clustering is to be applied to both graphs equally, as they do not have any conceptual differences. At this point, it is important to emphasize that the elaboration of a clustering algorithm is beyond the scope of the paper. Therefore, we use existing tools for the visualization and identification of clusters. \\
-In the course of this work, the first attempt to identify clusters involved the use of the graph visualization tool \textit{Gephi} \footnote{https://gephi.org/}. To layout the graph, the tool uses a force-directed algorithm based on gravity and repulsion called \textit{Force Atlas} \cite{gephi}. For the clustering, it uses a heuristic algorithm elaborated by Blondel \textit{et al.} to find "high modularity partitions of large graphs" \cite{modularity}. Whereas the activity clustering produced continuously constant results, the data object clustering did not. Despite using the same settings, the tool produced fair different sets of clusters when executing the algorithm. Obviously, the tool is not suitable for relatively small graphs as in the case of CoCoME.  \\
+\textbf{Background:} The previous sections define strategies to represent the data flow and control flow dependencies as bi-directed weighted graphs. In this step of the identification process, the graphs are cut into disjunct set of nodes, called clusters. Common clustering techniques enable to identify sets of nodes with strong internal relationships and weak connections to the other clusters. The clustering is to be applied to both graphs equally, as they do not have any conceptual differences. At this point, it is important to emphasize that the elaboration of a clustering algorithm is beyond the scope of the paper. Therefore, we use existing tools for the visualization and identification of clusters. \\
+
+\noindent
+\textbf{Process:} In the course of this work, the first attempt to identify clusters involved the use of the graph visualization tool \textit{Gephi} \footnote{https://gephi.org/}. To layout the graph, the tool uses a force-directed algorithm based on gravity and repulsion called \textit{Force Atlas} \cite{gephi}. For the clustering, it uses a heuristic algorithm elaborated by Blondel \textit{et al.} to find "high modularity partitions of large graphs" \cite{modularity}. Whereas the activity clustering produced continuously constant results, the data object clustering did not. Despite using the same settings, the tool produced fair different sets of clusters when executing the algorithm. Obviously, the tool is not suitable for relatively small graphs as in the case of CoCoME.  \\
 Upon further research, we choose a tool called \textit{Bunch}, which is a clustering tool that creates a graph decomposition by treating clustering as an optimization problem \cite{bunch}. \textit{Bunch} uses a genetic algorithm and a fitness function called \textit{Turbo-MQ} \cite{turbo-MQ}. In each iteration, the algorithm randomly picks \textit{K} clusters and calculates \textit{Turbo-MQ} to measure the fitness of the selected partition. In the next iteration, the algorithm tries to improve the fitness by making changes to the previous selected clusters. The algorithm stops, as soon as the overall fitness converges.\\
 
 
@@ -309,7 +320,7 @@ Bunch requires the input graph in a simple textual form: The Graph is represente
 
 \subsection{Match Cluster}
 \label{sec:Solution:MatchCluster}
-Having both sets of clusters, it is now necessary to match the activity clusters and the data clusters in a way that reduces the required inter-microservice communication. As a first step, it is necessary to count how many times an activity cluster accesses each data object cluster. When doing this, it is not desired to differentiate between read and write accesses. This decision is based on the same reasons as the weighting for the object dependencies is chosen (cf. Sec. \ref{sec:Solution:CreateGraphData}). The calculation of data access is a trivial task and only requires to examine the BPMN models one more time: For each activity that accesses a data object, identify the activity cluster the activity is located and the data object cluster the data is located. This is summarized for each pair of activity cluster and data cluster to obtain a relationship between the sets regarding the amount of accesses.\\
+\textbf{Process:} Having both sets of clusters, it is now necessary to match the activity clusters and the data clusters in a way that reduces the required inter-microservice communication. As a first step, it is necessary to count how many times an activity cluster accesses each data object cluster. When doing this, it is not desired to differentiate between read and write accesses. This decision is based on the same reasons as the weighting for the object dependencies is chosen (cf. Sec. \ref{sec:Solution:CreateGraphData}). The calculation of data access is a trivial task and only requires to examine the BPMN models one more time: For each activity that accesses a data object, identify the activity cluster the activity is located and the data object cluster the data is located. This is summarized for each pair of activity cluster and data cluster to obtain a relationship between the sets regarding the amount of accesses.\\
 To process the obtained information, i.e. to match both sets of cluster, different approaches were elaborated during the course of the thesis:
 
 \begin{itemize}
@@ -351,6 +362,7 @@ Those combined clusters are good candidates to become a microservice, because:
 	\item The approach reduces inter-service communication to a minimum, which enhances the performance.
 \end{itemize}
 
+\noindent
 This step finalizes the microservice identification approach. In the following, it is applied to CoCoME which is introduced in Chapter \ref{ch:CoCoME}. 
 
 

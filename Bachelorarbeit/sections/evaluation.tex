@@ -17,13 +17,14 @@ In the introduction chapter, the \textit{Research Questions} are presented. The 
 
 \noindent
 To answer this question efficiently, a \textit{Goal Quality Metrics Plan } (GQM) is to be created that specifies the key aspects of the evaluation. 
-Chapter \ref{ch:SolutionApplication} applies the identification approach to the running example. As a result, a set of microservices is identified where each microservice provides some functionality and administers data object.
-In order to evaluate this approach, we compare those results to two reference sets. In doing so, not only is it checked whether the right services have been found, but also whether the functionality and the data objects have been divided up correctly. During the evaluation, those aspects are examined independently. Functionality in this sense is a service offered by a microservice that is comprehensible and understood by non-technical stakeholders. 
-\\
-The rest of the chapter is structured as follows: First, the software engineering paradigm \textit{GQM Plan} is introduced. In addition, a metric is presented with which the results of the approach can be evaluated. Afterwards, two reference sets are illustrated. Then, the result of the approach is compared with the two reference models. Second to last, the evaluation results are discussed. Eventually, the threats to the validity are outlined.
+Chapter \ref{ch:SolutionApplication} applies the identification approach to the running example. As a result, a set of microservices is identified where each microservice provides some functionalities and administers data objects.\\
+In order to evaluate this approach, we compare those results to two reference sets. In doing so, not only is it checked whether the right services have been found, but also whether the functionality and the data objects have been divided up correctly. During the evaluation, those aspects are examined independently. Functionality in this sense is a service offered by a microservice that is comprehensible and understood by non-technical stakeholders. \\
+The rest of the chapter is structured as follows: First, the evaluation goals and metrics are introduced. Further, the design of the evaluation is demonstrated, including the presentation of two reference sets which are used to compare the output of the approach, when applied to the running example. Afterwards, the evaluation results are presented. Second to last, the evaluation results are discussed. Eventually, the threats to the validity are outlined.
 
 
-\section{GQM Plan}
+\section{Evaluation Goals and Metrics}
+
+\subsection{Evaluation Goals}
 \label{sec:Evaluation:GQM}
 Basili \textit{et al.} originally proposed the \textit{GQM Plan} (Goal Quality and Metrics) as a paradigm in software engineering to create specific quality models \cite{BasiliGQM}. \\
 The main purpose of the \textit{GQM Plan} is to identify the right metrics to assess the quality of an object in a particular environment. This should prevent the gathering of unnecessary metrics and measurements and consequently reduce the expenditure of work. \\
@@ -31,20 +32,20 @@ The \textit{GQM Plan} is a Top-Down approach and is divided in three fundamental
 In the following, the \textit{GQM Plan} for this the consecutive evaluation is illustrated:
 
 \begin{itemize}
-	\item \textbf{G1:} Determine the accuracy of the approach
+	\item \textbf{G1:} Determine the accuracy of the approach to demonstrate that it is capable to identify adequate microservice candidates.
 	\item \textbf{G1.Q1:} What is the \textit{Precision and Recall} of the identified microservices compared to the reference sets?
-	\item \textbf{G1.Q1.M1:}  Precision and Recall
+	\item \textbf{G1.Q1.M1:} Measure \textit{Precision and Recall } of the identified microservice.
 	\item \textbf{G1.Q2:} What is the \textit{Precision and Recall} regarding the functionality of the identified microservices compared to the reference sets?
-	\item \textbf{G1.Q2.M1:}  Precision and Recall
-		\item \textbf{G1.Q3:} What is the \textit{Precision and Recall} regarding data objects each microservice administers compared to the reference sets?
-	\item \textbf{G1.Q3.M1:}  Precision and Recall
+	\item \textbf{G1.Q2.M1:}  Measure \textit{Precision and Recall} of the identified functionalities.
+	\item \textbf{G1.Q3:} What is the \textit{Precision and Recall} regarding data objects each microservice administers compared to the reference sets?
+	\item \textbf{G1.Q3.M1:}  Measure \textit{Precision and Recall} of the identified data objects.
 
 \end{itemize}
 
 
 
 
-\section{Metrics}
+\subsection{Evaluation Metrics}
 \label{sec:Evaluation:Metrics}
 
 Using metrics is mandatory to measure the quality of the elaborated approach. In this case, it is required to choose a metric that is capable of classifying a set of instances regarding their relevance.
@@ -145,16 +146,22 @@ The remaining parts which are the non-relevant and non-retrieved items ($N_{\ove
 
 
 
+\section{Evaluation Design}
+
+\subsection{Evaluation Setup}
+The primary goal of the evaluation is to determine the accuracy of the elaborated approach in order to answer \textbf{RQ1.3}. To achieve this, an \textit{Outcome Evaluation} is an appropriate method \cite{Evaluation}, as it shows how effective the approach is in terms of the expected results which are in this case adequate microservices. Therefore, the approach is applied to \textit{CoCoME} and the outcome is compared to two reference sets. \\
+\textit{CoCoME} was initiated in a GI Dagstuhl research seminar as a community case study for software architecture, modelling and analysis.
+In recent years, it has been applied in various areas as a demonstrator for software evolution methods\cite{CoCoMETechnical}. \textit{CoCoME} is structured like a typical, distributed and component-based information system and is therefore well suited as a demonstrator for this new type of software evolution - the migration to a microservice-based software architecture. 
 
 
 
-\section{Reference Sets}
+
+\subsection{Reference Sets}
 \label{sec:Evaluation:ReferenceSets}
 To evaluate the approach, the identified set of microservices (cf. Sec.\ref{sec:Evalutation:Results}) is compared to two alternative decompositions of CoCoME: First, a decomposition proposed in the paper \textit{Identifying Microservices Using Functional Decomposition} \cite{FunctionalDecompositionHeinrich} and second, a set of microservices which we manually identified. \\
 
-
-
-\subsection{Reference Set 1: Functional Decomposition Approach}
+\noindent
+\textbf{Reference Set 1: Functional Decomposition Approach} \\
 \textit{Identifying Microservices Using Functional Decomposition} \cite{FunctionalDecompositionHeinrich} is a systematic approach to find a appropriate partition of a system into microservices. This paper emerged as a result of the collaboration of the Academic College Tel-Aviv Yafo, the Karlsruhe Institute of Technology and the Southwest University China and uses CoCoME as demonstrator as well.\\
 As depicted in Sec.\ref{sec:stateOfTheArt:approaches}, Tyszberowicz \textit{et al.} utilize the use case specifications of CoCoME \cite{CoCoMEOld} as input for their decomposition approach. Several external tools are used to extract verbs an nouns from the use cases that serve as \textit{system operations} and \textit{state variables}. Irrelevant nouns, verbs and synonyms are eliminated via brainstorming. The relationships between the aforementioned concepts are stored in a relation table. A relation exists, if a \textit{system operation} reads or updates a \textit{state variable}. Thereupon, the relation table is visualized as a weighted graph, which enables to identify clusters of dense relationships. Each cluster serves as a microservice candidate.\\
 As mentioned in Sec.\ref{sec:stateOfTheArt:comparison}, the compulsory and non-trivial revision of nouns and verbs to eliminate synonyms etc. is a substantial disadvantage.\\
@@ -219,7 +226,8 @@ However, the evaluation lacks profundity: Microservices are only compared on a m
 
 
 
-\subsection{Reference Set 2: Manual Decomposition}
+\noindent
+\textbf{Reference Set 2: Manual Decomposition} \\
 In the course of this thesis, we implemented a microservice-based version of CoCoME. The microservice identification process itself was terminated before the literature review for the thesis started. Moreover, we were not aware of the microservice decomposition proposed by Tyszberowicz \textit{et al.} \cite{FunctionalDecompositionHeinrich} by the time we identified possible microservice candidates. So, the process was non-biased. \\
 The identification process itself was conducted manually and supported by the previous knowledge of the CoCoME domain. Once more, the time consuming and difficult identification process clarified the necessity of a structured and formal approach to identify microservices. Beside the use case specification, we used a monolithic implementation of CoCoME (the Hybrid Cloud-based Variant \cite{CoCoMETechnical}) as additional information resource to discover requirements, functionality and dependencies. Subsequently, the system was decomposed into loosely coupled and highly cohesive microservices. \\
 The following four microservices were identified:
@@ -294,8 +302,8 @@ The following four microservices were identified:
 
 
 
-
-\subsection{Differences between both sets}
+\noindent
+\textbf{Differences between both sets} \\
 The reference sets contain the same amount of microservices. Apart from the naming, those services are similar: One is responsible for the sale process, another one handles products, the third one is responsible for the orders and the last one is in charge of the reporting. \\
 Nevertheless, the two differ from each other in regard to the functionality and data objects. Obviously, \textit{Reference Set 1} features nine functionalities and three data objects whereas \textit{Reference Set 2} contains 18 functionalities and seven data objects. It is important to note that all functionalities and data objects of the first reference set are part of the second one. Since the second reference set corresponds to a real implementation, it can be assumed that the first set is not complete. \\
 Furthermore, both sets differ in the distribution of functionality and data objects among services. For instance, in \textit{Reference Set 1} the data object \textit{stockItem} is divided into the order microservice, whereas in \textit{Reference Set 2} it is divided into the sale's microservice. To provide another example, the functionalities \textit{Create Stock Report} and \textit{Create Delivery Report} are distributed differently: In the first reference set, \textit{Create Stock Report} is part of the \textit{Report} microservice and \textit{Create Delivery Report} is part of the order microservice whereas in the second reference set, both functionalities belong to the report service, which is more reasonable from the domain point of view. This example indicates a discrepancy between \textit{Reference Set 1} and \textit{Reference Set 2} where the latter corresponds to a real implementation. \\
@@ -304,7 +312,7 @@ Thus, a stronger focus is placed on the comparison with the second reference set
 
 
 
-\section{Precision and Recall Measurement}
+\section{Evaluation Results}
 \label{sec:Evalutation:PrecisionAndRecallMeasurement}
 In this section, the precision and recall metric (cf. Sec.\ref{sec:Evaluation:Metrics:sPrecRecall}) for the results of the approach (cf. Sec.\ref{sec:SolutionApplication:ExtractMicroserviceCandidates}) is calculated using the reference sets described in Sec.\ref{sec:Evaluation:ReferenceSets}. 
 For each reference set, the precision and recall instances are i) identified microservices, ii) identified functionality offered by a microservice and iii) identified data objects administered by a microservice. 
@@ -465,7 +473,7 @@ For each reference set, the precision and recall instances are i) identified mic
 	
 \end{minipage}
 
-\section{Results}
+\section{Discussion of the Evaluation Results}
 \label{sec:Evalutation:Results}
 The measurement of the precision and recall metric in the previous section gives information about the accuracy of the approach. Each of the identified microservices is also represented in the reference sets, which leads to a maximum precision of \textit{1.0}. Due to the coarse-grained \textit{Microservice 3} the recall is at 0.75. However, it has to be noticed that the approach does not produce any incorrect microservices. Regarding the functionality and data objects, the comparisons to the reference sets produces different values for recall and precision:\\
 
@@ -499,8 +507,9 @@ Another threat to the validity is the claim that \textit{Microservice 3} consist
 
 \subsection{External Validity}
 In contrast, external validity describes whether the evaluation results can be generalized and applied to other contexts \cite{Validity}. That is to say, the approach also produces good microservice candidates for systems that are not in the context of a supermarket chain like CoCoME. \\
-During the development of the approach, no domain restrictions were wittingly enforced. All assumptions were made with the intention of being context-independent. We therefore claim that the approach can be applied to any type of system as long as its system requirements are available in the form of BPMN 2.0 models. \\
+During the development of the approach, no domain restrictions were wittingly enforced. All assumptions were made with the intention of being context-independent. Further, \textit{CoCoME} is structured like a typical, distributed and component-based information system. It is therefore to be expected that the approach also produces adequate results for other information systems. \\
 Besides all the intentions, it is still possible that a fitting between CoCoME and the developed approach has happened. It is therefore necessary to apply the approach to other systems in different context to validate it's generality.
+
 
 
 

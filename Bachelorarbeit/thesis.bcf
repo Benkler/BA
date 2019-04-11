@@ -2165,13 +2165,15 @@
     <bcf:citekey order="208">PrecisionRecall</bcf:citekey>
     <bcf:citekey order="209">PrecisionRecall</bcf:citekey>
     <bcf:citekey order="210">PrecisionRecall</bcf:citekey>
-    <bcf:citekey order="211">FunctionalDecompositionHeinrich</bcf:citekey>
-    <bcf:citekey order="212">FunctionalDecompositionHeinrich</bcf:citekey>
-    <bcf:citekey order="213">CoCoMEOld</bcf:citekey>
+    <bcf:citekey order="211">Evaluation</bcf:citekey>
+    <bcf:citekey order="212">CoCoMETechnical</bcf:citekey>
+    <bcf:citekey order="213">FunctionalDecompositionHeinrich</bcf:citekey>
     <bcf:citekey order="214">FunctionalDecompositionHeinrich</bcf:citekey>
-    <bcf:citekey order="215">CoCoMETechnical</bcf:citekey>
-    <bcf:citekey order="216">Validity</bcf:citekey>
-    <bcf:citekey order="217">Validity</bcf:citekey>
+    <bcf:citekey order="215">CoCoMEOld</bcf:citekey>
+    <bcf:citekey order="216">FunctionalDecompositionHeinrich</bcf:citekey>
+    <bcf:citekey order="217">CoCoMETechnical</bcf:citekey>
+    <bcf:citekey order="218">Validity</bcf:citekey>
+    <bcf:citekey order="219">Validity</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
