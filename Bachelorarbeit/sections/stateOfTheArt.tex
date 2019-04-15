@@ -105,7 +105,9 @@ In \cite{interfaceAnalysisBaresi}, the author proposes an approach that is based
 
 \noindent
 \textbf{Identifying Microservices Using Functional Decomposition  } \\
-The approach presented in \cite{FunctionalDecompositionHeinrich} identifies microservices by functional decomposition of the software requirements, provided as use case specifications. In order to achieve the decomposition, the system is  modelled as a finite set of \textit{system operations} and the system's \textit{state space}. Use cases provide the necessary input data: Verbs found in the use cases serve as \textit{system operations} and nouns correspond to the \textit{state variables} that the operations read or write. The state variables constitute the state space. Relationships between the operations and the variables are stored in a relation table, that is visualized as a weighted graph. Finally, the approach uses graph analysis tools to determine clusters, where each cluster is a potential candidate for a microservice that fulfils the criteria of low coupling and high cohesion. \\
+The approach presented in \cite{FunctionalDecompositionHeinrich} identifies microservices by functional decomposition of the software requirements, provided as use case specifications. In order to achieve the decomposition, the system is modelled as a finite set of \textit{system operations} and the system's \textit{state space}. Use cases provide the necessary input data: Verbs found in the use cases serve as \textit{system operations} and nouns correspond to the \textit{state variables} that the operations read or write. Irrelevant nouns, verbs and synonyms are eliminated via brainstorming. The state variables constitute the state space. Relationships between the operations and the variables are stored in a relation table that is visualized as a weighted graph. A relation exists, if a \textit{system operation} reads or updates a \textit{state variable}. Finally, the approach uses graph analysis tools to determine clusters, where each cluster is a potential candidate for a microservice that fulfils the criteria of low coupling and high cohesion. \\
+
+
 
 
 
@@ -147,6 +149,10 @@ Baresi \textit{et al.} \cite{interfaceAnalysisBaresi} developed an experimental 
 
 \noindent
 Tyszberowicz \textit{et al.} \cite{FunctionalDecompositionHeinrich} use external tools to realize their approach. Once the operations and state variable are identified, the approach is universally applicable to all sort of legacy systems and also greenfield applications\footnote{Project which lacks any constraints imposed by legacy systems}. Nonetheless, identifying relevant nouns and verbs that represent the operations and state variables is only partly supported by tools. It still requires human expertise to eliminate duplicates and identify ambiguities. \\
+
+
+
+
 
 \noindent
 Munezero \textit{et al.} present a conceptional approach based on DDD patterns\footnote{Domain-driven Design}. Although the domain-driven design approach is currently the most common technique for identifying microservices (\cite{FunctionalDecompositionHeinrich}\cite{Fowler}\cite{MigratingTowardsSurvey} and more), it requires the expertise and experience of domain experts.\\

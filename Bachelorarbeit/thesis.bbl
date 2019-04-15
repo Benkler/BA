@@ -733,7 +733,15 @@
       \field{sortinithash}{276475738cc058478c1677046f857703}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{journaltitle}{Source Code}
+      \field{note}{Accessed on 19.03.2019}
       \field{title}{Microservice-based implementation of CoCoME}
+      \verb{urlraw}
+      \verb https://github.com/cocome-community-case-study/cocome-cloud-jee-microservices-rest
+      \endverb
+      \verb{url}
+      \verb https://github.com/cocome-community-case-study/cocome-cloud-jee-microservices-rest
+      \endverb
     \endentry
     \entry{modularity}{article}{}
       \name{author}{4}{}{%

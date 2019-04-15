@@ -13,6 +13,7 @@ The rest of the chapter is structured as follows: First, the evaluation goals an
 \label{sec:Evaluation:GQM}
 Basili \textit{et al.} originally proposed the \textit{GQM Plan} (Goal Quality and Metrics) as a paradigm in software engineering to create specific quality models \cite{BasiliGQM}. \\
 The main purpose of the \textit{GQM Plan} is to identify the right metrics to assess the quality of an object in a particular environment. This should prevent the gathering of unnecessary metrics and measurements and consequently reduce the expenditure of work. \\
+The \textit{GQM Plan}, as an appropriate method to structure an evaluation, is used to define suitable goals, questions and metrics, which is why it is the means of choice in this evaluation.\\
 The \textit{GQM Plan} is a Top-Down approach and is divided in three fundamental steps that precede the measurement and evaluation of results. First, the goal of the evaluation is defined on a conceptual level. Second, questions are delineated to achieve the specific goal. Finally, to answer the questions in a measurable way, metrics have to be defined that are associated with the questions. \\
 In the following, the \textit{GQM Plan} for the consecutive evaluation is detailed out:
 
@@ -127,13 +128,14 @@ The remaining parts which are the non-relevant and non-retrieved items ($N_{\ove
 \end{figure}
 
 \noindent
-To answer \textbf{G1.Q1-G1.Q3}, it is necessary to determine the \textit{Precision and Recall} of the identified microservices, the identified functionalities and the identified data objects.
-
+Since the \textit{Precision and Recall} metric not only gives information about how many microservices, functionalities and data objects have been identified in total, but also about how many of them are correct, it is well suited to determine the accuracy of the result compared to a reference set. \\
+Hence, it is necessary to determine the \textit{Precision and Recall} of the identified microservices, the identified functionalities and the identified data objects to answer \textbf{G1.Q1-G1.Q3}.
 
 \section{Evaluation Design}
+Evaluations can be structured and conducted in several ways. It is therefore necessary to specify the type of evaluation. This is followed by the presentation of the two reference sets.
 
 \subsection{Evaluation Setup}
-The primary goal of the evaluation is to determine the accuracy of the elaborated approach in order to answer \textbf{RQ1.3}. To achieve this, an \textit{Outcome Evaluation} is an appropriate method \cite{Evaluation}, as it shows how effective the approach is in terms of the expected results which are in this case adequate microservices. Therefore, the approach is applied to \textit{CoCoME} and the outcome is compared to two reference sets. \\
+The primary goal of the evaluation is to determine the accuracy of the elaborated approach in order to answer \textbf{RQ1.3}. To achieve this, an \textit{Outcome Evaluation} is an appropriate method \cite{Evaluation}, as it shows how effective the approach is in terms of the expected results which are in this case adequate microservices. Therefore, the approach is applied to \textit{CoCoME} and the outcome is compared to two reference sets. This is a well established procedure to reason about the accuracy of the approach. \\
 \textit{CoCoME} was initiated in a GI Dagstuhl research seminar as a community case study for software architecture, modelling and analysis.
 In recent years, it has been applied in various areas as a demonstrator for software evolution methods\cite{CoCoMETechnical}. \textit{CoCoME} is structured like a typical, distributed and component-based information system and is therefore well suited as a demonstrator for this new type of software evolution - the migration to a microservice-based software architecture. 
 
@@ -142,12 +144,12 @@ In recent years, it has been applied in various areas as a demonstrator for soft
 
 \subsection{Reference Sets}
 \label{sec:Evaluation:ReferenceSets}
-To evaluate the approach, the identified set of microservices (cf. Sec.\ref{sec:Evalutation:Results}) is compared to two alternative decompositions of CoCoME: First, a decomposition proposed in the paper \textit{Identifying Microservices Using Functional Decomposition} \cite{FunctionalDecompositionHeinrich} and second, a set of microservices which we manually identified. \\
+To evaluate the approach, the identified set of microservices (cf. Sec.\ref{sec:Evalutation:Results}) is compared to two alternative decompositions of CoCoME: First, a decomposition proposed by an approach which identifies microservices by using functional decomposition\cite{FunctionalDecompositionHeinrich} and second, a set of microservices which we manually identified\cite{NikoCoCoMEImpl}. \\
+In both cases the microservices are listed together with the functionalities they offer and the data objects they manage. Functionalities and data objects are listed behind the bullet points. \\
 
 \noindent
 \textbf{Reference Set 1: Functional Decomposition Approach} \\
-\textit{Identifying Microservices Using Functional Decomposition} \cite{FunctionalDecompositionHeinrich} is a systematic approach to find an appropriate division of a system into microservices. This paper emerged as a result of the collaboration of the Academic College Tel-Aviv Yafo, the Karlsruhe Institute of Technology and the Southwest University China and uses CoCoME as demonstrator as well.\\
-As depicted in Sec.\ref{sec:stateOfTheArt:approaches}, Tyszberowicz \textit{et al.} utilize the use case specifications of CoCoME \cite{CoCoMEOld} as input for their decomposition approach. Several external tools are used to extract verbs an nouns from the use cases that serve as \textit{system operations} and \textit{state variables}. Irrelevant nouns, verbs and synonyms are eliminated via brainstorming. The relationships between the aforementioned concepts are stored in a relation table. A relation exists, if a \textit{system operation} reads or updates a \textit{state variable}. Thereupon, the relation table is visualized as a weighted graph, which enables the identification of clusters of dense relationships. Each cluster serves as a microservice candidate.\\
+In \textit{Identifying Microservices Using Functional Decomposition} \cite{FunctionalDecompositionHeinrich}, a systematic approach to find an appropriate division of a system into microservices is presented. It also uses CoCoME to evaluate the approach it provides. \\
 As mentioned in Sec.\ref{sec:stateOfTheArt:comparison}, the compulsory and non-trivial revision of nouns and verbs to eliminate synonyms etc. is a substantial disadvantage.\\
 Regarding the evaluation, Tyszberowicz \textit{et al.} claim that their approach identifies good microservices for a microservice-based system decomposition of CoCoME. The aforementioned evaluation includes a comparison to three independent software projects that implemented CoCoME. Two groups identified, apart from the naming, a similar set of microservices. The third group identified a more detailed decomposition of CoCoME, but a revision reveals that the additional microservices are only a refinement of the proposed microservices. \\
 However, the evaluation lacks profundity: Microservices are only compared on a more abstract level, since it is not checked whether functionality and data objects are assigned to the correct microservice. The following microservices are identified: 
@@ -212,7 +214,7 @@ However, the evaluation lacks profundity: Microservices are only compared on a m
 
 \noindent
 \textbf{Reference Set 2: Manual Decomposition} \\
-In the course of this thesis, we implemented a microservice-based version of CoCoME. The microservice identification process itself was terminated before the literature review for the thesis started. Moreover, we were not aware of the microservice decomposition proposed by Tyszberowicz \textit{et al.} \cite{FunctionalDecompositionHeinrich} by the time we identified possible microservice candidates. Therefore, the process was non-biased. \\
+In the course of this thesis, we implemented a microservice-based version of CoCoME. The microservice identification process itself was finished before the literature review for the thesis started. Moreover, we were not aware of the microservice decomposition proposed by Tyszberowicz \textit{et al.} \cite{FunctionalDecompositionHeinrich} by the time we identified possible microservice candidates. Therefore, the process was non-biased. \\
 The identification process itself was conducted manually and supported by the previous knowledge of the CoCoME domain. Once more, the time consuming and difficult identification process clarified the necessity of a structured and formal approach to identify microservices. Beside the use case specification, we used a monolithic implementation of CoCoME (the Hybrid Cloud-based Variant \cite{CoCoMETechnical}) as additional information resource to discover requirements, functionality and dependencies. Subsequently, the system was decomposed into loosely coupled and highly cohesive microservices. \\
 The following four microservices were identified:
 
@@ -350,7 +352,7 @@ For each reference set, the precision and recall instances are i) identified mic
 	
 \end{minipage}
 
-\pagebreak
+
 
 \noindent
 \textbf{Data Objects} Regarding \textit{Microservice 3}, the same line of reasoning is applied to the identified data objects: The reference set counts three data objects. The approach identified seven, from which 2 are assigned to the right service. In this case, the precision and recall values are:
