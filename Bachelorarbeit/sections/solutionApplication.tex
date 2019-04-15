@@ -95,11 +95,11 @@ Fig.\ref{fig:CoCoMEActivityCluster} shows the data object clusters that are iden
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=12cm, trim={2cm 0cm 2cm 0cm}]{img/CoCoMEDataClusterWith1.pdf}
-	\caption{Clustering on CoCoME's Data Objects}
+	\caption{Clustering of CoCoME's Data Objects}
 	\label{fig:CoCoMEDataCluster}
 \end{figure}
 
-\section{Match Clusters}
+\section{Matching of Clusters}
 \label{sec:SolutionApplication:MatchCluster}
 In the following, the data object clusters and the activity clusters are matched. Section \ref{sec:Solution:MatchCluster} provides several solutions, including one that is only given conceptional and still raises too many uncertainties. Consequently, the matching is done by applying the black box clustering approach. Hence, the data access dependencies between data object and activity cluster need to be elaborated first. \\
 
@@ -132,7 +132,7 @@ Finally, the clustering method introduced in Sec.\ref{sec:Solution:IdentifyClust
 
 \section{Extract Microservice Candidates}
 \label{sec:SolutionApplication:ExtractMicroserviceCandidates}
-In the previous step, cohesive clusters of activity cluster nodes and data object cluster nodes are identified. Each of the combined clusters correspond to a microservice candidate. Fig.\ref{fig:CoCoMEClusterMatching} illustrates the  microservices that are identified. To compare the outcome with other results, it is necessary to elaborate the functionality that is provided by each microservice as well as the accompanying data objects. To be able to compare it with the reference sets, the functionalities must be renamed and abstracted. For example, \textit{startSale} and \textit{finishSale} become \textit{Handle sale} or \textit{enterId} and \textit{showStockItems} become \textit{Identify stock items}. \\
+In the previous step, cohesive clusters of activity cluster nodes and data object cluster nodes were identified. Each of the combined clusters correspond to a microservice candidate. Fig.\ref{fig:CoCoMEClusterMatching} illustrates the  microservices that are identified. To compare the outcome with other results, it is necessary to elaborate the functionality that is provided by each microservice as well as the accompanying data objects. To be able to compare it with the reference sets, the functionalities must be renamed and abstracted. For example, \textit{startSale} and \textit{finishSale} become \textit{Handle sale} or \textit{enterId} and \textit{showStockItems} become \textit{Identify stock items}. \\
 
 
 

@@ -55,7 +55,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.2}Basic Approach}{28}{section.5.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.1}Specify BPMN Models}{29}{subsection.5.2.1}% 
+\contentsline {subsection}{\numberline {5.2.1}Specification of BPMN Models}{29}{subsection.5.2.1}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.2.2}Extract Control Flow}{29}{subsection.5.2.2}% 
 \defcounter {refsection}{0}\relax 
