@@ -24,7 +24,7 @@ The approaches mentioned in table \ref{tab:overviewLiterature} are the result of
 
 \noindent
 Table \ref{tab:overviewLiterature} presents the eight most promising approaches in the area of microservice identification. Other papers like \cite{TowardsCloudGuiseppe} only presented a conceptual train of thought, whereas \cite{MigratingCloud}, for instance, focuses on migrating strategies on infrastructural level. This thesis mainly focuses on the identification part and disregards the actual implementation and deployment process afterwards. \\
-To compare the available approaches, criteria have to be defined. Sec.\ref{sec:stateOfTheArt:comparison} introduces eight criteria and explains why they take part in the comparison. The comparison itself is done by applying the criteria to each approach using Table \ref{tab:compareApproaches1} and \ref{tab:compareApproaches2}. Incidentally, the comparison including some criteria are inspired by the work of \cite{ClassificationOfRefactoring}.
+To compare the available approaches, criteria have to be defined. Sec.\ref{sec:stateOfTheArt:comparison} introduces eight criteria and explains why they take part in the comparison. The comparison itself is done by applying the criteria to each approach using  the tables \ref{tab:compareApproaches1} and \ref{tab:compareApproaches2}. Incidentally, the comparison including some criteria are inspired by the work of \cite{ClassificationOfRefactoring}.
 Further information is given in textual form in the same section. 
 
 
@@ -149,7 +149,7 @@ Baresi \textit{et al.} \cite{interfaceAnalysisBaresi} developed an experimental 
 Tyszberowicz \textit{et al.} \cite{FunctionalDecompositionHeinrich} use external tools to realize their approach. Once the operations and state variable are identified, the approach is universally applicable to all sort of legacy systems and also greenfield applications\footnote{Project which lacks any constraints imposed by legacy systems}. Nonetheless, identifying relevant nouns and verbs that represent the operations and state variables is only partly supported by tools. It still requires human expertise to eliminate duplicates and identify ambiguities. \\
 
 \noindent
-Munezero \textit{et al.} present a conceptional approach based on DDD patterns\footnote{Domain-driven Design}. Although the domain-driven design approach is currently the most common technique for identifying microservices (\cite{FunctionalDecompositionHeinrich}\cite{Fowler}\cite{MigratingTowardsSurvey} and more), it requires the expertise and experience of domain experts, which is not desired in the case of this thesis.\\
+Munezero \textit{et al.} present a conceptional approach based on DDD patterns\footnote{Domain-driven Design}. Although the domain-driven design approach is currently the most common technique for identifying microservices (\cite{FunctionalDecompositionHeinrich}\cite{Fowler}\cite{MigratingTowardsSurvey} and more), it requires the expertise and experience of domain experts.\\
 
 \noindent
 Chen's semi-automate approach \cite{DataflowDrivenChen} is based on Data-flow Diagrams (DFD). Transforming the traditional DFDs to purified DFDs is not trivial and therefore requires a vast amount of additional manual work. Nevertheless, the purified DFD represents the real information flow of the corresponding business logic in the legacy system and therefore provides valuable information regarding potential inter- and intra service communication. \\

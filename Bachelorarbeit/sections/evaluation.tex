@@ -1,22 +1,7 @@
 \chapter{Evaluation}
 \label{ch:Evalutation}
-In the introduction chapter, the \textit{Research Questions} are presented. The third question relates to the elaborated approach and its evaluation. 
 
-
-\vspace{0.5cm}
-\par
-\begingroup
-\leftskip=1cm
-\rightskip=1cm
-
-\noindent
-\textbf{RQ1.3: What is the accuracy of the approach? }
-
-\endgroup
-\vspace{0.5cm}
-
-\noindent
-To answer this question efficiently, a \textit{Goal Quality Metrics Plan } (GQM) is to be created that specifies the key aspects of the evaluation. 
+To answer \textit{RQ1.3}, a \textit{Goal Quality Metrics Plan } (GQM) is to be created that specifies the key aspects of the evaluation. 
 Chapter \ref{ch:SolutionApplication} applies the identification approach to the running example. As a result, a set of microservices is identified where each microservice provides some functionalities and administers data objects.\\
 In order to evaluate this approach, we compare those results to two reference sets. In doing so, not only is it checked whether the right services have been found, but also whether the functionality and the data objects have been divided up correctly. During the evaluation, those aspects are examined independently. Functionality in this sense is a service offered by a microservice that is comprehensible and understood by non-technical stakeholders. \\
 The rest of the chapter is structured as follows: First, the evaluation goals and metrics are introduced. Second, the design of the evaluation is demonstrated, including the presentation of two reference sets which are used to compare the output of the approach, when applied to the running example. Third, the evaluation results are presented. Second to last, the evaluation results are discussed. Eventually, the threats to the validity are outlined.
@@ -34,11 +19,9 @@ In the following, the \textit{GQM Plan} for the consecutive evaluation is detail
 \begin{itemize}
 	\item \textbf{G1:} Determination of the accuracy of the approach to demonstrate that it is capable to identify adequate microservice candidates.
 	\item \textbf{G1.Q1:} What is the \textit{Precision and Recall} of the identified microservices compared to the reference sets?
-	\item \textbf{G1.Q1.M1:} Measure \textit{Precision and Recall } of the identified microservice.
 	\item \textbf{G1.Q2:} What is the \textit{Precision and Recall} regarding the functionality of the identified microservices compared to the reference sets?
-	\item \textbf{G1.Q2.M1:}  Measure \textit{Precision and Recall} of the identified functionalities.
 	\item \textbf{G1.Q3:} What is the \textit{Precision and Recall} regarding data objects each microservice administers compared to the reference sets?
-	\item \textbf{G1.Q3.M1:}  Measure \textit{Precision and Recall} of the identified data objects.
+
 
 \end{itemize}
 
@@ -52,8 +35,7 @@ Using metrics is mandatory to measure the quality of the elaborated approach. In
 In regard to the following evaluation, those instances are either microservices, functionalities offered by microservices or data objects administered by microservices. Two reference sets are available as further depicted in Sec.\ref{sec:Evaluation:ReferenceSets}. \\
 A metric that is capable to measure the relevance of a set of instances compared to a reference set is \textit{Precision and Recall}. Subsequently, the proposed metric is briefly presented.
 
-\subsection{Precision and Recall}
-\label{sec:Evaluation:Metrics:sPrecRecall}
+\noindent
 \textit{Precision and Recall} is a classification metric that measures the relevance of retrievable items with respect to a reference set \cite{PrecisionRecall}. Commonly, two distinctions for items in the reference set are made: First, Retrieved or not Retrieved. More precisely, an item is retrieved if it is part of the selected items and vice versa. Secondly, Relevant or Not Relevant. As a result, all retrievable items belong to exactly one of four cells in the following matrix:
 
 
@@ -144,7 +126,8 @@ The remaining parts which are the non-relevant and non-retrieved items ($N_{\ove
 	\label{fig:PrecisionRecall}
 \end{figure}
 
-
+\noindent
+To answer \textbf{G1.Q1-G1.Q3}, it is necessary to determine the \textit{Precision and Recall} of the identified microservices, the identified functionalities and the identified data objects.
 
 
 \section{Evaluation Design}

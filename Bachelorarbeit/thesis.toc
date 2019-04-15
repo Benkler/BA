@@ -29,7 +29,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}Use Cases}{9}{section.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Business Process and Model Notation}{10}{section.2.4}% 
+\contentsline {section}{\numberline {2.4}Business Process Model and Notation}{10}{section.2.4}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.5}Transform Use Case Sets in BPMN Processes}{11}{section.2.5}% 
 \defcounter {refsection}{0}\relax 
@@ -53,7 +53,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.1}Underlying strategy}{27}{section.5.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Basic Approach}{28}{section.5.2}% 
+\contentsline {section}{\numberline {5.2}General Approach}{28}{section.5.2}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.2.1}Specification of BPMN Models}{29}{subsection.5.2.1}% 
 \defcounter {refsection}{0}\relax 
@@ -65,9 +65,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.2.5}Create a weighted Graph using Data Flow}{34}{subsection.5.2.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.6}Identify Cluster}{37}{subsection.5.2.6}% 
+\contentsline {subsection}{\numberline {5.2.6}Identifying Clusters}{37}{subsection.5.2.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.7}Match Cluster}{38}{subsection.5.2.7}% 
+\contentsline {subsection}{\numberline {5.2.7}Cluster Matching}{38}{subsection.5.2.7}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.2.8}Extract Microservice Candidates}{40}{subsection.5.2.8}% 
 \defcounter {refsection}{0}\relax 
@@ -87,7 +87,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.7}Data Object Clusters}{48}{section.6.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.8}Match Clusters}{48}{section.6.8}% 
+\contentsline {section}{\numberline {6.8}Matching of Clusters}{48}{section.6.8}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.9}Extract Microservice Candidates}{49}{section.6.9}% 
 \defcounter {refsection}{0}\relax 
@@ -98,8 +98,6 @@
 \contentsline {subsection}{\numberline {7.1.1}Evaluation Goals}{51}{subsection.7.1.1}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {7.1.2}Evaluation Metrics}{52}{subsection.7.1.2}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.3}Precision and Recall}{52}{subsection.7.1.3}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.2}Evaluation Design}{55}{section.7.2}% 
 \defcounter {refsection}{0}\relax 

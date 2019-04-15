@@ -72,7 +72,7 @@ Microservices are highly decoupled from each other, as they use standardized and
 
 
 \subsection{Challenges}
-The previous section provides a vast amount of benefits that come with microservices. However, microservices are not the panacea of software engineering. System developers have to face challenges that can mitigate the benefits as described previously. The challenges are described in the following. \\ 
+The previous section provides a vast amount of benefits that come with microservices. However, microservices are not the panacea of software engineering. System developers have to face challenges that can mitigate the benefits as described previously. \\ 
 
 \noindent
 \textbf{Expensive Communication}\\
@@ -81,7 +81,7 @@ Microservice use network protocols such as \textit{HTTP} to communicate with eac
 \noindent
 \textbf{Technical Challenges}\\
 Microservices require a high degree of infrastructure automation \cite{MigratingTowardsSurvey}. The benefits of fast and independent deployment cannot be utilized, if it has to be done manually. Dynamic (de-)allocation of resources when scaling individual microservices need a well defined and structured cloud environment \cite{MigratingCloud}. 
-Besides, the distributed microservice landscape complicates the logging mechanisms and performance monitoring \cite{SystematicMappingStudyMicroservice}. Traditional centralized logging, as it is used in monolithic applications, is not longer applicable. Instead, a careful aggregation system to gather logging and monitoring data from each service is required.\\
+Besides, the distributed microservice landscape complicates the logging mechanisms and performance monitoring \cite{SystematicMappingStudyMicroservice}. Traditional centralized logging, as it is used in monolithic applications, is no longer applicable. Instead, a careful aggregation system to gather logging and monitoring data from each service is required.\\
 
 \noindent
 \textbf{Organizational Challenges}\\
@@ -150,9 +150,9 @@ However, the transformation into business models as presented in Sec.\ref{sec:Pr
 
 
 
-\section{Business Process and Model Notation}
+\section{Business Process Model and Notation}
 \label{sec:PrepApproach:BPMN}
-The Business Process and Model Notation (BPMN) is a graph oriented language to describe business processes. Originally, BPMN was designed to describe activities and their control flow dependencies only \cite{VisualizeBPMN}. Since the introduction of BPMN 2.0, it is possible to model the data needs and the data results of activities \cite{OMG}. Consequently, BPMN is capable of expressing the control flow and to approximate the data flow of business processes \cite{DataFlowErrorBPMN}. In the remainder, BPMN and BPMN 2.0 is used interchangeably. \\
+The Business Process Model and Notation (BPMN) is a graph oriented language to describe business processes. Originally, BPMN was designed to describe activities and their control flow dependencies only \cite{VisualizeBPMN}. Since the introduction of BPMN 2.0, it is possible to model the data needs and the data results of activities \cite{OMG}. Consequently, BPMN is capable of expressing the control flow and to approximate the data flow of business processes \cite{DataFlowErrorBPMN}. In the remainder, BPMN and BPMN 2.0 is used interchangeably. \\
 BPMN is easy-to-use, powerful and widely adopted in academia and industry. Hence, BPMN is a suitable approach to extract the implicitly given data flow and control flow in the use case description. Sec.\ref{sec:PrepApproach:TransformUCtoBPMN} introduces a formal approach to generate BPMN processes from use case sets. Next, the BPMN 2.0 process definition is shortly introduced:
 
 %"l, b, r, t"

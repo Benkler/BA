@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.11)  15 APR 2019 09:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.11)  15 APR 2019 12:25
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -2163,7 +2163,13 @@ l.14 A
 [2
 
 
-]) [3] [4
+]
+Overfull \hbox (14.23643pt too wide) in paragraph at lines 14--18
+\T1/LinuxLibertineT-TLF/m/n/12 (-20) Die Eva-lu-ie-rung zeigt, dass der (semi-)
+automatische An-satz plau-si-ble Microservice-Kandidaten
+ []
+
+) [3] [4
 
 
 ]
@@ -2193,11 +2199,11 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 12
  [9
 
 
+] [10
+
+
 ]
-[10
-
-
-] (sections/introduction.tex
+(sections/introduction.tex
 chapter 1.
 
 Class scrbook Warning: \float@addtolists detected!
@@ -2216,6 +2222,18 @@ Class scrbook Warning: \float@addtolists detected!
 
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/b/n' will be
 (Font)              scaled to size 15.89755pt on input line 10.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 8.8pt on input line 13.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 13.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 13.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 7.3pt on input line 13.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 5.5pt on input line 13.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 7.3pt on input line 13.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
@@ -2224,14 +2242,20 @@ l.15
       [1
 
 
-]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
- been already used, duplicate ignored
+]
+Overfull \hbox (13.25294pt too wide) in paragraph at lines 51--53
+ \T1/LinuxLibertineT-TLF/b/n/12 RQ1.2: How to iden-tify pos-si-ble mi-croser-vi
+ces with-out de-tailed knowl- 
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.52 \noindent
+l.55 \noindent
                [2]
 LaTeX Font Info:    Try loading font information for TS1+LinuxLibertineT-TLF on
- input line 73.
+ input line 76.
 
 (C:\Users\Nikolaus\AppData\Roaming\MiKTeX\2.9\tex/latex/libertine\ts1linuxliber
 tinet-tlf.fd
@@ -2239,7 +2263,7 @@ File: TS1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for TS1/
 LinuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 73.
+(Font)              scaled to size 12.0pt on input line 76.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LinuxLibertineT-TLF' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
@@ -2253,7 +2277,7 @@ chapter 2.
 
 pdfTeX warning: pdflatex.exe (file ./img/Architektur.pdf): PDF inclusion: found
  PDF version <1.7>, but at most version <1.5> allowed
-<img/Architektur.pdf, id=445, 963.6pt x 542.025pt>
+<img/Architektur.pdf, id=446, 963.6pt x 542.025pt>
 File: img/Architektur.pdf Graphic file (type pdf)
 <use img/Architektur.pdf>
 Package pdftex.def Info: img/Architektur.pdf  used on input line 29.
@@ -2327,23 +2351,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 98--102
 
 pdfTeX warning: pdflatex.exe (file ./img/Overview.pdf): PDF inclusion: found PD
 F version <1.7>, but at most version <1.5> allowed
-<img/Overview.pdf, id=542, 845.07718pt x 597.55246pt>
+<img/Overview.pdf, id=543, 845.07718pt x 597.55246pt>
 File: img/Overview.pdf Graphic file (type pdf)
 <use img/Overview.pdf>
 Package pdftex.def Info: img/Overview.pdf  used on input line 160.
 (pdftex.def)             Requested size: 432.48195pt x 150.49213pt.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.8pt on input line 166.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 166.
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 166.
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.3pt on input line 166.
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 5.5pt on input line 166.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.3pt on input line 166.
 
 Underfull \hbox (badness 10000) in paragraph at lines 165--168
 
@@ -2353,7 +2365,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 165--168
 
 pdfTeX warning: pdflatex.exe (file ./img/usecaseTransformation.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/usecaseTransformation.pdf, id=625, 845.07718pt x 597.55246pt>
+<img/usecaseTransformation.pdf, id=626, 845.07718pt x 597.55246pt>
 File: img/usecaseTransformation.pdf Graphic file (type pdf)
 <use img/usecaseTransformation.pdf>
 Package pdftex.def Info: img/usecaseTransformation.pdf  used on input line 191.
@@ -2366,7 +2378,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 pdfTeX warning: pdflatex.exe (file ./img/JoinBPMNpostcondition.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/JoinBPMNpostcondition.pdf, id=638, 845.07718pt x 597.55246pt>
+<img/JoinBPMNpostcondition.pdf, id=639, 845.07718pt x 597.55246pt>
 File: img/JoinBPMNpostcondition.pdf Graphic file (type pdf)
 <use img/JoinBPMNpostcondition.pdf>
 Package pdftex.def Info: img/JoinBPMNpostcondition.pdf  used on input line 205.
@@ -2381,7 +2393,7 @@ Underfull \hbox (badness 4266) in paragraph at lines 206--206
 
 pdfTeX warning: pdflatex.exe (file ./img/JoinBPMNPrecondition.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<img/JoinBPMNPrecondition.pdf, id=639, 845.07718pt x 597.55246pt>
+<img/JoinBPMNPrecondition.pdf, id=640, 845.07718pt x 597.55246pt>
 File: img/JoinBPMNPrecondition.pdf Graphic file (type pdf)
 <use img/JoinBPMNPrecondition.pdf>
 Package pdftex.def Info: img/JoinBPMNPrecondition.pdf  used on input line 211.
@@ -2408,7 +2420,7 @@ chapter 3.
 
 pdfTeX warning: pdflatex.exe (file ./img/useCase.pdf): PDF inclusion: found PDF
  version <1.7>, but at most version <1.5> allowed
-<img/useCase.pdf, id=728, 845.07718pt x 597.19112pt>
+<img/useCase.pdf, id=729, 845.07718pt x 597.19112pt>
 File: img/useCase.pdf Graphic file (type pdf)
 <use img/useCase.pdf>
 Package pdftex.def Info: img/useCase.pdf  used on input line 24.
@@ -2929,7 +2941,7 @@ Underfull \hbox (badness 6559) in paragraph at lines 1--1
 ]
 chapter 5.
 [27]
-Underfull \hbox (badness 10000) in paragraph at lines 50--52
+Underfull \hbox (badness 10000) in paragraph at lines 28--30
 
  []
 
@@ -2937,18 +2949,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--52
 
 pdfTeX warning: pdflatex.exe (file ./img/ThesisProcess.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<img/ThesisProcess.pdf, id=952, 845.07718pt x 597.55246pt>
+<img/ThesisProcess.pdf, id=954, 845.07718pt x 597.55246pt>
 File: img/ThesisProcess.pdf Graphic file (type pdf)
 <use img/ThesisProcess.pdf>
-Package pdftex.def Info: img/ThesisProcess.pdf  used on input line 56.
+Package pdftex.def Info: img/ThesisProcess.pdf  used on input line 34.
 (pdftex.def)             Requested size: 432.48195pt x 105.6405pt.
 [28 <./img/ThesisProcess.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 69--71
+Underfull \hbox (badness 10000) in paragraph at lines 47--49
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--94
+Underfull \hbox (badness 10000) in paragraph at lines 70--72
 
  []
 
@@ -2956,18 +2968,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--94
 
 pdfTeX warning: pdflatex.exe (file ./img/ControlFlowExample.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
-<img/ControlFlowExample.pdf, id=1036, 845.07718pt x 597.55246pt>
+<img/ControlFlowExample.pdf, id=1039, 845.07718pt x 597.55246pt>
 File: img/ControlFlowExample.pdf Graphic file (type pdf)
 <use img/ControlFlowExample.pdf>
-Package pdftex.def Info: img/ControlFlowExample.pdf  used on input line 104.
+Package pdftex.def Info: img/ControlFlowExample.pdf  used on input line 82.
 (pdftex.def)             Requested size: 432.48195pt x 112.22723pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--111
+Underfull \hbox (badness 10000) in paragraph at lines 87--89
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--118
+Underfull \hbox (badness 10000) in paragraph at lines 90--96
 
  []
 
@@ -2975,16 +2987,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 112--118
 
 pdfTeX warning: pdflatex.exe (file ./img/ControlFlowGraph.pdf): PDF inclusion: 
 found PDF version <1.7>, but at most version <1.5> allowed
-<img/ControlFlowGraph.pdf, id=1098, 963.6pt x 542.025pt>
+<img/ControlFlowGraph.pdf, id=1101, 963.6pt x 542.025pt>
 File: img/ControlFlowGraph.pdf Graphic file (type pdf)
 <use img/ControlFlowGraph.pdf>
-Package pdftex.def Info: img/ControlFlowGraph.pdf  used on input line 123.
+Package pdftex.def Info: img/ControlFlowGraph.pdf  used on input line 101.
 (pdftex.def)             Requested size: 341.43306pt x 177.1782pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [31 <./img/ControlFlowGraph.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 134--138
+Underfull \hbox (badness 10000) in paragraph at lines 112--116
 
  []
 
@@ -2992,13 +3004,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 134--138
 
 pdfTeX warning: pdflatex.exe (file ./img/ExtractDFDProblem.pdf): PDF inclusion:
  found PDF version <1.7>, but at most version <1.5> allowed
-<img/ExtractDFDProblem.pdf, id=1114, 845.07718pt x 597.55246pt>
+<img/ExtractDFDProblem.pdf, id=1117, 845.07718pt x 597.55246pt>
 File: img/ExtractDFDProblem.pdf Graphic file (type pdf)
 <use img/ExtractDFDProblem.pdf>
-Package pdftex.def Info: img/ExtractDFDProblem.pdf  used on input line 142.
+Package pdftex.def Info: img/ExtractDFDProblem.pdf  used on input line 120.
 (pdftex.def)             Requested size: 432.48195pt x 126.31694pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--150
+Underfull \hbox (badness 10000) in paragraph at lines 125--128
 
  []
 
@@ -3006,29 +3018,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 147--150
 
 pdfTeX warning: pdflatex.exe (file ./img/ExtractDFDRestore.pdf): PDF inclusion:
  found PDF version <1.7>, but at most version <1.5> allowed
-<img/ExtractDFDRestore.pdf, id=1191, 845.07718pt x 597.55246pt>
+<img/ExtractDFDRestore.pdf, id=1194, 845.07718pt x 597.55246pt>
 File: img/ExtractDFDRestore.pdf Graphic file (type pdf)
 <use img/ExtractDFDRestore.pdf>
-Package pdftex.def Info: img/ExtractDFDRestore.pdf  used on input line 169.
+Package pdftex.def Info: img/ExtractDFDRestore.pdf  used on input line 147.
 (pdftex.def)             Requested size: 432.48195pt x 113.85011pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./img/ExtractDFDGateWaySplit.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/ExtractDFDGateWaySplit.pdf, id=1192, 845.07718pt x 597.55246pt>
+<img/ExtractDFDGateWaySplit.pdf, id=1195, 845.07718pt x 597.55246pt>
 File: img/ExtractDFDGateWaySplit.pdf Graphic file (type pdf)
 <use img/ExtractDFDGateWaySplit.pdf>
-Package pdftex.def Info: img/ExtractDFDGateWaySplit.pdf  used on input line 176
+Package pdftex.def Info: img/ExtractDFDGateWaySplit.pdf  used on input line 154
 .
 (pdftex.def)             Requested size: 369.88582pt x 145.65858pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./img/ExtractDFDGateWayMerge.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/ExtractDFDGateWayMerge.pdf, id=1193, 845.07718pt x 597.55246pt>
+<img/ExtractDFDGateWayMerge.pdf, id=1196, 845.07718pt x 597.55246pt>
 File: img/ExtractDFDGateWayMerge.pdf Graphic file (type pdf)
 <use img/ExtractDFDGateWayMerge.pdf>
-Package pdftex.def Info: img/ExtractDFDGateWayMerge.pdf  used on input line 182
+Package pdftex.def Info: img/ExtractDFDGateWayMerge.pdf  used on input line 160
 .
 (pdftex.def)             Requested size: 398.33858pt x 172.54465pt.
 
@@ -3038,10 +3050,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 pdfTeX warning: pdflatex.exe (file ./img/ExtractDFDRemove.pdf): PDF inclusion: 
 found PDF version <1.7>, but at most version <1.5> allowed
-<img/ExtractDFDRemove.pdf, id=1194, 845.07718pt x 597.55246pt>
+<img/ExtractDFDRemove.pdf, id=1197, 845.07718pt x 597.55246pt>
 File: img/ExtractDFDRemove.pdf Graphic file (type pdf)
 <use img/ExtractDFDRemove.pdf>
-Package pdftex.def Info: img/ExtractDFDRemove.pdf  used on input line 188.
+Package pdftex.def Info: img/ExtractDFDRemove.pdf  used on input line 166.
 (pdftex.def)             Requested size: 432.48195pt x 132.63025pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -3051,7 +3063,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 pdfTeX warning: pdflatex.exe (file ./img/ExtractDFDGateWaySplit.pdf): PDF inclu
 sion: multiple pdfs with page group included in a single page
 >]
-Underfull \hbox (badness 10000) in paragraph at lines 201--206
+Underfull \hbox (badness 10000) in paragraph at lines 179--184
 
  []
 
@@ -3063,41 +3075,41 @@ multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex.exe (file ./img/DataFlowExample.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<img/DataFlowExample.pdf, id=1513, 845.07718pt x 597.55246pt>
+<img/DataFlowExample.pdf, id=1516, 845.07718pt x 597.55246pt>
 File: img/DataFlowExample.pdf Graphic file (type pdf)
 <use img/DataFlowExample.pdf>
-Package pdftex.def Info: img/DataFlowExample.pdf  used on input line 214.
+Package pdftex.def Info: img/DataFlowExample.pdf  used on input line 192.
 (pdftex.def)             Requested size: 341.43306pt x 123.24863pt.
 [35 <./img/DataFlowExample.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./img/ProcessDataDFD.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
-<img/ProcessDataDFD.pdf, id=1538, 845.07718pt x 597.55246pt>
+<img/ProcessDataDFD.pdf, id=1541, 845.07718pt x 597.55246pt>
 File: img/ProcessDataDFD.pdf Graphic file (type pdf)
 <use img/ProcessDataDFD.pdf>
-Package pdftex.def Info: img/ProcessDataDFD.pdf  used on input line 241.
+Package pdftex.def Info: img/ProcessDataDFD.pdf  used on input line 219.
 (pdftex.def)             Requested size: 256.0748pt x 118.83363pt.
 [36 <./img/ProcessDataDFD.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./img/DataFlowGraph.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<img/DataFlowGraph.pdf, id=1583, 963.6pt x 542.025pt>
+<img/DataFlowGraph.pdf, id=1586, 963.6pt x 542.025pt>
 File: img/DataFlowGraph.pdf Graphic file (type pdf)
 <use img/DataFlowGraph.pdf>
-Package pdftex.def Info: img/DataFlowGraph.pdf  used on input line 262.
+Package pdftex.def Info: img/DataFlowGraph.pdf  used on input line 240.
 (pdftex.def)             Requested size: 284.52756pt x 166.02908pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 277--278
+Underfull \hbox (badness 10000) in paragraph at lines 255--256
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 279--282
+Underfull \hbox (badness 10000) in paragraph at lines 257--260
 
  []
 
 [37 <./img/DataFlowGraph.pdf>] [38]
-Underfull \hbox (badness 10000) in paragraph at lines 331--333
+Underfull \hbox (badness 10000) in paragraph at lines 309--311
 
  []
 
@@ -3105,13 +3117,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 331--333
 
 pdfTeX warning: pdflatex.exe (file ./img/MatchCluster.pdf): PDF inclusion: foun
 d PDF version <1.7>, but at most version <1.5> allowed
-<img/MatchCluster.pdf, id=1622, 963.6pt x 542.025pt>
+<img/MatchCluster.pdf, id=1625, 963.6pt x 542.025pt>
 File: img/MatchCluster.pdf Graphic file (type pdf)
 <use img/MatchCluster.pdf>
-Package pdftex.def Info: img/MatchCluster.pdf  used on input line 337.
+Package pdftex.def Info: img/MatchCluster.pdf  used on input line 315.
 (pdftex.def)             Requested size: 284.52756pt x 166.02908pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 342--348
+Underfull \hbox (badness 10000) in paragraph at lines 320--326
 
  []
 
@@ -3125,7 +3137,7 @@ chapter 6.
 
 pdfTeX warning: pdflatex.exe (file ./img/UC1.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<img/UC1.pdf, id=1660, 845.07718pt x 597.55246pt>
+<img/UC1.pdf, id=1663, 845.07718pt x 597.55246pt>
 File: img/UC1.pdf Graphic file (type pdf)
 <use img/UC1.pdf>
 Package pdftex.def Info: img/UC1.pdf  used on input line 15.
@@ -3134,7 +3146,7 @@ Package pdftex.def Info: img/UC1.pdf  used on input line 15.
 
 pdfTeX warning: pdflatex.exe (file ./img/UC3Control.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<img/UC3Control.pdf, id=1678, 845.07718pt x 597.55246pt>
+<img/UC3Control.pdf, id=1681, 845.07718pt x 597.55246pt>
 File: img/UC3Control.pdf Graphic file (type pdf)
 <use img/UC3Control.pdf>
 Package pdftex.def Info: img/UC3Control.pdf  used on input line 30.
@@ -3143,12 +3155,12 @@ Package pdftex.def Info: img/UC3Control.pdf  used on input line 30.
 
 pdfTeX warning: pdflatex.exe (file ./img/UC3DFD.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<img/UC3DFD.pdf, id=1682, 845.07718pt x 597.55246pt>
+<img/UC3DFD.pdf, id=1685, 845.07718pt x 597.55246pt>
 File: img/UC3DFD.pdf Graphic file (type pdf)
 <use img/UC3DFD.pdf>
 Package pdftex.def Info: img/UC3DFD.pdf  used on input line 42.
 (pdftex.def)             Requested size: 227.62204pt x 206.9526pt.
-<img/CoCoMEControlFlowGraph.pdf, id=1684, 777.90625pt x 794.97pt>
+<img/CoCoMEControlFlowGraph.pdf, id=1687, 777.90625pt x 794.97pt>
 File: img/CoCoMEControlFlowGraph.pdf Graphic file (type pdf)
 <use img/CoCoMEControlFlowGraph.pdf>
 Package pdftex.def Info: img/CoCoMEControlFlowGraph.pdf  used on input line 54.
@@ -3165,7 +3177,7 @@ dfs with page group included in a single page
 Underfull \vbox (badness 1043) has occurred while \output is active []
 
  [45 <./img/CoCoMEControlFlowGraph.pdf>]
-<img/CoCoMEDataFlowGraph.pdf, id=1803, 406.51875pt x 465.74pt>
+<img/CoCoMEDataFlowGraph.pdf, id=1806, 406.51875pt x 465.74pt>
 File: img/CoCoMEDataFlowGraph.pdf Graphic file (type pdf)
 <use img/CoCoMEDataFlowGraph.pdf>
 Package pdftex.def Info: img/CoCoMEDataFlowGraph.pdf  used on input line 67.
@@ -3174,12 +3186,12 @@ Package pdftex.def Info: img/CoCoMEDataFlowGraph.pdf  used on input line 67.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [46 <./img/CoCoMEDataFlowGraph.pdf>]
-<img/CoCoMEActivityCluster.pdf, id=1820, 794.97pt x 435.6275pt>
+<img/CoCoMEActivityCluster.pdf, id=1823, 794.97pt x 435.6275pt>
 File: img/CoCoMEActivityCluster.pdf Graphic file (type pdf)
 <use img/CoCoMEActivityCluster.pdf>
 Package pdftex.def Info: img/CoCoMEActivityCluster.pdf  used on input line 82.
 (pdftex.def)             Requested size: 540.60236pt x 335.91945pt.
-<img/CoCoMEDataClusterWith1.pdf, id=1823, 523.9575pt x 243.91125pt>
+<img/CoCoMEDataClusterWith1.pdf, id=1826, 523.9575pt x 243.91125pt>
 File: img/CoCoMEDataClusterWith1.pdf Graphic file (type pdf)
 <use img/CoCoMEDataClusterWith1.pdf>
 Package pdftex.def Info: img/CoCoMEDataClusterWith1.pdf  used on input line 97.
@@ -3190,7 +3202,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
-<img/MatchClusterGraph.pdf, id=1840, 543.02875pt x 203.76125pt>
+<img/MatchClusterGraph.pdf, id=1843, 543.02875pt x 203.76125pt>
 File: img/MatchClusterGraph.pdf Graphic file (type pdf)
 <use img/MatchClusterGraph.pdf>
 Package pdftex.def Info: img/MatchClusterGraph.pdf  used on input line 112.
@@ -3200,7 +3212,7 @@ Package pdftex.def Info: img/MatchClusterGraph.pdf  used on input line 112.
 pdfTeX warning: pdflatex.exe (file ./img/MatchClusterGraph.pdf): PDF inclusion:
  multiple pdfs with page group included in a single page
 >]
-<img/MatchClusterClustering.pdf, id=1864, 556.0775pt x 243.91125pt>
+<img/MatchClusterClustering.pdf, id=1867, 556.0775pt x 243.91125pt>
 File: img/MatchClusterClustering.pdf Graphic file (type pdf)
 <use img/MatchClusterClustering.pdf>
 Package pdftex.def Info: img/MatchClusterClustering.pdf  used on input line 126
@@ -3216,32 +3228,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 135--136
 
 ]
 chapter 7.
-[51] [52] [53]
+[51]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [52]
+[53]
 
 pdfTeX warning: pdflatex.exe (file ./img/PrecisionRecall.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<img/PrecisionRecall.pdf, id=1906, 963.6pt x 542.025pt>
+<img/PrecisionRecall.pdf, id=1909, 963.6pt x 542.025pt>
 File: img/PrecisionRecall.pdf Graphic file (type pdf)
 <use img/PrecisionRecall.pdf>
-Package pdftex.def Info: img/PrecisionRecall.pdf  used on input line 142.
+Package pdftex.def Info: img/PrecisionRecall.pdf  used on input line 124.
 (pdftex.def)             Requested size: 536.80739pt x 371.30759pt.
 
-Overfull \hbox (104.32544pt too wide) in paragraph at lines 142--143
+Overfull \hbox (104.32544pt too wide) in paragraph at lines 124--125
 [][] 
  []
 
 [54 <./img/PrecisionRecall.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 162--163
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
 
  []
 
-[55] [56] [57]
-Underfull \hbox (badness 10000) in paragraph at lines 479--480
+[55] [56]
+
+LaTeX Warning: Reference `sec:Evaluation:Metrics:sPrecRecall' on page 57 undefi
+ned on input line 301.
+
+[57]
+Underfull \hbox (badness 10000) in paragraph at lines 462--463
 
  []
 
 [58]
-Underfull \hbox (badness 10000) in paragraph at lines 481--484
+Underfull \hbox (badness 10000) in paragraph at lines 464--467
 
  []
 
@@ -3255,7 +3276,7 @@ chapter 8.
 
 
 ]
-Underfull \vbox (badness 5667) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [62]
 [63]) [64]
@@ -3291,7 +3312,7 @@ chapter A.
 
 pdfTeX warning: pdflatex.exe (file ./img/UC3.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<img/UC3.pdf, id=2045, 845.07718pt x 597.55246pt>
+<img/UC3.pdf, id=2047, 845.07718pt x 597.55246pt>
 File: img/UC3.pdf Graphic file (type pdf)
 <use img/UC3.pdf>
 Package pdftex.def Info: img/UC3.pdf  used on input line 30.
@@ -3300,7 +3321,7 @@ Package pdftex.def Info: img/UC3.pdf  used on input line 30.
 
 pdfTeX warning: pdflatex.exe (file ./img/UC4.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<img/UC4.pdf, id=2046, 845.07718pt x 597.55246pt>
+<img/UC4.pdf, id=2048, 845.07718pt x 597.55246pt>
 File: img/UC4.pdf Graphic file (type pdf)
 <use img/UC4.pdf>
 Package pdftex.def Info: img/UC4.pdf  used on input line 39.
@@ -3316,7 +3337,7 @@ pdfTeX warning: pdflatex.exe (file ./img/UC4.pdf): PDF inclusion: multiple pdfs
 
 pdfTeX warning: pdflatex.exe (file ./img/UC5.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<img/UC5.pdf, id=2170, 845.07718pt x 597.55246pt>
+<img/UC5.pdf, id=2172, 845.07718pt x 597.55246pt>
 File: img/UC5.pdf Graphic file (type pdf)
 <use img/UC5.pdf>
 Package pdftex.def Info: img/UC5.pdf  used on input line 49.
@@ -3325,7 +3346,7 @@ Package pdftex.def Info: img/UC5.pdf  used on input line 49.
 
 pdfTeX warning: pdflatex.exe (file ./img/UC6.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<img/UC6.pdf, id=2171, 845.07718pt x 597.55246pt>
+<img/UC6.pdf, id=2173, 845.07718pt x 597.55246pt>
 File: img/UC6.pdf Graphic file (type pdf)
 <use img/UC6.pdf>
 Package pdftex.def Info: img/UC6.pdf  used on input line 57.
@@ -3334,7 +3355,7 @@ Package pdftex.def Info: img/UC6.pdf  used on input line 57.
 
 pdfTeX warning: pdflatex.exe (file ./img/UC7.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<img/UC7.pdf, id=2172, 845.07718pt x 597.55246pt>
+<img/UC7.pdf, id=2174, 845.07718pt x 597.55246pt>
 File: img/UC7.pdf Graphic file (type pdf)
 <use img/UC7.pdf>
 Package pdftex.def Info: img/UC7.pdf  used on input line 65.
@@ -3351,7 +3372,7 @@ pdfTeX warning: pdflatex.exe (file ./img/UC7.pdf): PDF inclusion: multiple pdfs
 
 pdfTeX warning: pdflatex.exe (file ./img/UC1Control.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<img/UC1Control.pdf, id=2302, 845.07718pt x 597.55246pt>
+<img/UC1Control.pdf, id=2304, 845.07718pt x 597.55246pt>
 File: img/UC1Control.pdf Graphic file (type pdf)
 <use img/UC1Control.pdf>
 Package pdftex.def Info: img/UC1Control.pdf  used on input line 78.
@@ -3360,7 +3381,7 @@ Package pdftex.def Info: img/UC1Control.pdf  used on input line 78.
 
 pdfTeX warning: pdflatex.exe (file ./img/UC4Control.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<img/UC4Control.pdf, id=2303, 845.07718pt x 597.55246pt>
+<img/UC4Control.pdf, id=2305, 845.07718pt x 597.55246pt>
 File: img/UC4Control.pdf Graphic file (type pdf)
 <use img/UC4Control.pdf>
 Package pdftex.def Info: img/UC4Control.pdf  used on input line 87.
@@ -3378,7 +3399,7 @@ le pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex.exe (file ./img/UC5Control.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<img/UC5Control.pdf, id=2369, 845.07718pt x 597.55246pt>
+<img/UC5Control.pdf, id=2371, 845.07718pt x 597.55246pt>
 File: img/UC5Control.pdf Graphic file (type pdf)
 <use img/UC5Control.pdf>
 Package pdftex.def Info: img/UC5Control.pdf  used on input line 97.
@@ -3387,7 +3408,7 @@ Package pdftex.def Info: img/UC5Control.pdf  used on input line 97.
 
 pdfTeX warning: pdflatex.exe (file ./img/UC6Control.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<img/UC6Control.pdf, id=2370, 845.07718pt x 597.55246pt>
+<img/UC6Control.pdf, id=2372, 845.07718pt x 597.55246pt>
 File: img/UC6Control.pdf Graphic file (type pdf)
 <use img/UC6Control.pdf>
 Package pdftex.def Info: img/UC6Control.pdf  used on input line 105.
@@ -3396,7 +3417,7 @@ Package pdftex.def Info: img/UC6Control.pdf  used on input line 105.
 
 pdfTeX warning: pdflatex.exe (file ./img/UC7Control.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<img/UC7Control.pdf, id=2371, 845.07718pt x 597.55246pt>
+<img/UC7Control.pdf, id=2373, 845.07718pt x 597.55246pt>
 File: img/UC7Control.pdf Graphic file (type pdf)
 <use img/UC7Control.pdf>
 Package pdftex.def Info: img/UC7Control.pdf  used on input line 113.
@@ -3416,7 +3437,7 @@ le pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex.exe (file ./img/UC1DFD.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<img/UC1DFD.pdf, id=2479, 845.07718pt x 597.55246pt>
+<img/UC1DFD.pdf, id=2481, 845.07718pt x 597.55246pt>
 File: img/UC1DFD.pdf Graphic file (type pdf)
 <use img/UC1DFD.pdf>
 Package pdftex.def Info: img/UC1DFD.pdf  used on input line 138.
@@ -3425,7 +3446,7 @@ Package pdftex.def Info: img/UC1DFD.pdf  used on input line 138.
 
 pdfTeX warning: pdflatex.exe (file ./img/UC4DFD.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<img/UC4DFD.pdf, id=2480, 845.07718pt x 597.55246pt>
+<img/UC4DFD.pdf, id=2482, 845.07718pt x 597.55246pt>
 File: img/UC4DFD.pdf Graphic file (type pdf)
 <use img/UC4DFD.pdf>
 Package pdftex.def Info: img/UC4DFD.pdf  used on input line 147.
@@ -3441,7 +3462,7 @@ dfs with page group included in a single page
 
 pdfTeX warning: pdflatex.exe (file ./img/UC5DFD.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<img/UC5DFD.pdf, id=2556, 845.07718pt x 597.55246pt>
+<img/UC5DFD.pdf, id=2558, 845.07718pt x 597.55246pt>
 File: img/UC5DFD.pdf Graphic file (type pdf)
 <use img/UC5DFD.pdf>
 Package pdftex.def Info: img/UC5DFD.pdf  used on input line 157.
@@ -3450,7 +3471,7 @@ Package pdftex.def Info: img/UC5DFD.pdf  used on input line 157.
 
 pdfTeX warning: pdflatex.exe (file ./img/UC6DFD.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<img/UC6DFD.pdf, id=2557, 845.07718pt x 597.55246pt>
+<img/UC6DFD.pdf, id=2559, 845.07718pt x 597.55246pt>
 File: img/UC6DFD.pdf Graphic file (type pdf)
 <use img/UC6DFD.pdf>
 Package pdftex.def Info: img/UC6DFD.pdf  used on input line 165.
@@ -3459,7 +3480,7 @@ Package pdftex.def Info: img/UC6DFD.pdf  used on input line 165.
 
 pdfTeX warning: pdflatex.exe (file ./img/UC7DFD.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<img/UC7DFD.pdf, id=2558, 845.07718pt x 597.55246pt>
+<img/UC7DFD.pdf, id=2560, 845.07718pt x 597.55246pt>
 File: img/UC7DFD.pdf Graphic file (type pdf)
 <use img/UC7DFD.pdf>
 Package pdftex.def Info: img/UC7DFD.pdf  used on input line 173.
@@ -3480,15 +3501,19 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 161.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 161.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+LaTeX Warning: There were undefined references.
+
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
  38839 strings out of 492946
- 781884 string characters out of 3135518
- 1361418 words of memory out of 3000000
- 41394 multiletter control sequences out of 15000+200000
+ 781886 string characters out of 3135518
+ 1361344 words of memory out of 3000000
+ 41393 multiletter control sequences out of 15000+200000
  217394 words of font info for 330 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  73i,20n,89p,9088b,3187s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3516,9 +3541,9 @@ ers/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/txfonts/rtxr.pfb><C:
 C:/Users/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/newtx/txsys.pfb
 ><C:/Users/Nikolaus/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/newtx/zxlri.p
 fb>
-Output written on thesis.pdf (88 pages, 3965588 bytes).
+Output written on thesis.pdf (88 pages, 3965142 bytes).
 PDF statistics:
- 2976 PDF objects out of 2984 (max. 8388607)
- 269 named destinations out of 1000 (max. 500000)
- 44827 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 2975 PDF objects out of 2984 (max. 8388607)
+ 270 named destinations out of 1000 (max. 500000)
+ 44819 words of extra memory for PDF output out of 51595 (max. 10000000)
 
