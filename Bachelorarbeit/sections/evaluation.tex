@@ -3,7 +3,7 @@
 
 To answer \textit{RQ1.3}, a \textit{Goal Quality Metrics Plan } (GQM) is to be created that specifies the key aspects of the evaluation. 
 Chapter \ref{ch:SolutionApplication} applies the identification approach to the running example. As a result, a set of microservices is identified where each microservice provides some functionalities and administers data objects.\\
-In order to evaluate this approach, we compare those results to two reference sets. In doing so, not only is it checked whether the right services have been found, but also whether the functionality and the data objects have been divided up correctly. During the evaluation, those aspects are examined independently. Functionality in this sense is a service offered by a microservice that is comprehensible and understood by non-technical stakeholders. \\
+In order to evaluate this approach, those results are compared to two reference sets. In doing so, not only is it checked whether the right services have been found, but also whether the functionality and the data objects have been divided up correctly. During the evaluation, those aspects are examined independently. Functionality in this sense is a service offered by a microservice that is comprehensible and understood by non-technical stakeholders. \\
 The rest of the chapter is structured as follows: First, the evaluation goals and metrics are introduced. Second, the design of the evaluation is demonstrated, including the presentation of two reference sets which are used to compare the output of the approach, when applied to the running example. Third, the evaluation results are presented. Second to last, the evaluation results are discussed. Eventually, the threats to the validity are outlined.
 
 
@@ -146,7 +146,7 @@ In recent years, it has been applied in various areas as a demonstrator for soft
 
 \subsection{Reference Sets}
 \label{sec:Evaluation:ReferenceSets}
-To evaluate the approach, the identified set of microservices (cf. Sec.\ref{sec:Evalutation:Results}) is compared to two alternative decompositions of CoCoME: First, a decomposition proposed by an approach which identifies microservices by using functional decomposition\cite{FunctionalDecompositionHeinrich} and second, a set of microservices which we manually identified\cite{NikoCoCoMEImpl}. \\
+To evaluate the approach, the identified set of microservices (cf. Sec.\ref{sec:Evalutation:Results}) is compared to two alternative decompositions of CoCoME: First, a decomposition proposed by an approach which identifies microservices by using functional decomposition\cite{FunctionalDecompositionHeinrich} and second, a set of microservices which was manually identified\cite{NikoCoCoMEImpl}. \\
 In both cases the microservices are listed together with the functionalities they offer and the data objects they manage. Functionalities and data objects are listed behind the bullet points. \\
 
 \noindent
@@ -215,8 +215,11 @@ However, the evaluation lacks profundity: Microservices are only compared on a m
 
 \noindent
 \textbf{Reference Set 2: Manual Decomposition} \\
-In the course of this thesis, we implemented a microservice-based version of CoCoME. The microservice identification process itself was finished before the literature review for the thesis started. Moreover, we were not aware of the microservice decomposition proposed by Tyszberowicz \textit{et al.} \cite{FunctionalDecompositionHeinrich} by the time we identified possible microservice candidates. Therefore, the process was non-biased. \\
-The identification process itself was conducted manually and supported by the previous knowledge of the CoCoME domain. Once more, the time consuming and difficult identification process clarified the necessity of a structured and formal approach to identify microservices. Beside the use case specification, we used a monolithic implementation of CoCoME (the Hybrid Cloud-based Variant \cite{CoCoMETechnical}) as additional information resource to discover requirements, functionality and dependencies. Subsequently, the system was decomposed into loosely coupled and highly cohesive microservices. \\
+In the course of this thesis, a microservice-based version of CoCoME was implemented. The microservice identification process itself was finished before the literature review for the thesis started. 
+Moreover, the implementation was not influenced by the microservice decomposition proposed by Tyszberowicz \textit{et al.} as it was not familiar by the time the implementation process started. Therefore, the process was non-biased. \\
+
+
+The identification process itself was conducted manually and supported by the previous knowledge of the CoCoME domain. Once more, the time consuming and difficult identification process clarified the necessity of a structured approach to identify microservices. Beside the use case specification, a monolithic implementation of CoCoME (the Hybrid Cloud-based Variant \cite{CoCoMETechnical}) was used as additional information resource to discover requirements, functionality and dependencies. Subsequently, the system was decomposed into loosely coupled and highly cohesive microservices. \\
 The following four microservices were identified:
 
 
@@ -290,7 +293,7 @@ The following four microservices were identified:
 
 
 \noindent
-\textbf{Differences between both sets} \\
+\textbf{Differences bet en both sets} \\
 The reference sets contain the same amount of microservices. Apart from the naming, those microservices are similar: one service is responsible for the sales process, another manages the products, a third one is responsible for the orders and the last one is in charge of the reporting. \\
 However, both differ with regard to the functionality offered and the managed data objects. Obviously, \textit{Reference Set 1} features nine functionalities and three data objects whereas \textit{Reference Set 2} contains 18 functionalities and seven data objects. It is important to note that all functionalities and data objects of the first reference set are part of the second one. Since the second reference set corresponds to a real implementation, it can be assumed that the first set is not complete.\\
 Furthermore, the placement of functions and data objects contained in both reference sets is also different. For example, in \textit{Reference Set 1} the data object \textit{stockItem} is part of the order microservice, whereas in \textit{Reference Set 2} it is managed by the sale's microservice.\\
@@ -466,7 +469,7 @@ With this in mind, the results are as follows: The reference set counts nine fun
 \section{Discussion of the Evaluation Results}
 \label{sec:Evalutation:Results}
 The measurement of the precision and recall metric in the previous section gives information about the accuracy of the approach. Each of the identified microservices is also represented in the reference sets, which leads to a maximum precision of \textit{1.0}. Due to the coarse-grained \textit{Microservice 3} the recall is at 0.75. \\
-However, we assume that the clustering algorithm used is not capable of identifying comparatively small clusters, as it merges them to a more coarse-grained microservice. It must be further investigated why the approach combines the comparatively small microservices \textit{Order} and \textit{Product} into the coarse-grained \textit{Microservice 3}. This is further discussed in Sec.\ref{sec:Conclusion:LimitsFutureWork}. Nevertheless, it has to be noticed that the approach does not produce \textit{false positive} microservices. \\
+However, it can be assumed that the clustering algorithm used is not capable of identifying comparatively small clusters, as it merges them to a more coarse-grained microservice. It must be further investigated why the approach combines the comparatively small microservices \textit{Order} and \textit{Product} into the coarse-grained \textit{Microservice 3}. This is further discussed in Sec.\ref{sec:Conclusion:LimitsFutureWork}. Nevertheless, it has to be noticed that the approach does not produce \textit{false positive} microservices. \\
 Regarding the functionality and data objects, the comparisons to the reference sets produces different values for recall and precision:\\
 
 \noindent
@@ -478,7 +481,7 @@ Compared to the second reference set, the values for precision and recall are mu
 
 \noindent
 The assignment of the functionality and the data objects is decisive for the quality of the microservices, because an incorrect assignment would result in a high number of intra-service calls. As mentioned in the previous section, \textit{Reference Set 1} was only evaluated on an abstract level, whereby it was not checked whether functionalities and data objects were assigned correctly. However, the quality of the evaluation depends on the quality of the reference sets. It is therefore questionable to what extent \textit{Reference Set 1} should be used to evaluate the approach.\\
-Since a stronger focus is placed on the comparison with the second reference set, which produced satisfactory results, we consider the accuracy of the approach to be satisfying.
+Since a stronger focus is placed on the comparison with the second reference set, which produced satisfactory results, the accuracy of the approach is considered to be satisfying.
 
  
 
@@ -494,7 +497,7 @@ To assess the overall validity of the evaluation results it is necessary to asse
 
 \subsection{Internal Validity}
 Internal validity describes to what extend the evaluation allows unfounded results, usually as a result of systematic errors and bias \cite{Validity}. \\
-First of all, \textit{Reference Set 2} is based on our own implementation. We do not claim that this implementation represents the best or the only way to decompose CoCoME into appropriate microservices. However, the identification process was based on a sufficient knowledge about the CoCoME domain and the microservice topic. \\
+First of all, \textit{Reference Set 2} is based on a manual implementation. It is not claimed that this implementation represents the best or the only way to decompose CoCoME into appropriate microservices. However, the identification process was based on a sufficient knowledge about the CoCoME domain and the microservice topic. \\
 As described in Sec.\ref{sec:Evaluation:ReferenceSets}, the reference sets are different with regard to the functionality offered and the managed data objects. Especially the suitability of the first reference set is questionable, as depicted in the previous section. Evaluation quality, however, depends on the quality of the reference sets. In order to confirm the result, it is therefore necessary to consult other reference sets or have the existing ones examined by unbiased domain experts.\\
 Further, in order to compare the results with the reference sets, it was necessary to identify similar functionalities and data objects (cf. Sec.\ref{sec:SolutionApplication:ExtractMicroserviceCandidates}) that appear in each of them. A biased fitting between the available instances in the reference sets and the result of the approach cannot be ruled out.\\
 Another threat to the validity is the claim that \textit{Microservice 3} consists of the microservices \textit{Order} and \textit{Product}. Functions and data object that appear in \textit{Microservice 3} are regarded to be successfully identified if they are in either of the two reference microservices. Strictly speaking, only two of the four reference services are identified by the approach. Consequently, all functionalities and data objects assigned to \textit{Microservice 3} would be false positives. This, however, distorts the result in the same negative way, since most of the functions and data objects were assigned correctly, but to the coarse-grained \textit{Microservice 3}.

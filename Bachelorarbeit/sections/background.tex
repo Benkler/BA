@@ -13,17 +13,17 @@ For small applications, this approach works relatively well. They are simple to 
 But once they grow in size, they become exceedingly difficult to understand and hard to maintain without reasonable effort \cite{FunctionalDecompositionHeinrich} \cite{ClassificationOfRefactoring}. A complex and large code base prevents a fast addition of new features and makes the application risky and expensive to evolve \cite{TowardsTechnique}.
 Alterations to the system, even though they might be small, result in a redeployment of the whole monolith application due to its nature being a single unit \cite{FunctionalDecompositionHeinrich}. Moreover, it is difficult to adopt newer technologies without rewriting the whole application, as monoliths are build on a specific technology stack \cite{infoq} \cite{ExtractionMazlami}.\\
 Scaling is only possible by duplicating the entire application, namely \textit{horizontal scaling}. Consequently, large portions of the infrastructure remain unused, if only parts of the application need to be upscaled or even used \cite{EnticeApproach} \cite{MigratingTowardsSurvey}. \\
-Rui Chen describes the shortcomings of monolith as follows: "Successful applications
+Rui Chen describes the shortcomings of monolith as follows:\textit{ "Successful applications
 are always growing in size and will eventually become a
 monstrous monolith after a few years. Once this happens,
 disadvantages of the monolithic architecture will outweigh
-its advantages" \cite{DataflowDrivenChen}.
+its advantages" }\cite{DataflowDrivenChen}.
 
 
 
 \section{Microservices}
 \label{sec:background:microservices}
-M.Fowler and J.Lewis describe the microservice architectural style as "an approach to developing a single application as a suite of small services, each running in its own process and communicating with lightweight mechanisms, often an HTTP resource API"\cite{Fowler}.
+M.Fowler and J.Lewis describe the microservice architectural style as \textit{"an approach to developing a single application as a suite of small services, each running in its own process and communicating with lightweight mechanisms, often an HTTP resource API"}\cite{Fowler}.
 
 \begin{figure}[t]
 	\includegraphics[width=\textwidth, trim={5cm 8cm 8cm 3cm}]{img/Architektur.pdf}
@@ -32,8 +32,8 @@ M.Fowler and J.Lewis describe the microservice architectural style as "an approa
 \end{figure}
 
 \subsection{Definition}
-Yet, the term microservices is not formally defined in academia. A popular definition of microservices is  "a collection of cohesive and loosely coupled components, where each service implements a business capability"\cite{ObjectAwareAmiri}. Based on that definition, M. Amiri introduces three principles upon which the architecture is build: \textit{Bounded Context, Size, Independence} \cite{ObjectAwareAmiri}. \\
-The first principle is about related functionality, that is combined as a single business capability - the  \textit{bounded context} \cite{FunctionalDecompositionHeinrich}. Each capability is implemented by one microservice where a business capability is something that a system does in order to generate value\cite{DomainEngineeringMunezero}. The \textit{Size} of a microservice is defined by the number of features it provides (namely bundled functional capabilities)  \cite{WorkloadbasedClustering}. There is no consensus about the "proper" size of a microservice \cite{DomainEngineeringMunezero}, but several guidelines exist: Services should focus on one business capability only \cite{ObjectAwareAmiri}. Others state, that the size of a microservice should not exceed a level, where it cannot be rewritten within six weeks \cite{WorkloadbasedClustering}. However, the sizes vary from system to system \cite{FunctionalDecompositionHeinrich} and even different sizes for each microservice in a specific system are possible \cite{DomainEngineeringMunezero}. The bottom line of \textit{Independence} is expressed in Amiri's description of microservices as "a collection of highly cohesive and loosely coupled components" \cite{ObjectAwareAmiri}. Highly cohesive services implement a relatively independent piece of business logic (at the most one business capability). Further, microservices should hardly depend on each other, which is the idea of being loosely coupled \cite{DataflowDrivenChen}.\\
+Yet, the term microservices is not formally defined in academia. A popular definition of microservices is  \textit{"a collection of cohesive and loosely coupled components, where each service implements a business capability"}\cite{ObjectAwareAmiri}. Based on that definition, M. Amiri introduces three principles upon which the architecture is build: \textit{Bounded Context, Size, Independence} \cite{ObjectAwareAmiri}. \\
+The first principle is about related functionality that is combined as a single business capability - the  \textit{bounded context} \cite{FunctionalDecompositionHeinrich}. Each capability is implemented by one microservice where a business capability is something that a system does in order to generate value\cite{DomainEngineeringMunezero}. The \textit{Size} of a microservice is defined by the number of features it provides (namely bundled functional capabilities)  \cite{WorkloadbasedClustering}. There is no consensus about the "proper" size of a microservice \cite{DomainEngineeringMunezero}, but several guidelines exist: Services should focus on one business capability only \cite{ObjectAwareAmiri}. Others state, that the size of a microservice should not exceed a level, where it cannot be rewritten within six weeks \cite{WorkloadbasedClustering}. However, the sizes vary from system to system \cite{FunctionalDecompositionHeinrich} and even different sizes for each microservice in a specific system are possible \cite{DomainEngineeringMunezero}. The bottom line of \textit{Independence} is expressed in Amiri's description of microservices as "a collection of highly cohesive and loosely coupled components" \cite{ObjectAwareAmiri}. Highly cohesive services implement a relatively independent piece of business logic (at the most one business capability). Further, microservices should hardly depend on each other, which is the idea of being loosely coupled \cite{DataflowDrivenChen}.\\
 Communication between microservices is achieved by lightweight message passing mechanisms such as \textit{REST}. Each service exposes a well defined interface (\textit{API}) with endpoints that provide information using standard data formats \cite{FunctionalDecompositionHeinrich}. 
 The design of microservices mainly follows the \textit{Single Responsibility Principle (SRP)}: Each service should not have more than one reason to change \cite{TowardsUnderstandingEvolution}. The SRP mainly corresponds to the idea of not implementing more than one business capability.
 The following paragraphs cover the benefits and challenges of the microservice architecture.
@@ -50,7 +50,7 @@ As a matter of fact, each microservice is deployed independently \cite{interface
 
 \noindent
 \textbf{Availability, Resilience and Fault Isolation} \\
-Microservices are designed to operate independently of each other and to tolerate failure of services \cite{Fowler}. Large parts of the application remain unaffected of partly failures and the availability of the system is, at least partly, guaranteed. Monolithic application do not provide this type of fault isolation. If a failure occurs, the whole application remains unavailable as it is usually running in a single process \cite{ExtractionMazlami}. \\
+Microservices are designed to operate independently of each other and to tolerate failure of services \cite{Fowler}. Large parts of the application remain unaffected of local failures and the availability of the system is, at least partly, guaranteed. Monolithic application do not provide this type of fault isolation. If a failure occurs, the whole application remains unavailable as it is usually running in a single process \cite{ExtractionMazlami}. \\
  
 \noindent
 \textbf{Scalability and Resource Utilisation} \\
@@ -66,7 +66,7 @@ This minimizes the need for communication and interaction between the teams and 
 
 \noindent
 \textbf{Neutral development technology} \\
-Microservices are highly decoupled from each other, as they use standardized and lightweight communication mechanisms such as REST \cite{FunctionalDecompositionHeinrich}. Microservices can be realized using different programming languages, technologies and even deployment environments \cite{DataflowDrivenChen}. Developers are consequently not longer limited to use a single technology for the whole application. They can choose the most appropriate technology for each particular business problem or try out some new technology without rewriting the whole application \cite{ServiceCutter} \cite{TowardsTechnique}. 
+Microservices are highly decoupled from each other, as they use standardized and lightweight communication mechanisms such as REST \cite{FunctionalDecompositionHeinrich}. Microservices can be realized using different programming languages, technologies and even deployment environments \cite{DataflowDrivenChen}. Developers are consequently not longer limited to use a single technology for the whole application. They can choose the most appropriate technology for each particular business problem or try some new technology without rewriting the whole application \cite{ServiceCutter} \cite{TowardsTechnique}. 
  
 
 
@@ -91,7 +91,7 @@ The microservice approach needs the establishment of cross-functional teams \cit
 
 \noindent
 \textbf{Data Consistency}\\
-Distributed systems need to share data. Heinrich \textit{et al.} propose two concepts for the database architecture \cite{FunctionalDecompositionHeinrich}: The first concept applies the basic idea of the microservice approach, as it splits the database into several parts. Each microservice has its own database which manages the entities that belong to the corresponding bounded context. Higher speed and horizontal scaling are facing data consistency issues. Data needs to be synchronized which leads to inconsistency, if services are unavailable. The second concept is about sharing a single database. On the one hand, this approach overcomes the issue of consistency, as data is stored centrally. On the other hand, sharing results in a loss of independence. Scaling can only be achieved through replicating the whole database. According to Tyszberowicz \textit{et al.}, the first concept is preferred \cite{FunctionalDecompositionHeinrich}. \\
+Distributed systems need to share data. Tyszberowicz \textit{et al.} propose two concepts for the database architecture: The first concept applies the basic idea of the microservice approach, as it splits the database into several parts. Each microservice has its own database which manages the entities that belong to the corresponding bounded context. Higher speed and horizontal scaling are facing data consistency issues. Data needs to be synchronized which leads to inconsistency, if services are unavailable. The second concept is about sharing a single database. On the one hand, this approach overcomes the issue of consistency, as data is stored centrally. On the other hand, sharing results in a loss of independence. Scaling can only be achieved through replicating the whole database. According to Tyszberowicz \textit{et al.}, the first concept is preferred \cite{FunctionalDecompositionHeinrich}. \\
 
 
 
@@ -153,7 +153,7 @@ However, the transformation into business models as presented in Sec.\ref{sec:Pr
 \section{Business Process Model and Notation}
 \label{sec:PrepApproach:BPMN}
 The Business Process Model and Notation (BPMN) is a graph oriented language to describe business processes. Originally, BPMN was designed to describe activities and their control flow dependencies only \cite{VisualizeBPMN}. Since the introduction of BPMN 2.0, it is possible to model the data needs and the data results of activities \cite{OMG}. Consequently, BPMN is capable of expressing the control flow and to approximate the data flow of business processes \cite{DataFlowErrorBPMN}. In the remainder, BPMN and BPMN 2.0 is used interchangeably. \\
-BPMN is easy-to-use, powerful and widely adopted in academia and industry. Hence, BPMN is a suitable approach to extract the implicitly given data flow and control flow in the use case description. Sec.\ref{sec:PrepApproach:TransformUCtoBPMN} introduces a formal approach to generate BPMN processes from use case sets. Next, the BPMN 2.0 process definition is shortly introduced:
+BPMN is easy-to-use, powerful and widely adopted in academia and industry. Hence, BPMN is a suitable approach to extract the implicitly given data flow and control flow in the use case description. Sec.\ref{sec:PrepApproach:TransformUCtoBPMN} introduces an approach to generate BPMN processes from use case sets. Next, the BPMN 2.0 process definition is shortly introduced:
 
 %"l, b, r, t"
 \begin{figure}[h!]
@@ -169,7 +169,7 @@ When it comes to data, each \textit{Task} may or may not require and/or produce 
 
 \section{Transform Use Case Sets in BPMN Processes}
 \label{sec:PrepApproach:TransformUCtoBPMN}
-To visualize the implicit data and control flow in use cases, it is necessary to transform the given use cases into BPMN models. In "Visualizing Use Case Sets as BPMN Processes" \cite{VisualizeBPMN}, Lübke \textit{et al.} already elaborated an approach to visualize the control flow that is hidden in use cases. As Lübke does not use the BPMN 2.0 notation, data is not considered and hence, data flow is not part of the given approach. In the following, we will introduce a conceptional approach, which is based on the work of Lübke \cite{VisualizeBPMN}, to transform use cases into BPMN models:
+To visualize the implicit data and control flow in use cases, it is necessary to transform the given use cases into BPMN models. In "Visualizing Use Case Sets as BPMN Processes" \cite{VisualizeBPMN}, Lübke \textit{et al.} already elaborated an approach to visualize the control flow that is hidden in use cases. As Lübke does not use the BPMN 2.0 notation, data is not considered and hence, data flow is not part of the given approach. In the following, a conceptional approach to transform use cases into BPMN models is introduced, which is based on the work of Lübke \textit{et al.}\cite{VisualizeBPMN}:
 
 
 
@@ -184,7 +184,7 @@ To visualize the implicit data and control flow in use cases, it is necessary to
 
 \noindent
 The first phase only includes simple substitutions, as the \textit{extend} and \textit{include} relationships simply have to be replaced by the actual use case.\\
-Given a use case with a precondition, triggers \textit{1 to n}, steps \textit{1 to n}, an extension that is based on a condition, extension steps, data objects that are accessed by the steps and a postcondition, phase number two represents the main part of the transformation.  
+Given a use case with a precondition, triggers \textit{1 to n}, steps \textit{1 to n}, an extension that is based on a condition, extension steps, data objects that are accessed by the steps and a postcondition. The second phase represents the main part of the transformation.  
 
 
 \begin{figure}[h!]
