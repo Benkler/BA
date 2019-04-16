@@ -120,12 +120,14 @@ The remaining parts which are the non-relevant and non-retrieved items ($N_{\ove
 \end{itemize}
 
 
-
+%"l, b, r, t"
 \begin{figure}[!h]
-	\includegraphics[ trim={7cm 5.5cm 8cm 0.5cm}, scale =1]{img/PrecisionRecall.pdf}
+	\includegraphics[width=\textwidth, trim={6cm 5.5cm 11cm 0.5cm}]{img/PrecisionRecall.pdf}
 	\caption{Precision and Recall for Microservices}
 	\label{fig:PrecisionRecall}
 \end{figure}
+
+\pagebreak
 
 \noindent
 Since the \textit{Precision and Recall} metric not only gives information about how many microservices, functionalities and data objects have been identified in total, but also about how many of them are correct, it is well suited to determine the accuracy of the result compared to a reference set. \\
@@ -153,7 +155,6 @@ In \textit{Identifying Microservices Using Functional Decomposition} \cite{Funct
 As mentioned in Sec.\ref{sec:stateOfTheArt:comparison}, the compulsory and non-trivial revision of nouns and verbs to eliminate synonyms etc. is a substantial disadvantage.\\
 Regarding the evaluation, Tyszberowicz \textit{et al.} claim that their approach identifies good microservices for a microservice-based system decomposition of CoCoME. The aforementioned evaluation includes a comparison to three independent software projects that implemented CoCoME. Two groups identified, apart from the naming, a similar set of microservices. The third group identified a more detailed decomposition of CoCoME, but a revision reveals that the additional microservices are only a refinement of the proposed microservices. \\
 However, the evaluation lacks profundity: Microservices are only compared on a more abstract level, since it is not checked whether functionality and data objects are assigned to the correct microservice. The following microservices are identified: 
-
 
 
 \begin{multicols}{2}
@@ -290,9 +291,10 @@ The following four microservices were identified:
 
 \noindent
 \textbf{Differences between both sets} \\
-The reference sets contain the same amount of microservices. Apart from the naming, those services are similar: One is responsible for the sale process, another one handles products, the third one is responsible for the orders and the last one is in charge of the reporting. \\
-Nevertheless, the two differ from each other in regard to the functionality and data objects. Obviously, \textit{Reference Set 1} features nine functionalities and three data objects whereas \textit{Reference Set 2} contains 18 functionalities and seven data objects. It is important to note that all functionalities and data objects of the first reference set are part of the second one. Since the second reference set corresponds to a real implementation, it can be assumed that the first set is not complete. \\
-Furthermore, both sets differ in the distribution of functionality and data objects among services. For instance, in \textit{Reference Set 1} the data object \textit{stockItem} is divided into the order microservice, whereas in \textit{Reference Set 2} it is divided into the sale's microservice. To provide another example, the functionalities \textit{Create Stock Report} and \textit{Create Delivery Report} are distributed differently: In the first reference set, \textit{Create Stock Report} is part of the \textit{Report} microservice and \textit{Create Delivery Report} is part of the order microservice whereas in the second reference set, both functionalities belong to the report service, which is more reasonable from the domain point of view. This example indicates a discrepancy between \textit{Reference Set 1} and \textit{Reference Set 2} where the latter corresponds to a real implementation. \\
+The reference sets contain the same amount of microservices. Apart from the naming, those microservices are similar: one service is responsible for the sales process, another manages the products, a third one is responsible for the orders and the last one is in charge of the reporting. \\
+However, both differ with regard to the functionality offered and the managed data objects. Obviously, \textit{Reference Set 1} features nine functionalities and three data objects whereas \textit{Reference Set 2} contains 18 functionalities and seven data objects. It is important to note that all functionalities and data objects of the first reference set are part of the second one. Since the second reference set corresponds to a real implementation, it can be assumed that the first set is not complete.\\
+Furthermore, the placement of functions and data objects contained in both reference sets is also different. For example, in \textit{Reference Set 1} the data object \textit{stockItem} is part of the order microservice, whereas in \textit{Reference Set 2} it is managed by the sale's microservice.\\
+Another example is the assignment of functionalities \textit{Create Stock Report}  and \textit{Create Delivery Report}: In \textit{Reference Set 1} \textit{Create Stock Report}  is part of the report microservice and \textit{Create Delivery Report} part of the order microservice whereas in \textit{Reference Set 2} both are assigned to the report service. From a domain point of view, the latter is the more meaningful assignment. This example indicates a discrepancy between \textit{Reference Set 1} and \textit{Reference Set 2} where the latter corresponds to a real implementation. \\
 Thus, a stronger focus is placed on the comparison with the second reference set.
 
 
@@ -305,7 +307,7 @@ For each reference set, the precision and recall instances are i) identified mic
 
 \subsection{Reference Set 1}
 
-\textbf{Microservices} The approach identified three services, \textit{Microservice 1} is similar to \textit{Sale} and \textit{Microservice 2} is comparable to \textit{Reporting}. \textit{Microservice 3}, on the other hand, can neither be clearly assigned to \textit{StockOrder} nor to \textit{ProductList}, since it unites the functionalities of both. More specifically, \textit{Microservice 3} is a more coarse-grained microservice that consists of \textit{StockOrder} and \textit{ProductList}. Therefore it can be concluded that three out of four microservices were successfully identified, and none of the identified microservices are incorrect. 
+\textbf{Microservices:} The approach identified three services, \textit{Microservice 1} is similar to \textit{Sale} and \textit{Microservice 2} is comparable to \textit{Reporting}. \textit{Microservice 3}, on the other hand, can neither be clearly assigned to \textit{StockOrder} nor to \textit{ProductList}, since it unites the functionalities of both. More specifically, \textit{Microservice 3} is a more coarse-grained microservice that consists of \textit{StockOrder} and \textit{ProductList}. Therefore it can be concluded that three out of four microservices were successfully identified and hence, \textit{true positive}. None of the identified microservices are \textit{false positive}(cf. Sec.\ref{sec:Evaluation:Metrics}).
 
 \hspace{1cm}
 \noindent
@@ -329,7 +331,8 @@ For each reference set, the precision and recall instances are i) identified mic
 \end{minipage}
 
 \noindent
-\textbf{Functionality} Since \textit{Microservice 3} consists of the microservices \textit{StockOrder} and \textit{ProductList}, functions that appear in this microservice and in either of the other two are regarded to be successfully identified. With this in mind, the results are as follows: The reference set counts nine functionalities. The approach identified 13 functionalities, from which five are assigned to the right service. Hence, the precision and recall values are:
+\textbf{Functionality:} Since \textit{Microservice 3} consists of the microservices \textit{StockOrder} and \textit{ProductList}, functions assigned to this microservice are recognized as \textit{true positive } if they appear in one of the two microservices \textit{StockOrder} and \textit{ProductList}.
+With this in mind, the results are as follows: The reference set counts nine functionalities. The approach identified 13 functionalities, from which five are assigned to the right service. Hence, the precision and recall values are:
 
 \hspace{1cm}
 \noindent
@@ -355,7 +358,7 @@ For each reference set, the precision and recall instances are i) identified mic
 
 
 \noindent
-\textbf{Data Objects} Regarding \textit{Microservice 3}, the same line of reasoning is applied to the identified data objects: The reference set counts three data objects. The approach identified seven, from which 2 are assigned to the right service. In this case, the precision and recall values are:
+\textbf{Data Objects:} Regarding \textit{Microservice 3}, the same line of reasoning is applied to the identified data objects: The reference set counts three data objects. The approach identified seven, from which 2 are assigned to the right service. In this case, the precision and recall values are:
 
 
 \hspace{1cm}
@@ -387,7 +390,7 @@ For each reference set, the precision and recall instances are i) identified mic
 
 
 
-\textbf{Microservices} As described in Sec.\ref{sec:Evaluation:ReferenceSets}, both reference sets contain similar microservices, which differ only by the names at microservice level. The functionalities and data objects, however, are different. Hence, the precision and recall value are identical in regard to identified microservices:
+\textbf{Microservices:} As described in Sec.\ref{sec:Evaluation:ReferenceSets}, both reference sets contain similar microservices, which differ only by the names at microservice level. The functionalities and data objects, however, are different. Hence, the precision and recall value are identical in regard to identified microservices:
 
 \hspace{1cm}
 \noindent
@@ -411,7 +414,7 @@ For each reference set, the precision and recall instances are i) identified mic
 \end{minipage}
 
 \noindent
-\textbf{Functionality} Again \textit{Microservice 3} is considered to be a coarse grained union of the microservice \textit{Product} and \textit{Order}. In this case, the reference set counts 18 functionalities. The approach identified 13 functionalities, from which 12 are assigned to the right service. Hence, the precision and recall values are:
+\textbf{Functionality:} Again \textit{Microservice 3} is considered to be a coarse grained union of the microservice \textit{Product} and \textit{Order}. In this case, the reference set counts 18 functionalities. The approach identified 13 functionalities, from which 12 are assigned to the right service. Hence, the precision and recall values are:
 
 \hspace{1cm}
 \noindent
@@ -436,7 +439,7 @@ For each reference set, the precision and recall instances are i) identified mic
 
 
 \noindent
-\textbf{Data Objects} The reference set counts seven data objects. The approach identified seven, from which 5 are assigned to the right service. In this case, the precision and recall values are:
+\textbf{Data Objects:} The reference set counts seven data objects. The approach identified seven, from which 5 are assigned to the right service. In this case, the precision and recall values are:
 
 
 \hspace{1cm}
@@ -462,7 +465,9 @@ For each reference set, the precision and recall instances are i) identified mic
 
 \section{Discussion of the Evaluation Results}
 \label{sec:Evalutation:Results}
-The measurement of the precision and recall metric in the previous section gives information about the accuracy of the approach. Each of the identified microservices is also represented in the reference sets, which leads to a maximum precision of \textit{1.0}. Due to the coarse-grained \textit{Microservice 3} the recall is at 0.75. Additionally, it has to be noticed that the approach does not produce any incorrect microservices. Regarding the functionality and data objects, the comparisons to the reference sets produces different values for recall and precision:\\
+The measurement of the precision and recall metric in the previous section gives information about the accuracy of the approach. Each of the identified microservices is also represented in the reference sets, which leads to a maximum precision of \textit{1.0}. Due to the coarse-grained \textit{Microservice 3} the recall is at 0.75. \\
+However, we assume that the clustering algorithm used is not capable of identifying comparatively small clusters, as it merges them to a more coarse-grained microservice. It must be further investigated why the approach combines the comparatively small microservices \textit{Order} and \textit{Product} into the coarse-grained \textit{Microservice 3}. This is further discussed in Sec.\ref{sec:Conclusion:LimitsFutureWork}. Nevertheless, it has to be noticed that the approach does not produce \textit{false positive} microservices. \\
+Regarding the functionality and data objects, the comparisons to the reference sets produces different values for recall and precision:\\
 
 \noindent
 Compared to the first reference set, the approach produces less 
@@ -470,7 +475,11 @@ satisfying values. Only about half (Recall = 0.56) of the functionality in the r
 
 \noindent
 Compared to the second reference set, the values for precision and recall are much better. Almost every identified functionality is assigned to the right microservice, which leads to a precision value of 0.92. Obviously the \textit{Reference Set 2} contains additional functionality that is not identified by the approach. As a consequence the recall value is not as high as the precision. However, it should be noted that the second reference set was created by using additional sources of information such as the source code whereas the approach only uses the provided use cases. With respect to the data objects, both precision and recall are at a satisfying value of 0.71. Finally, it has to be noticed that the approach does not identify any functionalities or data objects that are not part of \textit{Reference Set 2}. Only a few instances are assigned to wrong services. \\
-Since a stronger focus is placed on the comparison with the second reference set, four our needs the accuracy of the elaborated approach is satisfying.
+
+\noindent
+The assignment of the functionality and the data objects is decisive for the quality of the microservices, because an incorrect assignment would result in a high number of intra-service calls. As mentioned in the previous section, \textit{Reference Set 1} was only evaluated on an abstract level, whereby it was not checked whether functionalities and data objects were assigned correctly. However, the quality of the evaluation depends on the quality of the reference sets. It is therefore questionable to what extent \textit{Reference Set 1} should be used to evaluate the approach.\\
+Since a stronger focus is placed on the comparison with the second reference set, which produced satisfactory results, we consider the accuracy of the approach to be satisfying.
+
  
 
 
@@ -485,17 +494,20 @@ To assess the overall validity of the evaluation results it is necessary to asse
 
 \subsection{Internal Validity}
 Internal validity describes to what extend the evaluation allows unfounded results, usually as a result of systematic errors and bias \cite{Validity}. \\
-First of all, \textit{Reference Set 2} is based on our own implementation. We do not claim that this implementation represents the best or the only way to decompose CoCoME into appropriate microservices. However, the identification process was based on a sufficient knowledge about the CoCoME domain and the microservice topic. Hence, we claim that \textit{Reference Set 2} can be used to determine the accuracy. However, to eliminate final doubts, either another independent reference set should be consulted or the existing results should be reviewed by unbiased domain experts. \\
-In order to compare the results with the reference sets, it is necessary to identify similar functionalities and data objects (cf. Sec.\ref{sec:SolutionApplication:ExtractMicroserviceCandidates}) that appear in each of them. We tried to avoid any biased fitting between the available instances in the reference sets and the result of the approach. However, this cannot be entirely ruled out.\\
+First of all, \textit{Reference Set 2} is based on our own implementation. We do not claim that this implementation represents the best or the only way to decompose CoCoME into appropriate microservices. However, the identification process was based on a sufficient knowledge about the CoCoME domain and the microservice topic. \\
+As described in Sec.\ref{sec:Evaluation:ReferenceSets}, the reference sets are different with regard to the functionality offered and the managed data objects. Especially the suitability of the first reference set is questionable, as depicted in the previous section. Evaluation quality, however, depends on the quality of the reference sets. In order to confirm the result, it is therefore necessary to consult other reference sets or have the existing ones examined by unbiased domain experts.\\
+Further, in order to compare the results with the reference sets, it was necessary to identify similar functionalities and data objects (cf. Sec.\ref{sec:SolutionApplication:ExtractMicroserviceCandidates}) that appear in each of them. A biased fitting between the available instances in the reference sets and the result of the approach cannot be ruled out.\\
 Another threat to the validity is the claim that \textit{Microservice 3} consists of the microservices \textit{Order} and \textit{Product}. Functions and data object that appear in \textit{Microservice 3} are regarded to be successfully identified if they are in either of the two reference microservices. Strictly speaking, only two of the four reference services are identified by the approach. Consequently, all functionalities and data objects assigned to \textit{Microservice 3} would be false positives. This, however, distorts the result in the same negative way, since most of the functions and data objects were assigned correctly, but to the coarse-grained \textit{Microservice 3}.
 
 
 
 
 \subsection{External Validity}
-In contrast, external validity describes whether the evaluation results can be generalized and applied to other contexts \cite{Validity}. That is to say, the approach also produces good microservice candidates for systems that are not in the context of a supermarket chain like CoCoME. \\
+In contrast, external validity describes whether the evaluation results can be generalized and applied to other contexts \cite{Validity}. That is to say, the approach also produces good microservice candidates for other component-based information systems like \textit{CoCoME}. \\
 During the development of the approach, no domain restrictions were wittingly enforced. All assumptions were made with the intention of being context-independent. Further, \textit{CoCoME} is structured like a typical, distributed and component-based information system. It is therefore to be expected that the approach also produces adequate results for other information systems. \\
-Besides all the precautions, it is still possible that a fitting between CoCoME and the developed approach has happened. It is therefore necessary to apply the approach to other systems in different context to validate it's generality.
+Despite all the precautions, it is nevertheless possible that a fitting between \textit{CoCoME} and the developed approach has taken place, so that the approach only produced adequate microservices in this case. It is therefore necessary to apply the approach to other systems to gather further insights on the accuracy.
+
+
 
 
 

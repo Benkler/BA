@@ -115,7 +115,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.5}Threats to Validity}{59}{section.7.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.5.1}Internal Validity}{59}{subsection.7.5.1}% 
+\contentsline {subsection}{\numberline {7.5.1}Internal Validity}{60}{subsection.7.5.1}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {7.5.2}External Validity}{60}{subsection.7.5.2}% 
 \defcounter {refsection}{0}\relax 
@@ -123,11 +123,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {8.1}Summary}{61}{section.8.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Outcomes}{62}{section.8.2}% 
+\contentsline {section}{\numberline {8.2}Discussion}{62}{section.8.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.3}Discussion}{63}{section.8.3}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.4}Limitations and Future Work}{64}{section.8.4}% 
+\contentsline {section}{\numberline {8.3}Limitations and Future Work}{63}{section.8.3}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\nonumberline Bibliography}{65}{chapter*.6}% 
 \defcounter {refsection}{0}\relax 

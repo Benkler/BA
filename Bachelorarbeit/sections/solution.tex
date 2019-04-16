@@ -9,7 +9,7 @@ In the following, the strategy on which the approach is based is presented. Subs
 
 \section{Underlying strategy}
 
-To answer \textit{RQ1.1}, eight suitable approaches to identify microservices were presented and compared in chapter \ref{ch:StateOfTheArt}, using well-defined criteria. Most of them are based on strategies that require special prerequisites and cannot be applied to various types of systems, i.e. no greenfield applications, systems without meaningful VCS meta-data or the absence of log files. \\
+To answer \textbf{RQ1.1}, eight suitable approaches to identify microservices were presented and compared in chapter \ref{ch:StateOfTheArt}, using well-defined criteria. Most of them are based on strategies that require special prerequisites and cannot be applied to various types of systems, i.e. no greenfield applications, systems without meaningful VCS meta-data or the absence of log files. \\
 In contrast, the approach \textit{Object-aware Identification of Microservices} proposed by M. Amiri \cite{ObjectAwareAmiri} is based on a strategy to extract structural and data object dependencies from business point of view in order to generate possible microservice candidates. In doing so, he relinquishes to use any further information besides BPMN models. Using both, structural and data object dependencies promotes high cohesiveness and loose coupling on functional and data object level as introduced in Sec.\ref{sec:Solution:ExtractControlFlow} and Sec.\ref{sec:Solution:ExtractDataFlow}. This leads to the fact that highly cohesive functionality is divided into the same microservices, together with the data objects that are accessed.  \\
 However, Sec.\ref{sec:stateOfTheArt:comparison} outlines the limitations and drawbacks of this approach. Whereas the control flow is depicted clearly, the data flow remains vague. The weight definitions regarding data object dependencies lack formal explanation. Further, the aggregation of structural and data object dependencies, and consequently the aggregation of control flow and data flow contains a significant problem: In Amiri's approach, the aggregation is conducted by summing up two relation matrices. The matrix entries representing the dependencies highly influence the results. For instance, a large amount of data reads and writes sum up to great numbers, outweighing the structural dependencies. Thus, the identification process would be almost solely based on data dependencies, ignoring any identified structural dependencies. \\
 Although the approach reveals some weaknesses, the fundamental idea of Amiri, in our view, \cite{ObjectAwareAmiri} is viable for the identification of microservices.
@@ -26,7 +26,7 @@ Although the approach reveals some weaknesses, the fundamental idea of Amiri, in
 
 
 \noindent
-For answering \textit{RQ1.2}, this thesis proposes a graph-based microservice identification approach using clustering on control flow and data flow which is  inspired by Amiri’s work on \textit{Object-aware Identification of Microservices} \cite{ObjectAwareAmiri}. \\
+For answering \textbf{RQ1.2}, this thesis proposes a graph-based microservice identification approach using clustering on control flow and data flow which is  inspired by Amiri’s work on \textit{Object-aware Identification of Microservices} \cite{ObjectAwareAmiri}. \\
 
 
 
